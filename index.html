@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="theme-color" content="#0a0a0b" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="IronTrack" />
+    <meta
+      name="description"
+      content="IronTrack — a local-first workout progress tracker for progressive overload, body metrics and nutrition."
+    />
+    <title>IronTrack — Workout Progress Tracker</title>
+    <script>
+      ;(function () {
+        try {
+          var theme = localStorage.getItem('irontrack.theme')
+          if (theme !== 'light' && theme !== 'dark') {
+            var raw = localStorage.getItem('irontrack.v1')
+            if (raw) {
+              var parsed = JSON.parse(raw)
+              theme = parsed && parsed.settings && parsed.settings.theme
+            }
+          }
+          if (theme === 'light' || theme === 'dark') {
+            document.documentElement.setAttribute('data-theme', theme)
+          }
+        } catch (e) {
+          /* ignore */
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -88,7 +88,7 @@ export const SEED_TEMPLATES: WorkoutTemplate[] = [
     day: 'Saturday',
     isRestDay: false,
     exercises: [
-      te('te_legsb_1', 'ex_goblet_squat', 3, 8, 12, 150),
+      te('te_legsb_1', 'ex_barbell_squat', 3, 6, 10, 150),
       te('te_legsb_2', 'ex_hip_thrust_machine', 3, 8, 12, 120),
       te('te_legsb_3', 'ex_lying_leg_curl', 3, 10, 15, 90),
       te('te_legsb_4', 'ex_leg_extension', 2, 12, 15, 90),

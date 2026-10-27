@@ -4,7 +4,7 @@ import { SEED_TEMPLATES } from '../data/templates'
 import type { AppData } from '../types'
 
 export const STORAGE_KEY = 'irontrack.v1'
-export const SCHEMA_VERSION = 1
+export const SCHEMA_VERSION = 2
 
 export type Migration = (data: Record<string, unknown>) => Record<string, unknown>
 
@@ -14,7 +14,14 @@ export type Migration = (data: Record<string, unknown>) => Record<string, unknow
  * existing users are upgraded safely instead of losing their history.
  */
 const MIGRATIONS: Record<number, Migration> = {
-  // 0: (data) => ({ ...data, schemaVersion: 1 }),
+  1: (data) => ({
+    ...data,
+    schemaVersion: 2,
+    progressPhotos: Array.isArray(data.progressPhotos) ? data.progressPhotos : [],
+    achievements: Array.isArray(data.achievements) ? data.achievements : [],
+    favoriteFoods: Array.isArray(data.favoriteFoods) ? data.favoriteFoods : [],
+    recipes: Array.isArray(data.recipes) ? data.recipes : [],
+  }),
 }
 
 export function createInitialData(): AppData {
@@ -29,6 +36,10 @@ export function createInitialData(): AppData {
     nutrition: [],
     mealTemplates: [],
     personalRecords: [],
+    progressPhotos: [],
+    achievements: [],
+    favoriteFoods: [],
+    recipes: [],
   }
 }
 
@@ -76,6 +87,11 @@ export function coerceData(input: unknown): AppData {
     nutrition: ensureArray(data.nutrition),
     mealTemplates: ensureArray(data.mealTemplates),
     personalRecords: ensureArray(data.personalRecords),
+    progressPhotos: ensureArray(data.progressPhotos),
+    achievements: ensureArray(data.achievements),
+    favoriteFoods: ensureArray(data.favoriteFoods),
+    recipes: ensureArray(data.recipes),
+    schedule: isRecord(data.schedule) ? (data.schedule as unknown as AppData['schedule']) : undefined,
   }
 }
 

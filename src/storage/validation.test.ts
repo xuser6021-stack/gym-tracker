@@ -93,4 +93,24 @@ describe('validateAndRepair', () => {
     const result = validateAndRepair(data)
     expect(result.data?.personalRecords).toHaveLength(0)
   })
+
+  it('validates and preserves V3.4 progress photos, achievements, and recipes', () => {
+    const data = createInitialData()
+    data.progressPhotos = [
+      { id: 'p1', date: '2026-05-01', pose: 'front', assetId: 'asset_1', weightKg: 75 },
+      { id: 'p1', date: '2026-05-01', pose: 'front', assetId: 'asset_1', weightKg: 75 }, // duplicate
+    ]
+    data.achievements = [
+      { id: 'a1', key: 'first_workout', unlockedAt: '2026-05-01', title: 'First', description: 'Done', icon: '🏋️' },
+    ]
+    data.recipes = [
+      { id: 'r1', name: 'Shake', servings: 1, items: [] },
+    ]
+
+    const result = validateAndRepair(data)
+    expect(result.ok).toBe(true)
+    expect(result.data?.progressPhotos).toHaveLength(1) // deduped
+    expect(result.data?.achievements).toHaveLength(1)
+    expect(result.data?.recipes).toHaveLength(1)
+  })
 })

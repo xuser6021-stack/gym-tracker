@@ -267,7 +267,7 @@ const SEEDS: Seed[] = [
   },
   {
     id: 'ex_leg_press',
-    name: 'Leg press',
+    name: '45-degree leg press',
     primaryMuscle: 'Quads',
     secondaryMuscles: ['Glutes', 'Hamstrings'],
     equipment: 'Machine',
@@ -293,7 +293,7 @@ const SEEDS: Seed[] = [
   },
   {
     id: 'ex_barbell_squat',
-    name: 'Barbell squat',
+    name: 'Barbell back squat',
     primaryMuscle: 'Quads',
     secondaryMuscles: ['Glutes', 'Core'],
     equipment: 'Barbell',

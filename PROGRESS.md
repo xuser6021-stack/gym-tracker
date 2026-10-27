@@ -31,7 +31,9 @@ localStorage-only storage with silent data loss, weak import validation.
   flush on hide, cross-tab adoption, richer import result, theme mirror.
 - Cross-tab conflict feedback: a detected write conflict is confirmed to the user
   via a dismissible banner in `src/App.tsx` (the conflicting version is preserved
-  as a snapshot) instead of failing silently.
+  as a snapshot) instead of failing silently. Stale writes are now rejected in
+  the same IndexedDB transaction that checks the current revision, so a tab with
+  an older snapshot never overwrites a newer document.
 - `src/lib/csv.ts` - formula-injection neutralisation.
 - `src/App.tsx` - boot splash while hydrating.
 

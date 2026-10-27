@@ -12,6 +12,7 @@ import { Stat } from '../components/ui/Stat'
 import { Progress } from '../components/ui/Progress'
 import { ConfirmDialog } from '../components/ui/ConfirmDialog'
 import { MeasurementDialog } from '../components/MeasurementDialog'
+import { ProgressPhotoGallery } from '../components/body/ProgressPhotoGallery'
 import { TrendChart } from '../components/charts/Charts'
 import { convertWeightValue, formatWeightValue } from '../lib/display'
 import { displayLength, lengthLabel, weightLabel } from '../lib/units'
@@ -32,7 +33,7 @@ const PAGE_SIZE = 15
 type MetricKey = 'weight' | (typeof LENGTH_METRICS)[number]['key']
 
 export function BodyMetrics() {
-  const { data, deleteMeasurement } = useApp()
+  const { data, deleteMeasurement, addProgressPhoto, deleteProgressPhoto, updateSettings } = useApp()
   const { weight: wUnit, length: lUnit } = data.settings.units
   const [dialogOpen, setDialogOpen] = useState(false)
   const [editing, setEditing] = useState<BodyMeasurement | null>(null)
@@ -258,6 +259,17 @@ export function BodyMetrics() {
           </Card>
         </div>
       )}
+
+      <ProgressPhotoGallery
+        photos={data.progressPhotos ?? []}
+        currentWeightKg={latest}
+        unit={wUnit}
+        lockPrivacy={data.settings.lockPhotoPrivacy}
+        onAddPhoto={addProgressPhoto}
+        onDeletePhoto={deleteProgressPhoto}
+        onTogglePrivacy={(locked) => updateSettings({ lockPhotoPrivacy: locked })}
+        className="mt-4"
+      />
 
       <MeasurementDialog open={dialogOpen} onClose={() => setDialogOpen(false)} existing={editing} />
 

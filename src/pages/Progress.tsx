@@ -12,6 +12,7 @@ import { Stat } from '../components/ui/Stat'
 import { Segmented } from '../components/ui/Segmented'
 import { BarsChart, TrendChart } from '../components/charts/Charts'
 import { ActivityHeatmap } from '../components/charts/ActivityHeatmap'
+import { AchievementsShowcase } from '../components/analytics/AchievementsShowcase'
 import { exerciseHistory, sessionVolumeKg } from '../lib/progression'
 import {
   currentStreak,
@@ -343,6 +344,13 @@ export function Progress() {
               </>
             )}
           </Card>
+
+          <AchievementsShowcase
+            unlockedAchievements={data.achievements ?? []}
+            sessions={data.sessions}
+            personalRecords={data.personalRecords}
+            exercisesById={exercisesById}
+          />
         </div>
       )}
 

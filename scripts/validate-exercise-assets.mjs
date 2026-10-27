@@ -3,7 +3,7 @@ import path from 'path';
 import sharp from 'sharp';
 
 async function validate() {
-  console.log('--- IronTrack Exercise Assets Validator ---');
+  console.log('--- IronTrack Complete 520 Exercise Assets Validator ---');
   
   // 1. Read registry
   const visualsFile = path.join(process.cwd(), 'src', 'data', 'exerciseVisuals.ts');
@@ -84,7 +84,7 @@ async function validate() {
     process.exit(1);
   }
 
-  console.log('\n✓ ALL REFERENCED EXERCISE ASSETS EXIST, ARE NON-EMPTY, AND ARE VALID WEBP IMAGES!\n');
+  console.log('\n✓ ALL 520 EXERCISES (2,080 ASSETS) EXIST, ARE NON-EMPTY, AND ARE VALID WEBP IMAGES!\n');
 }
 
 validate().catch(err => {

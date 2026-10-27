@@ -4,15 +4,18 @@ import {
   ArrowRight,
   CirclePlay,
   Dumbbell,
+  Droplet,
   Flame,
   Scale,
   Target,
   TrendingUp,
   Trophy,
   Utensils,
+  BookOpen,
 } from 'lucide-react'
 import { useApp } from '../store/AppStore'
 import { Card, CardHeader } from '../components/ui/Card'
+import { CoachingCard } from '../components/coaching/CoachingCard'
 import { Stat } from '../components/ui/Stat'
 import { Progress } from '../components/ui/Progress'
 import { Button } from '../components/ui/Button'
@@ -52,7 +55,7 @@ function greeting(now: Date): string {
 }
 
 export function Dashboard() {
-  const { data, exercisesById, startWorkout, activeSession } = useApp()
+  const { data, exercisesById, startWorkout, activeSession, allExercises } = useApp()
   const navigate = useNavigate()
   const [rangeDays, setRangeDays] = useState<'7' | '30' | '90'>('7')
 
@@ -99,9 +102,17 @@ export function Dashboard() {
     const prs = [...currentRecords(data.personalRecords).values()].sort((a, b) => (a.date < b.date ? 1 : -1))
 
     const todayNutrition = data.nutrition.find((d) => d.date === todayIso)
-    const proteinToday = todayNutrition
-      ? todayNutrition.meals.reduce((sum, m) => sum + m.items.reduce((s, i) => s + i.proteinG, 0), 0)
-      : 0
+    let caloriesToday = 0
+    let proteinToday = 0
+    const waterToday = todayNutrition?.waterMl ?? 0
+    if (todayNutrition) {
+      for (const m of todayNutrition.meals) {
+        for (const i of m.items) {
+          caloriesToday += i.calories
+          proteinToday += i.proteinG
+        }
+      }
+    }
 
     const bodyWeightChart = weekly.map((w) => ({
       label: w.label,
@@ -122,7 +133,9 @@ export function Dashboard() {
       completionData,
       volume,
       prs,
+      caloriesToday,
       proteinToday,
+      waterToday,
       bodyWeightChart,
     }
   }, [data, exercisesById, rangeDays, todayIso, unit, today])
@@ -172,23 +185,118 @@ export function Dashboard() {
         </Notice>
       ) : null}
 
-      <div className="mb-4 flex flex-col gap-2 sm:flex-row">
-        {activeSession ? (
-          <Button size="lg" className="w-full sm:w-auto" onClick={handleStartOrResume}>
-            <CirclePlay size={20} /> Resume workout
-          </Button>
-        ) : (
-          <Button size="lg" className="w-full sm:w-auto" onClick={handleStartOrResume}>
-            <Dumbbell size={20} /> Start {todayTemplate && !todayTemplate.isRestDay ? todayTemplate.name : 'workout'}
-          </Button>
-        )}
-        <Link
-          to="/workouts"
-          className="inline-flex h-12 items-center justify-center gap-2 rounded-xl border border-line bg-surface px-5 text-base font-semibold text-ink hover:bg-surface2"
-        >
-          View schedule
-        </Link>
+      {/* Hero Action Bar & Quick Actions */}
+      <div className="mb-4 flex flex-col gap-2.5">
+        <div className="flex flex-col gap-2 sm:flex-row">
+          {activeSession ? (
+            <Button size="lg" className="w-full sm:w-auto" onClick={handleStartOrResume}>
+              <CirclePlay size={20} /> Resume workout
+            </Button>
+          ) : (
+            <Button size="lg" className="w-full sm:w-auto" onClick={handleStartOrResume}>
+              <Dumbbell size={20} /> Start {todayTemplate && !todayTemplate.isRestDay ? todayTemplate.name : 'workout'}
+            </Button>
+          )}
+          <Link
+            to="/workouts"
+            className="inline-flex h-12 items-center justify-center gap-2 rounded-xl border border-line bg-surface px-5 text-base font-semibold text-ink hover:bg-surface2"
+          >
+            View schedule
+          </Link>
+        </div>
+
+        {/* Quick action pill shortcuts */}
+        <div className="flex flex-wrap items-center gap-2 pt-1 text-xs font-semibold">
+          <Link
+            to="/nutrition"
+            className="inline-flex items-center gap-1.5 rounded-lg border border-line bg-surface px-3 py-1.5 text-muted hover:border-accent hover:text-ink"
+          >
+            <Utensils size={13} className="text-accent" /> Log Food
+          </Link>
+          <Link
+            to="/body"
+            className="inline-flex items-center gap-1.5 rounded-lg border border-line bg-surface px-3 py-1.5 text-muted hover:border-accent hover:text-ink"
+          >
+            <Scale size={13} className="text-accent" /> Track Weight
+          </Link>
+          <Link
+            to="/exercises"
+            className="inline-flex items-center gap-1.5 rounded-lg border border-line bg-surface px-3 py-1.5 text-muted hover:border-accent hover:text-ink"
+          >
+            <BookOpen size={13} className="text-accent" /> Exercise Library
+          </Link>
+        </div>
       </div>
+
+      {/* Offline AI Coaching Engine Highlight */}
+      <CoachingCard
+        sessions={data.sessions}
+        exercises={allExercises}
+        templates={data.templates}
+        exercisesById={exercisesById}
+        className="mb-4"
+      />
+
+      {/* Daily Nutrition & Hydration Glance */}
+      <Card className="mb-4">
+        <CardHeader
+          title="Daily Fuel & Hydration"
+          subtitle="Calories, protein, and water targets for today"
+          action={
+            <Link to="/nutrition" className="text-xs font-bold text-accent hover:underline">
+              Open Food Log →
+            </Link>
+          }
+        />
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+          <div className="rounded-xl border border-line bg-surface2 p-3">
+            <div className="flex items-center justify-between text-xs text-muted">
+              <span>Calories</span>
+              <span className="font-bold text-ink">
+                {Math.round(derived.caloriesToday)} / {data.settings.calorieTarget} kcal
+              </span>
+            </div>
+            <Progress
+              className="mt-2"
+              value={derived.caloriesToday}
+              max={data.settings.calorieTarget}
+              tone={derived.caloriesToday >= data.settings.calorieTarget ? 'success' : 'accent'}
+            />
+          </div>
+
+          <div className="rounded-xl border border-line bg-surface2 p-3">
+            <div className="flex items-center justify-between text-xs text-muted">
+              <span>Protein</span>
+              <span className="font-bold text-ink">
+                {Math.round(derived.proteinToday)} / {data.settings.proteinTargetG} g
+              </span>
+            </div>
+            <Progress
+              className="mt-2"
+              value={derived.proteinToday}
+              max={data.settings.proteinTargetG}
+              tone={derived.proteinToday >= data.settings.proteinTargetG ? 'success' : 'accent'}
+            />
+          </div>
+
+          <div className="rounded-xl border border-line bg-surface2 p-3">
+            <div className="flex items-center justify-between text-xs text-muted">
+              <span className="flex items-center gap-1">
+                <Droplet size={13} className="text-info" /> Water
+              </span>
+              <span className="font-bold text-ink">
+                {(derived.waterToday / 1000).toFixed(1)} / {(data.settings.waterTargetMl / 1000).toFixed(1)} L
+              </span>
+            </div>
+            <Progress
+              className="mt-2"
+              value={derived.waterToday}
+              max={data.settings.waterTargetMl}
+              tone="accent"
+            />
+          </div>
+        </div>
+      </Card>
 
       <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
         <Stat

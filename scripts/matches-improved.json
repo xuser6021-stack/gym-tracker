@@ -1,0 +1,2712 @@
+[
+  {
+    "localId": "ex_barbell_bench_press",
+    "localName": "Barbell bench press",
+    "catalogName": "Barbell Bench Press - Medium Grip",
+    "score": 0.85,
+    "images": [
+      "Barbell_Bench_Press_-_Medium_Grip/0.jpg",
+      "Barbell_Bench_Press_-_Medium_Grip/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_dumbbell_press",
+    "localName": "Incline dumbbell press",
+    "catalogName": "Incline Dumbbell Press",
+    "score": 1,
+    "images": [
+      "Incline_Dumbbell_Press/0.jpg",
+      "Incline_Dumbbell_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_chest_press",
+    "localName": "Machine chest press",
+    "catalogName": "Leverage Chest Press",
+    "score": 1,
+    "images": [
+      "Leverage_Chest_Press/0.jpg",
+      "Leverage_Chest_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_barbell_bench_press",
+    "localName": "Incline barbell bench press",
+    "catalogName": "Barbell Incline Bench Press - Medium Grip",
+    "score": 0.5714285714285714,
+    "images": [
+      "Barbell_Incline_Bench_Press_-_Medium_Grip/0.jpg",
+      "Barbell_Incline_Bench_Press_-_Medium_Grip/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_decline_barbell_bench_press",
+    "localName": "Decline barbell bench press",
+    "catalogName": "Decline Barbell Bench Press",
+    "score": 1,
+    "images": [
+      "Decline_Barbell_Bench_Press/0.jpg",
+      "Decline_Barbell_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_flat_bench_press",
+    "localName": "Flat dumbbell bench press",
+    "catalogName": "Dumbbell Bench Press",
+    "score": 1,
+    "images": [
+      "Dumbbell_Bench_Press/0.jpg",
+      "Dumbbell_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_decline_dumbbell_press",
+    "localName": "Decline dumbbell press",
+    "catalogName": "Decline Dumbbell Bench Press",
+    "score": 0.75,
+    "images": [
+      "Decline_Dumbbell_Bench_Press/0.jpg",
+      "Decline_Dumbbell_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_close_grip_barbell_bench_press",
+    "localName": "Close-grip barbell bench press",
+    "catalogName": "Close-Grip Barbell Bench Press",
+    "score": 1,
+    "images": [
+      "Close-Grip_Barbell_Bench_Press/0.jpg",
+      "Close-Grip_Barbell_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_dumbbell_fly",
+    "localName": "Incline dumbbell fly",
+    "catalogName": "Incline Dumbbell Flyes",
+    "score": 0.85,
+    "images": [
+      "Incline_Dumbbell_Flyes/0.jpg",
+      "Incline_Dumbbell_Flyes/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_decline_dumbbell_fly",
+    "localName": "Decline dumbbell fly",
+    "catalogName": "Decline Dumbbell Flyes",
+    "score": 0.85,
+    "images": [
+      "Decline_Dumbbell_Flyes/0.jpg",
+      "Decline_Dumbbell_Flyes/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_crossover",
+    "localName": "Standing cable crossover",
+    "catalogName": "Cable Crossover",
+    "score": 0.85,
+    "images": [
+      "Cable_Crossover/0.jpg",
+      "Cable_Crossover/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_high_to_low_cable_fly",
+    "localName": "High-to-low cable fly",
+    "catalogName": "Low Cable Crossover",
+    "score": 0.5,
+    "images": [
+      "Low_Cable_Crossover/0.jpg",
+      "Low_Cable_Crossover/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_low_to_high_cable_fly",
+    "localName": "Low-to-high cable fly",
+    "catalogName": "Low Cable Crossover",
+    "score": 1,
+    "images": [
+      "Low_Cable_Crossover/0.jpg",
+      "Low_Cable_Crossover/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_decline_push_up",
+    "localName": "Decline push-up",
+    "catalogName": "Decline Push-Up",
+    "score": 1,
+    "images": [
+      "Decline_Push-Up/0.jpg",
+      "Decline_Push-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_push_up",
+    "localName": "Incline push-up",
+    "catalogName": "Incline Push-Up",
+    "score": 1,
+    "images": [
+      "Incline_Push-Up/0.jpg",
+      "Incline_Push-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_wide_grip_push_up",
+    "localName": "Wide-grip push-up",
+    "catalogName": "Push-Up Wide",
+    "score": 0.5,
+    "images": [
+      "Push-Up_Wide/0.jpg",
+      "Push-Up_Wide/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_bench_press",
+    "localName": "Smith machine bench press",
+    "catalogName": "Smith Machine Bench Press",
+    "score": 1,
+    "images": [
+      "Smith_Machine_Bench_Press/0.jpg",
+      "Smith_Machine_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_incline_press",
+    "localName": "Smith machine incline bench press",
+    "catalogName": "Smith Machine Incline Bench Press",
+    "score": 1,
+    "images": [
+      "Smith_Machine_Incline_Bench_Press/0.jpg",
+      "Smith_Machine_Incline_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_decline_press",
+    "localName": "Smith machine decline bench press",
+    "catalogName": "Smith Machine Bench Press",
+    "score": 0.8,
+    "images": [
+      "Smith_Machine_Bench_Press/0.jpg",
+      "Smith_Machine_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_incline_chest_press",
+    "localName": "Machine incline chest press",
+    "catalogName": "Incline Cable Chest Press",
+    "score": 0.5,
+    "images": [
+      "Incline_Cable_Chest_Press/0.jpg",
+      "Incline_Cable_Chest_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_decline_chest_press",
+    "localName": "Machine decline chest press",
+    "catalogName": "Leverage Decline Chest Press",
+    "score": 0.5,
+    "images": [
+      "Leverage_Decline_Chest_Press/0.jpg",
+      "Leverage_Decline_Chest_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_dumbbell_bench_press",
+    "localName": "Single-arm dumbbell bench press",
+    "catalogName": "Dumbbell Bench Press",
+    "score": 0.85,
+    "images": [
+      "Dumbbell_Bench_Press/0.jpg",
+      "Dumbbell_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_floor_press",
+    "localName": "Dumbbell floor press",
+    "catalogName": "Dumbbell Floor Press",
+    "score": 1,
+    "images": [
+      "Dumbbell_Floor_Press/0.jpg",
+      "Dumbbell_Floor_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_floor_press",
+    "localName": "Barbell floor press",
+    "catalogName": "Floor Press",
+    "score": 1,
+    "images": [
+      "Floor_Press/0.jpg",
+      "Floor_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_svend_press",
+    "localName": "Svend press",
+    "catalogName": "Svend Press",
+    "score": 1,
+    "images": [
+      "Svend_Press/0.jpg",
+      "Svend_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_dumbbell_squeeze_press",
+    "localName": "Incline dumbbell squeeze press",
+    "catalogName": "Incline Dumbbell Press",
+    "score": 0.5,
+    "images": [
+      "Incline_Dumbbell_Press/0.jpg",
+      "Incline_Dumbbell_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_landmine_chest_press",
+    "localName": "Standing landmine chest press",
+    "catalogName": "Standing Cable Chest Press",
+    "score": 0.6,
+    "images": [
+      "Standing_Cable_Chest_Press/0.jpg",
+      "Standing_Cable_Chest_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_iron_cross",
+    "localName": "Cable iron cross",
+    "catalogName": "Cable Iron Cross",
+    "score": 1,
+    "images": [
+      "Cable_Iron_Cross/0.jpg",
+      "Cable_Iron_Cross/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_around_the_world_dumbbell",
+    "localName": "Dumbbell around the worlds",
+    "catalogName": "Around The Worlds",
+    "score": 0.85,
+    "images": [
+      "Around_The_Worlds/0.jpg",
+      "Around_The_Worlds/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_guillotine_press",
+    "localName": "Guillotine bench press",
+    "catalogName": "Barbell Guillotine Bench Press",
+    "score": 0.85,
+    "images": [
+      "Barbell_Guillotine_Bench_Press/0.jpg",
+      "Barbell_Guillotine_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_cable_press",
+    "localName": "Incline cable chest press",
+    "catalogName": "Incline Cable Chest Press",
+    "score": 1,
+    "images": [
+      "Incline_Cable_Chest_Press/0.jpg",
+      "Incline_Cable_Chest_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_lat_pulldown",
+    "localName": "Lat pulldown",
+    "catalogName": "Wide-Grip Lat Pulldown",
+    "score": 1,
+    "images": [
+      "Wide-Grip_Lat_Pulldown/0.jpg",
+      "Wide-Grip_Lat_Pulldown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_cable_row",
+    "localName": "Seated cable row",
+    "catalogName": "Seated Cable Rows",
+    "score": 0.85,
+    "images": [
+      "Seated_Cable_Rows/0.jpg",
+      "Seated_Cable_Rows/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_chin_up",
+    "localName": "Chin-up",
+    "catalogName": "Chin-Up",
+    "score": 1,
+    "images": [
+      "Chin-Up/0.jpg",
+      "Chin-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_neutral_grip_pull_up",
+    "localName": "Neutral-grip pull-up",
+    "catalogName": "V-Bar Pullup",
+    "score": 1,
+    "images": [
+      "V-Bar_Pullup/0.jpg",
+      "V-Bar_Pullup/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_weighted_pull_up",
+    "localName": "Weighted pull-up",
+    "catalogName": "Weighted Pull Ups",
+    "score": 0.85,
+    "images": [
+      "Weighted_Pull_Ups/0.jpg",
+      "Weighted_Pull_Ups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_bent_over_row",
+    "localName": "Barbell bent-over row",
+    "catalogName": "Bent Over Barbell Row",
+    "score": 0.6666666666666666,
+    "images": [
+      "Bent_Over_Barbell_Row/0.jpg",
+      "Bent_Over_Barbell_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_dumbbell_row",
+    "localName": "Single-arm dumbbell row",
+    "catalogName": "One-Arm Dumbbell Row",
+    "score": 0.6,
+    "images": [
+      "One-Arm_Dumbbell_Row/0.jpg",
+      "One-Arm_Dumbbell_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_t_bar_row",
+    "localName": "T-bar row",
+    "catalogName": "Lying T-Bar Row",
+    "score": 0.85,
+    "images": [
+      "Lying_T-Bar_Row/0.jpg",
+      "Lying_T-Bar_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_pullover",
+    "localName": "Dumbbell pullover",
+    "catalogName": "Bent-Arm Dumbbell Pullover",
+    "score": 0.85,
+    "images": [
+      "Bent-Arm_Dumbbell_Pullover/0.jpg",
+      "Bent-Arm_Dumbbell_Pullover/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_close_grip_lat_pulldown",
+    "localName": "Close-grip V-bar lat pulldown",
+    "catalogName": "V-Bar Pulldown",
+    "score": 1,
+    "images": [
+      "V-Bar_Pulldown/0.jpg",
+      "V-Bar_Pulldown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_face_pull",
+    "localName": "Cable face pull",
+    "catalogName": "Face Pull",
+    "score": 0.85,
+    "images": [
+      "Face_Pull/0.jpg",
+      "Face_Pull/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_shrug",
+    "localName": "Barbell shrug",
+    "catalogName": "Barbell Shrug",
+    "score": 1,
+    "images": [
+      "Barbell_Shrug/0.jpg",
+      "Barbell_Shrug/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_shrug",
+    "localName": "Dumbbell shrug",
+    "catalogName": "Dumbbell Shrug",
+    "score": 1,
+    "images": [
+      "Dumbbell_Shrug/0.jpg",
+      "Dumbbell_Shrug/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_shrug",
+    "localName": "Smith machine shrug",
+    "catalogName": "Smith Machine Behind the Back Shrug",
+    "score": 0.6,
+    "images": [
+      "Smith_Machine_Behind_the_Back_Shrug/0.jpg",
+      "Smith_Machine_Behind_the_Back_Shrug/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_deadlift",
+    "localName": "Conventional barbell deadlift",
+    "catalogName": "Barbell Deadlift",
+    "score": 0.85,
+    "images": [
+      "Barbell_Deadlift/0.jpg",
+      "Barbell_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_sumo_deadlift",
+    "localName": "Sumo barbell deadlift",
+    "catalogName": "Sumo Deadlift",
+    "score": 1,
+    "images": [
+      "Sumo_Deadlift/0.jpg",
+      "Sumo_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_trap_bar_deadlift",
+    "localName": "Trap bar deadlift (hex bar)",
+    "catalogName": "Trap Bar Deadlift",
+    "score": 0.85,
+    "images": [
+      "Trap_Bar_Deadlift/0.jpg",
+      "Trap_Bar_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_good_morning",
+    "localName": "Barbell good morning",
+    "catalogName": "Good Morning",
+    "score": 0.85,
+    "images": [
+      "Good_Morning/0.jpg",
+      "Good_Morning/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_inverted_row_feet_elevated",
+    "localName": "Inverted row (feet elevated)",
+    "catalogName": "Inverted Row",
+    "score": 0.85,
+    "images": [
+      "Inverted_Row/0.jpg",
+      "Inverted_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seal_row",
+    "localName": "Barbell seal row",
+    "catalogName": "Lying Cambered Barbell Row",
+    "score": 0.5,
+    "images": [
+      "Lying_Cambered_Barbell_Row/0.jpg",
+      "Lying_Cambered_Barbell_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_lat_pulldown",
+    "localName": "Single-arm cable lat pulldown",
+    "catalogName": "One Arm Lat Pulldown",
+    "score": 0.5,
+    "images": [
+      "One_Arm_Lat_Pulldown/0.jpg",
+      "One_Arm_Lat_Pulldown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_pull_apart",
+    "localName": "Resistance band pull-apart",
+    "catalogName": "Band Pull Apart",
+    "score": 0.85,
+    "images": [
+      "Band_Pull_Apart/0.jpg",
+      "Band_Pull_Apart/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_face_pull",
+    "localName": "Resistance band face pull",
+    "catalogName": "Face Pull",
+    "score": 0.85,
+    "images": [
+      "Face_Pull/0.jpg",
+      "Face_Pull/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_superman_hold",
+    "localName": "Superman hold",
+    "catalogName": "Superman",
+    "score": 0.85,
+    "images": [
+      "Superman/0.jpg",
+      "Superman/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_scapular_pull_up",
+    "localName": "Scapular pull-up",
+    "catalogName": "Scapular Pull-Up",
+    "score": 1,
+    "images": [
+      "Scapular_Pull-Up/0.jpg",
+      "Scapular_Pull-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_snatch_grip_deadlift",
+    "localName": "Snatch-grip barbell deadlift",
+    "catalogName": "Barbell Deadlift",
+    "score": 0.85,
+    "images": [
+      "Barbell_Deadlift/0.jpg",
+      "Barbell_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_shrug",
+    "localName": "Cable shrug",
+    "catalogName": "Cable Shrugs",
+    "score": 0.85,
+    "images": [
+      "Cable_Shrugs/0.jpg",
+      "Cable_Shrugs/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_db_shoulder_press",
+    "localName": "Seated dumbbell shoulder press",
+    "catalogName": "Dumbbell Shoulder Press",
+    "score": 1,
+    "images": [
+      "Dumbbell_Shoulder_Press/0.jpg",
+      "Dumbbell_Shoulder_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_db_lateral_raise",
+    "localName": "Dumbbell lateral raise",
+    "catalogName": "Side Lateral Raise",
+    "score": 1,
+    "images": [
+      "Side_Lateral_Raise/0.jpg",
+      "Side_Lateral_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_lateral_raise",
+    "localName": "Cable lateral raise",
+    "catalogName": "Side Lateral Raise",
+    "score": 0.6,
+    "images": [
+      "Side_Lateral_Raise/0.jpg",
+      "Side_Lateral_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_shoulder_press",
+    "localName": "Machine shoulder press",
+    "catalogName": "Leverage Shoulder Press",
+    "score": 1,
+    "images": [
+      "Leverage_Shoulder_Press/0.jpg",
+      "Leverage_Shoulder_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_barbell_overhead_press",
+    "localName": "Seated barbell overhead press",
+    "catalogName": "Seated Barbell Military Press",
+    "score": 0.6666666666666666,
+    "images": [
+      "Seated_Barbell_Military_Press/0.jpg",
+      "Seated_Barbell_Military_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_arnold_press",
+    "localName": "Arnold press",
+    "catalogName": "Arnold Dumbbell Press",
+    "score": 1,
+    "images": [
+      "Arnold_Dumbbell_Press/0.jpg",
+      "Arnold_Dumbbell_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_push_press",
+    "localName": "Barbell push press",
+    "catalogName": "Push Press",
+    "score": 1,
+    "images": [
+      "Push_Press/0.jpg",
+      "Push_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_behind_neck_press",
+    "localName": "Behind-the-neck barbell press",
+    "catalogName": "Standing Barbell Press Behind Neck",
+    "score": 0.6666666666666666,
+    "images": [
+      "Standing_Barbell_Press_Behind_Neck/0.jpg",
+      "Standing_Barbell_Press_Behind_Neck/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_dumbbell_lateral_raise",
+    "localName": "Seated dumbbell lateral raise",
+    "catalogName": "Seated Side Lateral Raise",
+    "score": 1,
+    "images": [
+      "Seated_Side_Lateral_Raise/0.jpg",
+      "Seated_Side_Lateral_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_lateral_raise",
+    "localName": "Machine lateral raise",
+    "catalogName": "Side Lateral Raise",
+    "score": 0.6,
+    "images": [
+      "Side_Lateral_Raise/0.jpg",
+      "Side_Lateral_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_behind_back_cable_lateral_raise",
+    "localName": "Behind-the-back cable lateral raise",
+    "catalogName": "Side Lateral Raise",
+    "score": 0.5,
+    "images": [
+      "Side_Lateral_Raise/0.jpg",
+      "Side_Lateral_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_front_raise",
+    "localName": "Dumbbell front raise",
+    "catalogName": "Front Dumbbell Raise",
+    "score": 0.75,
+    "images": [
+      "Front_Dumbbell_Raise/0.jpg",
+      "Front_Dumbbell_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_plate_front_raise",
+    "localName": "Weight plate front raise",
+    "catalogName": "Front Plate Raise",
+    "score": 0.5,
+    "images": [
+      "Front_Plate_Raise/0.jpg",
+      "Front_Plate_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_front_raise",
+    "localName": "Cable front raise",
+    "catalogName": "Front Cable Raise",
+    "score": 0.6,
+    "images": [
+      "Front_Cable_Raise/0.jpg",
+      "Front_Cable_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_rear_delt_fly",
+    "localName": "Bent-over dumbbell rear delt fly",
+    "catalogName": "Bent Over Dumbbell Rear Delt Raise With Head On Bench",
+    "score": 0.6,
+    "images": [
+      "Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench/0.jpg",
+      "Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_rear_delt_fly",
+    "localName": "Cable rear delt fly (cross-body)",
+    "catalogName": "Cable Rear Delt Fly",
+    "score": 0.85,
+    "images": [
+      "Cable_Rear_Delt_Fly/0.jpg",
+      "Cable_Rear_Delt_Fly/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_upright_row",
+    "localName": "Barbell upright row",
+    "catalogName": "Upright Barbell Row",
+    "score": 0.6,
+    "images": [
+      "Upright_Barbell_Row/0.jpg",
+      "Upright_Barbell_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_upright_row",
+    "localName": "Cable upright row",
+    "catalogName": "Upright Cable Row",
+    "score": 0.5,
+    "images": [
+      "Upright_Cable_Row/0.jpg",
+      "Upright_Cable_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_upright_row",
+    "localName": "Dumbbell upright row",
+    "catalogName": "Standing Dumbbell Upright Row",
+    "score": 0.85,
+    "images": [
+      "Standing_Dumbbell_Upright_Row/0.jpg",
+      "Standing_Dumbbell_Upright_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_push_press",
+    "localName": "Kettlebell push press",
+    "catalogName": "Double Kettlebell Push Press",
+    "score": 0.85,
+    "images": [
+      "Double_Kettlebell_Push_Press/0.jpg",
+      "Double_Kettlebell_Push_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_external_cable_shoulder_rotation",
+    "localName": "Cable shoulder external rotation",
+    "catalogName": "External Rotation",
+    "score": 0.85,
+    "images": [
+      "External_Rotation/0.jpg",
+      "External_Rotation/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_internal_cable_shoulder_rotation",
+    "localName": "Cable shoulder internal rotation",
+    "catalogName": "Cable Internal Rotation",
+    "score": 0.5,
+    "images": [
+      "Cable_Internal_Rotation/0.jpg",
+      "Cable_Internal_Rotation/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_external_rotation",
+    "localName": "Side-lying dumbbell external rotation",
+    "catalogName": "External Rotation",
+    "score": 0.85,
+    "images": [
+      "External_Rotation/0.jpg",
+      "External_Rotation/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cuban_press",
+    "localName": "Dumbbell Cuban press",
+    "catalogName": "Cuban Press",
+    "score": 0.85,
+    "images": [
+      "Cuban_Press/0.jpg",
+      "Cuban_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_scaption_raise",
+    "localName": "Dumbbell scaption raise",
+    "catalogName": "Dumbbell Scaption",
+    "score": 0.85,
+    "images": [
+      "Dumbbell_Scaption/0.jpg",
+      "Dumbbell_Scaption/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_shoulder_press",
+    "localName": "Smith machine shoulder press",
+    "catalogName": "Smith Machine Overhead Shoulder Press",
+    "score": 0.8333333333333334,
+    "images": [
+      "Smith_Machine_Overhead_Shoulder_Press/0.jpg",
+      "Smith_Machine_Overhead_Shoulder_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kneeling_bottoms_up_kb_press",
+    "localName": "Half-kneeling bottoms-up kettlebell press",
+    "catalogName": "Bottoms Up",
+    "score": 0.85,
+    "images": [
+      "Bottoms_Up/0.jpg",
+      "Bottoms_Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_landmine_lateral_raise",
+    "localName": "Landmine lateral raise",
+    "catalogName": "Side Lateral Raise",
+    "score": 0.6,
+    "images": [
+      "Side_Lateral_Raise/0.jpg",
+      "Side_Lateral_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_lateral_raise",
+    "localName": "Resistance band lateral raise",
+    "catalogName": "Side Lateral Raise",
+    "score": 0.5,
+    "images": [
+      "Side_Lateral_Raise/0.jpg",
+      "Side_Lateral_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_clean_and_press",
+    "localName": "Barbell clean and press",
+    "catalogName": "Clean",
+    "score": 0.85,
+    "images": [
+      "Clean/0.jpg",
+      "Clean/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_dumbbell_clean_and_press",
+    "localName": "Seated dumbbell clean and press",
+    "catalogName": "Clean",
+    "score": 0.85,
+    "images": [
+      "Clean/0.jpg",
+      "Clean/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_dumbbell_snatch",
+    "localName": "Single-arm dumbbell snatch",
+    "catalogName": "Snatch",
+    "score": 0.85,
+    "images": [
+      "Snatch/0.jpg",
+      "Snatch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_biceps_curl",
+    "localName": "Dumbbell biceps curl",
+    "catalogName": "Standing Alternating Dumbbell Press",
+    "score": 0.5,
+    "images": [
+      "Standing_Alternating_Dumbbell_Press/0.jpg",
+      "Standing_Alternating_Dumbbell_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_hammer_curl",
+    "localName": "Dumbbell hammer curl",
+    "catalogName": "Preacher Hammer Dumbbell Curl",
+    "score": 0.5,
+    "images": [
+      "Preacher_Hammer_Dumbbell_Curl/0.jpg",
+      "Preacher_Hammer_Dumbbell_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ez_bar_curl",
+    "localName": "EZ-bar curl",
+    "catalogName": "EZ-Bar Curl",
+    "score": 1,
+    "images": [
+      "EZ-Bar_Curl/0.jpg",
+      "EZ-Bar_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_dumbbell_curl",
+    "localName": "Incline dumbbell curl",
+    "catalogName": "Incline Dumbbell Curl",
+    "score": 1,
+    "images": [
+      "Incline_Dumbbell_Curl/0.jpg",
+      "Incline_Dumbbell_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_biceps_curl",
+    "localName": "Straight barbell biceps curl",
+    "catalogName": "Barbell Curl",
+    "score": 1,
+    "images": [
+      "Barbell_Curl/0.jpg",
+      "Barbell_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_preacher_curl_ez_bar",
+    "localName": "EZ-bar preacher curl",
+    "catalogName": "Preacher Curl",
+    "score": 1,
+    "images": [
+      "Preacher_Curl/0.jpg",
+      "Preacher_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_preacher_curl",
+    "localName": "Single-arm dumbbell preacher curl",
+    "catalogName": "Preacher Curl",
+    "score": 0.85,
+    "images": [
+      "Preacher_Curl/0.jpg",
+      "Preacher_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_preacher_curl",
+    "localName": "Machine preacher curl",
+    "catalogName": "Machine Preacher Curls",
+    "score": 0.85,
+    "images": [
+      "Machine_Preacher_Curls/0.jpg",
+      "Machine_Preacher_Curls/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_concentration_curl",
+    "localName": "Dumbbell concentration curl",
+    "catalogName": "Seated Dumbbell Curl",
+    "score": 0.75,
+    "images": [
+      "Seated_Dumbbell_Curl/0.jpg",
+      "Seated_Dumbbell_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_spider_curl",
+    "localName": "Chest-supported spider curl",
+    "catalogName": "Spider Curl",
+    "score": 1,
+    "images": [
+      "Spider_Curl/0.jpg",
+      "Spider_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_biceps_curl",
+    "localName": "Standing cable biceps curl",
+    "catalogName": "Standing Biceps Cable Curl",
+    "score": 0.5,
+    "images": [
+      "Standing_Biceps_Cable_Curl/0.jpg",
+      "Standing_Biceps_Cable_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_rope_cable_hammer_curl",
+    "localName": "Rope cable hammer curl",
+    "catalogName": "Cable Hammer Curls - Rope Attachment",
+    "score": 0.5,
+    "images": [
+      "Cable_Hammer_Curls_-_Rope_Attachment/0.jpg",
+      "Cable_Hammer_Curls_-_Rope_Attachment/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cross_body_hammer_curl",
+    "localName": "Cross-body dumbbell hammer curl",
+    "catalogName": "Cross Body Hammer Curl",
+    "score": 0.6666666666666666,
+    "images": [
+      "Cross_Body_Hammer_Curl/0.jpg",
+      "Cross_Body_Hammer_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_reverse_grip_ez_bar_curl",
+    "localName": "Reverse-grip EZ-bar curl",
+    "catalogName": "EZ-Bar Curl",
+    "score": 0.85,
+    "images": [
+      "EZ-Bar_Curl/0.jpg",
+      "EZ-Bar_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_zottman_curl",
+    "localName": "Zottman curl",
+    "catalogName": "Zottman Curl",
+    "score": 1,
+    "images": [
+      "Zottman_Curl/0.jpg",
+      "Zottman_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_drag_curl",
+    "localName": "Barbell drag curl",
+    "catalogName": "Drag Curl",
+    "score": 1,
+    "images": [
+      "Drag_Curl/0.jpg",
+      "Drag_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_waiter_curl",
+    "localName": "Dumbbell waiter curl",
+    "catalogName": "Dumbbell Bicep Curl",
+    "score": 0.5,
+    "images": [
+      "Dumbbell_Bicep_Curl/0.jpg",
+      "Dumbbell_Bicep_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_incline_hammer_curl",
+    "localName": "Seated incline dumbbell hammer curl",
+    "catalogName": "Incline Dumbbell Curl",
+    "score": 0.6,
+    "images": [
+      "Incline_Dumbbell_Curl/0.jpg",
+      "Incline_Dumbbell_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_chin_up_biceps_focus",
+    "localName": "Close-grip chin-up (biceps focus)",
+    "catalogName": "Chin-Up",
+    "score": 0.85,
+    "images": [
+      "Chin-Up/0.jpg",
+      "Chin-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_wrist_curl",
+    "localName": "Barbell wrist curl",
+    "catalogName": "Palms-Up Barbell Wrist Curl Over A Bench",
+    "score": 0.85,
+    "images": [
+      "Palms-Up_Barbell_Wrist_Curl_Over_A_Bench/0.jpg",
+      "Palms-Up_Barbell_Wrist_Curl_Over_A_Bench/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_reverse_wrist_curl",
+    "localName": "Barbell reverse wrist curl",
+    "catalogName": "Reverse Barbell Curl",
+    "score": 0.5,
+    "images": [
+      "Reverse_Barbell_Curl/0.jpg",
+      "Reverse_Barbell_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_farmers_walk",
+    "localName": "Farmer's walk",
+    "catalogName": "Farmer's Walk",
+    "score": 1,
+    "images": [
+      "Farmers_Walk/0.jpg",
+      "Farmers_Walk/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_plate_pinch_hold",
+    "localName": "Weight plate pinch hold",
+    "catalogName": "Plate Pinch",
+    "score": 0.85,
+    "images": [
+      "Plate_Pinch/0.jpg",
+      "Plate_Pinch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_cable_curl",
+    "localName": "Single-arm low cable curl",
+    "catalogName": "Standing One-Arm Cable Curl",
+    "score": 0.5,
+    "images": [
+      "Standing_One-Arm_Cable_Curl/0.jpg",
+      "Standing_One-Arm_Cable_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_dumbbell_biceps_curl",
+    "localName": "Seated dumbbell biceps curl",
+    "catalogName": "Seated Dumbbell Inner Biceps Curl",
+    "score": 0.8,
+    "images": [
+      "Seated_Dumbbell_Inner_Biceps_Curl/0.jpg",
+      "Seated_Dumbbell_Inner_Biceps_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_prone_incline_hammer_curl",
+    "localName": "Prone incline spider hammer curl",
+    "catalogName": "Dumbbell Prone Incline Curl",
+    "score": 0.5,
+    "images": [
+      "Dumbbell_Prone_Incline_Curl/0.jpg",
+      "Dumbbell_Prone_Incline_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_rope_preacher_curl",
+    "localName": "Cable rope preacher curl",
+    "catalogName": "Cable Preacher Curl",
+    "score": 1,
+    "images": [
+      "Cable_Preacher_Curl/0.jpg",
+      "Cable_Preacher_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_wrist_roller",
+    "localName": "Forearm wrist roller",
+    "catalogName": "Wrist Roller",
+    "score": 1,
+    "images": [
+      "Wrist_Roller/0.jpg",
+      "Wrist_Roller/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_standing_inner_biceps_curl",
+    "localName": "Wide-grip standing barbell curl",
+    "catalogName": "Wide-Grip Standing Barbell Curl",
+    "score": 1,
+    "images": [
+      "Wide-Grip_Standing_Barbell_Curl/0.jpg",
+      "Wide-Grip_Standing_Barbell_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_rope_triceps_pushdown",
+    "localName": "Rope triceps pushdown",
+    "catalogName": "Triceps Pushdown",
+    "score": 1,
+    "images": [
+      "Triceps_Pushdown/0.jpg",
+      "Triceps_Pushdown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_overhead_cable_triceps_extension",
+    "localName": "Overhead cable triceps extension",
+    "catalogName": "Cable Rope Overhead Triceps Extension",
+    "score": 0.5714285714285714,
+    "images": [
+      "Cable_Rope_Overhead_Triceps_Extension/0.jpg",
+      "Cable_Rope_Overhead_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_straight_bar_triceps_pushdown",
+    "localName": "Straight-bar triceps pushdown",
+    "catalogName": "Triceps Pushdown",
+    "score": 0.85,
+    "images": [
+      "Triceps_Pushdown/0.jpg",
+      "Triceps_Pushdown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_v_bar_pushdown",
+    "localName": "V-bar triceps pushdown",
+    "catalogName": "Triceps Pushdown",
+    "score": 0.85,
+    "images": [
+      "Triceps_Pushdown/0.jpg",
+      "Triceps_Pushdown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_overhead_triceps_extension",
+    "localName": "Seated dumbbell overhead triceps extension",
+    "catalogName": "Overhead Triceps",
+    "score": 0.85,
+    "images": [
+      "Overhead_Triceps/0.jpg",
+      "Overhead_Triceps/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_overhead_dumbbell_extension",
+    "localName": "Single-arm overhead dumbbell triceps extension",
+    "catalogName": "Dumbbell One-Arm Triceps Extension",
+    "score": 0.6666666666666666,
+    "images": [
+      "Dumbbell_One-Arm_Triceps_Extension/0.jpg",
+      "Dumbbell_One-Arm_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dips_triceps",
+    "localName": "Parallel bar dips (triceps focus)",
+    "catalogName": "Parallel Bar Dip",
+    "score": 0.85,
+    "images": [
+      "Parallel_Bar_Dip/0.jpg",
+      "Parallel_Bar_Dip/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_bench_dips",
+    "localName": "Bench dips",
+    "catalogName": "Bench Dips",
+    "score": 1,
+    "images": [
+      "Bench_Dips/0.jpg",
+      "Bench_Dips/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_weighted_bench_dips",
+    "localName": "Weighted bench dips",
+    "catalogName": "Bench Dips",
+    "score": 0.85,
+    "images": [
+      "Bench_Dips/0.jpg",
+      "Bench_Dips/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_triceps_kickback",
+    "localName": "Dumbbell triceps kickback",
+    "catalogName": "Tricep Dumbbell Kickback",
+    "score": 0.5,
+    "images": [
+      "Tricep_Dumbbell_Kickback/0.jpg",
+      "Tricep_Dumbbell_Kickback/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_tate_press",
+    "localName": "Dumbbell Tate press",
+    "catalogName": "Tate Press",
+    "score": 1,
+    "images": [
+      "Tate_Press/0.jpg",
+      "Tate_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_jm_press",
+    "localName": "Barbell JM press",
+    "catalogName": "JM Press",
+    "score": 1,
+    "images": [
+      "JM_Press/0.jpg",
+      "JM_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_reverse_grip_triceps_pushdown",
+    "localName": "Reverse-grip triceps pushdown",
+    "catalogName": "Reverse Grip Triceps Pushdown",
+    "score": 1,
+    "images": [
+      "Reverse_Grip_Triceps_Pushdown/0.jpg",
+      "Reverse_Grip_Triceps_Pushdown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_triceps_pushdown",
+    "localName": "Resistance band triceps pushdown",
+    "catalogName": "Triceps Pushdown",
+    "score": 0.85,
+    "images": [
+      "Triceps_Pushdown/0.jpg",
+      "Triceps_Pushdown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_cable_pushdown",
+    "localName": "Single-arm cable triceps pushdown",
+    "catalogName": "Triceps Pushdown",
+    "score": 0.85,
+    "images": [
+      "Triceps_Pushdown/0.jpg",
+      "Triceps_Pushdown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_decline_ez_bar_skull_crusher",
+    "localName": "Decline EZ-bar skull crusher",
+    "catalogName": "Decline EZ Bar Triceps Extension",
+    "score": 0.6666666666666666,
+    "images": [
+      "Decline_EZ_Bar_Triceps_Extension/0.jpg",
+      "Decline_EZ_Bar_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_overhead_triceps_extension",
+    "localName": "Kettlebell overhead triceps extension",
+    "catalogName": "Overhead Triceps",
+    "score": 0.85,
+    "images": [
+      "Overhead_Triceps/0.jpg",
+      "Overhead_Triceps/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_overhead_single_arm_extension",
+    "localName": "Single-arm cable overhead triceps extension",
+    "catalogName": "Overhead Triceps",
+    "score": 0.85,
+    "images": [
+      "Overhead_Triceps/0.jpg",
+      "Overhead_Triceps/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_overhead_triceps_extension",
+    "localName": "Resistance band overhead triceps extension",
+    "catalogName": "Overhead Triceps",
+    "score": 0.85,
+    "images": [
+      "Overhead_Triceps/0.jpg",
+      "Overhead_Triceps/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_close_grip_bench",
+    "localName": "Smith machine close-grip bench press",
+    "catalogName": "Smith Machine Close-Grip Bench Press",
+    "score": 1,
+    "images": [
+      "Smith_Machine_Close-Grip_Bench_Press/0.jpg",
+      "Smith_Machine_Close-Grip_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ring_triceps_dips",
+    "localName": "Gymnastic ring triceps dips",
+    "catalogName": "Ring Dips",
+    "score": 1,
+    "images": [
+      "Ring_Dips/0.jpg",
+      "Ring_Dips/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_squat",
+    "localName": "Barbell back squat",
+    "catalogName": "Barbell Squat",
+    "score": 1,
+    "images": [
+      "Barbell_Squat/0.jpg",
+      "Barbell_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_front_squat",
+    "localName": "Barbell front squat",
+    "catalogName": "Front Squat (Clean Grip)",
+    "score": 0.8,
+    "images": [
+      "Front_Squat_Clean_Grip/0.jpg",
+      "Front_Squat_Clean_Grip/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_goblet_squat",
+    "localName": "Goblet squat",
+    "catalogName": "Goblet Squat",
+    "score": 1,
+    "images": [
+      "Goblet_Squat/0.jpg",
+      "Goblet_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_leg_press",
+    "localName": "45-degree leg press",
+    "catalogName": "Leg Press",
+    "score": 1,
+    "images": [
+      "Leg_Press/0.jpg",
+      "Leg_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_leg_extension",
+    "localName": "Leg extension",
+    "catalogName": "Leg Extensions",
+    "score": 0.85,
+    "images": [
+      "Leg_Extensions/0.jpg",
+      "Leg_Extensions/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_hack_squat_machine",
+    "localName": "Machine hack squat",
+    "catalogName": "Hack Squat",
+    "score": 1,
+    "images": [
+      "Hack_Squat/0.jpg",
+      "Hack_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_walking_dumbbell_lunge",
+    "localName": "Walking dumbbell lunge",
+    "catalogName": "Dumbbell Lunges",
+    "score": 0.5,
+    "images": [
+      "Dumbbell_Lunges/0.jpg",
+      "Dumbbell_Lunges/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_step_up",
+    "localName": "Dumbbell box step-up",
+    "catalogName": "Dumbbell Step Ups",
+    "score": 0.75,
+    "images": [
+      "Dumbbell_Step_Ups/0.jpg",
+      "Dumbbell_Step_Ups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_sissy_squat",
+    "localName": "Bodyweight sissy squat",
+    "catalogName": "Bodyweight Squat",
+    "score": 0.6666666666666666,
+    "images": [
+      "Bodyweight_Squat/0.jpg",
+      "Bodyweight_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_zercher_squat",
+    "localName": "Barbell Zercher squat",
+    "catalogName": "Barbell Squat",
+    "score": 0.6666666666666666,
+    "images": [
+      "Barbell_Squat/0.jpg",
+      "Barbell_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_box_squat",
+    "localName": "Barbell box squat",
+    "catalogName": "Box Squat",
+    "score": 1,
+    "images": [
+      "Box_Squat/0.jpg",
+      "Box_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_heel_elevated_squat",
+    "localName": "Heel-elevated barbell squat",
+    "catalogName": "Barbell Squat",
+    "score": 0.85,
+    "images": [
+      "Barbell_Squat/0.jpg",
+      "Barbell_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_squat",
+    "localName": "Smith machine squat",
+    "catalogName": "Smith Machine Squat",
+    "score": 1,
+    "images": [
+      "Smith_Machine_Squat/0.jpg",
+      "Smith_Machine_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_press",
+    "localName": "Single-leg 45-degree leg press",
+    "catalogName": "Leg Press",
+    "score": 0.85,
+    "images": [
+      "Leg_Press/0.jpg",
+      "Leg_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_narrow_stance_leg_press",
+    "localName": "Narrow-stance leg press (quad focus)",
+    "catalogName": "Leg Press",
+    "score": 0.85,
+    "images": [
+      "Leg_Press/0.jpg",
+      "Leg_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_bodyweight_squat",
+    "localName": "Bodyweight air squat",
+    "catalogName": "Bodyweight Squat",
+    "score": 0.5,
+    "images": [
+      "Bodyweight_Squat/0.jpg",
+      "Bodyweight_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_curtsy_lunge",
+    "localName": "Dumbbell curtsy lunge",
+    "catalogName": "Dumbbell Squat",
+    "score": 0.5,
+    "images": [
+      "Dumbbell_Squat/0.jpg",
+      "Dumbbell_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_pendulum_squat",
+    "localName": "Pendulum squat machine",
+    "catalogName": "Lying Machine Squat",
+    "score": 0.5,
+    "images": [
+      "Lying_Machine_Squat/0.jpg",
+      "Lying_Machine_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_overhead_barbell_squat",
+    "localName": "Overhead barbell squat",
+    "catalogName": "Overhead Squat",
+    "score": 1,
+    "images": [
+      "Overhead_Squat/0.jpg",
+      "Overhead_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_box_squat",
+    "localName": "Single-leg box squat",
+    "catalogName": "Box Squat",
+    "score": 0.85,
+    "images": [
+      "Box_Squat/0.jpg",
+      "Box_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_hack_squat",
+    "localName": "Smith machine hack squat",
+    "catalogName": "Hack Squat",
+    "score": 0.85,
+    "images": [
+      "Hack_Squat/0.jpg",
+      "Hack_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_db_romanian_deadlift",
+    "localName": "Dumbbell Romanian deadlift (RDL)",
+    "catalogName": "Romanian Deadlift",
+    "score": 0.85,
+    "images": [
+      "Romanian_Deadlift/0.jpg",
+      "Romanian_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_romanian_deadlift",
+    "localName": "Barbell Romanian deadlift (Barbell RDL)",
+    "catalogName": "Romanian Deadlift",
+    "score": 0.85,
+    "images": [
+      "Romanian_Deadlift/0.jpg",
+      "Romanian_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_leg_curl",
+    "localName": "Seated leg curl",
+    "catalogName": "Seated Leg Curl",
+    "score": 1,
+    "images": [
+      "Seated_Leg_Curl/0.jpg",
+      "Seated_Leg_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_lying_leg_curl",
+    "localName": "Lying leg curl",
+    "catalogName": "Lying Leg Curls",
+    "score": 0.85,
+    "images": [
+      "Lying_Leg_Curls/0.jpg",
+      "Lying_Leg_Curls/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_romanian_deadlift",
+    "localName": "Single-leg dumbbell Romanian deadlift",
+    "catalogName": "Romanian Deadlift",
+    "score": 0.85,
+    "images": [
+      "Romanian_Deadlift/0.jpg",
+      "Romanian_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_swiss_ball_hamstring_curl",
+    "localName": "Swiss ball leg curl",
+    "catalogName": "Ball Leg Curl",
+    "score": 0.85,
+    "images": [
+      "Ball_Leg_Curl/0.jpg",
+      "Ball_Leg_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_glute_ham_raise",
+    "localName": "Glute-ham raise (GHR)",
+    "catalogName": "Glute Ham Raise",
+    "score": 0.85,
+    "images": [
+      "Glute_Ham_Raise/0.jpg",
+      "Glute_Ham_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_pull_through",
+    "localName": "Cable pull-through",
+    "catalogName": "Pull Through",
+    "score": 0.85,
+    "images": [
+      "Pull_Through/0.jpg",
+      "Pull_Through/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_trap_bar_rdl",
+    "localName": "Trap bar Romanian deadlift",
+    "catalogName": "Romanian Deadlift",
+    "score": 0.85,
+    "images": [
+      "Romanian_Deadlift/0.jpg",
+      "Romanian_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_stiff_legged_barbell_deadlift",
+    "localName": "Stiff-legged barbell deadlift (from deficit/floor)",
+    "catalogName": "Barbell Deadlift",
+    "score": 0.85,
+    "images": [
+      "Barbell_Deadlift/0.jpg",
+      "Barbell_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_nordic_curl_assisted",
+    "localName": "Band-assisted Nordic hamstring curl",
+    "catalogName": "Seated Band Hamstring Curl",
+    "score": 0.5,
+    "images": [
+      "Seated_Band_Hamstring_Curl/0.jpg",
+      "Seated_Band_Hamstring_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_seated_leg_curl",
+    "localName": "Resistance band seated leg curl",
+    "catalogName": "Seated Leg Curl",
+    "score": 0.85,
+    "images": [
+      "Seated_Leg_Curl/0.jpg",
+      "Seated_Leg_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_b_stance_dumbbell_rdl",
+    "localName": "B-stance dumbbell Romanian deadlift",
+    "catalogName": "Romanian Deadlift",
+    "score": 0.85,
+    "images": [
+      "Romanian_Deadlift/0.jpg",
+      "Romanian_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_rdl",
+    "localName": "Smith machine Romanian deadlift",
+    "catalogName": "Romanian Deadlift",
+    "score": 0.85,
+    "images": [
+      "Romanian_Deadlift/0.jpg",
+      "Romanian_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_seated_hamstring_curl",
+    "localName": "Cable seated hamstring curl (bench & ankle cuff)",
+    "catalogName": "Seated Hamstring",
+    "score": 0.85,
+    "images": [
+      "Seated_Hamstring/0.jpg",
+      "Seated_Hamstring/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_landmine_romanian_deadlift",
+    "localName": "Landmine Romanian deadlift",
+    "catalogName": "Romanian Deadlift",
+    "score": 0.85,
+    "images": [
+      "Romanian_Deadlift/0.jpg",
+      "Romanian_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_stiff_leg_deadlift",
+    "localName": "Dumbbell stiff-leg deadlift",
+    "catalogName": "Stiff-Legged Dumbbell Deadlift",
+    "score": 0.6,
+    "images": [
+      "Stiff-Legged_Dumbbell_Deadlift/0.jpg",
+      "Stiff-Legged_Dumbbell_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_snatch_grip_rdl",
+    "localName": "Snatch-grip barbell Romanian deadlift",
+    "catalogName": "Romanian Deadlift",
+    "score": 0.85,
+    "images": [
+      "Romanian_Deadlift/0.jpg",
+      "Romanian_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_reverse_hyper",
+    "localName": "Reverse hyperextension (hamstrings & glutes)",
+    "catalogName": "Reverse Hyperextension",
+    "score": 0.85,
+    "images": [
+      "Reverse_Hyperextension/0.jpg",
+      "Reverse_Hyperextension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_standing_hamstring_curl",
+    "localName": "Standing resistance band leg curl",
+    "catalogName": "Standing Leg Curl",
+    "score": 0.5,
+    "images": [
+      "Standing_Leg_Curl/0.jpg",
+      "Standing_Leg_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_deficit_romanian_deadlift",
+    "localName": "Deficit barbell Romanian deadlift",
+    "catalogName": "Romanian Deadlift",
+    "score": 0.85,
+    "images": [
+      "Romanian_Deadlift/0.jpg",
+      "Romanian_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_hip_thrust",
+    "localName": "Barbell hip thrust",
+    "catalogName": "Barbell Hip Thrust",
+    "score": 1,
+    "images": [
+      "Barbell_Hip_Thrust/0.jpg",
+      "Barbell_Hip_Thrust/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_glute_bridge",
+    "localName": "Single-leg glute bridge",
+    "catalogName": "Single Leg Glute Bridge",
+    "score": 1,
+    "images": [
+      "Single_Leg_Glute_Bridge/0.jpg",
+      "Single_Leg_Glute_Bridge/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_glute_kickback",
+    "localName": "Cable glute kickback",
+    "catalogName": "Glute Kickback",
+    "score": 0.85,
+    "images": [
+      "Glute_Kickback/0.jpg",
+      "Glute_Kickback/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_copenhagen_plank",
+    "localName": "Copenhagen adductor plank",
+    "catalogName": "Adductor",
+    "score": 0.85,
+    "images": [
+      "Adductor/0.jpg",
+      "Adductor/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_lateral_walk",
+    "localName": "Resistance band lateral monster walk",
+    "catalogName": "Monster Walk",
+    "score": 0.85,
+    "images": [
+      "Monster_Walk/0.jpg",
+      "Monster_Walk/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_donkey_kick",
+    "localName": "Bodyweight donkey kick",
+    "catalogName": "Glute Kickback",
+    "score": 1,
+    "images": [
+      "Glute_Kickback/0.jpg",
+      "Glute_Kickback/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kas_glute_bridge",
+    "localName": "Kas glute bridge (barbell)",
+    "catalogName": "Barbell Glute Bridge",
+    "score": 0.6,
+    "images": [
+      "Barbell_Glute_Bridge/0.jpg",
+      "Barbell_Glute_Bridge/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_pull_through_glutes",
+    "localName": "Wide-stance cable pull-through (glute focus)",
+    "catalogName": "Pull Through",
+    "score": 0.85,
+    "images": [
+      "Pull_Through/0.jpg",
+      "Pull_Through/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_side_lying_leg_raise",
+    "localName": "Side-lying leg raise",
+    "catalogName": "Side Lateral Raise",
+    "score": 0.75,
+    "images": [
+      "Side_Lateral_Raise/0.jpg",
+      "Side_Lateral_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_hip_thrust",
+    "localName": "Smith machine hip thrust",
+    "catalogName": "Smith Machine Hip Raise",
+    "score": 0.6,
+    "images": [
+      "Smith_Machine_Hip_Raise/0.jpg",
+      "Smith_Machine_Hip_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_cable_pull_through",
+    "localName": "Single-leg cable pull-through",
+    "catalogName": "Pull Through",
+    "score": 0.85,
+    "images": [
+      "Pull_Through/0.jpg",
+      "Pull_Through/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_b_stance_hip_thrust",
+    "localName": "B-stance barbell hip thrust",
+    "catalogName": "Barbell Hip Thrust",
+    "score": 0.85,
+    "images": [
+      "Barbell_Hip_Thrust/0.jpg",
+      "Barbell_Hip_Thrust/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_standing_kickback",
+    "localName": "Standing resistance band glute kickback",
+    "catalogName": "Glute Kickback",
+    "score": 0.85,
+    "images": [
+      "Glute_Kickback/0.jpg",
+      "Glute_Kickback/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kneeling_squat_glute",
+    "localName": "Kneeling barbell squat (glute squeeze)",
+    "catalogName": "Kneeling Squat",
+    "score": 1,
+    "images": [
+      "Kneeling_Squat/0.jpg",
+      "Kneeling_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_standing_calf_raise",
+    "localName": "Standing calf raise",
+    "catalogName": "Rocking Standing Calf Raise",
+    "score": 0.85,
+    "images": [
+      "Rocking_Standing_Calf_Raise/0.jpg",
+      "Rocking_Standing_Calf_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_calf_raise",
+    "localName": "Seated calf raise",
+    "catalogName": "Seated Calf Raise",
+    "score": 1,
+    "images": [
+      "Seated_Calf_Raise/0.jpg",
+      "Seated_Calf_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_leg_press_calf_press",
+    "localName": "Leg press calf press (toe press)",
+    "catalogName": "Calf Press",
+    "score": 0.85,
+    "images": [
+      "Calf_Press/0.jpg",
+      "Calf_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_standing_calf_raise",
+    "localName": "Single-leg standing calf raise",
+    "catalogName": "Rocking Standing Calf Raise",
+    "score": 0.5,
+    "images": [
+      "Rocking_Standing_Calf_Raise/0.jpg",
+      "Rocking_Standing_Calf_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_calf_raise",
+    "localName": "Smith machine standing calf raise",
+    "catalogName": "Smith Machine Calf Raise",
+    "score": 0.8,
+    "images": [
+      "Smith_Machine_Calf_Raise/0.jpg",
+      "Smith_Machine_Calf_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_seated_calf_raise",
+    "localName": "Dumbbell seated calf raise (bench & block)",
+    "catalogName": "Seated Calf Raise",
+    "score": 0.85,
+    "images": [
+      "Seated_Calf_Raise/0.jpg",
+      "Seated_Calf_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_donkey_calf_raise",
+    "localName": "Donkey calf raise",
+    "catalogName": "Donkey Calf Raises",
+    "score": 0.85,
+    "images": [
+      "Donkey_Calf_Raises/0.jpg",
+      "Donkey_Calf_Raises/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_standing_calf_raise",
+    "localName": "Barbell standing calf raise (free barbell)",
+    "catalogName": "Standing Barbell Calf Raise",
+    "score": 0.6666666666666666,
+    "images": [
+      "Standing_Barbell_Calf_Raise/0.jpg",
+      "Standing_Barbell_Calf_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_hack_squat_calf_raise",
+    "localName": "Hack squat calf raise",
+    "catalogName": "Hack Squat",
+    "score": 0.85,
+    "images": [
+      "Hack_Squat/0.jpg",
+      "Hack_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_calf_press",
+    "localName": "Resistance band seated calf press",
+    "catalogName": "Calf Press",
+    "score": 0.85,
+    "images": [
+      "Calf_Press/0.jpg",
+      "Calf_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_seated_calf_raise",
+    "localName": "Single-leg seated calf raise machine",
+    "catalogName": "Seated Calf Raise",
+    "score": 0.85,
+    "images": [
+      "Seated_Calf_Raise/0.jpg",
+      "Seated_Calf_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_dumbbell_calf_raise",
+    "localName": "Single-leg dumbbell calf raise",
+    "catalogName": "Dumbbell Seated One-Leg Calf Raise",
+    "score": 0.6666666666666666,
+    "images": [
+      "Dumbbell_Seated_One-Leg_Calf_Raise/0.jpg",
+      "Dumbbell_Seated_One-Leg_Calf_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_plank",
+    "localName": "Plank",
+    "catalogName": "Plank",
+    "score": 1,
+    "images": [
+      "Plank/0.jpg",
+      "Plank/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dead_bug",
+    "localName": "Dead bug",
+    "catalogName": "Dead Bug",
+    "score": 1,
+    "images": [
+      "Dead_Bug/0.jpg",
+      "Dead_Bug/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_hanging_leg_raise",
+    "localName": "Hanging leg raise",
+    "catalogName": "Hanging Leg Raise",
+    "score": 1,
+    "images": [
+      "Hanging_Leg_Raise/0.jpg",
+      "Hanging_Leg_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_hanging_knee_raise",
+    "localName": "Hanging knee raise",
+    "catalogName": "Hanging Leg Raise",
+    "score": 0.5,
+    "images": [
+      "Hanging_Leg_Raise/0.jpg",
+      "Hanging_Leg_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ab_wheel_rollout",
+    "localName": "Ab wheel rollout (from knees)",
+    "catalogName": "Ab Roller",
+    "score": 1,
+    "images": [
+      "Ab_Roller/0.jpg",
+      "Ab_Roller/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_pallof_press",
+    "localName": "Cable Pallof press",
+    "catalogName": "Pallof Press",
+    "score": 1,
+    "images": [
+      "Pallof_Press/0.jpg",
+      "Pallof_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_side_plank",
+    "localName": "Side plank hold",
+    "catalogName": "Side Bridge",
+    "score": 1,
+    "images": [
+      "Side_Bridge/0.jpg",
+      "Side_Bridge/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_russian_twist",
+    "localName": "Russian twist (bodyweight / weighted)",
+    "catalogName": "Russian Twist",
+    "score": 0.85,
+    "images": [
+      "Russian_Twist/0.jpg",
+      "Russian_Twist/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_crunch",
+    "localName": "Kneeling cable crunch",
+    "catalogName": "Cable Crunch",
+    "score": 0.85,
+    "images": [
+      "Cable_Crunch/0.jpg",
+      "Cable_Crunch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_crunch",
+    "localName": "Seated ab crunch machine",
+    "catalogName": "Ab Crunch Machine",
+    "score": 0.85,
+    "images": [
+      "Ab_Crunch_Machine/0.jpg",
+      "Ab_Crunch_Machine/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_decline_crunch",
+    "localName": "Decline bench crunch",
+    "catalogName": "Decline Crunch",
+    "score": 0.5,
+    "images": [
+      "Decline_Crunch/0.jpg",
+      "Decline_Crunch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_l_sit",
+    "localName": "L-sit hold (parallel bars / dip bars)",
+    "catalogName": "Parallel Bar Dip",
+    "score": 0.6,
+    "images": [
+      "Parallel_Bar_Dip/0.jpg",
+      "Parallel_Bar_Dip/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ab_vacuum",
+    "localName": "Stomach vacuum (transverse abdominis hold)",
+    "catalogName": "Stomach Vacuum",
+    "score": 1,
+    "images": [
+      "Stomach_Vacuum/0.jpg",
+      "Stomach_Vacuum/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_toe_touches_abs",
+    "localName": "Vertical leg toe touches",
+    "catalogName": "Standing Toe Touches",
+    "score": 0.5,
+    "images": [
+      "Standing_Toe_Touches/0.jpg",
+      "Standing_Toe_Touches/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_reverse_crunch",
+    "localName": "Reverse crunch (bench / floor)",
+    "catalogName": "Reverse Crunch",
+    "score": 1,
+    "images": [
+      "Reverse_Crunch/0.jpg",
+      "Reverse_Crunch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_side_bend",
+    "localName": "Dumbbell standing side bend",
+    "catalogName": "Dumbbell Side Bend",
+    "score": 0.75,
+    "images": [
+      "Dumbbell_Side_Bend/0.jpg",
+      "Dumbbell_Side_Bend/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_rollout",
+    "localName": "Barbell rollout (kneeling / standing)",
+    "catalogName": "Barbell Ab Rollout",
+    "score": 1,
+    "images": [
+      "Barbell_Ab_Rollout/0.jpg",
+      "Barbell_Ab_Rollout/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_plank_shoulder_tap",
+    "localName": "Plank with shoulder taps",
+    "catalogName": "Plank",
+    "score": 0.85,
+    "images": [
+      "Plank/0.jpg",
+      "Plank/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_mountain_climber",
+    "localName": "Mountain climbers",
+    "catalogName": "Mountain Climbers",
+    "score": 1,
+    "images": [
+      "Mountain_Climbers/0.jpg",
+      "Mountain_Climbers/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_side_plank_hip_dips",
+    "localName": "Side plank hip dips",
+    "catalogName": "Plank",
+    "score": 0.85,
+    "images": [
+      "Plank/0.jpg",
+      "Plank/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_in_and_outs",
+    "localName": "Seated in-and-outs (tuck crunches)",
+    "catalogName": "Seated Leg Tucks",
+    "score": 1,
+    "images": [
+      "Seated_Leg_Tucks/0.jpg",
+      "Seated_Leg_Tucks/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_flutter_kicks",
+    "localName": "Flutter kicks",
+    "catalogName": "Flutter Kicks",
+    "score": 1,
+    "images": [
+      "Flutter_Kicks/0.jpg",
+      "Flutter_Kicks/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_side_bend",
+    "localName": "Cable side bend",
+    "catalogName": "One-Arm High-Pulley Cable Side Bends",
+    "score": 0.85,
+    "images": [
+      "One-Arm_High-Pulley_Cable_Side_Bends/0.jpg",
+      "One-Arm_High-Pulley_Cable_Side_Bends/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_weighted_plank",
+    "localName": "Weighted plank hold",
+    "catalogName": "Plank",
+    "score": 0.85,
+    "images": [
+      "Plank/0.jpg",
+      "Plank/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_inchworm_walkout",
+    "localName": "Inchworm to plank walkout",
+    "catalogName": "Inchworm",
+    "score": 0.85,
+    "images": [
+      "Inchworm/0.jpg",
+      "Inchworm/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_muscle_up_bar",
+    "localName": "Bar muscle-up",
+    "catalogName": "Muscle Up",
+    "score": 0.85,
+    "images": [
+      "Muscle_Up/0.jpg",
+      "Muscle_Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_muscle_up_rings",
+    "localName": "Gymnastic ring muscle-up",
+    "catalogName": "Muscle Up",
+    "score": 0.85,
+    "images": [
+      "Muscle_Up/0.jpg",
+      "Muscle_Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_one_arm_push_up",
+    "localName": "Single-arm push-up",
+    "catalogName": "Single-Arm Push-Up",
+    "score": 1,
+    "images": [
+      "Single-Arm_Push-Up/0.jpg",
+      "Single-Arm_Push-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_clapping_push_up",
+    "localName": "Clapping plyometric push-up",
+    "catalogName": "Plyo Push-up",
+    "score": 1,
+    "images": [
+      "Plyo_Push-up/0.jpg",
+      "Plyo_Push-up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_broad_jump",
+    "localName": "Standing broad jump",
+    "catalogName": "Standing Long Jump",
+    "score": 0.75,
+    "images": [
+      "Standing_Long_Jump/0.jpg",
+      "Standing_Long_Jump/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_treadmill_running",
+    "localName": "Treadmill running",
+    "catalogName": "Running, Treadmill",
+    "score": 0.5,
+    "images": [
+      "Running_Treadmill/0.jpg",
+      "Running_Treadmill/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_sprint_intervals_track",
+    "localName": "Track sprint intervals (100m - 200m)",
+    "catalogName": "Wind Sprints",
+    "score": 1,
+    "images": [
+      "Wind_Sprints/0.jpg",
+      "Wind_Sprints/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_assault_bike",
+    "localName": "Assault air bike (steady state)",
+    "catalogName": "Air Bike",
+    "score": 1,
+    "images": [
+      "Air_Bike/0.jpg",
+      "Air_Bike/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_assault_bike_sprint",
+    "localName": "Assault air bike Tabata sprint (20s on / 10s off)",
+    "catalogName": "Air Bike",
+    "score": 0.85,
+    "images": [
+      "Air_Bike/0.jpg",
+      "Air_Bike/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_stairmaster_climber",
+    "localName": "StairMaster revolving stepmill",
+    "catalogName": "Stairmaster",
+    "score": 1,
+    "images": [
+      "Stairmaster/0.jpg",
+      "Stairmaster/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_elliptical_trainer",
+    "localName": "Elliptical cross-trainer",
+    "catalogName": "Elliptical Trainer",
+    "score": 0.5,
+    "images": [
+      "Elliptical_Trainer/0.jpg",
+      "Elliptical_Trainer/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_sled_push",
+    "localName": "Weighted sled push (Prowler push)",
+    "catalogName": "Sled Push",
+    "score": 1,
+    "images": [
+      "Sled_Push/0.jpg",
+      "Sled_Push/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_worlds_greatest_stretch",
+    "localName": "World's greatest stretch",
+    "catalogName": "World's Greatest Stretch",
+    "score": 1,
+    "images": [
+      "Worlds_Greatest_Stretch/0.jpg",
+      "Worlds_Greatest_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_couch_stretch",
+    "localName": "Couch stretch (quad & hip flexor)",
+    "catalogName": "Intermediate Hip Flexor and Quad Stretch",
+    "score": 0.5714285714285714,
+    "images": [
+      "Intermediate_Hip_Flexor_and_Quad_Stretch/0.jpg",
+      "Intermediate_Hip_Flexor_and_Quad_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kneeling_hip_flexor_stretch",
+    "localName": "Half-kneeling hip flexor stretch (tuck & drive)",
+    "catalogName": "Kneeling Hip Flexor",
+    "score": 0.85,
+    "images": [
+      "Kneeling_Hip_Flexor/0.jpg",
+      "Kneeling_Hip_Flexor/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_frog_stretch",
+    "localName": "Frog stretch (adductors & hip capsule)",
+    "catalogName": "Adductor",
+    "score": 0.85,
+    "images": [
+      "Adductor/0.jpg",
+      "Adductor/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_butterfly_stretch",
+    "localName": "Seated butterfly stretch",
+    "catalogName": "Butterfly",
+    "score": 0.85,
+    "images": [
+      "Butterfly/0.jpg",
+      "Butterfly/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_childs_pose",
+    "localName": "Child's pose stretch (Balasana)",
+    "catalogName": "Child's Pose",
+    "score": 0.85,
+    "images": [
+      "Childs_Pose/0.jpg",
+      "Childs_Pose/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_adductor_rocking_stretch",
+    "localName": "Half-kneeling adductor rock",
+    "catalogName": "Adductor",
+    "score": 0.85,
+    "images": [
+      "Adductor/0.jpg",
+      "Adductor/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_shoulder_sleeper_stretch",
+    "localName": "Side-lying shoulder sleeper stretch",
+    "catalogName": "Side-Lying Floor Stretch",
+    "score": 0.5,
+    "images": [
+      "Side-Lying_Floor_Stretch/0.jpg",
+      "Side-Lying_Floor_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_standing_quad_stretch",
+    "localName": "Standing flamingo quad stretch",
+    "catalogName": "Quad Stretch",
+    "score": 0.85,
+    "images": [
+      "Quad_Stretch/0.jpg",
+      "Quad_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_overhead_lat_hang_stretch",
+    "localName": "Overhead lat passive dead hang stretch",
+    "catalogName": "Overhead Lat",
+    "score": 0.85,
+    "images": [
+      "Overhead_Lat/0.jpg",
+      "Overhead_Lat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_turkish_get_up",
+    "localName": "Turkish get-up (TGU)",
+    "catalogName": "Kettlebell Turkish Get-Up (Lunge style)",
+    "score": 0.5,
+    "images": [
+      "Kettlebell_Turkish_Get-Up_Lunge_style/0.jpg",
+      "Kettlebell_Turkish_Get-Up_Lunge_style/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_snatch",
+    "localName": "Kettlebell snatch",
+    "catalogName": "One-Arm Kettlebell Snatch",
+    "score": 1,
+    "images": [
+      "One-Arm_Kettlebell_Snatch/0.jpg",
+      "One-Arm_Kettlebell_Snatch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_clean",
+    "localName": "Kettlebell clean",
+    "catalogName": "Clean",
+    "score": 0.85,
+    "images": [
+      "Clean/0.jpg",
+      "Clean/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_clean_and_press",
+    "localName": "Kettlebell clean and press (single arm)",
+    "catalogName": "Clean",
+    "score": 0.85,
+    "images": [
+      "Clean/0.jpg",
+      "Clean/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_windmill_kettlebell",
+    "localName": "Kettlebell windmill",
+    "catalogName": "Kettlebell Windmill",
+    "score": 1,
+    "images": [
+      "Kettlebell_Windmill/0.jpg",
+      "Kettlebell_Windmill/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_goblet_squat_deep",
+    "localName": "Kettlebell goblet squat (elbow-to-knee pry)",
+    "catalogName": "Elbow to Knee",
+    "score": 0.85,
+    "images": [
+      "Elbow_to_Knee/0.jpg",
+      "Elbow_to_Knee/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_double_kettlebell_clean_and_jerk",
+    "localName": "Double kettlebell clean and jerk (long cycle)",
+    "catalogName": "Clean",
+    "score": 0.85,
+    "images": [
+      "Clean/0.jpg",
+      "Clean/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_figure_eight",
+    "localName": "Kettlebell figure-8 between legs",
+    "catalogName": "Kettlebell Figure 8",
+    "score": 0.85,
+    "images": [
+      "Kettlebell_Figure_8/0.jpg",
+      "Kettlebell_Figure_8/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_windmill_low_hang",
+    "localName": "Kettlebell low windmill",
+    "catalogName": "Kettlebell Windmill",
+    "score": 0.5,
+    "images": [
+      "Kettlebell_Windmill/0.jpg",
+      "Kettlebell_Windmill/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_high_pull",
+    "localName": "Kettlebell high pull",
+    "catalogName": "Kettlebell Sumo High Pull",
+    "score": 0.75,
+    "images": [
+      "Kettlebell_Sumo_High_Pull/0.jpg",
+      "Kettlebell_Sumo_High_Pull/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_cross_body_clean",
+    "localName": "Kettlebell rotational cross-body clean",
+    "catalogName": "Clean",
+    "score": 0.85,
+    "images": [
+      "Clean/0.jpg",
+      "Clean/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_seesaw_press",
+    "localName": "Double kettlebell seesaw press",
+    "catalogName": "Kettlebell Seesaw Press",
+    "score": 0.85,
+    "images": [
+      "Kettlebell_Seesaw_Press/0.jpg",
+      "Kettlebell_Seesaw_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_gorilla_clean",
+    "localName": "Double kettlebell gorilla clean",
+    "catalogName": "Clean",
+    "score": 0.85,
+    "images": [
+      "Clean/0.jpg",
+      "Clean/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_tactical_lunge",
+    "localName": "Kettlebell tactical lunge (pass through)",
+    "catalogName": "Lunge Pass Through",
+    "score": 0.85,
+    "images": [
+      "Lunge_Pass_Through/0.jpg",
+      "Lunge_Pass_Through/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_bent_press",
+    "localName": "Kettlebell bent press",
+    "catalogName": "Bent Press",
+    "score": 0.85,
+    "images": [
+      "Bent_Press/0.jpg",
+      "Bent_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_dead_clean",
+    "localName": "Dead-stop kettlebell clean (from floor)",
+    "catalogName": "Clean",
+    "score": 0.85,
+    "images": [
+      "Clean/0.jpg",
+      "Clean/1.jpg"
+    ]
+  }
+]

@@ -14,6 +14,7 @@ import { StorageStatus } from '../components/StorageStatus'
 import { downloadFile, measurementsCSV, workoutsCSV } from '../lib/csv'
 import { backupFilename, MAX_IMPORT_BYTES } from '../storage/backup'
 import { ConfirmDialog } from '../components/ui/ConfirmDialog'
+import { requestNotificationPermission, sendLocalNotification } from '../lib/notifications'
 
 function SettingRow({
   title,
@@ -292,6 +293,32 @@ export function SettingsPage() {
 
         <Card>
           <CardHeader title="Reminders & notifications" />
+          <SettingRow
+            title="Browser push notifications"
+            description={
+              typeof window !== 'undefined' && 'Notification' in window
+                ? `System permission: ${Notification.permission}`
+                : 'Not supported by this browser'
+            }
+          >
+            {typeof window !== 'undefined' && 'Notification' in window ? (
+              <Button
+                size="sm"
+                variant={Notification.permission === 'granted' ? 'secondary' : 'primary'}
+                onClick={async () => {
+                  const perm = await requestNotificationPermission()
+                  if (perm === 'granted') {
+                    sendLocalNotification('IronTrack Notifications Enabled', {
+                      body: 'You will receive reminders for scheduled workouts and targets.',
+                    })
+                  }
+                }}
+              >
+                {Notification.permission === 'granted' ? 'Test Alert' : 'Enable'}
+              </Button>
+            ) : null}
+          </SettingRow>
+
           <SettingRow title="Rest timer sound" description="Play a chime when the rest timer finishes">
             <Switch checked={settings.notifyRestTimer} onChange={(v) => updateSettings({ notifyRestTimer: v })} />
           </SettingRow>
@@ -311,6 +338,31 @@ export function SettingsPage() {
               />
             </SettingRow>
           ) : null}
+
+          <SettingRow title="Hydration reminders" description="Afternoon prompt if logged water is below 50%">
+            <Switch
+              checked={Boolean(settings.waterReminderEnabled)}
+              onChange={(v) => updateSettings({ waterReminderEnabled: v })}
+            />
+          </SettingRow>
+
+          <SettingRow title="Nutrition reminders" description="Evening prompt if protein target is incomplete">
+            <Switch
+              checked={Boolean(settings.nutritionReminderEnabled)}
+              onChange={(v) => updateSettings({ nutritionReminderEnabled: v })}
+            />
+          </SettingRow>
+
+          <SettingRow title="Progress photo privacy" description="Blur progress photos by default until tapped">
+            <Switch
+              checked={Boolean(settings.lockPhotoPrivacy)}
+              onChange={(v) => updateSettings({ lockPhotoPrivacy: v })}
+            />
+          </SettingRow>
+
+          <p className="mt-2 rounded-xl border border-line bg-surface2/60 p-3 text-xs leading-relaxed text-muted">
+            IronTrack is strictly offline-first with zero tracking servers. Web push notifications fire when the app is active in the background or installed as a PWA.
+          </p>
         </Card>
 
         <Card>

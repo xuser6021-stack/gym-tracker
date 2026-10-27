@@ -7,6 +7,7 @@ import {
   idbGetAll,
   idbWriteBatch,
   isIndexedDbAvailable,
+  openDatabase,
   resetDatabaseConnection,
   withWriteLock,
   type WriteOperation,
@@ -126,8 +127,8 @@ async function writeMeta(value: MigrationMeta | RecoverySnapshot): Promise<void>
  * Persist the whole document atomically. Resolves only after the IndexedDB
  * transaction commits, so a resolved promise means the data is durable.
  * When `expectedRevision` is supplied and does not match the stored revision,
- * another tab wrote in the meantime: the version about to be replaced is
- * preserved as a recovery snapshot and `conflict` is reported (never lost).
+ * another tab wrote in the meantime: the stale write is rejected, the latest
+ * document remains intact, and the conflict is recorded as a recovery snapshot.
  */
 export async function writeAppData(data: AppData, options: WriteOptions = {}): Promise<WriteResult> {
   return withWriteLock(async () => {
@@ -139,39 +140,56 @@ export async function writeAppData(data: AppData, options: WriteOptions = {}): P
       return { revision: 0, conflict: false }
     }
 
-    const current = await idbGet<StoredDocument>(STORE_DOCUMENTS, DOC_KEY)
-    const currentRevision = current?.revision ?? 0
-    const conflict =
-      options.expectedRevision !== undefined &&
-      current !== undefined &&
-      currentRevision !== options.expectedRevision
+    const db = await openDatabase()
+    return new Promise<WriteResult>((resolve, reject) => {
+      let revision = 0
+      let conflict = false
+      const tx = db.transaction([STORE_DOCUMENTS, STORE_META], 'readwrite')
+      const docStore = tx.objectStore(STORE_DOCUMENTS)
+      const metaStore = tx.objectStore(STORE_META)
+      const getRequest = docStore.get(DOC_KEY)
 
-    const revision = currentRevision + 1
-    const doc: StoredDocument = {
-      key: DOC_KEY,
-      schemaVersion: data.schemaVersion ?? CURRENT_SCHEMA_VERSION,
-      updatedAt: Date.now(),
-      revision,
-      writerId: WRITER_ID,
-      data,
-    }
+      tx.oncomplete = () => resolve({ revision, conflict })
+      tx.onerror = () => reject(tx.error ?? new Error('IndexedDB transaction failed'))
+      tx.onabort = () => reject(tx.error ?? new Error('IndexedDB transaction aborted'))
 
-    const ops: WriteOperation[] = [{ store: STORE_DOCUMENTS, type: 'put', value: doc }]
-    if (conflict && current) {
-      ops.push({
-        store: STORE_META,
-        type: 'put',
-        value: {
-          key: SNAPSHOT_KEYS.conflict,
-          at: Date.now(),
-          label: 'Changes made in another tab',
-          reason: 'conflict',
-          data: current.data,
-        } satisfies RecoverySnapshot,
-      })
-    }
-    await idbWriteBatch(ops)
-    return { revision, conflict }
+      getRequest.onsuccess = () => {
+        const current = getRequest.result as StoredDocument | undefined
+        const currentRevision = current?.revision ?? 0
+        conflict =
+          options.expectedRevision !== undefined && currentRevision !== options.expectedRevision
+
+        if (conflict) {
+          if (current) {
+            metaStore.put({
+              key: SNAPSHOT_KEYS.conflict,
+              at: Date.now(),
+              label: 'Changes made in another tab',
+              reason: 'conflict',
+              data: current.data,
+            } satisfies RecoverySnapshot)
+          }
+          revision = currentRevision
+          return
+        }
+
+        revision = currentRevision + 1
+        const doc: StoredDocument = {
+          key: DOC_KEY,
+          schemaVersion: data.schemaVersion ?? CURRENT_SCHEMA_VERSION,
+          updatedAt: Date.now(),
+          revision,
+          writerId: WRITER_ID,
+          data,
+        }
+
+        docStore.put(doc)
+      }
+
+      getRequest.onerror = () => {
+        reject(getRequest.error ?? new Error('Could not read the current document revision'))
+      }
+    })
   })
 }
 

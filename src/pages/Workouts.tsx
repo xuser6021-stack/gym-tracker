@@ -15,12 +15,13 @@ import { filterSessions } from '../lib/history'
 import { sessionVolumeKg } from '../lib/progression'
 import { formatDate, formatDuration, relativeDay } from '../lib/format'
 import { ExerciseImage } from '../components/exercise/ExerciseImage'
+import { WeeklyScheduler } from '../components/workout/WeeklyScheduler'
 import { DAYS_OF_WEEK } from '../data/templates'
 
 const PAGE_SIZE = 15
 
 export function Workouts() {
-  const { data, exercisesById, startWorkout, addTemplate } = useApp()
+  const { data, exercisesById, startWorkout, addTemplate, updateTemplate } = useApp()
   const navigate = useNavigate()
   const [tab, setTab] = useState<'history' | 'templates'>('history')
   const [editingId, setEditingId] = useState<string | null>(null)
@@ -189,12 +190,19 @@ export function Workouts() {
           />
         )
       ) : (
-        <div className="space-y-2">
-          {DAYS_OF_WEEK.map((day) => {
-            const template = data.templates.find((x) => x.day === day)
-            if (!template) return null
-            return (
-              <Card key={template.id}>
+        <div className="space-y-4">
+          <WeeklyScheduler
+            templates={data.templates}
+            onUpdateTemplate={updateTemplate}
+            onAddTemplate={addTemplate}
+          />
+
+          <div className="space-y-2">
+            {DAYS_OF_WEEK.map((day) => {
+              const template = data.templates.find((x) => x.day === day)
+              if (!template) return null
+              return (
+                <Card key={template.id}>
                 <div className="flex items-center justify-between gap-3">
                   <div className="min-w-0">
                     <div className="flex items-center gap-2">
@@ -263,6 +271,7 @@ export function Workouts() {
           >
             <Plus size={16} /> New template
           </Button>
+          </div>
         </div>
       )}
 

@@ -6,6 +6,7 @@ import { useApp } from './store/AppStore'
 import { Onboarding } from './pages/Onboarding'
 import { AppShell } from './components/layout/AppShell'
 import { RecoveryScreen } from './components/RecoveryScreen'
+import { ToastProvider } from './components/ui/Toast'
 const Dashboard = lazy(() => import('./pages/Dashboard').then((m) => ({ default: m.Dashboard })))
 const Workouts = lazy(() => import('./pages/Workouts').then((m) => ({ default: m.Workouts })))
 const WorkoutLogger = lazy(() => import('./pages/WorkoutLogger').then((m) => ({ default: m.WorkoutLogger })))
@@ -99,7 +100,9 @@ function AppRoutes() {
 export default function App() {
   return (
     <ErrorBoundary>
-      <AppRoutes />
+      <ToastProvider>
+        <AppRoutes />
+      </ToastProvider>
     </ErrorBoundary>
   )
 }

@@ -78,7 +78,7 @@ describe('appRepository', () => {
     expect(doc?.revision).toBe(2)
   })
 
-  it('detects a stale write, flags the conflict and preserves the replaced version', async () => {
+  it('rejects stale writes without overwriting the latest saved document', async () => {
     const live = createInitialData()
     live.sessions = [makeSession({ id: 'live' })]
     const written = await writeAppData(live)
@@ -88,12 +88,12 @@ describe('appRepository', () => {
     const result = await writeAppData(stale, { expectedRevision: written.revision - 1 })
 
     expect(result.conflict).toBe(true)
+    expect(result.revision).toBe(written.revision)
     const snapshots = await listRecoverySnapshots()
     const conflict = snapshots.find((s) => s.reason === 'conflict')
     expect(conflict?.data?.sessions.map((s) => s.id)).toEqual(['live'])
-    // The new writer still wins the main document (no data silently discarded).
     const stored = await readAppData()
-    expect(stored.data.sessions.map((s) => s.id)).toEqual(['stale'])
+    expect(stored.data.sessions.map((s) => s.id)).toEqual(['live'])
   })
 
   it('preserves the legacy copy as a recoverable snapshot when both sources hold data', async () => {

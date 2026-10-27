@@ -2,7 +2,7 @@ import type { AppData } from '../types'
 import { appDataSchema } from '../lib/validation'
 
 /** Bump when the persisted document shape changes; keep in sync with lib/storage. */
-export const CURRENT_SCHEMA_VERSION = 1
+export const CURRENT_SCHEMA_VERSION = 2
 
 export interface IntegrityReport {
   /** Fatal issues: the payload must not be accepted as-is. */
@@ -70,6 +70,10 @@ export function validateAndRepair(input: unknown): ValidationReport {
   data.sessions = dedupeById(data.sessions, 'sessions', report)
   data.measurements = dedupeById(data.measurements, 'measurements', report)
   data.mealTemplates = dedupeById(data.mealTemplates, 'meal templates', report)
+  data.progressPhotos = dedupeById(data.progressPhotos ?? [], 'progress photos', report)
+  data.achievements = dedupeById(data.achievements ?? [], 'achievements', report)
+  data.favoriteFoods = dedupeById(data.favoriteFoods ?? [], 'favorite foods', report)
+  data.recipes = dedupeById(data.recipes ?? [], 'recipes', report)
 
   const exerciseIds = new Set(data.exercises.map((e) => e.id))
 

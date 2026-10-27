@@ -9,22 +9,30 @@ import {
   type ReactNode,
 } from 'react'
 import type {
+  Achievement,
   AppData,
   AppSettings,
   BodyMeasurement,
   Exercise,
+  FavoriteFood,
   FoodItem,
   Meal,
   MealTemplate,
   NutritionDay,
+  PhotoPose,
+  ProgressPhoto,
+  Recipe,
   SetRecord,
   TemplateExercise,
   UserProfile,
+  WorkoutSchedule,
   WorkoutSession,
   WorkoutSummary,
   WorkoutTemplate,
 } from '../types'
+import { evaluateAchievements } from '../lib/achievements'
 import { coerceData, createInitialData } from '../lib/storage'
+import { COMPREHENSIVE_EXERCISES, EXERCISE_DATABASE_MAP } from '../data/exerciseDatabase'
 import {
   clearRecoverySnapshot,
   deleteAppData,
@@ -70,6 +78,8 @@ interface StoreValue {
   storageNotices: string[]
   dismissStorageNotices: () => void
   exercisesById: Map<string, Exercise>
+  /** All 520+ exercises: comprehensive library merged with user state (favorites, custom images) and user custom exercises. */
+  allExercises: Exercise[]
   lastError: string | null
   clearError: () => void
 
@@ -122,6 +132,17 @@ interface StoreValue {
   saveMealTemplate: (date: string, name: string) => void
   applyMealTemplate: (templateId: string, date: string) => void
   deleteMealTemplate: (id: string) => void
+
+  addProgressPhoto: (input: { date: string; pose: PhotoPose; blob: Blob; weightKg?: number | null; note?: string }) => Promise<{ ok: boolean; error?: string }>
+  deleteProgressPhoto: (id: string) => Promise<void>
+  addFavoriteFood: (food: Omit<FavoriteFood, 'id'>) => FavoriteFood
+  deleteFavoriteFood: (id: string) => void
+  addRecipe: (recipe: Omit<Recipe, 'id'>) => Recipe
+  updateRecipe: (id: string, patch: Partial<Recipe>) => void
+  deleteRecipe: (id: string) => void
+  applyRecipeToMeal: (recipeId: string, date: string, mealName: string, servingsMultiplier?: number) => void
+  checkAchievements: () => Achievement[]
+  updateSchedule: (schedule: WorkoutSchedule) => void
 }
 
 const StoreContext = createContext<StoreValue | null>(null)
@@ -158,8 +179,12 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
       revisionRef.current = result.revision
       lastWriteAt.current = Date.now()
       setLastError(null)
+      if (result.conflict) {
+        setConflictNotice(true)
+        setSaveState('saved')
+        return false
+      }
       setSaveState('saved')
-      if (result.conflict) setConflictNotice(true)
       notifyExternalChange()
       return true
     } catch (err) {
@@ -297,6 +322,12 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
       try {
         const written = await writeAppData(next, { expectedRevision: revisionRef.current })
         revisionRef.current = written.revision
+        if (written.conflict) {
+          return {
+            ok: false,
+            error: 'A newer version of your data is already saved elsewhere. Your local changes were kept in memory, and the latest saved version was left intact.',
+          }
+        }
       } catch (err) {
         return {
           ok: false,
@@ -348,6 +379,43 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
   }, [data.settings.theme])
 
   const exercisesById = useMemo(() => new Map(data.exercises.map((e) => [e.id, e])), [data.exercises])
+
+  /**
+   * Merge the comprehensive 520-exercise library with user state.
+   * - Comprehensive exercises are the base.
+   * - User-stored entries (favorites, custom images) override the base.
+   * - User custom exercises (isCustom=true) not in the base are appended.
+   */
+  const allExercises = useMemo<Exercise[]>(() => {
+    // Build override map from stored user exercises
+    const overrideMap = new Map(data.exercises.map((e) => [e.id, e]))
+    // Merge: for each comprehensive exercise, apply any user overrides
+    const merged = COMPREHENSIVE_EXERCISES.map((base) => {
+      const override = overrideMap.get(base.id)
+      if (!override) return base
+      // Preserve rich data from comprehensive DB; apply user state (favorite, mediaAssetId, etc.)
+      return {
+        ...base,
+        favorite: override.favorite,
+        mediaAssetId: override.mediaAssetId,
+        mediaUrl: override.mediaUrl,
+        visuals: override.visuals ?? base.visuals,
+      }
+    })
+    // Append truly custom exercises (user-created, not in comprehensive DB)
+    const comprehensiveIds = new Set(COMPREHENSIVE_EXERCISES.map((e) => e.id))
+    const customExercises = data.exercises.filter((e) => e.isCustom && !comprehensiveIds.has(e.id))
+    return [...merged, ...customExercises]
+  }, [data.exercises])
+
+  /**
+   * exercisesById now covers all 520+ exercises for detail lookups,
+   * history resolution, and exercise picker.
+   */
+  const exercisesByIdFull = useMemo<Map<string, Exercise>>(
+    () => new Map(allExercises.map((e) => [e.id, e])),
+    [allExercises],
+  )
 
   const value = useMemo<StoreValue>(() => {
     const upd = {
@@ -425,12 +493,26 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
           }
         }
         const previous = dataRef.current.exercises.find((e) => e.id === exerciseId)?.mediaAssetId
-        commit((prev) => ({
-          ...prev,
-          exercises: prev.exercises.map((e) =>
-            e.id === exerciseId ? { ...e, mediaAssetId: key } : e,
-          ),
-        }))
+        commit((prev) => {
+          if (prev.exercises.some((e) => e.id === exerciseId)) {
+            return {
+              ...prev,
+              exercises: prev.exercises.map((e) =>
+                e.id === exerciseId ? { ...e, mediaAssetId: key } : e,
+              ),
+            }
+          }
+          const base = EXERCISE_DATABASE_MAP.get(exerciseId)
+          if (base) {
+            const stub: Exercise = {
+              ...base,
+              mediaAssetId: key,
+              isCustom: false,
+            }
+            return { ...prev, exercises: [...prev.exercises, stub] }
+          }
+          return prev
+        })
         if (previous) {
           try {
             await deleteAsset(previous)
@@ -457,10 +539,26 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
         }
       },
       toggleFavorite: (id: string) =>
-        commit((prev) => ({
-          ...prev,
-          exercises: prev.exercises.map((e) => (e.id === id ? { ...e, favorite: !e.favorite } : e)),
-        })),
+        commit((prev) => {
+          // If the exercise exists in stored list, toggle it
+          if (prev.exercises.some((e) => e.id === id)) {
+            return {
+              ...prev,
+              exercises: prev.exercises.map((e) => (e.id === id ? { ...e, favorite: !e.favorite } : e)),
+            }
+          }
+          // Exercise is from the comprehensive library but not yet in stored list — add a minimal user-state record
+          const base = EXERCISE_DATABASE_MAP.get(id)
+          if (base) {
+            const stub: import('../types').Exercise = {
+              ...base,
+              favorite: true,
+              isCustom: false,
+            }
+            return { ...prev, exercises: [...prev.exercises, stub] }
+          }
+          return prev
+        }),
       resetExerciseLibrary: () =>
         commit((prev) => {
           const custom = prev.exercises.filter((e) => e.isCustom)
@@ -733,10 +831,19 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
             .reduce((sum, s) => sum + setVolumeKg(s, exercisesMap.get(s.exerciseId)), 0),
           prs: newPRs,
         }
+        const newAchievements = evaluateAchievements(
+          {
+            ...dataRef.current,
+            sessions: dataRef.current.sessions.map((s) => (s.id === sessionId ? finished : s)),
+            personalRecords: [...dataRef.current.personalRecords, ...newPRs],
+          },
+          exercisesMap,
+        )
         commit((prev) => ({
           ...prev,
           sessions: prev.sessions.map((s) => (s.id === sessionId ? finished : s)),
           personalRecords: [...prev.personalRecords, ...newPRs],
+          achievements: [...(prev.achievements ?? []), ...newAchievements],
         }))
         return summary
       },
@@ -845,6 +952,111 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
         }),
       deleteMealTemplate: (id: string) =>
         commit((prev) => ({ ...prev, mealTemplates: prev.mealTemplates.filter((t) => t.id !== id) })),
+
+      addProgressPhoto: async (input: { date: string; pose: PhotoPose; blob: Blob; weightKg?: number | null; note?: string }) => {
+        const assetId = uid('asset_photo')
+        try {
+          await putAsset(assetId, input.blob)
+        } catch (err) {
+          return {
+            ok: false,
+            error: isQuotaError(err) ? 'Not enough storage space.' : 'Could not save progress photo.',
+          }
+        }
+        const photo: ProgressPhoto = {
+          id: uid('photo'),
+          date: input.date,
+          pose: input.pose,
+          assetId,
+          weightKg: input.weightKg,
+          note: input.note,
+        }
+        commit((prev) => ({
+          ...prev,
+          progressPhotos: [photo, ...(prev.progressPhotos ?? [])],
+        }))
+        return { ok: true }
+      },
+      deleteProgressPhoto: async (id: string) => {
+        const photo = (dataRef.current.progressPhotos ?? []).find((p) => p.id === id)
+        commit((prev) => ({
+          ...prev,
+          progressPhotos: (prev.progressPhotos ?? []).filter((p) => p.id !== id),
+        }))
+        if (photo?.assetId) {
+          try {
+            await deleteAsset(photo.assetId)
+          } catch {
+            /* ignore */
+          }
+        }
+      },
+      addFavoriteFood: (food: Omit<FavoriteFood, 'id'>) => {
+        const item: FavoriteFood = { ...food, id: uid('favfood') }
+        commit((prev) => ({
+          ...prev,
+          favoriteFoods: [...(prev.favoriteFoods ?? []), item],
+        }))
+        return item
+      },
+      deleteFavoriteFood: (id: string) =>
+        commit((prev) => ({
+          ...prev,
+          favoriteFoods: (prev.favoriteFoods ?? []).filter((f) => f.id !== id),
+        })),
+      addRecipe: (recipe: Omit<Recipe, 'id'>) => {
+        const rec: Recipe = { ...recipe, id: uid('recipe') }
+        commit((prev) => ({
+          ...prev,
+          recipes: [...(prev.recipes ?? []), rec],
+        }))
+        return rec
+      },
+      updateRecipe: (id: string, patch: Partial<Recipe>) =>
+        commit((prev) => ({
+          ...prev,
+          recipes: (prev.recipes ?? []).map((r) => (r.id === id ? { ...r, ...patch } : r)),
+        })),
+      deleteRecipe: (id: string) =>
+        commit((prev) => ({
+          ...prev,
+          recipes: (prev.recipes ?? []).filter((r) => r.id !== id),
+        })),
+      applyRecipeToMeal: (recipeId: string, date: string, mealName: string, servingsMultiplier = 1) =>
+        commit((prev) => {
+          const rec = (prev.recipes ?? []).find((r) => r.id === recipeId)
+          if (!rec) return prev
+          const mult = (servingsMultiplier > 0 ? servingsMultiplier : 1) / Math.max(rec.servings, 1)
+          const scaledItems: FoodItem[] = rec.items.map((it) => ({
+            id: uid('food'),
+            name: it.name,
+            quantity: it.quantity ? `${it.quantity} (${servingsMultiplier} serv)` : '',
+            calories: Math.round(it.calories * mult),
+            proteinG: Math.round(it.proteinG * mult),
+            carbsG: Math.round(it.carbsG * mult),
+            fatG: Math.round(it.fatG * mult),
+            estimated: it.estimated,
+          }))
+          const day = ensureNutritionDay(prev, date)
+          const exists = day.meals.some((m) => m.name === mealName)
+          const meals: Meal[] = exists
+            ? day.meals.map((m) => (m.name === mealName ? { ...m, items: [...m.items, ...scaledItems] } : m))
+            : [...day.meals, { id: uid('meal'), name: mealName, items: scaledItems }]
+          return { ...prev, nutrition: upsertNutrition(prev.nutrition, { ...day, meals }) }
+        }),
+      checkAchievements: () => {
+        const map = new Map(dataRef.current.exercises.map((e) => [e.id, e]))
+        const newUnlocks = evaluateAchievements(dataRef.current, map)
+        if (newUnlocks.length > 0) {
+          commit((prev) => ({
+            ...prev,
+            achievements: [...(prev.achievements ?? []), ...newUnlocks],
+          }))
+        }
+        return newUnlocks
+      },
+      updateSchedule: (schedule: WorkoutSchedule) =>
+        commit((prev) => ({ ...prev, schedule })),
     }
 
     return {
@@ -862,7 +1074,8 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
       storageMode,
       storageNotices,
       dismissStorageNotices: () => setStorageNotices([]),
-      exercisesById,
+      exercisesById: exercisesByIdFull,
+      allExercises,
       activeSession: data.sessions.find((s) => s.status === 'active'),
       lastError,
       clearError: () => setLastError(null),
@@ -882,6 +1095,8 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
     storageMode,
     storageNotices,
     exercisesById,
+    allExercises,
+    exercisesByIdFull,
     lastError,
     commit,
     applyValidatedData,
@@ -899,7 +1114,7 @@ export function useApp(): StoreValue {
 /* ---------- pure helpers ---------- */
 
 function normalizeSetWeights(set: SetRecord, data: AppData): SetRecord {
-  const exercise = data.exercises.find((e) => e.id === set.exerciseId)
+  const exercise = data.exercises.find((e) => e.id === set.exerciseId) ?? EXERCISE_DATABASE_MAP.get(set.exerciseId)
   return { ...set, weightKg: toStoredWeight(set.weightKg, exercise, data.settings) }
 }
 

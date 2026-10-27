@@ -10,13 +10,23 @@ export const exerciseVisualsSchema = z.object({
   attributionId: z.string().optional(),
 })
 
+export const exerciseTrackingTypeSchema = z.enum([
+  'weight_reps',
+  'bodyweight_reps',
+  'assisted_reps',
+  'duration',
+  'distance',
+  'duration_distance',
+  'hold',
+])
+
 export const exerciseSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
   primaryMuscle: z.string().min(1),
   secondaryMuscles: z.array(z.string()).default([]),
   equipment: z.string().min(1),
-  category: z.enum(['push', 'pull', 'legs', 'core']),
+  category: z.enum(['push', 'pull', 'legs', 'core', 'cardio', 'mobility']),
   exerciseClass: z.enum(['compound', 'isolation']),
   repRange: z.string().default(''),
   instructions: z.string().default(''),
@@ -28,6 +38,16 @@ export const exerciseSchema = z.object({
   favorite: z.boolean().default(false),
   usesBodyweight: z.boolean().default(false),
   unilateral: z.boolean().default(false),
+
+  aliases: z.array(z.string()).optional(),
+  difficulty: z.enum(['beginner', 'intermediate', 'advanced']).optional(),
+  movementPattern: z.string().optional(),
+  exerciseType: z.string().optional(),
+  safetyTips: z.array(z.string()).optional(),
+  commonMistakes: z.array(z.string()).optional(),
+  variationGroupId: z.string().optional(),
+  alternativeExerciseIds: z.array(z.string()).optional(),
+  trackingType: exerciseTrackingTypeSchema.optional(),
 })
 
 export const templateExerciseSchema = z.object({
@@ -166,6 +186,60 @@ export const settingsSchema = z.object({
   notifyPrs: z.boolean(),
   notifyRestTimer: z.boolean(),
   lockPhotoPrivacy: z.boolean(),
+  waterReminderEnabled: z.boolean().optional(),
+  nutritionReminderEnabled: z.boolean().optional(),
+  weeklyRecapEnabled: z.boolean().optional(),
+  autoProgressiveOverload: z.boolean().optional(),
+  availableEquipment: z.array(z.string()).optional(),
+})
+
+export const progressPhotoSchema = z.object({
+  id: z.string().min(1),
+  date: z.string().min(8),
+  pose: z.enum(['front', 'side', 'back', 'other']),
+  assetId: z.string().min(1),
+  weightKg: z.number().nullable().optional(),
+  note: z.string().optional(),
+})
+
+export const achievementSchema = z.object({
+  id: z.string().min(1),
+  key: z.string().min(1),
+  unlockedAt: z.string(),
+  title: z.string(),
+  description: z.string(),
+  icon: z.string(),
+})
+
+export const favoriteFoodSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  quantity: z.string().default(''),
+  calories: z.number().min(0),
+  proteinG: z.number().min(0),
+  carbsG: z.number().min(0),
+  fatG: z.number().min(0),
+})
+
+export const recipeSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  servings: z.number().int().min(1).default(1),
+  instructions: z.string().optional(),
+  items: z.array(foodItemSchema).default([]),
+})
+
+export const scheduleDaySchema = z.object({
+  dayOfWeek: z.number().int().min(0).max(6),
+  dayName: z.string().min(1),
+  templateId: z.string().nullable(),
+  isRestDay: z.boolean(),
+  label: z.string().optional(),
+})
+
+export const workoutScheduleSchema = z.object({
+  splitName: z.string(),
+  days: z.array(scheduleDaySchema),
 })
 
 export const appDataSchema = z.object({
@@ -179,6 +253,11 @@ export const appDataSchema = z.object({
   nutrition: z.array(nutritionDaySchema),
   mealTemplates: z.array(mealTemplateSchema),
   personalRecords: z.array(personalRecordSchema),
+  progressPhotos: z.array(progressPhotoSchema).optional().default([]),
+  achievements: z.array(achievementSchema).optional().default([]),
+  favoriteFoods: z.array(favoriteFoodSchema).optional().default([]),
+  recipes: z.array(recipeSchema).optional().default([]),
+  schedule: workoutScheduleSchema.optional(),
 })
 
 export type ValidationResult =

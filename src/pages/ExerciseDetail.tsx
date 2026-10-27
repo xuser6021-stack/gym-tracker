@@ -1,6 +1,6 @@
 import { useMemo, useRef, useState, type ChangeEvent } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { ArrowLeft, Dumbbell, Play, Plus, Star, Trash } from 'lucide-react'
+import { AlertTriangle, ArrowLeft, Dumbbell, GitBranch, Play, Plus, Star, Trash } from 'lucide-react'
 import { useApp } from '../store/AppStore'
 import { Card, CardHeader } from '../components/ui/Card'
 import { Badge } from '../components/ui/Badge'
@@ -12,6 +12,7 @@ import { Stat } from '../components/ui/Stat'
 import { TrendChart } from '../components/charts/Charts'
 import { ExerciseImage } from '../components/exercise/ExerciseImage'
 import { ExerciseDemoDialog } from '../components/exercise/ExerciseDemoDialog'
+import { ExerciseAlternatives } from '../components/exercise/ExerciseAlternatives'
 import { getExerciseGuide } from '../data/exerciseGuides'
 import { validateImageFile } from '../storage/repositories/assetRepository'
 import { completedWorkingSets, exerciseHistory, fromStoredWeight, fromStoredWeightDisplay } from '../lib/progression'
@@ -22,7 +23,7 @@ import { cn } from '../lib/cn'
 
 export function ExerciseDetail() {
   const { id } = useParams<{ id: string }>()
-  const { data, exercisesById, toggleFavorite, deleteExercise, activeSession, addSet, setExerciseImage, removeExerciseImage } =
+  const { data, exercisesById, allExercises, toggleFavorite, deleteExercise, activeSession, addSet, setExerciseImage, removeExerciseImage } =
     useApp()
   const navigate = useNavigate()
   const [confirmDelete, setConfirmDelete] = useState(false)
@@ -30,8 +31,17 @@ export function ExerciseDetail() {
   const [imageError, setImageError] = useState<string | null>(null)
   const imageInputRef = useRef<HTMLInputElement>(null)
 
+  // exercisesById now covers all 520+ exercises
   const exercise = id ? exercisesById.get(id) : undefined
   const unit = data.settings.units.weight
+
+  // Connected variation family
+  const variationFamily = useMemo(() => {
+    if (!exercise?.variationGroupId) return []
+    return allExercises
+      .filter((e) => e.variationGroupId === exercise.variationGroupId && e.id !== exercise.id)
+      .slice(0, 6)
+  }, [allExercises, exercise])
 
   const history = useMemo(
     () => (exercise ? exerciseHistory(data.sessions, exercise.id, exercise) : []),
@@ -122,6 +132,20 @@ export function ExerciseDetail() {
               {exercise.exerciseClass}
             </Badge>
             <Badge tone="neutral">{exercise.category}</Badge>
+            {exercise.difficulty && (
+              <span
+                className={cn(
+                  'inline-flex items-center rounded-md px-1.5 py-0.5 text-[10px] font-semibold',
+                  exercise.difficulty === 'beginner'
+                    ? 'text-emerald-600 dark:text-emerald-400'
+                    : exercise.difficulty === 'intermediate'
+                      ? 'text-amber-600 dark:text-amber-400'
+                      : 'text-red-600 dark:text-red-400',
+                )}
+              >
+                {exercise.difficulty}
+              </span>
+            )}
             {exercise.isCustom ? <Badge tone="info">custom</Badge> : null}
           </span>
         }
@@ -173,36 +197,34 @@ export function ExerciseDetail() {
             <Button variant="secondary" className="mt-3 self-start" onClick={() => setDemoOpen(true)}>
               <Play size={16} /> View technique &amp; demo
             </Button>
-            {exercise.isCustom ? (
-              <div className="mt-2 flex flex-wrap items-center gap-2">
-                <input
-                  ref={imageInputRef}
-                  type="file"
-                  accept="image/png,image/jpeg,image/webp,image/avif,image/gif"
-                  className="sr-only"
-                  aria-label="Upload exercise photo"
-                  onChange={onPickImage}
-                />
+            <div className="mt-2 flex flex-wrap items-center gap-2">
+              <input
+                ref={imageInputRef}
+                type="file"
+                accept="image/png,image/jpeg,image/webp,image/avif,image/gif"
+                className="sr-only"
+                aria-label="Upload exercise photo"
+                onChange={onPickImage}
+              />
+              <Button
+                type="button"
+                variant="ghost"
+                size="sm"
+                onClick={() => imageInputRef.current?.click()}
+              >
+                {exercise.mediaAssetId ? 'Change custom photo' : 'Upload custom photo'}
+              </Button>
+              {exercise.mediaAssetId ? (
                 <Button
                   type="button"
                   variant="ghost"
                   size="sm"
-                  onClick={() => imageInputRef.current?.click()}
+                  onClick={() => removeExerciseImage(exercise.id)}
                 >
-                  {exercise.mediaAssetId ? 'Change photo' : 'Add photo'}
+                  Remove photo
                 </Button>
-                {exercise.mediaAssetId ? (
-                  <Button
-                    type="button"
-                    variant="ghost"
-                    size="sm"
-                    onClick={() => removeExerciseImage(exercise.id)}
-                  >
-                    Remove photo
-                  </Button>
-                ) : null}
-              </div>
-            ) : null}
+              ) : null}
+            </div>
             {imageError ? <p className="mt-1 text-xs text-danger">{imageError}</p> : null}
           </div>
         </div>
@@ -244,6 +266,36 @@ export function ExerciseDetail() {
         )}
       </Card>
 
+      {/* Biomechanical Start & Finish Positions */}
+      <Card className="mt-4">
+        <CardHeader
+          title="Movement Form & Positions"
+          subtitle="Reference alignment for starting posture and peak finishing extension"
+        />
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          <div className="overflow-hidden rounded-xl border border-line bg-surface2">
+            <div className="p-2 text-center text-xs font-bold uppercase tracking-wider text-muted border-b border-line">
+              Starting Position
+            </div>
+            <ExerciseImage
+              exercise={exercise}
+              kind="start"
+              className="aspect-[4/3] w-full object-contain"
+            />
+          </div>
+          <div className="overflow-hidden rounded-xl border border-line bg-surface2">
+            <div className="p-2 text-center text-xs font-bold uppercase tracking-wider text-muted border-b border-line">
+              Finishing Position
+            </div>
+            <ExerciseImage
+              exercise={exercise}
+              kind="finish"
+              className="aspect-[4/3] w-full object-contain"
+            />
+          </div>
+        </div>
+      </Card>
+
       <Card className="mt-4">
         <CardHeader
           title="Muscles involved & anatomy"
@@ -280,6 +332,8 @@ export function ExerciseDetail() {
             ['Secondary muscles', exercise.secondaryMuscles.join(', ') || '—'],
             ['Bodyweight', exercise.usesBodyweight ? 'Yes' : 'No'],
             ['Per side', exercise.unilateral ? 'Yes' : 'No'],
+            ...(exercise.movementPattern ? [['Movement pattern', exercise.movementPattern]] : []),
+            ...(exercise.trackingType ? [['Tracking type', exercise.trackingType]] : []),
           ].map(([label, value]) => (
             <div key={label}>
               <dt className="text-xs font-semibold uppercase tracking-wide text-muted">{label}</dt>
@@ -300,10 +354,28 @@ export function ExerciseDetail() {
               ))}
             </ol>
           </div>
-          {exercise.mistakes ? (
+          {/* Common mistakes — from exercise data or guide */}
+          {(exercise.commonMistakes?.length || exercise.mistakes) && (
             <div>
               <p className="text-xs font-semibold uppercase tracking-wide text-muted">Common mistakes</p>
-              <p className="mt-1 text-sm text-muted">{exercise.mistakes}</p>
+              {exercise.commonMistakes?.length ? (
+                <ul className="mt-1 list-disc space-y-1 pl-5 text-sm text-muted">
+                  {exercise.commonMistakes.map((m, i) => <li key={i}>{m}</li>)}
+                </ul>
+              ) : (
+                <p className="mt-1 text-sm text-muted">{exercise.mistakes}</p>
+              )}
+            </div>
+          )}
+          {/* Safety tips */}
+          {exercise.safetyTips?.length ? (
+            <div className="rounded-xl border border-amber-200 bg-amber-50 p-3 dark:border-amber-800 dark:bg-amber-950/30">
+              <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-amber-700 dark:text-amber-400">
+                <AlertTriangle size={12} /> Safety tips
+              </p>
+              <ul className="mt-1.5 list-disc space-y-1 pl-5 text-sm text-amber-800 dark:text-amber-300">
+                {exercise.safetyTips.map((tip, i) => <li key={i}>{tip}</li>)}
+              </ul>
             </div>
           ) : null}
           <div className="grid gap-3 sm:grid-cols-2">
@@ -354,6 +426,46 @@ export function ExerciseDetail() {
           </ul>
         )}
       </Card>
+
+      {/* Connected variations from the same variation group */}
+      {variationFamily.length > 0 && (
+        <Card className="mt-4">
+          <CardHeader
+            title="Related variations"
+            subtitle={`Other exercises in the ${exercise.variationGroupId?.replace('var_', '').replace(/_/g, ' ')} family`}
+          />
+          <ul className="space-y-2">
+            {variationFamily.map((v) => (
+              <li key={v.id}>
+                <Link
+                  to={`/exercises/${v.id}`}
+                  className="flex items-center gap-3 rounded-xl border border-line bg-surface2 px-3 py-2.5 hover:border-linestrong transition-colors"
+                >
+                  <ExerciseImage exercise={v} kind="thumbnail" compact className="h-10 w-10 shrink-0 rounded-lg" />
+                  <div className="min-w-0 flex-1">
+                    <p className="truncate text-sm font-semibold text-ink">{v.name}</p>
+                    <p className="truncate text-xs text-muted">{v.primaryMuscle} · {v.equipment}</p>
+                  </div>
+                  <div className="flex shrink-0 items-center gap-1">
+                    {v.difficulty && (
+                      <span className={cn(
+                        'text-[10px] font-bold',
+                        v.difficulty === 'beginner' ? 'text-emerald-500' :
+                        v.difficulty === 'intermediate' ? 'text-amber-500' : 'text-red-500'
+                      )}>
+                        {v.difficulty.slice(0,3).toUpperCase()}
+                      </span>
+                    )}
+                    <GitBranch size={14} className="text-faint" />
+                  </div>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </Card>
+      )}
+
+      <ExerciseAlternatives currentExercise={exercise} allExercises={allExercises} className="mt-4" />
 
       <ExerciseDemoDialog exercise={exercise} open={demoOpen} onClose={() => setDemoOpen(false)} />
 

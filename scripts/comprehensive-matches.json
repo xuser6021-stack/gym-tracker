@@ -1,0 +1,7779 @@
+[
+  {
+    "localId": "ex_barbell_bench_press",
+    "localName": "Barbell bench press",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "catalogId": "Barbell_Guillotine_Bench_Press",
+    "catalogName": "Barbell Guillotine Bench Press",
+    "images": [
+      "Barbell_Guillotine_Bench_Press/0.jpg",
+      "Barbell_Guillotine_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_dumbbell_press",
+    "localName": "Incline dumbbell press",
+    "primaryMuscle": "Upper chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "catalogId": "Incline_Dumbbell_Press",
+    "catalogName": "Incline Dumbbell Press",
+    "images": [
+      "Incline_Dumbbell_Press/0.jpg",
+      "Incline_Dumbbell_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_chest_press",
+    "localName": "Machine chest press",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "catalogId": "Cable_Chest_Press",
+    "catalogName": "Cable Chest Press",
+    "images": [
+      "Cable_Chest_Press/0.jpg",
+      "Cable_Chest_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_barbell_bench_press",
+    "localName": "Incline barbell bench press",
+    "primaryMuscle": "Upper chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "catalogId": "Barbell_Incline_Bench_Press_-_Medium_Grip",
+    "catalogName": "Barbell Incline Bench Press - Medium Grip",
+    "images": [
+      "Barbell_Incline_Bench_Press_-_Medium_Grip/0.jpg",
+      "Barbell_Incline_Bench_Press_-_Medium_Grip/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_decline_barbell_bench_press",
+    "localName": "Decline barbell bench press",
+    "primaryMuscle": "Lower chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Front delts"
+    ],
+    "catalogId": "Decline_Barbell_Bench_Press",
+    "catalogName": "Decline Barbell Bench Press",
+    "images": [
+      "Decline_Barbell_Bench_Press/0.jpg",
+      "Decline_Barbell_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_flat_bench_press",
+    "localName": "Flat dumbbell bench press",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "catalogId": "Dumbbell_Bench_Press",
+    "catalogName": "Dumbbell Bench Press",
+    "images": [
+      "Dumbbell_Bench_Press/0.jpg",
+      "Dumbbell_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_decline_dumbbell_press",
+    "localName": "Decline dumbbell press",
+    "primaryMuscle": "Lower chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Front delts"
+    ],
+    "catalogId": "Decline_Dumbbell_Bench_Press",
+    "catalogName": "Decline Dumbbell Bench Press",
+    "images": [
+      "Decline_Dumbbell_Bench_Press/0.jpg",
+      "Decline_Dumbbell_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_close_grip_barbell_bench_press",
+    "localName": "Close-grip barbell bench press",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Chest",
+      "Front delts"
+    ],
+    "catalogId": "Close-Grip_Barbell_Bench_Press",
+    "catalogName": "Close-Grip Barbell Bench Press",
+    "images": [
+      "Close-Grip_Barbell_Bench_Press/0.jpg",
+      "Close-Grip_Barbell_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_chest_fly",
+    "localName": "Flat dumbbell chest fly",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts"
+    ],
+    "catalogId": "Dumbbell_Flyes",
+    "catalogName": "Dumbbell Flyes",
+    "images": [
+      "Dumbbell_Flyes/0.jpg",
+      "Dumbbell_Flyes/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_dumbbell_fly",
+    "localName": "Incline dumbbell fly",
+    "primaryMuscle": "Upper chest",
+    "secondaryMuscles": [
+      "Front delts"
+    ],
+    "catalogId": "Dumbbell_Flyes",
+    "catalogName": "Dumbbell Flyes",
+    "images": [
+      "Dumbbell_Flyes/0.jpg",
+      "Dumbbell_Flyes/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_decline_dumbbell_fly",
+    "localName": "Decline dumbbell fly",
+    "primaryMuscle": "Lower chest",
+    "secondaryMuscles": [
+      "Front delts"
+    ],
+    "catalogId": "Dumbbell_Flyes",
+    "catalogName": "Dumbbell Flyes",
+    "images": [
+      "Dumbbell_Flyes/0.jpg",
+      "Dumbbell_Flyes/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_crossover",
+    "localName": "Standing cable crossover",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts"
+    ],
+    "catalogId": "Cable_Crossover",
+    "catalogName": "Cable Crossover",
+    "images": [
+      "Cable_Crossover/0.jpg",
+      "Cable_Crossover/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_high_to_low_cable_fly",
+    "localName": "High-to-low cable fly",
+    "primaryMuscle": "Lower chest",
+    "secondaryMuscles": [
+      "Front delts"
+    ],
+    "catalogId": "High_Cable_Curls",
+    "catalogName": "High Cable Curls",
+    "images": [
+      "High_Cable_Curls/0.jpg",
+      "High_Cable_Curls/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_low_to_high_cable_fly",
+    "localName": "Low-to-high cable fly",
+    "primaryMuscle": "Upper chest",
+    "secondaryMuscles": [
+      "Front delts"
+    ],
+    "catalogId": "High_Cable_Curls",
+    "catalogName": "High Cable Curls",
+    "images": [
+      "High_Cable_Curls/0.jpg",
+      "High_Cable_Curls/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_middle_cable_fly",
+    "localName": "Mid-cable chest fly",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts"
+    ],
+    "catalogId": "Cable_Chest_Press",
+    "catalogName": "Cable Chest Press",
+    "images": [
+      "Cable_Chest_Press/0.jpg",
+      "Cable_Chest_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_pec_deck_fly",
+    "localName": "Pec deck machine fly",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts"
+    ],
+    "catalogId": "Butterfly",
+    "catalogName": "Butterfly",
+    "images": [
+      "Butterfly/0.jpg",
+      "Butterfly/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dips_chest",
+    "localName": "Chest dips",
+    "primaryMuscle": "Lower chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Front delts"
+    ],
+    "catalogId": "Dips_-_Chest_Version",
+    "catalogName": "Dips - Chest Version",
+    "images": [
+      "Dips_-_Chest_Version/0.jpg",
+      "Dips_-_Chest_Version/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_weighted_dips_chest",
+    "localName": "Weighted chest dips",
+    "primaryMuscle": "Lower chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Front delts"
+    ],
+    "catalogId": "Dips_-_Chest_Version",
+    "catalogName": "Dips - Chest Version",
+    "images": [
+      "Dips_-_Chest_Version/0.jpg",
+      "Dips_-_Chest_Version/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_assisted_chest_dips",
+    "localName": "Assisted machine chest dips",
+    "primaryMuscle": "Lower chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Front delts"
+    ],
+    "catalogId": "Dips_-_Chest_Version",
+    "catalogName": "Dips - Chest Version",
+    "images": [
+      "Dips_-_Chest_Version/0.jpg",
+      "Dips_-_Chest_Version/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_push_up",
+    "localName": "Standard push-up",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Front delts",
+      "Core"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_diamond_push_up",
+    "localName": "Diamond push-up",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Chest",
+      "Front delts"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_decline_push_up",
+    "localName": "Decline push-up",
+    "primaryMuscle": "Upper chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_push_up",
+    "localName": "Incline push-up",
+    "primaryMuscle": "Lower chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Front delts"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_wide_grip_push_up",
+    "localName": "Wide-grip push-up",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_bench_press",
+    "localName": "Smith machine bench press",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "catalogId": "Smith_Machine_Bench_Press",
+    "catalogName": "Smith Machine Bench Press",
+    "images": [
+      "Smith_Machine_Bench_Press/0.jpg",
+      "Smith_Machine_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_incline_press",
+    "localName": "Smith machine incline bench press",
+    "primaryMuscle": "Upper chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "catalogId": "Smith_Machine_Incline_Bench_Press",
+    "catalogName": "Smith Machine Incline Bench Press",
+    "images": [
+      "Smith_Machine_Incline_Bench_Press/0.jpg",
+      "Smith_Machine_Incline_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_decline_press",
+    "localName": "Smith machine decline bench press",
+    "primaryMuscle": "Lower chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Front delts"
+    ],
+    "catalogId": "Smith_Machine_Bench_Press",
+    "catalogName": "Smith Machine Bench Press",
+    "images": [
+      "Smith_Machine_Bench_Press/0.jpg",
+      "Smith_Machine_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_incline_chest_press",
+    "localName": "Machine incline chest press",
+    "primaryMuscle": "Upper chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "catalogId": "Incline_Cable_Chest_Press",
+    "catalogName": "Incline Cable Chest Press",
+    "images": [
+      "Incline_Cable_Chest_Press/0.jpg",
+      "Incline_Cable_Chest_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_decline_chest_press",
+    "localName": "Machine decline chest press",
+    "primaryMuscle": "Lower chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Front delts"
+    ],
+    "catalogId": "Leverage_Decline_Chest_Press",
+    "catalogName": "Leverage Decline Chest Press",
+    "images": [
+      "Leverage_Decline_Chest_Press/0.jpg",
+      "Leverage_Decline_Chest_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_dumbbell_bench_press",
+    "localName": "Single-arm dumbbell bench press",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Core",
+      "Triceps",
+      "Front delts"
+    ],
+    "catalogId": "Dumbbell_Bench_Press",
+    "catalogName": "Dumbbell Bench Press",
+    "images": [
+      "Dumbbell_Bench_Press/0.jpg",
+      "Dumbbell_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_floor_press",
+    "localName": "Dumbbell floor press",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Front delts"
+    ],
+    "catalogId": "Floor_Press",
+    "catalogName": "Floor Press",
+    "images": [
+      "Floor_Press/0.jpg",
+      "Floor_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_floor_press",
+    "localName": "Barbell floor press",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Chest",
+      "Front delts"
+    ],
+    "catalogId": "Floor_Press",
+    "catalogName": "Floor Press",
+    "images": [
+      "Floor_Press/0.jpg",
+      "Floor_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_svend_press",
+    "localName": "Svend press",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts"
+    ],
+    "catalogId": "Svend_Press",
+    "catalogName": "Svend Press",
+    "images": [
+      "Svend_Press/0.jpg",
+      "Svend_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_squeeze_press",
+    "localName": "Dumbbell squeeze press",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Front delts"
+    ],
+    "catalogId": "Standing_Dumbbell_Press",
+    "catalogName": "Standing Dumbbell Press",
+    "images": [
+      "Standing_Dumbbell_Press/0.jpg",
+      "Standing_Dumbbell_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_dumbbell_squeeze_press",
+    "localName": "Incline dumbbell squeeze press",
+    "primaryMuscle": "Upper chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "catalogId": "Incline_Dumbbell_Press",
+    "catalogName": "Incline Dumbbell Press",
+    "images": [
+      "Incline_Dumbbell_Press/0.jpg",
+      "Incline_Dumbbell_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_resistance_band_chest_press",
+    "localName": "Resistance band chest press",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Front delts"
+    ],
+    "catalogId": "Cable_Chest_Press",
+    "catalogName": "Cable Chest Press",
+    "images": [
+      "Cable_Chest_Press/0.jpg",
+      "Cable_Chest_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_resistance_band_chest_fly",
+    "localName": "Resistance band chest fly",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts"
+    ],
+    "catalogId": "Back_Flyes_-_With_Bands",
+    "catalogName": "Back Flyes - With Bands",
+    "images": [
+      "Back_Flyes_-_With_Bands/0.jpg",
+      "Back_Flyes_-_With_Bands/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_resisted_push_up",
+    "localName": "Band-resisted push-up",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Front delts"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_landmine_chest_press",
+    "localName": "Standing landmine chest press",
+    "primaryMuscle": "Upper chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "catalogId": "Cable_Chest_Press",
+    "catalogName": "Cable Chest Press",
+    "images": [
+      "Cable_Chest_Press/0.jpg",
+      "Cable_Chest_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_landmine_press",
+    "localName": "Single-arm landmine press",
+    "primaryMuscle": "Upper chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps",
+      "Core"
+    ],
+    "catalogId": "Landmine_Linear_Jammer",
+    "catalogName": "Landmine Linear Jammer",
+    "images": [
+      "Landmine_Linear_Jammer/0.jpg",
+      "Landmine_Linear_Jammer/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kneeling_landmine_press",
+    "localName": "Half-kneeling landmine press",
+    "primaryMuscle": "Upper chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Core",
+      "Triceps"
+    ],
+    "catalogId": "Landmine_Linear_Jammer",
+    "catalogName": "Landmine Linear Jammer",
+    "images": [
+      "Landmine_Linear_Jammer/0.jpg",
+      "Landmine_Linear_Jammer/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_iron_cross",
+    "localName": "Cable iron cross",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Core"
+    ],
+    "catalogId": "Cable_Iron_Cross",
+    "catalogName": "Cable Iron Cross",
+    "images": [
+      "Cable_Iron_Cross/0.jpg",
+      "Cable_Iron_Cross/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_around_the_world_dumbbell",
+    "localName": "Dumbbell around the worlds",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Lats"
+    ],
+    "catalogId": "Around_The_Worlds",
+    "catalogName": "Around The Worlds",
+    "images": [
+      "Around_The_Worlds/0.jpg",
+      "Around_The_Worlds/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_guillotine_press",
+    "localName": "Guillotine bench press",
+    "primaryMuscle": "Upper chest",
+    "secondaryMuscles": [
+      "Front delts"
+    ],
+    "catalogId": "Barbell_Guillotine_Bench_Press",
+    "catalogName": "Barbell Guillotine Bench Press",
+    "images": [
+      "Barbell_Guillotine_Bench_Press/0.jpg",
+      "Barbell_Guillotine_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_cable_press",
+    "localName": "Incline cable chest press",
+    "primaryMuscle": "Upper chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "catalogId": "Incline_Cable_Chest_Press",
+    "catalogName": "Incline Cable Chest Press",
+    "images": [
+      "Incline_Cable_Chest_Press/0.jpg",
+      "Incline_Cable_Chest_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_lat_pulldown",
+    "localName": "Lat pulldown",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Rear delts",
+      "Upper back"
+    ],
+    "catalogId": "Wide-Grip_Lat_Pulldown",
+    "catalogName": "Wide-Grip Lat Pulldown",
+    "images": [
+      "Wide-Grip_Lat_Pulldown/0.jpg",
+      "Wide-Grip_Lat_Pulldown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_lat_pulldown_alt_grip",
+    "localName": "Lat pulldown (alternate grip)",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back"
+    ],
+    "catalogId": "Wide-Grip_Lat_Pulldown",
+    "catalogName": "Wide-Grip Lat Pulldown",
+    "images": [
+      "Wide-Grip_Lat_Pulldown/0.jpg",
+      "Wide-Grip_Lat_Pulldown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_cable_row",
+    "localName": "Seated cable row",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Lats",
+      "Biceps",
+      "Rear delts"
+    ],
+    "catalogId": "Seated_Cable_Rows",
+    "catalogName": "Seated Cable Rows",
+    "images": [
+      "Seated_Cable_Rows/0.jpg",
+      "Seated_Cable_Rows/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_chest_supported_row",
+    "localName": "Chest-supported row",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Lats",
+      "Rear delts",
+      "Biceps"
+    ],
+    "catalogId": "T-Bar_Row_with_Handle",
+    "catalogName": "T-Bar Row with Handle",
+    "images": [
+      "T-Bar_Row_with_Handle/0.jpg",
+      "T-Bar_Row_with_Handle/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_cable_row",
+    "localName": "Single-arm cable row",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Rear delts",
+      "Core"
+    ],
+    "catalogId": "Single-Arm_Cable_Crossover",
+    "catalogName": "Single-Arm Cable Crossover",
+    "images": [
+      "Single-Arm_Cable_Crossover/0.jpg",
+      "Single-Arm_Cable_Crossover/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_pull_up",
+    "localName": "Standard pull-up",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back",
+      "Core"
+    ],
+    "catalogId": "Pullups",
+    "catalogName": "Pullups",
+    "images": [
+      "Pullups/0.jpg",
+      "Pullups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_chin_up",
+    "localName": "Chin-up",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back",
+      "Core"
+    ],
+    "catalogId": "Chin-Up",
+    "catalogName": "Chin-Up",
+    "images": [
+      "Chin-Up/0.jpg",
+      "Chin-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_neutral_grip_pull_up",
+    "localName": "Neutral-grip pull-up",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Brachialis",
+      "Upper back"
+    ],
+    "catalogId": "Pullups",
+    "catalogName": "Pullups",
+    "images": [
+      "Pullups/0.jpg",
+      "Pullups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_weighted_pull_up",
+    "localName": "Weighted pull-up",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back",
+      "Core"
+    ],
+    "catalogId": "Pullups",
+    "catalogName": "Pullups",
+    "images": [
+      "Pullups/0.jpg",
+      "Pullups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_assisted_pull_up",
+    "localName": "Assisted machine pull-up",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back"
+    ],
+    "catalogId": "Pullups",
+    "catalogName": "Pullups",
+    "images": [
+      "Pullups/0.jpg",
+      "Pullups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_bent_over_row",
+    "localName": "Barbell bent-over row",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Lats",
+      "Biceps",
+      "Lower back",
+      "Hamstrings"
+    ],
+    "catalogId": "Bent_Over_Barbell_Row",
+    "catalogName": "Bent Over Barbell Row",
+    "images": [
+      "Bent_Over_Barbell_Row/0.jpg",
+      "Bent_Over_Barbell_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_pendlay_row",
+    "localName": "Pendlay row",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Lats",
+      "Rear delts",
+      "Biceps",
+      "Hamstrings"
+    ],
+    "catalogId": "Bent_Over_Barbell_Row",
+    "catalogName": "Bent Over Barbell Row",
+    "images": [
+      "Bent_Over_Barbell_Row/0.jpg",
+      "Bent_Over_Barbell_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_underhand_barbell_row",
+    "localName": "Underhand barbell row (Yates row)",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back"
+    ],
+    "catalogId": "Upright_Barbell_Row",
+    "catalogName": "Upright Barbell Row",
+    "images": [
+      "Upright_Barbell_Row/0.jpg",
+      "Upright_Barbell_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_dumbbell_row",
+    "localName": "Single-arm dumbbell row",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Upper back",
+      "Biceps",
+      "Core"
+    ],
+    "catalogId": "One-Arm_Dumbbell_Row",
+    "catalogName": "One-Arm Dumbbell Row",
+    "images": [
+      "One-Arm_Dumbbell_Row/0.jpg",
+      "One-Arm_Dumbbell_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_t_bar_row",
+    "localName": "T-bar row",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Lats",
+      "Rear delts",
+      "Biceps"
+    ],
+    "catalogId": "T-Bar_Row_with_Handle",
+    "catalogName": "T-Bar Row with Handle",
+    "images": [
+      "T-Bar_Row_with_Handle/0.jpg",
+      "T-Bar_Row_with_Handle/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_chest_supported_t_bar_row",
+    "localName": "Chest-supported T-bar row",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Rear delts",
+      "Lats",
+      "Biceps"
+    ],
+    "catalogId": "T-Bar_Row_with_Handle",
+    "catalogName": "T-Bar Row with Handle",
+    "images": [
+      "T-Bar_Row_with_Handle/0.jpg",
+      "T-Bar_Row_with_Handle/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_straight_arm_cable_pulldown",
+    "localName": "Straight-arm cable pulldown",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Triceps",
+      "Core",
+      "Teres major"
+    ],
+    "catalogId": "Straight-Arm_Pulldown",
+    "catalogName": "Straight-Arm Pulldown",
+    "images": [
+      "Straight-Arm_Pulldown/0.jpg",
+      "Straight-Arm_Pulldown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_pullover",
+    "localName": "Dumbbell pullover",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Chest",
+      "Triceps",
+      "Serratus"
+    ],
+    "catalogId": "Bent-Arm_Dumbbell_Pullover",
+    "catalogName": "Bent-Arm Dumbbell Pullover",
+    "images": [
+      "Bent-Arm_Dumbbell_Pullover/0.jpg",
+      "Bent-Arm_Dumbbell_Pullover/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_close_grip_lat_pulldown",
+    "localName": "Close-grip V-bar lat pulldown",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back"
+    ],
+    "catalogId": "Wide-Grip_Lat_Pulldown",
+    "catalogName": "Wide-Grip Lat Pulldown",
+    "images": [
+      "Wide-Grip_Lat_Pulldown/0.jpg",
+      "Wide-Grip_Lat_Pulldown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_wide_grip_cable_row",
+    "localName": "Wide-grip seated cable row",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Rear delts",
+      "Traps",
+      "Lats"
+    ],
+    "catalogId": "Seated_Cable_Rows",
+    "catalogName": "Seated Cable Rows",
+    "images": [
+      "Seated_Cable_Rows/0.jpg",
+      "Seated_Cable_Rows/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_face_pull",
+    "localName": "Cable face pull",
+    "primaryMuscle": "Rear delts",
+    "secondaryMuscles": [
+      "Traps",
+      "Rotator cuff",
+      "Upper back"
+    ],
+    "catalogId": "Face_Pull",
+    "catalogName": "Face Pull",
+    "images": [
+      "Face_Pull/0.jpg",
+      "Face_Pull/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_shrug",
+    "localName": "Barbell shrug",
+    "primaryMuscle": "Upper traps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Barbell_Shrug",
+    "catalogName": "Barbell Shrug",
+    "images": [
+      "Barbell_Shrug/0.jpg",
+      "Barbell_Shrug/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_shrug",
+    "localName": "Dumbbell shrug",
+    "primaryMuscle": "Upper traps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Dumbbell_Shrug",
+    "catalogName": "Dumbbell Shrug",
+    "images": [
+      "Dumbbell_Shrug/0.jpg",
+      "Dumbbell_Shrug/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_trap_bar_shrug",
+    "localName": "Trap bar shrug",
+    "primaryMuscle": "Upper traps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Trap_Bar_Deadlift",
+    "catalogName": "Trap Bar Deadlift",
+    "images": [
+      "Trap_Bar_Deadlift/0.jpg",
+      "Trap_Bar_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_shrug",
+    "localName": "Smith machine shrug",
+    "primaryMuscle": "Upper traps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Smith_Machine_Behind_the_Back_Shrug",
+    "catalogName": "Smith Machine Behind the Back Shrug",
+    "images": [
+      "Smith_Machine_Behind_the_Back_Shrug/0.jpg",
+      "Smith_Machine_Behind_the_Back_Shrug/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_deadlift",
+    "localName": "Conventional barbell deadlift",
+    "primaryMuscle": "Lower back",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Traps",
+      "Lats",
+      "Forearms"
+    ],
+    "catalogId": "Barbell_Deadlift",
+    "catalogName": "Barbell Deadlift",
+    "images": [
+      "Barbell_Deadlift/0.jpg",
+      "Barbell_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_sumo_deadlift",
+    "localName": "Sumo barbell deadlift",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Lower back",
+      "Hamstrings",
+      "Adductors",
+      "Traps"
+    ],
+    "catalogId": "Barbell_Deadlift",
+    "catalogName": "Barbell Deadlift",
+    "images": [
+      "Barbell_Deadlift/0.jpg",
+      "Barbell_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_trap_bar_deadlift",
+    "localName": "Trap bar deadlift (hex bar)",
+    "primaryMuscle": "Lower back",
+    "secondaryMuscles": [
+      "Quadriceps",
+      "Glutes",
+      "Hamstrings",
+      "Traps"
+    ],
+    "catalogId": "Trap_Bar_Deadlift",
+    "catalogName": "Trap Bar Deadlift",
+    "images": [
+      "Trap_Bar_Deadlift/0.jpg",
+      "Trap_Bar_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_rack_pull",
+    "localName": "Barbell rack pull",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Traps",
+      "Lower back",
+      "Glutes",
+      "Forearms"
+    ],
+    "catalogId": "Rack_Pulls",
+    "catalogName": "Rack Pulls",
+    "images": [
+      "Rack_Pulls/0.jpg",
+      "Rack_Pulls/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_back_hyperextension",
+    "localName": "45-degree back extension",
+    "primaryMuscle": "Lower back",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "catalogId": "Hyperextensions_Back_Extensions",
+    "catalogName": "Hyperextensions (Back Extensions)",
+    "images": [
+      "Hyperextensions_Back_Extensions/0.jpg",
+      "Hyperextensions_Back_Extensions/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_weighted_back_extension",
+    "localName": "Weighted 45-degree back extension",
+    "primaryMuscle": "Lower back",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "catalogId": "Hyperextensions_Back_Extensions",
+    "catalogName": "Hyperextensions (Back Extensions)",
+    "images": [
+      "Hyperextensions_Back_Extensions/0.jpg",
+      "Hyperextensions_Back_Extensions/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_good_morning",
+    "localName": "Barbell good morning",
+    "primaryMuscle": "Lower back",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Glutes"
+    ],
+    "catalogId": "Good_Morning",
+    "catalogName": "Good Morning",
+    "images": [
+      "Good_Morning/0.jpg",
+      "Good_Morning/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_inverted_row",
+    "localName": "Inverted bodyweight row",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Biceps",
+      "Rear delts",
+      "Core"
+    ],
+    "catalogId": "Inverted_Row",
+    "catalogName": "Inverted Row",
+    "images": [
+      "Inverted_Row/0.jpg",
+      "Inverted_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_inverted_row_feet_elevated",
+    "localName": "Inverted row (feet elevated)",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Biceps",
+      "Rear delts",
+      "Core"
+    ],
+    "catalogId": "Inverted_Row",
+    "catalogName": "Inverted Row",
+    "images": [
+      "Inverted_Row/0.jpg",
+      "Inverted_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_meadows_row",
+    "localName": "Meadows row",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Upper back",
+      "Rear delts",
+      "Biceps"
+    ],
+    "catalogId": "One-Arm_Dumbbell_Row",
+    "catalogName": "One-Arm Dumbbell Row",
+    "images": [
+      "One-Arm_Dumbbell_Row/0.jpg",
+      "One-Arm_Dumbbell_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seal_row",
+    "localName": "Barbell seal row",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Lats",
+      "Rear delts",
+      "Biceps"
+    ],
+    "catalogId": "Upright_Barbell_Row",
+    "catalogName": "Upright Barbell Row",
+    "images": [
+      "Upright_Barbell_Row/0.jpg",
+      "Upright_Barbell_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_lat_pulldown",
+    "localName": "Single-arm cable lat pulldown",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Rear delts"
+    ],
+    "catalogId": "Wide-Grip_Lat_Pulldown",
+    "catalogName": "Wide-Grip Lat Pulldown",
+    "images": [
+      "Wide-Grip_Lat_Pulldown/0.jpg",
+      "Wide-Grip_Lat_Pulldown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kneeling_cable_lat_pulldown",
+    "localName": "Half-kneeling cable lat pulldown",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Core"
+    ],
+    "catalogId": "Wide-Grip_Lat_Pulldown",
+    "catalogName": "Wide-Grip Lat Pulldown",
+    "images": [
+      "Wide-Grip_Lat_Pulldown/0.jpg",
+      "Wide-Grip_Lat_Pulldown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_lat_pulldown",
+    "localName": "Plate-loaded machine lat pulldown",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back"
+    ],
+    "catalogId": "Wide-Grip_Lat_Pulldown",
+    "catalogName": "Wide-Grip Lat Pulldown",
+    "images": [
+      "Wide-Grip_Lat_Pulldown/0.jpg",
+      "Wide-Grip_Lat_Pulldown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_row",
+    "localName": "Machine seated row",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Lats",
+      "Biceps",
+      "Rear delts"
+    ],
+    "catalogId": "Smith_Machine_Upright_Row",
+    "catalogName": "Smith Machine Upright Row",
+    "images": [
+      "Smith_Machine_Upright_Row/0.jpg",
+      "Smith_Machine_Upright_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_renegade_row",
+    "localName": "Dumbbell renegade row",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Core",
+      "Lats",
+      "Rear delts",
+      "Chest"
+    ],
+    "catalogId": "Alternating_Renegade_Row",
+    "catalogName": "Alternating Renegade Row",
+    "images": [
+      "Alternating_Renegade_Row/0.jpg",
+      "Alternating_Renegade_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_pull_apart",
+    "localName": "Resistance band pull-apart",
+    "primaryMuscle": "Rear delts",
+    "secondaryMuscles": [
+      "Traps",
+      "Rhomboids"
+    ],
+    "catalogId": "Band_Pull_Apart",
+    "catalogName": "Band Pull Apart",
+    "images": [
+      "Band_Pull_Apart/0.jpg",
+      "Band_Pull_Apart/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_face_pull",
+    "localName": "Resistance band face pull",
+    "primaryMuscle": "Rear delts",
+    "secondaryMuscles": [
+      "Rotator cuff",
+      "Traps"
+    ],
+    "catalogId": "Face_Pull",
+    "catalogName": "Face Pull",
+    "images": [
+      "Face_Pull/0.jpg",
+      "Face_Pull/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_superman_hold",
+    "localName": "Superman hold",
+    "primaryMuscle": "Lower back",
+    "secondaryMuscles": [
+      "Glutes",
+      "Upper back"
+    ],
+    "catalogId": "Superman",
+    "catalogName": "Superman",
+    "images": [
+      "Superman/0.jpg",
+      "Superman/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_bird_dog",
+    "localName": "Bird dog",
+    "primaryMuscle": "Lower back",
+    "secondaryMuscles": [
+      "Glutes",
+      "Core",
+      "Shoulders"
+    ],
+    "catalogId": "Superman",
+    "catalogName": "Superman",
+    "images": [
+      "Superman/0.jpg",
+      "Superman/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_scapular_pull_up",
+    "localName": "Scapular pull-up",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Lats",
+      "Traps"
+    ],
+    "catalogId": "Pullups",
+    "catalogName": "Pullups",
+    "images": [
+      "Pullups/0.jpg",
+      "Pullups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_prone_y_raise",
+    "localName": "Prone incline Y-raise",
+    "primaryMuscle": "Lower traps",
+    "secondaryMuscles": [
+      "Rear delts",
+      "Upper back"
+    ],
+    "catalogId": "Barbell_Incline_Shoulder_Raise",
+    "catalogName": "Barbell Incline Shoulder Raise",
+    "images": [
+      "Barbell_Incline_Shoulder_Raise/0.jpg",
+      "Barbell_Incline_Shoulder_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_prone_t_raise",
+    "localName": "Prone incline T-raise",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Rear delts",
+      "Rhomboids"
+    ],
+    "catalogId": "Barbell_Incline_Shoulder_Raise",
+    "catalogName": "Barbell Incline Shoulder Raise",
+    "images": [
+      "Barbell_Incline_Shoulder_Raise/0.jpg",
+      "Barbell_Incline_Shoulder_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_gorilla_row",
+    "localName": "Kettlebell gorilla row",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Lats",
+      "Core",
+      "Biceps"
+    ],
+    "catalogId": "Alternating_Kettlebell_Row",
+    "catalogName": "Alternating Kettlebell Row",
+    "images": [
+      "Alternating_Kettlebell_Row/0.jpg",
+      "Alternating_Kettlebell_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_kayak_row",
+    "localName": "Cable kayak row",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Obliques",
+      "Biceps"
+    ],
+    "catalogId": "Upright_Cable_Row",
+    "catalogName": "Upright Cable Row",
+    "images": [
+      "Upright_Cable_Row/0.jpg",
+      "Upright_Cable_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_snatch_grip_deadlift",
+    "localName": "Snatch-grip barbell deadlift",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Lower back",
+      "Hamstrings",
+      "Traps",
+      "Lats"
+    ],
+    "catalogId": "Barbell_Deadlift",
+    "catalogName": "Barbell Deadlift",
+    "images": [
+      "Barbell_Deadlift/0.jpg",
+      "Barbell_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_landmine_row",
+    "localName": "Single-arm landmine row",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Upper back",
+      "Biceps",
+      "Core"
+    ],
+    "catalogId": "Kneeling_Single-Arm_High_Pulley_Row",
+    "catalogName": "Kneeling Single-Arm High Pulley Row",
+    "images": [
+      "Kneeling_Single-Arm_High_Pulley_Row/0.jpg",
+      "Kneeling_Single-Arm_High_Pulley_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_lat_prayer",
+    "localName": "Kneeling cable lat prayer",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Core",
+      "Teres major"
+    ],
+    "catalogId": "Rope_Crunch",
+    "catalogName": "Rope Crunch",
+    "images": [
+      "Rope_Crunch/0.jpg",
+      "Rope_Crunch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_shrug",
+    "localName": "Cable shrug",
+    "primaryMuscle": "Upper traps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Cable_Shrugs",
+    "catalogName": "Cable Shrugs",
+    "images": [
+      "Cable_Shrugs/0.jpg",
+      "Cable_Shrugs/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_jefferson_curl",
+    "localName": "Jefferson curl",
+    "primaryMuscle": "Lower back",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Glutes"
+    ],
+    "catalogId": "Standing_Leg_Curl",
+    "catalogName": "Standing Leg Curl",
+    "images": [
+      "Standing_Leg_Curl/0.jpg",
+      "Standing_Leg_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_db_shoulder_press",
+    "localName": "Seated dumbbell shoulder press",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Side delts",
+      "Upper chest"
+    ],
+    "catalogId": "Seated_Dumbbell_Press",
+    "catalogName": "Seated Dumbbell Press",
+    "images": [
+      "Seated_Dumbbell_Press/0.jpg",
+      "Seated_Dumbbell_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_db_lateral_raise",
+    "localName": "Dumbbell lateral raise",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Traps"
+    ],
+    "catalogId": "Side_Lateral_Raise",
+    "catalogName": "Side Lateral Raise",
+    "images": [
+      "Side_Lateral_Raise/0.jpg",
+      "Side_Lateral_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_lateral_raise",
+    "localName": "Cable lateral raise",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Traps"
+    ],
+    "catalogId": "Cable_Seated_Lateral_Raise",
+    "catalogName": "Cable Seated Lateral Raise",
+    "images": [
+      "Cable_Seated_Lateral_Raise/0.jpg",
+      "Cable_Seated_Lateral_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_shoulder_press",
+    "localName": "Machine shoulder press",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Side delts"
+    ],
+    "catalogId": "Machine_Shoulder_Military_Press",
+    "catalogName": "Machine Shoulder (Military) Press",
+    "images": [
+      "Machine_Shoulder_Military_Press/0.jpg",
+      "Machine_Shoulder_Military_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_reverse_pec_deck",
+    "localName": "Reverse pec deck",
+    "primaryMuscle": "Rear delts",
+    "secondaryMuscles": [
+      "Traps",
+      "Rhomboids"
+    ],
+    "catalogId": "Butterfly",
+    "catalogName": "Butterfly",
+    "images": [
+      "Butterfly/0.jpg",
+      "Butterfly/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_standing_overhead_press",
+    "localName": "Standing barbell overhead press (OHP)",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Upper chest",
+      "Core",
+      "Traps"
+    ],
+    "catalogId": "Standing_Military_Press",
+    "catalogName": "Standing Military Press",
+    "images": [
+      "Standing_Military_Press/0.jpg",
+      "Standing_Military_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_barbell_overhead_press",
+    "localName": "Seated barbell overhead press",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Upper chest"
+    ],
+    "catalogId": "Standing_Military_Press",
+    "catalogName": "Standing Military Press",
+    "images": [
+      "Standing_Military_Press/0.jpg",
+      "Standing_Military_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_arnold_press",
+    "localName": "Arnold press",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Side delts",
+      "Triceps"
+    ],
+    "catalogId": "Arnold_Dumbbell_Press",
+    "catalogName": "Arnold Dumbbell Press",
+    "images": [
+      "Arnold_Dumbbell_Press/0.jpg",
+      "Arnold_Dumbbell_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_push_press",
+    "localName": "Barbell push press",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Quadriceps",
+      "Glutes",
+      "Upper chest"
+    ],
+    "catalogId": "Push_Press",
+    "catalogName": "Push Press",
+    "images": [
+      "Push_Press/0.jpg",
+      "Push_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_behind_neck_press",
+    "localName": "Behind-the-neck barbell press",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps",
+      "Traps"
+    ],
+    "catalogId": "Standing_Barbell_Press_Behind_Neck",
+    "catalogName": "Standing Barbell Press Behind Neck",
+    "images": [
+      "Standing_Barbell_Press_Behind_Neck/0.jpg",
+      "Standing_Barbell_Press_Behind_Neck/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_dumbbell_lateral_raise",
+    "localName": "Seated dumbbell lateral raise",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Traps"
+    ],
+    "catalogId": "Side_Lateral_Raise",
+    "catalogName": "Side Lateral Raise",
+    "images": [
+      "Side_Lateral_Raise/0.jpg",
+      "Side_Lateral_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_lateral_raise",
+    "localName": "Machine lateral raise",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Traps"
+    ],
+    "catalogId": "Lateral_Raise_-_With_Bands",
+    "catalogName": "Lateral Raise - With Bands",
+    "images": [
+      "Lateral_Raise_-_With_Bands/0.jpg",
+      "Lateral_Raise_-_With_Bands/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_behind_back_cable_lateral_raise",
+    "localName": "Behind-the-back cable lateral raise",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Traps"
+    ],
+    "catalogId": "Cable_Seated_Lateral_Raise",
+    "catalogName": "Cable Seated Lateral Raise",
+    "images": [
+      "Cable_Seated_Lateral_Raise/0.jpg",
+      "Cable_Seated_Lateral_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_dumbbell_lateral_raise",
+    "localName": "Incline bench dumbbell lateral raise",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Traps"
+    ],
+    "catalogId": "Side_Lateral_Raise",
+    "catalogName": "Side Lateral Raise",
+    "images": [
+      "Side_Lateral_Raise/0.jpg",
+      "Side_Lateral_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_front_raise",
+    "localName": "Dumbbell front raise",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Upper chest",
+      "Traps"
+    ],
+    "catalogId": "Front_Dumbbell_Raise",
+    "catalogName": "Front Dumbbell Raise",
+    "images": [
+      "Front_Dumbbell_Raise/0.jpg",
+      "Front_Dumbbell_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_front_raise",
+    "localName": "Barbell front raise",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Upper chest"
+    ],
+    "catalogId": "Standing_Front_Barbell_Raise_Over_Head",
+    "catalogName": "Standing Front Barbell Raise Over Head",
+    "images": [
+      "Standing_Front_Barbell_Raise_Over_Head/0.jpg",
+      "Standing_Front_Barbell_Raise_Over_Head/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_plate_front_raise",
+    "localName": "Weight plate front raise",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Upper chest",
+      "Side delts",
+      "Forearms"
+    ],
+    "catalogId": "Front_Plate_Raise",
+    "catalogName": "Front Plate Raise",
+    "images": [
+      "Front_Plate_Raise/0.jpg",
+      "Front_Plate_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_front_raise",
+    "localName": "Cable front raise",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Upper chest"
+    ],
+    "catalogId": "Front_Cable_Raise",
+    "catalogName": "Front Cable Raise",
+    "images": [
+      "Front_Cable_Raise/0.jpg",
+      "Front_Cable_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_rear_delt_fly",
+    "localName": "Bent-over dumbbell rear delt fly",
+    "primaryMuscle": "Rear delts",
+    "secondaryMuscles": [
+      "Traps",
+      "Rhomboids"
+    ],
+    "catalogId": "Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench",
+    "catalogName": "Bent Over Dumbbell Rear Delt Raise With Head On Bench",
+    "images": [
+      "Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench/0.jpg",
+      "Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_rear_delt_fly",
+    "localName": "Cable rear delt fly (cross-body)",
+    "primaryMuscle": "Rear delts",
+    "secondaryMuscles": [
+      "Traps",
+      "Rhomboids"
+    ],
+    "catalogId": "Cable_Rear_Delt_Fly",
+    "catalogName": "Cable Rear Delt Fly",
+    "images": [
+      "Cable_Rear_Delt_Fly/0.jpg",
+      "Cable_Rear_Delt_Fly/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_upright_row",
+    "localName": "Barbell upright row",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Traps",
+      "Biceps"
+    ],
+    "catalogId": "Upright_Barbell_Row",
+    "catalogName": "Upright Barbell Row",
+    "images": [
+      "Upright_Barbell_Row/0.jpg",
+      "Upright_Barbell_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_upright_row",
+    "localName": "Cable upright row",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Traps",
+      "Biceps"
+    ],
+    "catalogId": "Upright_Cable_Row",
+    "catalogName": "Upright Cable Row",
+    "images": [
+      "Upright_Cable_Row/0.jpg",
+      "Upright_Cable_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_upright_row",
+    "localName": "Dumbbell upright row",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Traps",
+      "Biceps"
+    ],
+    "catalogId": "Standing_Dumbbell_Upright_Row",
+    "catalogName": "Standing Dumbbell Upright Row",
+    "images": [
+      "Standing_Dumbbell_Upright_Row/0.jpg",
+      "Standing_Dumbbell_Upright_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_landmine_shoulder_press",
+    "localName": "Half-kneeling landmine shoulder press",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Upper chest",
+      "Triceps",
+      "Core"
+    ],
+    "catalogId": "Barbell_Shoulder_Press",
+    "catalogName": "Barbell Shoulder Press",
+    "images": [
+      "Barbell_Shoulder_Press/0.jpg",
+      "Barbell_Shoulder_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_overhead_press",
+    "localName": "Kettlebell overhead press",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Side delts",
+      "Core"
+    ],
+    "catalogId": "Standing_Military_Press",
+    "catalogName": "Standing Military Press",
+    "images": [
+      "Standing_Military_Press/0.jpg",
+      "Standing_Military_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_push_press",
+    "localName": "Kettlebell push press",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Quadriceps",
+      "Glutes"
+    ],
+    "catalogId": "Double_Kettlebell_Push_Press",
+    "catalogName": "Double Kettlebell Push Press",
+    "images": [
+      "Double_Kettlebell_Push_Press/0.jpg",
+      "Double_Kettlebell_Push_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_handstand_push_up",
+    "localName": "Handstand push-up (against wall)",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Upper chest",
+      "Core"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_pike_push_up",
+    "localName": "Pike push-up",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Upper chest"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_feet_elevated_pike_push_up",
+    "localName": "Feet-elevated pike push-up",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Side delts"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_lu_raise",
+    "localName": "Lu raise (full ROM lateral raise)",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Traps",
+      "Front delts"
+    ],
+    "catalogId": "Lateral_Raise_-_With_Bands",
+    "catalogName": "Lateral Raise - With Bands",
+    "images": [
+      "Lateral_Raise_-_With_Bands/0.jpg",
+      "Lateral_Raise_-_With_Bands/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_external_cable_shoulder_rotation",
+    "localName": "Cable shoulder external rotation",
+    "primaryMuscle": "Rotator cuff",
+    "secondaryMuscles": [
+      "Rear delts"
+    ],
+    "catalogId": "External_Rotation_with_Cable",
+    "catalogName": "External Rotation with Cable",
+    "images": [
+      "External_Rotation_with_Cable/0.jpg",
+      "External_Rotation_with_Cable/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_internal_cable_shoulder_rotation",
+    "localName": "Cable shoulder internal rotation",
+    "primaryMuscle": "Rotator cuff",
+    "secondaryMuscles": [
+      "Front delts"
+    ],
+    "catalogId": "Cable_Internal_Rotation",
+    "catalogName": "Cable Internal Rotation",
+    "images": [
+      "Cable_Internal_Rotation/0.jpg",
+      "Cable_Internal_Rotation/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_external_rotation",
+    "localName": "Side-lying dumbbell external rotation",
+    "primaryMuscle": "Rotator cuff",
+    "secondaryMuscles": [
+      "Rear delts"
+    ],
+    "catalogId": "External_Rotation",
+    "catalogName": "External Rotation",
+    "images": [
+      "External_Rotation/0.jpg",
+      "External_Rotation/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cuban_press",
+    "localName": "Dumbbell Cuban press",
+    "primaryMuscle": "Rotator cuff",
+    "secondaryMuscles": [
+      "Side delts",
+      "Traps",
+      "Front delts"
+    ],
+    "catalogId": "Cuban_Press",
+    "catalogName": "Cuban Press",
+    "images": [
+      "Cuban_Press/0.jpg",
+      "Cuban_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_scaption_raise",
+    "localName": "Dumbbell scaption raise",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Front delts",
+      "Supraspinatus"
+    ],
+    "catalogId": "Dumbbell_Raise",
+    "catalogName": "Dumbbell Raise",
+    "images": [
+      "Dumbbell_Raise/0.jpg",
+      "Dumbbell_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_shoulder_press",
+    "localName": "Smith machine shoulder press",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Upper chest"
+    ],
+    "catalogId": "Smith_Machine_Overhead_Shoulder_Press",
+    "catalogName": "Smith Machine Overhead Shoulder Press",
+    "images": [
+      "Smith_Machine_Overhead_Shoulder_Press/0.jpg",
+      "Smith_Machine_Overhead_Shoulder_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kneeling_bottoms_up_kb_press",
+    "localName": "Half-kneeling bottoms-up kettlebell press",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Rotator cuff",
+      "Forearms",
+      "Core"
+    ],
+    "catalogId": "Alternating_Kettlebell_Press",
+    "catalogName": "Alternating Kettlebell Press",
+    "images": [
+      "Alternating_Kettlebell_Press/0.jpg",
+      "Alternating_Kettlebell_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_landmine_lateral_raise",
+    "localName": "Landmine lateral raise",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Traps"
+    ],
+    "catalogId": "Lateral_Raise_-_With_Bands",
+    "catalogName": "Lateral Raise - With Bands",
+    "images": [
+      "Lateral_Raise_-_With_Bands/0.jpg",
+      "Lateral_Raise_-_With_Bands/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_overhead_press",
+    "localName": "Resistance band overhead press",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Side delts"
+    ],
+    "catalogId": "Standing_Military_Press",
+    "catalogName": "Standing Military Press",
+    "images": [
+      "Standing_Military_Press/0.jpg",
+      "Standing_Military_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_lateral_raise",
+    "localName": "Resistance band lateral raise",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Traps"
+    ],
+    "catalogId": "Lateral_Raise_-_With_Bands",
+    "catalogName": "Lateral Raise - With Bands",
+    "images": [
+      "Lateral_Raise_-_With_Bands/0.jpg",
+      "Lateral_Raise_-_With_Bands/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_rear_delt_row_cable",
+    "localName": "Cable wide rear delt row",
+    "primaryMuscle": "Rear delts",
+    "secondaryMuscles": [
+      "Upper back",
+      "Traps"
+    ],
+    "catalogId": "Barbell_Rear_Delt_Row",
+    "catalogName": "Barbell Rear Delt Row",
+    "images": [
+      "Barbell_Rear_Delt_Row/0.jpg",
+      "Barbell_Rear_Delt_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_w_raise",
+    "localName": "Prone incline dumbbell W-raise",
+    "primaryMuscle": "Rotator cuff",
+    "secondaryMuscles": [
+      "Rear delts",
+      "Traps"
+    ],
+    "catalogId": "Dumbbell_Incline_Shoulder_Raise",
+    "catalogName": "Dumbbell Incline Shoulder Raise",
+    "images": [
+      "Dumbbell_Incline_Shoulder_Raise/0.jpg",
+      "Dumbbell_Incline_Shoulder_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_clean_and_press",
+    "localName": "Barbell clean and press",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Upper back",
+      "Hamstrings",
+      "Glutes",
+      "Triceps"
+    ],
+    "catalogId": "Clean_and_Press",
+    "catalogName": "Clean and Press",
+    "images": [
+      "Clean_and_Press/0.jpg",
+      "Clean_and_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_dumbbell_clean_and_press",
+    "localName": "Seated dumbbell clean and press",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Side delts",
+      "Triceps",
+      "Traps"
+    ],
+    "catalogId": "Clean_and_Press",
+    "catalogName": "Clean and Press",
+    "images": [
+      "Clean_and_Press/0.jpg",
+      "Clean_and_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_dumbbell_snatch",
+    "localName": "Single-arm dumbbell snatch",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Glutes",
+      "Traps",
+      "Core"
+    ],
+    "catalogId": "Single_Dumbbell_Raise",
+    "catalogName": "Single Dumbbell Raise",
+    "images": [
+      "Single_Dumbbell_Raise/0.jpg",
+      "Single_Dumbbell_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_biceps_curl",
+    "localName": "Dumbbell biceps curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms",
+      "Brachialis"
+    ],
+    "catalogId": "Seated_Dumbbell_Inner_Biceps_Curl",
+    "catalogName": "Seated Dumbbell Inner Biceps Curl",
+    "images": [
+      "Seated_Dumbbell_Inner_Biceps_Curl/0.jpg",
+      "Seated_Dumbbell_Inner_Biceps_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_hammer_curl",
+    "localName": "Dumbbell hammer curl",
+    "primaryMuscle": "Brachialis",
+    "secondaryMuscles": [
+      "Biceps",
+      "Forearms"
+    ],
+    "catalogId": "Hammer_Curls",
+    "catalogName": "Hammer Curls",
+    "images": [
+      "Hammer_Curls/0.jpg",
+      "Hammer_Curls/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ez_bar_curl",
+    "localName": "EZ-bar curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms",
+      "Brachialis"
+    ],
+    "catalogId": "EZ-Bar_Curl",
+    "catalogName": "EZ-Bar Curl",
+    "images": [
+      "EZ-Bar_Curl/0.jpg",
+      "EZ-Bar_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_dumbbell_curl",
+    "localName": "Incline dumbbell curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Incline_Dumbbell_Curl",
+    "catalogName": "Incline Dumbbell Curl",
+    "images": [
+      "Incline_Dumbbell_Curl/0.jpg",
+      "Incline_Dumbbell_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_biceps_curl",
+    "localName": "Straight barbell biceps curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Barbell_Curl",
+    "catalogName": "Barbell Curl",
+    "images": [
+      "Barbell_Curl/0.jpg",
+      "Barbell_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_preacher_curl_ez_bar",
+    "localName": "EZ-bar preacher curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms",
+      "Brachialis"
+    ],
+    "catalogId": "Preacher_Curl",
+    "catalogName": "Preacher Curl",
+    "images": [
+      "Preacher_Curl/0.jpg",
+      "Preacher_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_preacher_curl",
+    "localName": "Single-arm dumbbell preacher curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Preacher_Curl",
+    "catalogName": "Preacher Curl",
+    "images": [
+      "Preacher_Curl/0.jpg",
+      "Preacher_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_preacher_curl",
+    "localName": "Machine preacher curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Preacher_Curl",
+    "catalogName": "Preacher Curl",
+    "images": [
+      "Preacher_Curl/0.jpg",
+      "Preacher_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_concentration_curl",
+    "localName": "Dumbbell concentration curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Brachialis"
+    ],
+    "catalogId": "Standing_Concentration_Curl",
+    "catalogName": "Standing Concentration Curl",
+    "images": [
+      "Standing_Concentration_Curl/0.jpg",
+      "Standing_Concentration_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_spider_curl",
+    "localName": "Chest-supported spider curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Brachialis"
+    ],
+    "catalogId": "Spider_Curl",
+    "catalogName": "Spider Curl",
+    "images": [
+      "Spider_Curl/0.jpg",
+      "Spider_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_biceps_curl",
+    "localName": "Standing cable biceps curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Standing_Biceps_Cable_Curl",
+    "catalogName": "Standing Biceps Cable Curl",
+    "images": [
+      "Standing_Biceps_Cable_Curl/0.jpg",
+      "Standing_Biceps_Cable_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_bayesian_curl",
+    "localName": "Bayesian cable curl (behind-the-back)",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Cable_Preacher_Curl",
+    "catalogName": "Cable Preacher Curl",
+    "images": [
+      "Cable_Preacher_Curl/0.jpg",
+      "Cable_Preacher_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_high_cable_biceps_curl",
+    "localName": "High cable overhead biceps curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Overhead_Cable_Curl",
+    "catalogName": "Overhead Cable Curl",
+    "images": [
+      "Overhead_Cable_Curl/0.jpg",
+      "Overhead_Cable_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_rope_cable_hammer_curl",
+    "localName": "Rope cable hammer curl",
+    "primaryMuscle": "Brachialis",
+    "secondaryMuscles": [
+      "Biceps",
+      "Forearms"
+    ],
+    "catalogId": "Hammer_Curls",
+    "catalogName": "Hammer Curls",
+    "images": [
+      "Hammer_Curls/0.jpg",
+      "Hammer_Curls/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cross_body_hammer_curl",
+    "localName": "Cross-body dumbbell hammer curl",
+    "primaryMuscle": "Brachialis",
+    "secondaryMuscles": [
+      "Brachioradialis",
+      "Biceps"
+    ],
+    "catalogId": "Hammer_Curls",
+    "catalogName": "Hammer Curls",
+    "images": [
+      "Hammer_Curls/0.jpg",
+      "Hammer_Curls/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_reverse_grip_ez_bar_curl",
+    "localName": "Reverse-grip EZ-bar curl",
+    "primaryMuscle": "Brachioradialis",
+    "secondaryMuscles": [
+      "Forearms",
+      "Brachialis",
+      "Biceps"
+    ],
+    "catalogId": "Close-Grip_EZ_Bar_Curl",
+    "catalogName": "Close-Grip EZ Bar Curl",
+    "images": [
+      "Close-Grip_EZ_Bar_Curl/0.jpg",
+      "Close-Grip_EZ_Bar_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_zottman_curl",
+    "localName": "Zottman curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms",
+      "Brachioradialis"
+    ],
+    "catalogId": "Zottman_Curl",
+    "catalogName": "Zottman Curl",
+    "images": [
+      "Zottman_Curl/0.jpg",
+      "Zottman_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_drag_curl",
+    "localName": "Barbell drag curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Drag_Curl",
+    "catalogName": "Drag Curl",
+    "images": [
+      "Drag_Curl/0.jpg",
+      "Drag_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_waiter_curl",
+    "localName": "Dumbbell waiter curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Dumbbell_Bicep_Curl",
+    "catalogName": "Dumbbell Bicep Curl",
+    "images": [
+      "Dumbbell_Bicep_Curl/0.jpg",
+      "Dumbbell_Bicep_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_incline_hammer_curl",
+    "localName": "Seated incline dumbbell hammer curl",
+    "primaryMuscle": "Brachialis",
+    "secondaryMuscles": [
+      "Biceps",
+      "Forearms"
+    ],
+    "catalogId": "Hammer_Curls",
+    "catalogName": "Hammer Curls",
+    "images": [
+      "Hammer_Curls/0.jpg",
+      "Hammer_Curls/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_biceps_curl",
+    "localName": "Resistance band biceps curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Standing_Biceps_Cable_Curl",
+    "catalogName": "Standing Biceps Cable Curl",
+    "images": [
+      "Standing_Biceps_Cable_Curl/0.jpg",
+      "Standing_Biceps_Cable_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_biceps_curl",
+    "localName": "Kettlebell biceps curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms",
+      "Grip"
+    ],
+    "catalogId": "Standing_Biceps_Cable_Curl",
+    "catalogName": "Standing Biceps Cable Curl",
+    "images": [
+      "Standing_Biceps_Cable_Curl/0.jpg",
+      "Standing_Biceps_Cable_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_chin_up_biceps_focus",
+    "localName": "Close-grip chin-up (biceps focus)",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Lats",
+      "Upper back",
+      "Core"
+    ],
+    "catalogId": "Chin-Up",
+    "catalogName": "Chin-Up",
+    "images": [
+      "Chin-Up/0.jpg",
+      "Chin-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_wrist_curl",
+    "localName": "Barbell wrist curl",
+    "primaryMuscle": "Forearms",
+    "secondaryMuscles": [
+      "Grip"
+    ],
+    "catalogId": "Barbell_Curl",
+    "catalogName": "Barbell Curl",
+    "images": [
+      "Barbell_Curl/0.jpg",
+      "Barbell_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_reverse_wrist_curl",
+    "localName": "Barbell reverse wrist curl",
+    "primaryMuscle": "Forearms",
+    "secondaryMuscles": [
+      "Grip"
+    ],
+    "catalogId": "Reverse_Barbell_Curl",
+    "catalogName": "Reverse Barbell Curl",
+    "images": [
+      "Reverse_Barbell_Curl/0.jpg",
+      "Reverse_Barbell_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_farmers_walk",
+    "localName": "Farmer's walk",
+    "primaryMuscle": "Forearms",
+    "secondaryMuscles": [
+      "Traps",
+      "Core",
+      "Glutes"
+    ],
+    "catalogId": "Farmers_Walk",
+    "catalogName": "Farmer's Walk",
+    "images": [
+      "Farmers_Walk/0.jpg",
+      "Farmers_Walk/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dead_hang",
+    "localName": "Barbell / bar dead hang",
+    "primaryMuscle": "Forearms",
+    "secondaryMuscles": [
+      "Lats",
+      "Shoulders",
+      "Grip"
+    ],
+    "catalogId": "One_Handed_Hang",
+    "catalogName": "One Handed Hang",
+    "images": [
+      "One_Handed_Hang/0.jpg",
+      "One_Handed_Hang/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_plate_pinch_hold",
+    "localName": "Weight plate pinch hold",
+    "primaryMuscle": "Forearms",
+    "secondaryMuscles": [
+      "Grip"
+    ],
+    "catalogId": "Plate_Pinch",
+    "catalogName": "Plate Pinch",
+    "images": [
+      "Plate_Pinch/0.jpg",
+      "Plate_Pinch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_cable_curl",
+    "localName": "Single-arm low cable curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Cable_Preacher_Curl",
+    "catalogName": "Cable Preacher Curl",
+    "images": [
+      "Cable_Preacher_Curl/0.jpg",
+      "Cable_Preacher_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_dumbbell_biceps_curl",
+    "localName": "Seated dumbbell biceps curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Seated_Dumbbell_Inner_Biceps_Curl",
+    "catalogName": "Seated Dumbbell Inner Biceps Curl",
+    "images": [
+      "Seated_Dumbbell_Inner_Biceps_Curl/0.jpg",
+      "Seated_Dumbbell_Inner_Biceps_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_prone_incline_hammer_curl",
+    "localName": "Prone incline spider hammer curl",
+    "primaryMuscle": "Brachialis",
+    "secondaryMuscles": [
+      "Biceps",
+      "Forearms"
+    ],
+    "catalogId": "Hammer_Curls",
+    "catalogName": "Hammer Curls",
+    "images": [
+      "Hammer_Curls/0.jpg",
+      "Hammer_Curls/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_rope_preacher_curl",
+    "localName": "Cable rope preacher curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Brachialis",
+      "Forearms"
+    ],
+    "catalogId": "Preacher_Curl",
+    "catalogName": "Preacher Curl",
+    "images": [
+      "Preacher_Curl/0.jpg",
+      "Preacher_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_towel_pull_up",
+    "localName": "Towel grip pull-up",
+    "primaryMuscle": "Forearms",
+    "secondaryMuscles": [
+      "Lats",
+      "Biceps",
+      "Grip"
+    ],
+    "catalogId": "Pullups",
+    "catalogName": "Pullups",
+    "images": [
+      "Pullups/0.jpg",
+      "Pullups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_wrist_roller",
+    "localName": "Forearm wrist roller",
+    "primaryMuscle": "Forearms",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Grip"
+    ],
+    "catalogId": "Wrist_Roller",
+    "catalogName": "Wrist Roller",
+    "images": [
+      "Wrist_Roller/0.jpg",
+      "Wrist_Roller/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_standing_inner_biceps_curl",
+    "localName": "Wide-grip standing barbell curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Wide-Grip_Standing_Barbell_Curl",
+    "catalogName": "Wide-Grip Standing Barbell Curl",
+    "images": [
+      "Wide-Grip_Standing_Barbell_Curl/0.jpg",
+      "Wide-Grip_Standing_Barbell_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_rope_triceps_pushdown",
+    "localName": "Rope triceps pushdown",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Triceps_Pushdown_-_Rope_Attachment",
+    "catalogName": "Triceps Pushdown - Rope Attachment",
+    "images": [
+      "Triceps_Pushdown_-_Rope_Attachment/0.jpg",
+      "Triceps_Pushdown_-_Rope_Attachment/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_overhead_cable_triceps_extension",
+    "localName": "Overhead cable triceps extension",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Cable_Rope_Overhead_Triceps_Extension",
+    "catalogName": "Cable Rope Overhead Triceps Extension",
+    "images": [
+      "Cable_Rope_Overhead_Triceps_Extension/0.jpg",
+      "Cable_Rope_Overhead_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_straight_bar_triceps_pushdown",
+    "localName": "Straight-bar triceps pushdown",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Triceps_Pushdown_-_V-Bar_Attachment",
+    "catalogName": "Triceps Pushdown - V-Bar Attachment",
+    "images": [
+      "Triceps_Pushdown_-_V-Bar_Attachment/0.jpg",
+      "Triceps_Pushdown_-_V-Bar_Attachment/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_v_bar_pushdown",
+    "localName": "V-bar triceps pushdown",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Triceps_Pushdown_-_V-Bar_Attachment",
+    "catalogName": "Triceps Pushdown - V-Bar Attachment",
+    "images": [
+      "Triceps_Pushdown_-_V-Bar_Attachment/0.jpg",
+      "Triceps_Pushdown_-_V-Bar_Attachment/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_skull_crusher_ez_bar",
+    "localName": "EZ-bar skull crusher (lying triceps extension)",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Cable_Lying_Triceps_Extension",
+    "catalogName": "Cable Lying Triceps Extension",
+    "images": [
+      "Cable_Lying_Triceps_Extension/0.jpg",
+      "Cable_Lying_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_skull_crusher",
+    "localName": "Dumbbell skull crusher",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Band_Skull_Crusher",
+    "catalogName": "Band Skull Crusher",
+    "images": [
+      "Band_Skull_Crusher/0.jpg",
+      "Band_Skull_Crusher/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_overhead_triceps_extension",
+    "localName": "Seated dumbbell overhead triceps extension",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Standing_Dumbbell_Triceps_Extension",
+    "catalogName": "Standing Dumbbell Triceps Extension",
+    "images": [
+      "Standing_Dumbbell_Triceps_Extension/0.jpg",
+      "Standing_Dumbbell_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_overhead_dumbbell_extension",
+    "localName": "Single-arm overhead dumbbell triceps extension",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Standing_Dumbbell_Triceps_Extension",
+    "catalogName": "Standing Dumbbell Triceps Extension",
+    "images": [
+      "Standing_Dumbbell_Triceps_Extension/0.jpg",
+      "Standing_Dumbbell_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dips_triceps",
+    "localName": "Parallel bar dips (triceps focus)",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Chest",
+      "Front delts"
+    ],
+    "catalogId": "Dips_-_Triceps_Version",
+    "catalogName": "Dips - Triceps Version",
+    "images": [
+      "Dips_-_Triceps_Version/0.jpg",
+      "Dips_-_Triceps_Version/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_bench_dips",
+    "localName": "Bench dips",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Front delts",
+      "Chest"
+    ],
+    "catalogId": "Bench_Dips",
+    "catalogName": "Bench Dips",
+    "images": [
+      "Bench_Dips/0.jpg",
+      "Bench_Dips/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_weighted_bench_dips",
+    "localName": "Weighted bench dips",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Front delts"
+    ],
+    "catalogId": "Bench_Dips",
+    "catalogName": "Bench Dips",
+    "images": [
+      "Bench_Dips/0.jpg",
+      "Bench_Dips/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_cable_triceps_kickback",
+    "localName": "Cable triceps kickback",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Kneeling_Cable_Triceps_Extension",
+    "catalogName": "Kneeling Cable Triceps Extension",
+    "images": [
+      "Kneeling_Cable_Triceps_Extension/0.jpg",
+      "Kneeling_Cable_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_triceps_kickback",
+    "localName": "Dumbbell triceps kickback",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Standing_Dumbbell_Triceps_Extension",
+    "catalogName": "Standing Dumbbell Triceps Extension",
+    "images": [
+      "Standing_Dumbbell_Triceps_Extension/0.jpg",
+      "Standing_Dumbbell_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_tate_press",
+    "localName": "Dumbbell Tate press",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Standing_Dumbbell_Press",
+    "catalogName": "Standing Dumbbell Press",
+    "images": [
+      "Standing_Dumbbell_Press/0.jpg",
+      "Standing_Dumbbell_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_jm_press",
+    "localName": "Barbell JM press",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Chest",
+      "Front delts"
+    ],
+    "catalogId": "JM_Press",
+    "catalogName": "JM Press",
+    "images": [
+      "JM_Press/0.jpg",
+      "JM_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_reverse_grip_triceps_pushdown",
+    "localName": "Reverse-grip triceps pushdown",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Reverse_Grip_Triceps_Pushdown",
+    "catalogName": "Reverse Grip Triceps Pushdown",
+    "images": [
+      "Reverse_Grip_Triceps_Pushdown/0.jpg",
+      "Reverse_Grip_Triceps_Pushdown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cross_body_cable_triceps_extension",
+    "localName": "Cross-body cable triceps extension",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Kneeling_Cable_Triceps_Extension",
+    "catalogName": "Kneeling Cable Triceps Extension",
+    "images": [
+      "Kneeling_Cable_Triceps_Extension/0.jpg",
+      "Kneeling_Cable_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_bodyweight_triceps_extension",
+    "localName": "Bodyweight triceps extension (skull crusher)",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "catalogId": "Decline_Close-Grip_Bench_To_Skull_Crusher",
+    "catalogName": "Decline Close-Grip Bench To Skull Crusher",
+    "images": [
+      "Decline_Close-Grip_Bench_To_Skull_Crusher/0.jpg",
+      "Decline_Close-Grip_Bench_To_Skull_Crusher/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_triceps_dip",
+    "localName": "Seated machine triceps dip",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Chest",
+      "Front delts"
+    ],
+    "catalogId": "Dip_Machine",
+    "catalogName": "Dip Machine",
+    "images": [
+      "Dip_Machine/0.jpg",
+      "Dip_Machine/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_triceps_pushdown",
+    "localName": "Resistance band triceps pushdown",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Triceps_Pushdown",
+    "catalogName": "Triceps Pushdown",
+    "images": [
+      "Triceps_Pushdown/0.jpg",
+      "Triceps_Pushdown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_cable_pushdown",
+    "localName": "Single-arm cable triceps pushdown",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Triceps_Pushdown",
+    "catalogName": "Triceps Pushdown",
+    "images": [
+      "Triceps_Pushdown/0.jpg",
+      "Triceps_Pushdown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_ez_bar_skull_crusher",
+    "localName": "Incline EZ-bar skull crusher",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Band_Skull_Crusher",
+    "catalogName": "Band Skull Crusher",
+    "images": [
+      "Band_Skull_Crusher/0.jpg",
+      "Band_Skull_Crusher/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_decline_ez_bar_skull_crusher",
+    "localName": "Decline EZ-bar skull crusher",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Decline_Close-Grip_Bench_To_Skull_Crusher",
+    "catalogName": "Decline Close-Grip Bench To Skull Crusher",
+    "images": [
+      "Decline_Close-Grip_Bench_To_Skull_Crusher/0.jpg",
+      "Decline_Close-Grip_Bench_To_Skull_Crusher/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_overhead_triceps_extension",
+    "localName": "Kettlebell overhead triceps extension",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Sled_Overhead_Triceps_Extension",
+    "catalogName": "Sled Overhead Triceps Extension",
+    "images": [
+      "Sled_Overhead_Triceps_Extension/0.jpg",
+      "Sled_Overhead_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_california_press",
+    "localName": "California press",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Chest",
+      "Front delts"
+    ],
+    "catalogId": "JM_Press",
+    "catalogName": "JM Press",
+    "images": [
+      "JM_Press/0.jpg",
+      "JM_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_overhead_single_arm_extension",
+    "localName": "Single-arm cable overhead triceps extension",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Cable_Rope_Overhead_Triceps_Extension",
+    "catalogName": "Cable Rope Overhead Triceps Extension",
+    "images": [
+      "Cable_Rope_Overhead_Triceps_Extension/0.jpg",
+      "Cable_Rope_Overhead_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_overhead_triceps_extension",
+    "localName": "Resistance band overhead triceps extension",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Sled_Overhead_Triceps_Extension",
+    "catalogName": "Sled Overhead Triceps Extension",
+    "images": [
+      "Sled_Overhead_Triceps_Extension/0.jpg",
+      "Sled_Overhead_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_diamond_push_up_triceps",
+    "localName": "Diamond push-up (elevated feet)",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Chest",
+      "Front delts"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_close_grip_bench",
+    "localName": "Smith machine close-grip bench press",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Chest",
+      "Front delts"
+    ],
+    "catalogId": "Smith_Machine_Close-Grip_Bench_Press",
+    "catalogName": "Smith Machine Close-Grip Bench Press",
+    "images": [
+      "Smith_Machine_Close-Grip_Bench_Press/0.jpg",
+      "Smith_Machine_Close-Grip_Bench_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_reverse_cable_pushdown",
+    "localName": "Single-arm reverse-grip cable pushdown",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "catalogId": "Reverse_Grip_Triceps_Pushdown",
+    "catalogName": "Reverse Grip Triceps Pushdown",
+    "images": [
+      "Reverse_Grip_Triceps_Pushdown/0.jpg",
+      "Reverse_Grip_Triceps_Pushdown/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_kickback_both_arms",
+    "localName": "Standing bent-over dual dumbbell kickback",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Bent_Over_Two-Dumbbell_Row",
+    "catalogName": "Bent Over Two-Dumbbell Row",
+    "images": [
+      "Bent_Over_Two-Dumbbell_Row/0.jpg",
+      "Bent_Over_Two-Dumbbell_Row/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cross_body_dumbbell_extension",
+    "localName": "Cross-body dumbbell triceps extension",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Standing_Dumbbell_Triceps_Extension",
+    "catalogName": "Standing Dumbbell Triceps Extension",
+    "images": [
+      "Standing_Dumbbell_Triceps_Extension/0.jpg",
+      "Standing_Dumbbell_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_floor_skull_crusher",
+    "localName": "Barbell floor skull crusher",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Band_Skull_Crusher",
+    "catalogName": "Band Skull Crusher",
+    "images": [
+      "Band_Skull_Crusher/0.jpg",
+      "Band_Skull_Crusher/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_cable_triceps_kickback",
+    "localName": "Incline bench cable triceps kickback",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "catalogId": "Cable_Incline_Triceps_Extension",
+    "catalogName": "Cable Incline Triceps Extension",
+    "images": [
+      "Cable_Incline_Triceps_Extension/0.jpg",
+      "Cable_Incline_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ring_triceps_dips",
+    "localName": "Gymnastic ring triceps dips",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Chest",
+      "Front delts",
+      "Core"
+    ],
+    "catalogId": "Dips_-_Triceps_Version",
+    "catalogName": "Dips - Triceps Version",
+    "images": [
+      "Dips_-_Triceps_Version/0.jpg",
+      "Dips_-_Triceps_Version/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_squat",
+    "localName": "Barbell back squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Lower back",
+      "Core"
+    ],
+    "catalogId": "Barbell_Squat",
+    "catalogName": "Barbell Squat",
+    "images": [
+      "Barbell_Squat/0.jpg",
+      "Barbell_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_front_squat",
+    "localName": "Barbell front squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Upper back",
+      "Core",
+      "Glutes"
+    ],
+    "catalogId": "Front_Barbell_Squat",
+    "catalogName": "Front Barbell Squat",
+    "images": [
+      "Front_Barbell_Squat/0.jpg",
+      "Front_Barbell_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_goblet_squat",
+    "localName": "Goblet squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Core"
+    ],
+    "catalogId": "Goblet_Squat",
+    "catalogName": "Goblet Squat",
+    "images": [
+      "Goblet_Squat/0.jpg",
+      "Goblet_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_leg_press",
+    "localName": "45-degree leg press",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "catalogId": "Leg_Press",
+    "catalogName": "Leg Press",
+    "images": [
+      "Leg_Press/0.jpg",
+      "Leg_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_leg_extension",
+    "localName": "Leg extension",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [],
+    "catalogId": "Leg_Extensions",
+    "catalogName": "Leg Extensions",
+    "images": [
+      "Leg_Extensions/0.jpg",
+      "Leg_Extensions/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_hack_squat_machine",
+    "localName": "Machine hack squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes"
+    ],
+    "catalogId": "Hack_Squat",
+    "catalogName": "Hack Squat",
+    "images": [
+      "Hack_Squat/0.jpg",
+      "Hack_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_bulgarian_split_squat",
+    "localName": "Bulgarian split squat (rear foot elevated)",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Adductors"
+    ],
+    "catalogId": "Split_Squat_with_Dumbbells",
+    "catalogName": "Split Squat with Dumbbells",
+    "images": [
+      "Split_Squat_with_Dumbbells/0.jpg",
+      "Split_Squat_with_Dumbbells/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_walking_dumbbell_lunge",
+    "localName": "Walking dumbbell lunge",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves",
+      "Core"
+    ],
+    "catalogId": "Dumbbell_Lunges",
+    "catalogName": "Dumbbell Lunges",
+    "images": [
+      "Dumbbell_Lunges/0.jpg",
+      "Dumbbell_Lunges/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_reverse_dumbbell_lunge",
+    "localName": "Reverse dumbbell lunge",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "catalogId": "Dumbbell_Lunges",
+    "catalogName": "Dumbbell Lunges",
+    "images": [
+      "Dumbbell_Lunges/0.jpg",
+      "Dumbbell_Lunges/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_step_up",
+    "localName": "Dumbbell box step-up",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "catalogId": "Dumbbell_Step_Ups",
+    "catalogName": "Dumbbell Step Ups",
+    "images": [
+      "Dumbbell_Step_Ups/0.jpg",
+      "Dumbbell_Step_Ups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_sissy_squat",
+    "localName": "Bodyweight sissy squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Core",
+      "Hip flexors"
+    ],
+    "catalogId": "Bodyweight_Squat",
+    "catalogName": "Bodyweight Squat",
+    "images": [
+      "Bodyweight_Squat/0.jpg",
+      "Bodyweight_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_zercher_squat",
+    "localName": "Barbell Zercher squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Upper back",
+      "Core",
+      "Glutes",
+      "Biceps"
+    ],
+    "catalogId": "Barbell_Squat",
+    "catalogName": "Barbell Squat",
+    "images": [
+      "Barbell_Squat/0.jpg",
+      "Barbell_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_box_squat",
+    "localName": "Barbell box squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Lower back"
+    ],
+    "catalogId": "Box_Squat",
+    "catalogName": "Box Squat",
+    "images": [
+      "Box_Squat/0.jpg",
+      "Box_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_pin_squat",
+    "localName": "Barbell pin squat (Anderson squat)",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Core"
+    ],
+    "catalogId": "Barbell_Squat",
+    "catalogName": "Barbell Squat",
+    "images": [
+      "Barbell_Squat/0.jpg",
+      "Barbell_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_heel_elevated_squat",
+    "localName": "Heel-elevated barbell squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes"
+    ],
+    "catalogId": "Barbell_Squat",
+    "catalogName": "Barbell Squat",
+    "images": [
+      "Barbell_Squat/0.jpg",
+      "Barbell_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_squat",
+    "localName": "Smith machine squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes"
+    ],
+    "catalogId": "Smith_Machine_Squat",
+    "catalogName": "Smith Machine Squat",
+    "images": [
+      "Smith_Machine_Squat/0.jpg",
+      "Smith_Machine_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_press",
+    "localName": "Single-leg 45-degree leg press",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes"
+    ],
+    "catalogId": "Leg_Press",
+    "catalogName": "Leg Press",
+    "images": [
+      "Leg_Press/0.jpg",
+      "Leg_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_narrow_stance_leg_press",
+    "localName": "Narrow-stance leg press (quad focus)",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [],
+    "catalogId": "Leg_Press",
+    "catalogName": "Leg Press",
+    "images": [
+      "Leg_Press/0.jpg",
+      "Leg_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_bodyweight_squat",
+    "localName": "Bodyweight air squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves",
+      "Core"
+    ],
+    "catalogId": "Bodyweight_Squat",
+    "catalogName": "Bodyweight Squat",
+    "images": [
+      "Bodyweight_Squat/0.jpg",
+      "Bodyweight_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_wall_sit",
+    "localName": "Wall sit hold",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_pistol_squat",
+    "localName": "Single-leg pistol squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Core",
+      "Ankles"
+    ],
+    "catalogId": "Kettlebell_Pistol_Squat",
+    "catalogName": "Kettlebell Pistol Squat",
+    "images": [
+      "Kettlebell_Pistol_Squat/0.jpg",
+      "Kettlebell_Pistol_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cossack_squat",
+    "localName": "Cossack squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Adductors",
+      "Glutes",
+      "Hamstrings"
+    ],
+    "catalogId": "Kneeling_Squat",
+    "catalogName": "Kneeling Squat",
+    "images": [
+      "Kneeling_Squat/0.jpg",
+      "Kneeling_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_forward_dumbbell_lunge",
+    "localName": "Forward dumbbell lunge",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "catalogId": "Dumbbell_Lunges",
+    "catalogName": "Dumbbell Lunges",
+    "images": [
+      "Dumbbell_Lunges/0.jpg",
+      "Dumbbell_Lunges/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_curtsy_lunge",
+    "localName": "Dumbbell curtsy lunge",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Abductors"
+    ],
+    "catalogId": "Dumbbell_Rear_Lunge",
+    "catalogName": "Dumbbell Rear Lunge",
+    "images": [
+      "Dumbbell_Rear_Lunge/0.jpg",
+      "Dumbbell_Rear_Lunge/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_jump_squat",
+    "localName": "Bodyweight jump squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves"
+    ],
+    "catalogId": "Bodyweight_Squat",
+    "catalogName": "Bodyweight Squat",
+    "images": [
+      "Bodyweight_Squat/0.jpg",
+      "Bodyweight_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_box_jump",
+    "localName": "Plyometric box jump",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves",
+      "Core"
+    ],
+    "catalogId": "Front_Box_Jump",
+    "catalogName": "Front Box Jump",
+    "images": [
+      "Front_Box_Jump/0.jpg",
+      "Front_Box_Jump/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_banded_leg_extension",
+    "localName": "Resistance band leg extension",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [],
+    "catalogId": "Leg_Extensions",
+    "catalogName": "Leg Extensions",
+    "images": [
+      "Leg_Extensions/0.jpg",
+      "Leg_Extensions/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_pendulum_squat",
+    "localName": "Pendulum squat machine",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes"
+    ],
+    "catalogId": "Lying_Machine_Squat",
+    "catalogName": "Lying Machine Squat",
+    "images": [
+      "Lying_Machine_Squat/0.jpg",
+      "Lying_Machine_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_belt_squat",
+    "localName": "Belt squat machine",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes"
+    ],
+    "catalogId": "Lying_Machine_Squat",
+    "catalogName": "Lying Machine Squat",
+    "images": [
+      "Lying_Machine_Squat/0.jpg",
+      "Lying_Machine_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_overhead_barbell_squat",
+    "localName": "Overhead barbell squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Core",
+      "Shoulders",
+      "Upper back",
+      "Glutes"
+    ],
+    "catalogId": "Barbell_Squat",
+    "catalogName": "Barbell Squat",
+    "images": [
+      "Barbell_Squat/0.jpg",
+      "Barbell_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_box_squat",
+    "localName": "Single-leg box squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Core"
+    ],
+    "catalogId": "Box_Squat",
+    "catalogName": "Box Squat",
+    "images": [
+      "Box_Squat/0.jpg",
+      "Box_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_duck_walk",
+    "localName": "Bodyweight duck walk",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves",
+      "Hip flexors"
+    ],
+    "catalogId": "Bodyweight_Squat",
+    "catalogName": "Bodyweight Squat",
+    "images": [
+      "Bodyweight_Squat/0.jpg",
+      "Bodyweight_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_front_squat",
+    "localName": "Double kettlebell front squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Core",
+      "Upper back",
+      "Glutes"
+    ],
+    "catalogId": "Front_Barbell_Squat",
+    "catalogName": "Front Barbell Squat",
+    "images": [
+      "Front_Barbell_Squat/0.jpg",
+      "Front_Barbell_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_hack_squat",
+    "localName": "Smith machine hack squat",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes"
+    ],
+    "catalogId": "Hack_Squat",
+    "catalogName": "Hack Squat",
+    "images": [
+      "Hack_Squat/0.jpg",
+      "Hack_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_lateral_step_up",
+    "localName": "Dumbbell lateral step-up",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Adductors"
+    ],
+    "catalogId": "Dumbbell_Step_Ups",
+    "catalogName": "Dumbbell Step Ups",
+    "images": [
+      "Dumbbell_Step_Ups/0.jpg",
+      "Dumbbell_Step_Ups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_db_romanian_deadlift",
+    "localName": "Dumbbell Romanian deadlift (RDL)",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Lower back"
+    ],
+    "catalogId": "Stiff-Legged_Dumbbell_Deadlift",
+    "catalogName": "Stiff-Legged Dumbbell Deadlift",
+    "images": [
+      "Stiff-Legged_Dumbbell_Deadlift/0.jpg",
+      "Stiff-Legged_Dumbbell_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_romanian_deadlift",
+    "localName": "Barbell Romanian deadlift (Barbell RDL)",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Lower back",
+      "Forearms"
+    ],
+    "catalogId": "Romanian_Deadlift",
+    "catalogName": "Romanian Deadlift",
+    "images": [
+      "Romanian_Deadlift/0.jpg",
+      "Romanian_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_leg_curl",
+    "localName": "Seated leg curl",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Calves"
+    ],
+    "catalogId": "Seated_Leg_Curl",
+    "catalogName": "Seated Leg Curl",
+    "images": [
+      "Seated_Leg_Curl/0.jpg",
+      "Seated_Leg_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_lying_leg_curl",
+    "localName": "Lying leg curl",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Calves"
+    ],
+    "catalogId": "Lying_Leg_Curls",
+    "catalogName": "Lying Leg Curls",
+    "images": [
+      "Lying_Leg_Curls/0.jpg",
+      "Lying_Leg_Curls/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_nordic_hamstring_curl",
+    "localName": "Nordic hamstring curl",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Core",
+      "Calves"
+    ],
+    "catalogId": "Seated_Band_Hamstring_Curl",
+    "catalogName": "Seated Band Hamstring Curl",
+    "images": [
+      "Seated_Band_Hamstring_Curl/0.jpg",
+      "Seated_Band_Hamstring_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_standing_leg_curl",
+    "localName": "Standing single-leg curl machine",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [],
+    "catalogId": "Machine_Bicep_Curl",
+    "catalogName": "Machine Bicep Curl",
+    "images": [
+      "Machine_Bicep_Curl/0.jpg",
+      "Machine_Bicep_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_romanian_deadlift",
+    "localName": "Single-leg dumbbell Romanian deadlift",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Core",
+      "Ankles"
+    ],
+    "catalogId": "Stiff-Legged_Dumbbell_Deadlift",
+    "catalogName": "Stiff-Legged Dumbbell Deadlift",
+    "images": [
+      "Stiff-Legged_Dumbbell_Deadlift/0.jpg",
+      "Stiff-Legged_Dumbbell_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_swiss_ball_hamstring_curl",
+    "localName": "Swiss ball leg curl",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Core"
+    ],
+    "catalogId": "Ball_Leg_Curl",
+    "catalogName": "Ball Leg Curl",
+    "images": [
+      "Ball_Leg_Curl/0.jpg",
+      "Ball_Leg_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_slider_hamstring_curl",
+    "localName": "Slider / towel hamstring curl",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Core"
+    ],
+    "catalogId": "Ball_Leg_Curl",
+    "catalogName": "Ball Leg Curl",
+    "images": [
+      "Ball_Leg_Curl/0.jpg",
+      "Ball_Leg_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_glute_ham_raise",
+    "localName": "Glute-ham raise (GHR)",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Lower back",
+      "Calves"
+    ],
+    "catalogId": "Glute_Ham_Raise",
+    "catalogName": "Glute Ham Raise",
+    "images": [
+      "Glute_Ham_Raise/0.jpg",
+      "Glute_Ham_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_pull_through",
+    "localName": "Cable pull-through",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Lower back"
+    ],
+    "catalogId": "Pull_Through",
+    "catalogName": "Pull Through",
+    "images": [
+      "Pull_Through/0.jpg",
+      "Pull_Through/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_swing",
+    "localName": "Russian kettlebell swing",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Lower back",
+      "Core"
+    ],
+    "catalogId": "One-Arm_Kettlebell_Swings",
+    "catalogName": "One-Arm Kettlebell Swings",
+    "images": [
+      "One-Arm_Kettlebell_Swings/0.jpg",
+      "One-Arm_Kettlebell_Swings/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_trap_bar_rdl",
+    "localName": "Trap bar Romanian deadlift",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Lower back"
+    ],
+    "catalogId": "Romanian_Deadlift",
+    "catalogName": "Romanian Deadlift",
+    "images": [
+      "Romanian_Deadlift/0.jpg",
+      "Romanian_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_cable_kickback_hamstring",
+    "localName": "Cable straight-leg hamstring kickback",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes"
+    ],
+    "catalogId": "Standing_Leg_Curl",
+    "catalogName": "Standing Leg Curl",
+    "images": [
+      "Standing_Leg_Curl/0.jpg",
+      "Standing_Leg_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_lying_leg_curl",
+    "localName": "Dumbbell lying leg curl (feet squeezed)",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Calves"
+    ],
+    "catalogId": "Lying_Leg_Curls",
+    "catalogName": "Lying Leg Curls",
+    "images": [
+      "Lying_Leg_Curls/0.jpg",
+      "Lying_Leg_Curls/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_stiff_legged_barbell_deadlift",
+    "localName": "Stiff-legged barbell deadlift (from deficit/floor)",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Lower back"
+    ],
+    "catalogId": "Barbell_Deadlift",
+    "catalogName": "Barbell Deadlift",
+    "images": [
+      "Barbell_Deadlift/0.jpg",
+      "Barbell_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_nordic_curl_assisted",
+    "localName": "Band-assisted Nordic hamstring curl",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes"
+    ],
+    "catalogId": "Seated_Band_Hamstring_Curl",
+    "catalogName": "Seated Band Hamstring Curl",
+    "images": [
+      "Seated_Band_Hamstring_Curl/0.jpg",
+      "Seated_Band_Hamstring_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_seated_leg_curl",
+    "localName": "Resistance band seated leg curl",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [],
+    "catalogId": "Seated_Leg_Curl",
+    "catalogName": "Seated Leg Curl",
+    "images": [
+      "Seated_Leg_Curl/0.jpg",
+      "Seated_Leg_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_bridge_hamstring",
+    "localName": "Single-leg hamstring bridge (heel elevated)",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes"
+    ],
+    "catalogId": "Butt_Lift_Bridge",
+    "catalogName": "Butt Lift (Bridge)",
+    "images": [
+      "Butt_Lift_Bridge/0.jpg",
+      "Butt_Lift_Bridge/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_b_stance_dumbbell_rdl",
+    "localName": "B-stance dumbbell Romanian deadlift",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes"
+    ],
+    "catalogId": "Stiff-Legged_Dumbbell_Deadlift",
+    "catalogName": "Stiff-Legged Dumbbell Deadlift",
+    "images": [
+      "Stiff-Legged_Dumbbell_Deadlift/0.jpg",
+      "Stiff-Legged_Dumbbell_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_rdl",
+    "localName": "Smith machine Romanian deadlift",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Lower back"
+    ],
+    "catalogId": "Romanian_Deadlift",
+    "catalogName": "Romanian Deadlift",
+    "images": [
+      "Romanian_Deadlift/0.jpg",
+      "Romanian_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_single_leg_deadlift",
+    "localName": "Kettlebell single-leg deadlift",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Ankles"
+    ],
+    "catalogId": "Barbell_Deadlift",
+    "catalogName": "Barbell Deadlift",
+    "images": [
+      "Barbell_Deadlift/0.jpg",
+      "Barbell_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_seated_hamstring_curl",
+    "localName": "Cable seated hamstring curl (bench & ankle cuff)",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [],
+    "catalogId": "Seated_Band_Hamstring_Curl",
+    "catalogName": "Seated Band Hamstring Curl",
+    "images": [
+      "Seated_Band_Hamstring_Curl/0.jpg",
+      "Seated_Band_Hamstring_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_landmine_romanian_deadlift",
+    "localName": "Landmine Romanian deadlift",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes"
+    ],
+    "catalogId": "Romanian_Deadlift",
+    "catalogName": "Romanian Deadlift",
+    "images": [
+      "Romanian_Deadlift/0.jpg",
+      "Romanian_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_slider_single_leg_curl",
+    "localName": "Single-leg slider hamstring curl",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes"
+    ],
+    "catalogId": "Ball_Leg_Curl",
+    "catalogName": "Ball Leg Curl",
+    "images": [
+      "Ball_Leg_Curl/0.jpg",
+      "Ball_Leg_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_stiff_leg_deadlift",
+    "localName": "Dumbbell stiff-leg deadlift",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Lower back"
+    ],
+    "catalogId": "Barbell_Deadlift",
+    "catalogName": "Barbell Deadlift",
+    "images": [
+      "Barbell_Deadlift/0.jpg",
+      "Barbell_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_snatch_grip_rdl",
+    "localName": "Snatch-grip barbell Romanian deadlift",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Upper back",
+      "Glutes",
+      "Lats"
+    ],
+    "catalogId": "Romanian_Deadlift",
+    "catalogName": "Romanian Deadlift",
+    "images": [
+      "Romanian_Deadlift/0.jpg",
+      "Romanian_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_reverse_hyper",
+    "localName": "Reverse hyperextension (hamstrings & glutes)",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Lower back"
+    ],
+    "catalogId": "Reverse_Hyperextension",
+    "catalogName": "Reverse Hyperextension",
+    "images": [
+      "Reverse_Hyperextension/0.jpg",
+      "Reverse_Hyperextension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_standing_hamstring_curl",
+    "localName": "Standing resistance band leg curl",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [],
+    "catalogId": "Seated_Band_Hamstring_Curl",
+    "catalogName": "Seated Band Hamstring Curl",
+    "images": [
+      "Seated_Band_Hamstring_Curl/0.jpg",
+      "Seated_Band_Hamstring_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_deficit_romanian_deadlift",
+    "localName": "Deficit barbell Romanian deadlift",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Lower back"
+    ],
+    "catalogId": "Romanian_Deadlift",
+    "catalogName": "Romanian Deadlift",
+    "images": [
+      "Romanian_Deadlift/0.jpg",
+      "Romanian_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_hip_thrust_machine",
+    "localName": "Hip thrust machine",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Adductors"
+    ],
+    "catalogId": "Barbell_Hip_Thrust",
+    "catalogName": "Barbell Hip Thrust",
+    "images": [
+      "Barbell_Hip_Thrust/0.jpg",
+      "Barbell_Hip_Thrust/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_hip_thrust",
+    "localName": "Barbell hip thrust",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Adductors"
+    ],
+    "catalogId": "Barbell_Hip_Thrust",
+    "catalogName": "Barbell Hip Thrust",
+    "images": [
+      "Barbell_Hip_Thrust/0.jpg",
+      "Barbell_Hip_Thrust/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_glute_bridge_dumbbell",
+    "localName": "Dumbbell glute bridge",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Core"
+    ],
+    "catalogId": "Barbell_Glute_Bridge",
+    "catalogName": "Barbell Glute Bridge",
+    "images": [
+      "Barbell_Glute_Bridge/0.jpg",
+      "Barbell_Glute_Bridge/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_glute_bridge",
+    "localName": "Single-leg glute bridge",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Core"
+    ],
+    "catalogId": "Single_Leg_Glute_Bridge",
+    "catalogName": "Single Leg Glute Bridge",
+    "images": [
+      "Single_Leg_Glute_Bridge/0.jpg",
+      "Single_Leg_Glute_Bridge/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_hip_thrust",
+    "localName": "Single-leg bench hip thrust",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "catalogId": "Barbell_Hip_Thrust",
+    "catalogName": "Barbell Hip Thrust",
+    "images": [
+      "Barbell_Hip_Thrust/0.jpg",
+      "Barbell_Hip_Thrust/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_glute_kickback",
+    "localName": "Cable glute kickback",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "catalogId": "Glute_Kickback",
+    "catalogName": "Glute Kickback",
+    "images": [
+      "Glute_Kickback/0.jpg",
+      "Glute_Kickback/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_hip_abduction",
+    "localName": "Standing cable hip abduction",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Tensor fasciae latae"
+    ],
+    "catalogId": "Cable_Hip_Adduction",
+    "catalogName": "Cable Hip Adduction",
+    "images": [
+      "Cable_Hip_Adduction/0.jpg",
+      "Cable_Hip_Adduction/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_hip_abduction_machine",
+    "localName": "Seated machine hip abduction",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Tensor fasciae latae"
+    ],
+    "catalogId": "Thigh_Abductor",
+    "catalogName": "Thigh Abductor",
+    "images": [
+      "Thigh_Abductor/0.jpg",
+      "Thigh_Abductor/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_hip_adduction_machine",
+    "localName": "Seated machine hip adduction",
+    "primaryMuscle": "Adductors",
+    "secondaryMuscles": [
+      "Gracilis"
+    ],
+    "catalogId": "Cable_Hip_Adduction",
+    "catalogName": "Cable Hip Adduction",
+    "images": [
+      "Cable_Hip_Adduction/0.jpg",
+      "Cable_Hip_Adduction/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_copenhagen_plank",
+    "localName": "Copenhagen adductor plank",
+    "primaryMuscle": "Adductors",
+    "secondaryMuscles": [
+      "Obliques",
+      "Core"
+    ],
+    "catalogId": "Thigh_Adductor",
+    "catalogName": "Thigh Adductor",
+    "images": [
+      "Thigh_Adductor/0.jpg",
+      "Thigh_Adductor/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_lateral_walk",
+    "localName": "Resistance band lateral monster walk",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Abductors",
+      "Core"
+    ],
+    "catalogId": "Monster_Walk",
+    "catalogName": "Monster Walk",
+    "images": [
+      "Monster_Walk/0.jpg",
+      "Monster_Walk/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_side_lying_clam",
+    "localName": "Side-lying clamshell",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Rotator cuff hip"
+    ],
+    "catalogId": "Side-Lying_Floor_Stretch",
+    "catalogName": "Side-Lying Floor Stretch",
+    "images": [
+      "Side-Lying_Floor_Stretch/0.jpg",
+      "Side-Lying_Floor_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_banded_clamshell",
+    "localName": "Banded side-lying clamshell",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Abductors"
+    ],
+    "catalogId": "Ankle_On_The_Knee",
+    "catalogName": "Ankle On The Knee",
+    "images": [
+      "Ankle_On_The_Knee/0.jpg",
+      "Ankle_On_The_Knee/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_fire_hydrant",
+    "localName": "Bodyweight fire hydrant",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "catalogId": "Ankle_On_The_Knee",
+    "catalogName": "Ankle On The Knee",
+    "images": [
+      "Ankle_On_The_Knee/0.jpg",
+      "Ankle_On_The_Knee/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_donkey_kick",
+    "localName": "Bodyweight donkey kick",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "catalogId": "Glute_Kickback",
+    "catalogName": "Glute Kickback",
+    "images": [
+      "Glute_Kickback/0.jpg",
+      "Glute_Kickback/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_banded_donkey_kick",
+    "localName": "Resistance band donkey kick",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "catalogId": "Glute_Kickback",
+    "catalogName": "Glute Kickback",
+    "images": [
+      "Glute_Kickback/0.jpg",
+      "Glute_Kickback/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_frog_pump",
+    "localName": "Frog pump",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [],
+    "catalogId": "Barbell_Glute_Bridge",
+    "catalogName": "Barbell Glute Bridge",
+    "images": [
+      "Barbell_Glute_Bridge/0.jpg",
+      "Barbell_Glute_Bridge/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kas_glute_bridge",
+    "localName": "Kas glute bridge (barbell)",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [],
+    "catalogId": "Barbell_Glute_Bridge",
+    "catalogName": "Barbell Glute Bridge",
+    "images": [
+      "Barbell_Glute_Bridge/0.jpg",
+      "Barbell_Glute_Bridge/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_step_back_glute_lunge",
+    "localName": "Deficit reverse lunge (glute focus)",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Quadriceps",
+      "Hamstrings"
+    ],
+    "catalogId": "Dumbbell_Rear_Lunge",
+    "catalogName": "Dumbbell Rear Lunge",
+    "images": [
+      "Dumbbell_Rear_Lunge/0.jpg",
+      "Dumbbell_Rear_Lunge/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_pull_through_glutes",
+    "localName": "Wide-stance cable pull-through (glute focus)",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "catalogId": "Band_Good_Morning_Pull_Through",
+    "catalogName": "Band Good Morning (Pull Through)",
+    "images": [
+      "Band_Good_Morning_Pull_Through/0.jpg",
+      "Band_Good_Morning_Pull_Through/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_side_lying_leg_raise",
+    "localName": "Side-lying leg raise",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Abductors"
+    ],
+    "catalogId": "Side_Lateral_Raise",
+    "catalogName": "Side Lateral Raise",
+    "images": [
+      "Side_Lateral_Raise/0.jpg",
+      "Side_Lateral_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_hip_thrust",
+    "localName": "Smith machine hip thrust",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "catalogId": "Smith_Machine_Hip_Raise",
+    "catalogName": "Smith Machine Hip Raise",
+    "images": [
+      "Smith_Machine_Hip_Raise/0.jpg",
+      "Smith_Machine_Hip_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_hip_thrust",
+    "localName": "Resistance band hip thrust",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "catalogId": "Band_Hip_Adductions",
+    "catalogName": "Band Hip Adductions",
+    "images": [
+      "Band_Hip_Adductions/0.jpg",
+      "Band_Hip_Adductions/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_seated_abduction_bench",
+    "localName": "Cable seated hip abduction",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [],
+    "catalogId": "Cable_Hip_Adduction",
+    "catalogName": "Cable Hip Adduction",
+    "images": [
+      "Cable_Hip_Adduction/0.jpg",
+      "Cable_Hip_Adduction/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_cable_pull_through",
+    "localName": "Single-leg cable pull-through",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Core"
+    ],
+    "catalogId": "Pull_Through",
+    "catalogName": "Pull Through",
+    "images": [
+      "Pull_Through/0.jpg",
+      "Pull_Through/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_curtsy_squat_bodyweight",
+    "localName": "Bodyweight curtsy lunge",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Quadriceps"
+    ],
+    "catalogId": "Bodyweight_Walking_Lunge",
+    "catalogName": "Bodyweight Walking Lunge",
+    "images": [
+      "Bodyweight_Walking_Lunge/0.jpg",
+      "Bodyweight_Walking_Lunge/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_goblet_curtsy_lunge",
+    "localName": "Kettlebell goblet curtsy lunge",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Quadriceps"
+    ],
+    "catalogId": "Ankle_On_The_Knee",
+    "catalogName": "Ankle On The Knee",
+    "images": [
+      "Ankle_On_The_Knee/0.jpg",
+      "Ankle_On_The_Knee/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_glute_hyperextension",
+    "localName": "45-degree hyperextension (glute focus)",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "catalogId": "Hyperextensions_Back_Extensions",
+    "catalogName": "Hyperextensions (Back Extensions)",
+    "images": [
+      "Hyperextensions_Back_Extensions/0.jpg",
+      "Hyperextensions_Back_Extensions/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_frog_pump",
+    "localName": "Weighted dumbbell frog pump",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [],
+    "catalogId": "Barbell_Glute_Bridge",
+    "catalogName": "Barbell Glute Bridge",
+    "images": [
+      "Barbell_Glute_Bridge/0.jpg",
+      "Barbell_Glute_Bridge/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_b_stance_hip_thrust",
+    "localName": "B-stance barbell hip thrust",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "catalogId": "Barbell_Hip_Thrust",
+    "catalogName": "Barbell Hip Thrust",
+    "images": [
+      "Barbell_Hip_Thrust/0.jpg",
+      "Barbell_Hip_Thrust/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_glute_band_seated_abduction_tuck",
+    "localName": "Seated band hip abduction (3-way lean)",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Abductors"
+    ],
+    "catalogId": "Ankle_On_The_Knee",
+    "catalogName": "Ankle On The Knee",
+    "images": [
+      "Ankle_On_The_Knee/0.jpg",
+      "Ankle_On_The_Knee/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_standing_kickback",
+    "localName": "Standing resistance band glute kickback",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "catalogId": "Glute_Kickback",
+    "catalogName": "Glute Kickback",
+    "images": [
+      "Glute_Kickback/0.jpg",
+      "Glute_Kickback/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_rainbow_glute_kick",
+    "localName": "Bodyweight glute rainbow",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "catalogId": "Ankle_On_The_Knee",
+    "catalogName": "Ankle On The Knee",
+    "images": [
+      "Ankle_On_The_Knee/0.jpg",
+      "Ankle_On_The_Knee/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kneeling_squat_glute",
+    "localName": "Kneeling barbell squat (glute squeeze)",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "catalogId": "Barbell_Squat",
+    "catalogName": "Barbell Squat",
+    "images": [
+      "Barbell_Squat/0.jpg",
+      "Barbell_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_sumo_squat_glute",
+    "localName": "Dumbbell sumo squat (glute focus)",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Adductors",
+      "Quadriceps"
+    ],
+    "catalogId": "Dumbbell_Squat",
+    "catalogName": "Dumbbell Squat",
+    "images": [
+      "Dumbbell_Squat/0.jpg",
+      "Dumbbell_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_standing_calf_raise",
+    "localName": "Standing calf raise",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Soleus"
+    ],
+    "catalogId": "Standing_Calf_Raises",
+    "catalogName": "Standing Calf Raises",
+    "images": [
+      "Standing_Calf_Raises/0.jpg",
+      "Standing_Calf_Raises/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_calf_raise",
+    "localName": "Seated calf raise",
+    "primaryMuscle": "Soleus",
+    "secondaryMuscles": [
+      "Calves"
+    ],
+    "catalogId": "Seated_Calf_Raise",
+    "catalogName": "Seated Calf Raise",
+    "images": [
+      "Seated_Calf_Raise/0.jpg",
+      "Seated_Calf_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_leg_press_calf_press",
+    "localName": "Leg press calf press (toe press)",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Soleus"
+    ],
+    "catalogId": "Leg_Press",
+    "catalogName": "Leg Press",
+    "images": [
+      "Leg_Press/0.jpg",
+      "Leg_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_standing_calf_raise",
+    "localName": "Single-leg standing calf raise",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Soleus"
+    ],
+    "catalogId": "Standing_Calf_Raises",
+    "catalogName": "Standing Calf Raises",
+    "images": [
+      "Standing_Calf_Raises/0.jpg",
+      "Standing_Calf_Raises/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_smith_machine_calf_raise",
+    "localName": "Smith machine standing calf raise",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Soleus"
+    ],
+    "catalogId": "Standing_Calf_Raises",
+    "catalogName": "Standing Calf Raises",
+    "images": [
+      "Standing_Calf_Raises/0.jpg",
+      "Standing_Calf_Raises/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_seated_calf_raise",
+    "localName": "Dumbbell seated calf raise (bench & block)",
+    "primaryMuscle": "Soleus",
+    "secondaryMuscles": [
+      "Calves"
+    ],
+    "catalogId": "Seated_Calf_Raise",
+    "catalogName": "Seated Calf Raise",
+    "images": [
+      "Seated_Calf_Raise/0.jpg",
+      "Seated_Calf_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_donkey_calf_raise",
+    "localName": "Donkey calf raise",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Soleus"
+    ],
+    "catalogId": "Donkey_Calf_Raises",
+    "catalogName": "Donkey Calf Raises",
+    "images": [
+      "Donkey_Calf_Raises/0.jpg",
+      "Donkey_Calf_Raises/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_tibialis_raise",
+    "localName": "Wall tibialis anterior raise",
+    "primaryMuscle": "Tibialis anterior",
+    "secondaryMuscles": [],
+    "catalogId": "Anterior_Tibialis-SMR",
+    "catalogName": "Anterior Tibialis-SMR",
+    "images": [
+      "Anterior_Tibialis-SMR/0.jpg",
+      "Anterior_Tibialis-SMR/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_weighted_tibialis_raise",
+    "localName": "Dumbbell tibialis raise (heel on bench)",
+    "primaryMuscle": "Tibialis anterior",
+    "secondaryMuscles": [],
+    "catalogId": "Dumbbell_Raise",
+    "catalogName": "Dumbbell Raise",
+    "images": [
+      "Dumbbell_Raise/0.jpg",
+      "Dumbbell_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_jump_rope",
+    "localName": "Jump rope (skipping)",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Cardiovascular system",
+      "Forearms",
+      "Soleus"
+    ],
+    "catalogId": "Ankle_Circles",
+    "catalogName": "Ankle Circles",
+    "images": [
+      "Ankle_Circles/0.jpg",
+      "Ankle_Circles/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_standing_calf_raise",
+    "localName": "Barbell standing calf raise (free barbell)",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Soleus",
+      "Core"
+    ],
+    "catalogId": "Standing_Calf_Raises",
+    "catalogName": "Standing Calf Raises",
+    "images": [
+      "Standing_Calf_Raises/0.jpg",
+      "Standing_Calf_Raises/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_hack_squat_calf_raise",
+    "localName": "Hack squat calf raise",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Soleus"
+    ],
+    "catalogId": "Hack_Squat",
+    "catalogName": "Hack Squat",
+    "images": [
+      "Hack_Squat/0.jpg",
+      "Hack_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_calf_press",
+    "localName": "Resistance band seated calf press",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Soleus"
+    ],
+    "catalogId": "Calf_Press",
+    "catalogName": "Calf Press",
+    "images": [
+      "Calf_Press/0.jpg",
+      "Calf_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_seated_calf_raise",
+    "localName": "Single-leg seated calf raise machine",
+    "primaryMuscle": "Soleus",
+    "secondaryMuscles": [
+      "Calves"
+    ],
+    "catalogId": "Seated_Calf_Raise",
+    "catalogName": "Seated Calf Raise",
+    "images": [
+      "Seated_Calf_Raise/0.jpg",
+      "Seated_Calf_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_farmer_toe_walk",
+    "localName": "Farmer's toe walk (tiptoe carry)",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Soleus",
+      "Forearms",
+      "Traps"
+    ],
+    "catalogId": "Farmers_Walk",
+    "catalogName": "Farmer's Walk",
+    "images": [
+      "Farmers_Walk/0.jpg",
+      "Farmers_Walk/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_stair_calf_raise",
+    "localName": "Staircase bodyweight calf raise (tempo pause)",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Soleus"
+    ],
+    "catalogId": "Ankle_Circles",
+    "catalogName": "Ankle Circles",
+    "images": [
+      "Ankle_Circles/0.jpg",
+      "Ankle_Circles/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_standing_calf_raise",
+    "localName": "Cable standing calf raise (belt or bar)",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Soleus"
+    ],
+    "catalogId": "Standing_Calf_Raises",
+    "catalogName": "Standing Calf Raises",
+    "images": [
+      "Standing_Calf_Raises/0.jpg",
+      "Standing_Calf_Raises/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_band_tibialis_pull",
+    "localName": "Seated resistance band tibialis pull",
+    "primaryMuscle": "Tibialis anterior",
+    "secondaryMuscles": [],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_dumbbell_calf_raise",
+    "localName": "Single-leg dumbbell calf raise",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Soleus"
+    ],
+    "catalogId": "Calf_Raise_On_A_Dumbbell",
+    "catalogName": "Calf Raise On A Dumbbell",
+    "images": [
+      "Calf_Raise_On_A_Dumbbell/0.jpg",
+      "Calf_Raise_On_A_Dumbbell/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_incline_treadmill_walk",
+    "localName": "Steep incline treadmill walking (calf burn)",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Cardiovascular system",
+      "Glutes",
+      "Soleus"
+    ],
+    "catalogId": "Ankle_Circles",
+    "catalogName": "Ankle Circles",
+    "images": [
+      "Ankle_Circles/0.jpg",
+      "Ankle_Circles/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_plank",
+    "localName": "Plank",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Glutes"
+    ],
+    "catalogId": "Plank",
+    "catalogName": "Plank",
+    "images": [
+      "Plank/0.jpg",
+      "Plank/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dead_bug",
+    "localName": "Dead bug",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Hip flexors"
+    ],
+    "catalogId": "Dead_Bug",
+    "catalogName": "Dead Bug",
+    "images": [
+      "Dead_Bug/0.jpg",
+      "Dead_Bug/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_hanging_leg_raise",
+    "localName": "Hanging leg raise",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Hip flexors",
+      "Forearms",
+      "Lats"
+    ],
+    "catalogId": "Hanging_Leg_Raise",
+    "catalogName": "Hanging Leg Raise",
+    "images": [
+      "Hanging_Leg_Raise/0.jpg",
+      "Hanging_Leg_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_hanging_knee_raise",
+    "localName": "Hanging knee raise",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Hip flexors",
+      "Forearms"
+    ],
+    "catalogId": "Hanging_Leg_Raise",
+    "catalogName": "Hanging Leg Raise",
+    "images": [
+      "Hanging_Leg_Raise/0.jpg",
+      "Hanging_Leg_Raise/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_captain_chair_leg_raise",
+    "localName": "Captain's chair leg raise",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Hip flexors"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ab_wheel_rollout",
+    "localName": "Ab wheel rollout (from knees)",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Lats",
+      "Shoulders",
+      "Core"
+    ],
+    "catalogId": "Ab_Roller",
+    "catalogName": "Ab Roller",
+    "images": [
+      "Ab_Roller/0.jpg",
+      "Ab_Roller/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_standing_ab_wheel_rollout",
+    "localName": "Standing ab wheel rollout",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Lats",
+      "Shoulders",
+      "Core"
+    ],
+    "catalogId": "Ab_Roller",
+    "catalogName": "Ab Roller",
+    "images": [
+      "Ab_Roller/0.jpg",
+      "Ab_Roller/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_woodchopper",
+    "localName": "Standing cable woodchopper (high-to-low)",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Abs",
+      "Shoulders"
+    ],
+    "catalogId": "Standing_Cable_Wood_Chop",
+    "catalogName": "Standing Cable Wood Chop",
+    "images": [
+      "Standing_Cable_Wood_Chop/0.jpg",
+      "Standing_Cable_Wood_Chop/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_woodchopper_low_to_high",
+    "localName": "Standing cable woodchopper (low-to-high)",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Abs",
+      "Shoulders"
+    ],
+    "catalogId": "Standing_Cable_Wood_Chop",
+    "catalogName": "Standing Cable Wood Chop",
+    "images": [
+      "Standing_Cable_Wood_Chop/0.jpg",
+      "Standing_Cable_Wood_Chop/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_pallof_press",
+    "localName": "Cable Pallof press",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Abs",
+      "Glutes"
+    ],
+    "catalogId": "Pallof_Press",
+    "catalogName": "Pallof Press",
+    "images": [
+      "Pallof_Press/0.jpg",
+      "Pallof_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_side_plank",
+    "localName": "Side plank hold",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Glutes",
+      "Shoulders"
+    ],
+    "catalogId": "Push_Up_to_Side_Plank",
+    "catalogName": "Push Up to Side Plank",
+    "images": [
+      "Push_Up_to_Side_Plank/0.jpg",
+      "Push_Up_to_Side_Plank/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_russian_twist",
+    "localName": "Russian twist (bodyweight / weighted)",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Abs",
+      "Hip flexors"
+    ],
+    "catalogId": "Russian_Twist",
+    "catalogName": "Russian Twist",
+    "images": [
+      "Russian_Twist/0.jpg",
+      "Russian_Twist/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_bicycle_crunch",
+    "localName": "Bicycle crunch",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Hip flexors"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_crunch",
+    "localName": "Kneeling cable crunch",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques"
+    ],
+    "catalogId": "Cable_Crunch",
+    "catalogName": "Cable Crunch",
+    "images": [
+      "Cable_Crunch/0.jpg",
+      "Cable_Crunch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_machine_crunch",
+    "localName": "Seated ab crunch machine",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [],
+    "catalogId": "Ab_Crunch_Machine",
+    "catalogName": "Ab Crunch Machine",
+    "images": [
+      "Ab_Crunch_Machine/0.jpg",
+      "Ab_Crunch_Machine/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_decline_crunch",
+    "localName": "Decline bench crunch",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Hip flexors"
+    ],
+    "catalogId": "Decline_Crunch",
+    "catalogName": "Decline Crunch",
+    "images": [
+      "Decline_Crunch/0.jpg",
+      "Decline_Crunch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_floor_crunch",
+    "localName": "Standard floor crunch",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_hollow_body_hold",
+    "localName": "Gymnastic hollow body hold",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Hip flexors",
+      "Core"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_l_sit",
+    "localName": "L-sit hold (parallel bars / dip bars)",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Hip flexors",
+      "Triceps",
+      "Shoulders",
+      "Quadriceps"
+    ],
+    "catalogId": "Parallel_Bar_Dip",
+    "catalogName": "Parallel Bar Dip",
+    "images": [
+      "Parallel_Bar_Dip/0.jpg",
+      "Parallel_Bar_Dip/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ab_vacuum",
+    "localName": "Stomach vacuum (transverse abdominis hold)",
+    "primaryMuscle": "Transverse abdominis",
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "catalogId": "Stomach_Vacuum",
+    "catalogName": "Stomach Vacuum",
+    "images": [
+      "Stomach_Vacuum/0.jpg",
+      "Stomach_Vacuum/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dragon_flag",
+    "localName": "Dragon flag (Bruce Lee flag)",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Upper back",
+      "Triceps",
+      "Glutes",
+      "Core"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_v_up",
+    "localName": "V-up (jackknife crunch)",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Hip flexors"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_toe_touches_abs",
+    "localName": "Vertical leg toe touches",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [],
+    "catalogId": "Standing_Toe_Touches",
+    "catalogName": "Standing Toe Touches",
+    "images": [
+      "Standing_Toe_Touches/0.jpg",
+      "Standing_Toe_Touches/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_reverse_crunch",
+    "localName": "Reverse crunch (bench / floor)",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [],
+    "catalogId": "Reverse_Crunch",
+    "catalogName": "Reverse Crunch",
+    "images": [
+      "Reverse_Crunch/0.jpg",
+      "Reverse_Crunch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_windshield_wipers",
+    "localName": "Hanging windshield wipers",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Abs",
+      "Lats",
+      "Forearms"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_floor_windshield_wipers",
+    "localName": "Floor windshield wipers",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Abs"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dumbbell_side_bend",
+    "localName": "Dumbbell standing side bend",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Quadratus lumborum"
+    ],
+    "catalogId": "Dumbbell_Side_Bend",
+    "catalogName": "Dumbbell Side Bend",
+    "images": [
+      "Dumbbell_Side_Bend/0.jpg",
+      "Dumbbell_Side_Bend/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_suit_case_carry",
+    "localName": "Suitcase carry (unilateral farmer walk)",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Forearms",
+      "Core",
+      "Glutes"
+    ],
+    "catalogId": "Farmers_Walk",
+    "catalogName": "Farmer's Walk",
+    "images": [
+      "Farmers_Walk/0.jpg",
+      "Farmers_Walk/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_barbell_rollout",
+    "localName": "Barbell rollout (kneeling / standing)",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Lats",
+      "Core"
+    ],
+    "catalogId": "Barbell_Ab_Rollout",
+    "catalogName": "Barbell Ab Rollout",
+    "images": [
+      "Barbell_Ab_Rollout/0.jpg",
+      "Barbell_Ab_Rollout/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_plank_shoulder_tap",
+    "localName": "Plank with shoulder taps",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Obliques"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_mountain_climber",
+    "localName": "Mountain climbers",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Hip flexors",
+      "Shoulders",
+      "Cardiovascular system"
+    ],
+    "catalogId": "Mountain_Climbers",
+    "catalogName": "Mountain Climbers",
+    "images": [
+      "Mountain_Climbers/0.jpg",
+      "Mountain_Climbers/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_stir_the_pot",
+    "localName": "Swiss ball stir-the-pot",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Abs"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_swiss_ball_pike",
+    "localName": "Swiss ball pike",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Hip flexors"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_kneeling_pallof_hold",
+    "localName": "Half-kneeling cable Pallof hold",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Core",
+      "Glutes"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_woodchopper",
+    "localName": "Resistance band woodchopper",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Abs"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_side_plank_hip_dips",
+    "localName": "Side plank hip dips",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [],
+    "catalogId": "Push_Up_to_Side_Plank",
+    "catalogName": "Push Up to Side Plank",
+    "images": [
+      "Push_Up_to_Side_Plank/0.jpg",
+      "Push_Up_to_Side_Plank/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_hollow_body_rock",
+    "localName": "Hollow body rock",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_in_and_outs",
+    "localName": "Seated in-and-outs (tuck crunches)",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Hip flexors"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_flutter_kicks",
+    "localName": "Flutter kicks",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Hip flexors"
+    ],
+    "catalogId": "Flutter_Kicks",
+    "catalogName": "Flutter Kicks",
+    "images": [
+      "Flutter_Kicks/0.jpg",
+      "Flutter_Kicks/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_bear_crawl_hold",
+    "localName": "Quadruped bear crawl hold (hover)",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Quadriceps"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_landmine_rotations",
+    "localName": "Standing landmine rotations (core twist)",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Core"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cable_side_bend",
+    "localName": "Cable side bend",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [],
+    "catalogId": "Barbell_Side_Bend",
+    "catalogName": "Barbell Side Bend",
+    "images": [
+      "Barbell_Side_Bend/0.jpg",
+      "Barbell_Side_Bend/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_toes_to_bar",
+    "localName": "Strict toes-to-bar",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Lats",
+      "Hip flexors",
+      "Forearms"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_weighted_plank",
+    "localName": "Weighted plank hold",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Glutes",
+      "Shoulders"
+    ],
+    "catalogId": "Plank",
+    "catalogName": "Plank",
+    "images": [
+      "Plank/0.jpg",
+      "Plank/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_inchworm_walkout",
+    "localName": "Inchworm to plank walkout",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Shoulders"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_muscle_up_bar",
+    "localName": "Bar muscle-up",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Chest",
+      "Triceps",
+      "Biceps",
+      "Shoulders",
+      "Core"
+    ],
+    "catalogId": "Kipping_Muscle_Up",
+    "catalogName": "Kipping Muscle Up",
+    "images": [
+      "Kipping_Muscle_Up/0.jpg",
+      "Kipping_Muscle_Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_muscle_up_rings",
+    "localName": "Gymnastic ring muscle-up",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Chest",
+      "Triceps",
+      "Biceps",
+      "Core"
+    ],
+    "catalogId": "Band_Assisted_Pull-Up",
+    "catalogName": "Band Assisted Pull-Up",
+    "images": [
+      "Band_Assisted_Pull-Up/0.jpg",
+      "Band_Assisted_Pull-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_front_lever",
+    "localName": "Front lever hold",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Upper back",
+      "Core",
+      "Rear delts",
+      "Forearms"
+    ],
+    "catalogId": "Band_Assisted_Pull-Up",
+    "catalogName": "Band Assisted Pull-Up",
+    "images": [
+      "Band_Assisted_Pull-Up/0.jpg",
+      "Band_Assisted_Pull-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_tuck_front_lever",
+    "localName": "Tuck front lever hold",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Core",
+      "Upper back"
+    ],
+    "catalogId": "Band_Assisted_Pull-Up",
+    "catalogName": "Band Assisted Pull-Up",
+    "images": [
+      "Band_Assisted_Pull-Up/0.jpg",
+      "Band_Assisted_Pull-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_back_lever",
+    "localName": "Back lever hold",
+    "primaryMuscle": "Lower back",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Chest",
+      "Biceps",
+      "Glutes"
+    ],
+    "catalogId": "Atlas_Stone_Trainer",
+    "catalogName": "Atlas Stone Trainer",
+    "images": [
+      "Atlas_Stone_Trainer/0.jpg",
+      "Atlas_Stone_Trainer/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_planche_hold",
+    "localName": "Planche hold (straddle / full)",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Chest",
+      "Core",
+      "Upper back",
+      "Triceps"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_tuck_planche",
+    "localName": "Tuck planche hold",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Chest",
+      "Core",
+      "Wrists"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_planche_lean",
+    "localName": "Planche lean hold",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Core",
+      "Forearms"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_handstand_hold_freestanding",
+    "localName": "Freestanding handstand hold",
+    "primaryMuscle": "Shoulders",
+    "secondaryMuscles": [
+      "Triceps",
+      "Core",
+      "Forearms",
+      "Traps"
+    ],
+    "catalogId": "Alternating_Cable_Shoulder_Press",
+    "catalogName": "Alternating Cable Shoulder Press",
+    "images": [
+      "Alternating_Cable_Shoulder_Press/0.jpg",
+      "Alternating_Cable_Shoulder_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_handstand_wall_walk",
+    "localName": "Wall walk to chest-to-wall handstand",
+    "primaryMuscle": "Shoulders",
+    "secondaryMuscles": [
+      "Core",
+      "Triceps",
+      "Traps"
+    ],
+    "catalogId": "Alternating_Cable_Shoulder_Press",
+    "catalogName": "Alternating Cable Shoulder Press",
+    "images": [
+      "Alternating_Cable_Shoulder_Press/0.jpg",
+      "Alternating_Cable_Shoulder_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_skin_the_cat",
+    "localName": "Skin the cat (gymnastic rings)",
+    "primaryMuscle": "Shoulders",
+    "secondaryMuscles": [
+      "Core",
+      "Lats",
+      "Biceps"
+    ],
+    "catalogId": "Alternating_Cable_Shoulder_Press",
+    "catalogName": "Alternating Cable Shoulder Press",
+    "images": [
+      "Alternating_Cable_Shoulder_Press/0.jpg",
+      "Alternating_Cable_Shoulder_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ring_push_up",
+    "localName": "Gymnastic ring push-up",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Shoulders",
+      "Core"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_archer_push_up",
+    "localName": "Archer push-up",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Shoulders",
+      "Core"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_one_arm_push_up",
+    "localName": "Single-arm push-up",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Front delts",
+      "Core",
+      "Obliques"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_archer_pull_up",
+    "localName": "Archer pull-up",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back",
+      "Core"
+    ],
+    "catalogId": "Pullups",
+    "catalogName": "Pullups",
+    "images": [
+      "Pullups/0.jpg",
+      "Pullups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_one_arm_pull_up",
+    "localName": "Single-arm pull-up (OAP)",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back",
+      "Forearms",
+      "Core"
+    ],
+    "catalogId": "Pullups",
+    "catalogName": "Pullups",
+    "images": [
+      "Pullups/0.jpg",
+      "Pullups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_typewriter_pull_up",
+    "localName": "Typewriter pull-up",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back",
+      "Rear delts"
+    ],
+    "catalogId": "Pullups",
+    "catalogName": "Pullups",
+    "images": [
+      "Pullups/0.jpg",
+      "Pullups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_clapping_push_up",
+    "localName": "Clapping plyometric push-up",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Front delts"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_pseudo_planche_push_up",
+    "localName": "Pseudo planche push-up (PPPU)",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Chest",
+      "Triceps",
+      "Core"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ring_biceps_curl",
+    "localName": "Gymnastic ring bodyweight biceps curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms",
+      "Core"
+    ],
+    "catalogId": "Alternate_Hammer_Curl",
+    "catalogName": "Alternate Hammer Curl",
+    "images": [
+      "Alternate_Hammer_Curl/0.jpg",
+      "Alternate_Hammer_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ring_triceps_extension",
+    "localName": "Gymnastic ring triceps extension",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "catalogId": "Kneeling_Cable_Triceps_Extension",
+    "catalogName": "Kneeling Cable Triceps Extension",
+    "images": [
+      "Kneeling_Cable_Triceps_Extension/0.jpg",
+      "Kneeling_Cable_Triceps_Extension/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_shrimp_squat",
+    "localName": "Shrimp squat (single leg)",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Ankles"
+    ],
+    "catalogId": "Single-Leg_High_Box_Squat",
+    "catalogName": "Single-Leg High Box Squat",
+    "images": [
+      "Single-Leg_High_Box_Squat/0.jpg",
+      "Single-Leg_High_Box_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_nordic_quad_extension",
+    "localName": "Reverse Nordic curl (bodyweight quad extension)",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Hip flexors",
+      "Core"
+    ],
+    "catalogId": "All_Fours_Quad_Stretch",
+    "catalogName": "All Fours Quad Stretch",
+    "images": [
+      "All_Fours_Quad_Stretch/0.jpg",
+      "All_Fours_Quad_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_broad_jump",
+    "localName": "Standing broad jump",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "catalogId": "All_Fours_Quad_Stretch",
+    "catalogName": "All Fours Quad Stretch",
+    "images": [
+      "All_Fours_Quad_Stretch/0.jpg",
+      "All_Fours_Quad_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_parallette_l_sit_to_tuck_planche",
+    "localName": "L-sit to tuck planche transition",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Triceps",
+      "Abs"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_pike_push_up_feet_elevated",
+    "localName": "Box pike handstand push-up (deep)",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Traps"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_korean_dips",
+    "localName": "Korean dips (straight bar behind back)",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Chest",
+      "Shoulders",
+      "Lower back"
+    ],
+    "catalogId": "Band_Skull_Crusher",
+    "catalogName": "Band Skull Crusher",
+    "images": [
+      "Band_Skull_Crusher/0.jpg",
+      "Band_Skull_Crusher/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_spiderman_push_up",
+    "localName": "Spiderman push-up",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Obliques",
+      "Triceps",
+      "Core"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ring_fly",
+    "localName": "Gymnastic ring chest fly",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Core",
+      "Biceps"
+    ],
+    "catalogId": "Alternating_Floor_Press",
+    "catalogName": "Alternating Floor Press",
+    "images": [
+      "Alternating_Floor_Press/0.jpg",
+      "Alternating_Floor_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ring_fallout",
+    "localName": "Gymnastic ring ab fallout",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Lats",
+      "Shoulders"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_commando_pull_up",
+    "localName": "Commando pull-up (mixed grip offset)",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Brachialis",
+      "Core"
+    ],
+    "catalogId": "Pullups",
+    "catalogName": "Pullups",
+    "images": [
+      "Pullups/0.jpg",
+      "Pullups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_scapular_dips",
+    "localName": "Scapular dip shrugs",
+    "primaryMuscle": "Lower traps",
+    "secondaryMuscles": [
+      "Triceps",
+      "Shoulders"
+    ],
+    "catalogId": "Barbell_Shrug",
+    "catalogName": "Barbell Shrug",
+    "images": [
+      "Barbell_Shrug/0.jpg",
+      "Barbell_Shrug/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_hindu_push_up",
+    "localName": "Hindu push-up (dand)",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Triceps",
+      "Spine"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dive_bomber_push_up",
+    "localName": "Dive bomber push-up",
+    "primaryMuscle": "Shoulders",
+    "secondaryMuscles": [
+      "Chest",
+      "Triceps",
+      "Lower back"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ring_archer_push_up",
+    "localName": "Gymnastic ring archer push-up",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Shoulders",
+      "Core"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_parallette_shoot_through",
+    "localName": "Parallette shoot-throughs",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Triceps",
+      "Hip flexors"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_headstand_push_up",
+    "localName": "Headstand push-up (against wall)",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Core"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_burpee_calisthenics",
+    "localName": "Full chest-to-floor burpee with tuck jump",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Chest",
+      "Quadriceps",
+      "Core",
+      "Calves"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_tuck_planche_push_up",
+    "localName": "Tuck planche push-up",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Chest",
+      "Triceps",
+      "Core"
+    ],
+    "catalogId": "Pushups",
+    "catalogName": "Pushups",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_stalder_press_eccentric",
+    "localName": "Stalder press eccentric negative",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Hip flexors",
+      "Hamstrings"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_dragon_walks",
+    "localName": "Dragon walk (calisthenics locomotion)",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Chest",
+      "Hip flexors"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ring_pelican_curl",
+    "localName": "Gymnastic ring Pelican curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Chest",
+      "Front delts"
+    ],
+    "catalogId": "Alternate_Hammer_Curl",
+    "catalogName": "Alternate Hammer Curl",
+    "images": [
+      "Alternate_Hammer_Curl/0.jpg",
+      "Alternate_Hammer_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_leg_calf_bounce",
+    "localName": "Single-leg reactive pogo hop",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Ankles",
+      "Achilles tendon"
+    ],
+    "catalogId": "Single-Leg_Hop_Progression",
+    "catalogName": "Single-Leg Hop Progression",
+    "images": [
+      "Single-Leg_Hop_Progression/0.jpg",
+      "Single-Leg_Hop_Progression/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_chest_to_bar_pull_up",
+    "localName": "Strict chest-to-bar pull-up",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Upper back",
+      "Biceps",
+      "Rear delts"
+    ],
+    "catalogId": "Pullups",
+    "catalogName": "Pullups",
+    "images": [
+      "Pullups/0.jpg",
+      "Pullups/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ring_l_sit_dip",
+    "localName": "Gymnastic ring L-sit dip",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Chest",
+      "Abs",
+      "Hip flexors"
+    ],
+    "catalogId": "Band_Skull_Crusher",
+    "catalogName": "Band Skull Crusher",
+    "images": [
+      "Band_Skull_Crusher/0.jpg",
+      "Band_Skull_Crusher/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_outdoor_running",
+    "localName": "Outdoor road running",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Quadriceps",
+      "Calves",
+      "Hamstrings",
+      "Glutes"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_treadmill_running",
+    "localName": "Treadmill running",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Quadriceps",
+      "Calves",
+      "Hamstrings"
+    ],
+    "catalogId": "Running_Treadmill",
+    "catalogName": "Running, Treadmill",
+    "images": [
+      "Running_Treadmill/0.jpg",
+      "Running_Treadmill/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_sprint_intervals_track",
+    "localName": "Track sprint intervals (100m - 200m)",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Glutes",
+      "Calves",
+      "Quadriceps"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_hill_sprints",
+    "localName": "Incline hill sprints",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_rowing_machine",
+    "localName": "Concept2 indoor rowing (ergometer)",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Back",
+      "Legs",
+      "Core",
+      "Biceps"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_rowing_intervals_500m",
+    "localName": "500m rowing sprint intervals",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Lats",
+      "Quadriceps",
+      "Core"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_assault_bike",
+    "localName": "Assault air bike (steady state)",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Quadriceps",
+      "Shoulders",
+      "Chest",
+      "Triceps"
+    ],
+    "catalogId": "Air_Bike",
+    "catalogName": "Air Bike",
+    "images": [
+      "Air_Bike/0.jpg",
+      "Air_Bike/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_assault_bike_sprint",
+    "localName": "Assault air bike Tabata sprint (20s on / 10s off)",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Quadriceps",
+      "Upper body"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_skierg_machine",
+    "localName": "Concept2 SkiErg",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Lats",
+      "Triceps",
+      "Core",
+      "Glutes"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_stationary_bike",
+    "localName": "Stationary upright exercise bike",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Quadriceps",
+      "Hamstrings",
+      "Calves"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cycling_road",
+    "localName": "Outdoor road cycling",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Quadriceps",
+      "Glutes",
+      "Calves"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_stairmaster_climber",
+    "localName": "StairMaster revolving stepmill",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Glutes",
+      "Quadriceps",
+      "Calves"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_elliptical_trainer",
+    "localName": "Elliptical cross-trainer",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Quadriceps",
+      "Glutes",
+      "Chest",
+      "Back"
+    ],
+    "catalogId": "Elliptical_Trainer",
+    "catalogName": "Elliptical Trainer",
+    "images": [
+      "Elliptical_Trainer/0.jpg",
+      "Elliptical_Trainer/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_swimming_freestyle",
+    "localName": "Lap swimming (freestyle / front crawl)",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Lats",
+      "Shoulders",
+      "Core",
+      "Chest"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_swimming_breaststroke",
+    "localName": "Lap swimming (breaststroke)",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Adductors",
+      "Chest",
+      "Lats"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_battle_ropes",
+    "localName": "Battle ropes alternating waves",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Forearms",
+      "Core",
+      "Arms"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_battle_rope_slams",
+    "localName": "Battle ropes double arm power slams",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Lats",
+      "Core",
+      "Shoulders"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_slam_ball",
+    "localName": "Medicine ball overhead floor slam",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Abs",
+      "Lats",
+      "Shoulders",
+      "Quadriceps"
+    ],
+    "catalogId": "One-Arm_Medicine_Ball_Slam",
+    "catalogName": "One-Arm Medicine Ball Slam",
+    "images": [
+      "One-Arm_Medicine_Ball_Slam/0.jpg",
+      "One-Arm_Medicine_Ball_Slam/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_sled_push",
+    "localName": "Weighted sled push (Prowler push)",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Quadriceps",
+      "Calves",
+      "Glutes",
+      "Core"
+    ],
+    "catalogId": "Sled_Push",
+    "catalogName": "Sled Push",
+    "images": [
+      "Sled_Push/0.jpg",
+      "Sled_Push/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_sled_pull",
+    "localName": "Backward weighted sled drag",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Cardiovascular system",
+      "Calves"
+    ],
+    "catalogId": "Backward_Drag",
+    "catalogName": "Backward Drag",
+    "images": [
+      "Backward_Drag/0.jpg",
+      "Backward_Drag/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_boxer_skip",
+    "localName": "Boxer skip jump rope (foot-to-foot)",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Calves",
+      "Ankles",
+      "Shoulders"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_double_unders",
+    "localName": "Jump rope double-unders",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Calves",
+      "Forearms",
+      "Shoulders"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_burpee_broad_jump",
+    "localName": "Burpee broad jump",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Quadriceps",
+      "Chest",
+      "Glutes"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_jumping_jacks",
+    "localName": "Jumping jacks",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Calves",
+      "Shoulders"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_shadow_boxing",
+    "localName": "Shadow boxing intervals",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Core",
+      "Calves"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_heavy_bag_rounds",
+    "localName": "Heavy bag boxing rounds",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Lats",
+      "Core",
+      "Chest"
+    ],
+    "catalogId": "Heavy_Bag_Thrust",
+    "catalogName": "Heavy Bag Thrust",
+    "images": [
+      "Heavy_Bag_Thrust/0.jpg",
+      "Heavy_Bag_Thrust/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_shuttle_runs",
+    "localName": "5-10-5 agility shuttle run (pro agility)",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Quadriceps",
+      "Glutes",
+      "Ankles",
+      "Core"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_skater_jumps",
+    "localName": "Lateral speed skater bounds",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Glutes",
+      "Quadriceps",
+      "Abductors"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_high_knees_drill",
+    "localName": "High knees running in place",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Hip flexors",
+      "Calves",
+      "Core"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_rowing_1000m_time_trial",
+    "localName": "1000m rowing benchmark time trial",
+    "primaryMuscle": "Cardiovascular system",
+    "secondaryMuscles": [
+      "Lats",
+      "Legs",
+      "Core"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_worlds_greatest_stretch",
+    "localName": "World's greatest stretch",
+    "primaryMuscle": "Hip flexors",
+    "secondaryMuscles": [
+      "Thoracic spine",
+      "Hamstrings",
+      "Glutes",
+      "Adductors"
+    ],
+    "catalogId": "Worlds_Greatest_Stretch",
+    "catalogName": "World's Greatest Stretch",
+    "images": [
+      "Worlds_Greatest_Stretch/0.jpg",
+      "Worlds_Greatest_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_cat_cow_stretch",
+    "localName": "Cat-cow spinal mobility",
+    "primaryMuscle": "Spine",
+    "secondaryMuscles": [
+      "Abs",
+      "Upper back",
+      "Neck"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_thoracic_spine_open_book",
+    "localName": "Side-lying thoracic open book",
+    "primaryMuscle": "Thoracic spine",
+    "secondaryMuscles": [
+      "Chest",
+      "Shoulders",
+      "Upper back"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_pigeon_pose",
+    "localName": "Pigeon stretch (glute & piriformis)",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Piriformis",
+      "Hip flexors"
+    ],
+    "catalogId": "IT_Band_and_Glute_Stretch",
+    "catalogName": "IT Band and Glute Stretch",
+    "images": [
+      "IT_Band_and_Glute_Stretch/0.jpg",
+      "IT_Band_and_Glute_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_couch_stretch",
+    "localName": "Couch stretch (quad & hip flexor)",
+    "primaryMuscle": "Hip flexors",
+    "secondaryMuscles": [
+      "Quadriceps"
+    ],
+    "catalogId": "Intermediate_Hip_Flexor_and_Quad_Stretch",
+    "catalogName": "Intermediate Hip Flexor and Quad Stretch",
+    "images": [
+      "Intermediate_Hip_Flexor_and_Quad_Stretch/0.jpg",
+      "Intermediate_Hip_Flexor_and_Quad_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kneeling_hip_flexor_stretch",
+    "localName": "Half-kneeling hip flexor stretch (tuck & drive)",
+    "primaryMuscle": "Hip flexors",
+    "secondaryMuscles": [
+      "Quadriceps"
+    ],
+    "catalogId": "Intermediate_Hip_Flexor_and_Quad_Stretch",
+    "catalogName": "Intermediate Hip Flexor and Quad Stretch",
+    "images": [
+      "Intermediate_Hip_Flexor_and_Quad_Stretch/0.jpg",
+      "Intermediate_Hip_Flexor_and_Quad_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_frog_stretch",
+    "localName": "Frog stretch (adductors & hip capsule)",
+    "primaryMuscle": "Adductors",
+    "secondaryMuscles": [
+      "Hips",
+      "Pelvis"
+    ],
+    "catalogId": "Adductor",
+    "catalogName": "Adductor",
+    "images": [
+      "Adductor/0.jpg",
+      "Adductor/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_butterfly_stretch",
+    "localName": "Seated butterfly stretch",
+    "primaryMuscle": "Adductors",
+    "secondaryMuscles": [
+      "Groin",
+      "Hips"
+    ],
+    "catalogId": "Seated_Calf_Stretch",
+    "catalogName": "Seated Calf Stretch",
+    "images": [
+      "Seated_Calf_Stretch/0.jpg",
+      "Seated_Calf_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_deep_squat_hold",
+    "localName": "Deep resting squat hold (Malasana)",
+    "primaryMuscle": "Hips",
+    "secondaryMuscles": [
+      "Ankles",
+      "Quadriceps",
+      "Lower back",
+      "Adductors"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_ankle_wall_stretch",
+    "localName": "Knee-to-wall ankle dorsiflexion test & stretch",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Achilles tendon",
+      "Ankles"
+    ],
+    "catalogId": "Ankle_Circles",
+    "catalogName": "Ankle Circles",
+    "images": [
+      "Ankle_Circles/0.jpg",
+      "Ankle_Circles/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_lat_distraction",
+    "localName": "Resistance band lat stretch (distraction)",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Upper back"
+    ],
+    "catalogId": "Band_Assisted_Pull-Up",
+    "catalogName": "Band Assisted Pull-Up",
+    "images": [
+      "Band_Assisted_Pull-Up/0.jpg",
+      "Band_Assisted_Pull-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_childs_pose",
+    "localName": "Child's pose stretch (Balasana)",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Lower back",
+      "Hips",
+      "Shoulders"
+    ],
+    "catalogId": "Childs_Pose",
+    "catalogName": "Child's Pose",
+    "images": [
+      "Childs_Pose/0.jpg",
+      "Childs_Pose/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_puppy_dog_pose",
+    "localName": "Puppy dog pose (thoracic extension)",
+    "primaryMuscle": "Thoracic spine",
+    "secondaryMuscles": [
+      "Lats",
+      "Shoulders",
+      "Chest"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_thoracic_foam_roll",
+    "localName": "Thoracic spine foam roller extension",
+    "primaryMuscle": "Thoracic spine",
+    "secondaryMuscles": [
+      "Chest",
+      "Shoulders"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_standing_doorway_pec_stretch",
+    "localName": "Standing doorway pectoral stretch",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Biceps"
+    ],
+    "catalogId": "Alternating_Floor_Press",
+    "catalogName": "Alternating Floor Press",
+    "images": [
+      "Alternating_Floor_Press/0.jpg",
+      "Alternating_Floor_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_band_dislocates",
+    "localName": "Resistance band shoulder dislocates (pass-throughs)",
+    "primaryMuscle": "Shoulders",
+    "secondaryMuscles": [
+      "Chest",
+      "Upper back"
+    ],
+    "catalogId": "Alternating_Cable_Shoulder_Press",
+    "catalogName": "Alternating Cable Shoulder Press",
+    "images": [
+      "Alternating_Cable_Shoulder_Press/0.jpg",
+      "Alternating_Cable_Shoulder_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_prone_scorpion_stretch",
+    "localName": "Prone scorpion dynamic stretch",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Hip flexors",
+      "Lower back",
+      "Shoulders"
+    ],
+    "catalogId": "Dynamic_Back_Stretch",
+    "catalogName": "Dynamic Back Stretch",
+    "images": [
+      "Dynamic_Back_Stretch/0.jpg",
+      "Dynamic_Back_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_seated_piriformis_stretch",
+    "localName": "Seated figure-4 piriformis stretch",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Piriformis",
+      "Hips"
+    ],
+    "catalogId": "Seated_Calf_Stretch",
+    "catalogName": "Seated Calf Stretch",
+    "images": [
+      "Seated_Calf_Stretch/0.jpg",
+      "Seated_Calf_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_figure_four_stretch",
+    "localName": "Supine figure-4 glute stretch",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Piriformis"
+    ],
+    "catalogId": "IT_Band_and_Glute_Stretch",
+    "catalogName": "IT Band and Glute Stretch",
+    "images": [
+      "IT_Band_and_Glute_Stretch/0.jpg",
+      "IT_Band_and_Glute_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_thread_the_needle",
+    "localName": "Thread the needle stretch",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Rear delts",
+      "Thoracic spine"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_90_90_hip_mobility",
+    "localName": "90/90 hip mobility flow",
+    "primaryMuscle": "Hips",
+    "secondaryMuscles": [
+      "Glutes",
+      "Adductors",
+      "Rotator cuff hip"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_standing_hamstring_scoop",
+    "localName": "Dynamic hamstring scoops",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Calves",
+      "Lower back"
+    ],
+    "catalogId": "90_90_Hamstring",
+    "catalogName": "90/90 Hamstring",
+    "images": [
+      "90_90_Hamstring/0.jpg",
+      "90_90_Hamstring/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_wrist_mobility_flow",
+    "localName": "Quadruped wrist mobility sequence",
+    "primaryMuscle": "Forearms",
+    "secondaryMuscles": [
+      "Wrists"
+    ],
+    "catalogId": "Bottoms-Up_Clean_From_The_Hang_Position",
+    "catalogName": "Bottoms-Up Clean From The Hang Position",
+    "images": [
+      "Bottoms-Up_Clean_From_The_Hang_Position/0.jpg",
+      "Bottoms-Up_Clean_From_The_Hang_Position/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_couch_quad_smash",
+    "localName": "Foam roller quad tissue release",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Hip flexors"
+    ],
+    "catalogId": "All_Fours_Quad_Stretch",
+    "catalogName": "All Fours Quad Stretch",
+    "images": [
+      "All_Fours_Quad_Stretch/0.jpg",
+      "All_Fours_Quad_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_glute_lacrosse_ball_smash",
+    "localName": "Glute trigger point release (lacrosse ball)",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Piriformis"
+    ],
+    "catalogId": "Ankle_On_The_Knee",
+    "catalogName": "Ankle On The Knee",
+    "images": [
+      "Ankle_On_The_Knee/0.jpg",
+      "Ankle_On_The_Knee/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_adductor_rocking_stretch",
+    "localName": "Half-kneeling adductor rock",
+    "primaryMuscle": "Adductors",
+    "secondaryMuscles": [
+      "Hips"
+    ],
+    "catalogId": "Adductor",
+    "catalogName": "Adductor",
+    "images": [
+      "Adductor/0.jpg",
+      "Adductor/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_shoulder_sleeper_stretch",
+    "localName": "Side-lying shoulder sleeper stretch",
+    "primaryMuscle": "Rotator cuff",
+    "secondaryMuscles": [
+      "Rear delts"
+    ],
+    "catalogId": "Side-Lying_Floor_Stretch",
+    "catalogName": "Side-Lying Floor Stretch",
+    "images": [
+      "Side-Lying_Floor_Stretch/0.jpg",
+      "Side-Lying_Floor_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_standing_quad_stretch",
+    "localName": "Standing flamingo quad stretch",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Hip flexors"
+    ],
+    "catalogId": "Quad_Stretch",
+    "catalogName": "Quad Stretch",
+    "images": [
+      "Quad_Stretch/0.jpg",
+      "Quad_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_calf_slant_board_stretch",
+    "localName": "Slant board calf & Achilles stretch",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Soleus",
+      "Achilles tendon",
+      "Plantar fascia"
+    ],
+    "catalogId": "Ankle_Circles",
+    "catalogName": "Ankle Circles",
+    "images": [
+      "Ankle_Circles/0.jpg",
+      "Ankle_Circles/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_bretzel_stretch",
+    "localName": "The Bretzel mobility stretch",
+    "primaryMuscle": "Thoracic spine",
+    "secondaryMuscles": [
+      "Hip flexors",
+      "Glutes",
+      "Quadriceps"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_jefferson_curl_light",
+    "localName": "Unweighted Jefferson curl spinal articulation",
+    "primaryMuscle": "Spine",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Lower back"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_lateral_neck_stretch",
+    "localName": "Upper trap & levator scapulae neck stretch",
+    "primaryMuscle": "Upper traps",
+    "secondaryMuscles": [
+      "Neck"
+    ],
+    "catalogId": "Barbell_Shrug",
+    "catalogName": "Barbell Shrug",
+    "images": [
+      "Barbell_Shrug/0.jpg",
+      "Barbell_Shrug/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_standing_figure_four_squat",
+    "localName": "Standing figure-4 hip mobility squat",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Ankles",
+      "Core"
+    ],
+    "catalogId": "Ankle_On_The_Knee",
+    "catalogName": "Ankle On The Knee",
+    "images": [
+      "Ankle_On_The_Knee/0.jpg",
+      "Ankle_On_The_Knee/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_overhead_lat_hang_stretch",
+    "localName": "Overhead lat passive dead hang stretch",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Spine"
+    ],
+    "catalogId": "Band_Assisted_Pull-Up",
+    "catalogName": "Band Assisted Pull-Up",
+    "images": [
+      "Band_Assisted_Pull-Up/0.jpg",
+      "Band_Assisted_Pull-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_it_band_foam_roll",
+    "localName": "TFL & lateral quad foam roller release",
+    "primaryMuscle": "Tensor fasciae latae",
+    "secondaryMuscles": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_turkish_get_up",
+    "localName": "Turkish get-up (TGU)",
+    "primaryMuscle": "Shoulders",
+    "secondaryMuscles": [
+      "Core",
+      "Glutes",
+      "Quadriceps",
+      "Forearms",
+      "Upper back"
+    ],
+    "catalogId": "Kettlebell_Turkish_Get-Up_Lunge_style",
+    "catalogName": "Kettlebell Turkish Get-Up (Lunge style)",
+    "images": [
+      "Kettlebell_Turkish_Get-Up_Lunge_style/0.jpg",
+      "Kettlebell_Turkish_Get-Up_Lunge_style/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_snatch",
+    "localName": "Kettlebell snatch",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Glutes",
+      "Upper back",
+      "Core",
+      "Forearms"
+    ],
+    "catalogId": "Double_Kettlebell_Snatch",
+    "catalogName": "Double Kettlebell Snatch",
+    "images": [
+      "Double_Kettlebell_Snatch/0.jpg",
+      "Double_Kettlebell_Snatch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_clean",
+    "localName": "Kettlebell clean",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Upper back",
+      "Biceps",
+      "Forearms"
+    ],
+    "catalogId": "Kettlebell_Dead_Clean",
+    "catalogName": "Kettlebell Dead Clean",
+    "images": [
+      "Kettlebell_Dead_Clean/0.jpg",
+      "Kettlebell_Dead_Clean/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_clean_and_press",
+    "localName": "Kettlebell clean and press (single arm)",
+    "primaryMuscle": "Shoulders",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Glutes",
+      "Triceps",
+      "Core"
+    ],
+    "catalogId": "Clean_and_Press",
+    "catalogName": "Clean and Press",
+    "images": [
+      "Clean_and_Press/0.jpg",
+      "Clean_and_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_windmill_kettlebell",
+    "localName": "Kettlebell windmill",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Shoulders",
+      "Glutes"
+    ],
+    "catalogId": "Kettlebell_Windmill",
+    "catalogName": "Kettlebell Windmill",
+    "images": [
+      "Kettlebell_Windmill/0.jpg",
+      "Kettlebell_Windmill/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_halo",
+    "localName": "Kettlebell halo (shoulder mobility & core)",
+    "primaryMuscle": "Shoulders",
+    "secondaryMuscles": [
+      "Core",
+      "Upper back",
+      "Triceps"
+    ],
+    "catalogId": "Alternating_Cable_Shoulder_Press",
+    "catalogName": "Alternating Cable Shoulder Press",
+    "images": [
+      "Alternating_Cable_Shoulder_Press/0.jpg",
+      "Alternating_Cable_Shoulder_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_single_arm_kettlebell_swing",
+    "localName": "Single-arm kettlebell swing",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Core",
+      "Forearms",
+      "Lats"
+    ],
+    "catalogId": "90_90_Hamstring",
+    "catalogName": "90/90 Hamstring",
+    "images": [
+      "90_90_Hamstring/0.jpg",
+      "90_90_Hamstring/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_double_kettlebell_swing",
+    "localName": "Double kettlebell swing",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Upper back",
+      "Core",
+      "Lats"
+    ],
+    "catalogId": "Double_Kettlebell_Jerk",
+    "catalogName": "Double Kettlebell Jerk",
+    "images": [
+      "Double_Kettlebell_Jerk/0.jpg",
+      "Double_Kettlebell_Jerk/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_goblet_squat_deep",
+    "localName": "Kettlebell goblet squat (elbow-to-knee pry)",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hips",
+      "Core"
+    ],
+    "catalogId": "All_Fours_Quad_Stretch",
+    "catalogName": "All Fours Quad Stretch",
+    "images": [
+      "All_Fours_Quad_Stretch/0.jpg",
+      "All_Fours_Quad_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_double_kettlebell_clean_and_jerk",
+    "localName": "Double kettlebell clean and jerk (long cycle)",
+    "primaryMuscle": "Shoulders",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Triceps",
+      "Upper back"
+    ],
+    "catalogId": "Double_Kettlebell_Jerk",
+    "catalogName": "Double Kettlebell Jerk",
+    "images": [
+      "Double_Kettlebell_Jerk/0.jpg",
+      "Double_Kettlebell_Jerk/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_slingshot",
+    "localName": "Kettlebell slingshot (around the body pass)",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Forearms",
+      "Shoulders",
+      "Glutes"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_figure_eight",
+    "localName": "Kettlebell figure-8 between legs",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Core",
+      "Quadriceps",
+      "Forearms"
+    ],
+    "catalogId": "Kettlebell_Pass_Between_The_Legs",
+    "catalogName": "Kettlebell Pass Between The Legs",
+    "images": [
+      "Kettlebell_Pass_Between_The_Legs/0.jpg",
+      "Kettlebell_Pass_Between_The_Legs/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_windmill_low_hang",
+    "localName": "Kettlebell low windmill",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Glutes"
+    ],
+    "catalogId": "Kettlebell_Windmill",
+    "catalogName": "Kettlebell Windmill",
+    "images": [
+      "Kettlebell_Windmill/0.jpg",
+      "Kettlebell_Windmill/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_waiter_walk",
+    "localName": "Kettlebell waiter walk (overhead carry)",
+    "primaryMuscle": "Shoulders",
+    "secondaryMuscles": [
+      "Core",
+      "Traps",
+      "Triceps"
+    ],
+    "catalogId": "Alternating_Cable_Shoulder_Press",
+    "catalogName": "Alternating Cable Shoulder Press",
+    "images": [
+      "Alternating_Cable_Shoulder_Press/0.jpg",
+      "Alternating_Cable_Shoulder_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_rack_walk",
+    "localName": "Kettlebell rack walk (chest carry)",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Upper back",
+      "Shoulders",
+      "Glutes"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_deck_squat",
+    "localName": "Kettlebell deck squat (roll to squat)",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Core",
+      "Glutes",
+      "Ankles"
+    ],
+    "catalogId": "Kettlebell_Pistol_Squat",
+    "catalogName": "Kettlebell Pistol Squat",
+    "images": [
+      "Kettlebell_Pistol_Squat/0.jpg",
+      "Kettlebell_Pistol_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_sots_press",
+    "localName": "Kettlebell Sots press (press from deep squat)",
+    "primaryMuscle": "Shoulders",
+    "secondaryMuscles": [
+      "Core",
+      "Quadriceps",
+      "Thoracic spine"
+    ],
+    "catalogId": "Alternating_Cable_Shoulder_Press",
+    "catalogName": "Alternating Cable Shoulder Press",
+    "images": [
+      "Alternating_Cable_Shoulder_Press/0.jpg",
+      "Alternating_Cable_Shoulder_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_crush_curl",
+    "localName": "Kettlebell crush curl (palms pressing)",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Chest",
+      "Forearms"
+    ],
+    "catalogId": "Alternate_Hammer_Curl",
+    "catalogName": "Alternate Hammer Curl",
+    "images": [
+      "Alternate_Hammer_Curl/0.jpg",
+      "Alternate_Hammer_Curl/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_high_pull",
+    "localName": "Kettlebell high pull",
+    "primaryMuscle": "Traps",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Shoulders",
+      "Glutes"
+    ],
+    "catalogId": "Kettlebell_Sumo_High_Pull",
+    "catalogName": "Kettlebell Sumo High Pull",
+    "images": [
+      "Kettlebell_Sumo_High_Pull/0.jpg",
+      "Kettlebell_Sumo_High_Pull/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_double_kettlebell_front_squat_deep",
+    "localName": "Double kettlebell front squat (3-second pause)",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Core",
+      "Glutes",
+      "Upper back"
+    ],
+    "catalogId": "Front_Barbell_Squat",
+    "catalogName": "Front Barbell Squat",
+    "images": [
+      "Front_Barbell_Squat/0.jpg",
+      "Front_Barbell_Squat/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_cross_body_clean",
+    "localName": "Kettlebell rotational cross-body clean",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Obliques",
+      "Glutes",
+      "Shoulders"
+    ],
+    "catalogId": "90_90_Hamstring",
+    "catalogName": "90/90 Hamstring",
+    "images": [
+      "90_90_Hamstring/0.jpg",
+      "90_90_Hamstring/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_seesaw_press",
+    "localName": "Double kettlebell seesaw press",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Core",
+      "Side delts"
+    ],
+    "catalogId": "Kettlebell_Seesaw_Press",
+    "catalogName": "Kettlebell Seesaw Press",
+    "images": [
+      "Kettlebell_Seesaw_Press/0.jpg",
+      "Kettlebell_Seesaw_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_lateral_lunge",
+    "localName": "Kettlebell goblet lateral lunge",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Adductors",
+      "Glutes"
+    ],
+    "catalogId": "All_Fours_Quad_Stretch",
+    "catalogName": "All Fours Quad Stretch",
+    "images": [
+      "All_Fours_Quad_Stretch/0.jpg",
+      "All_Fours_Quad_Stretch/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_gorilla_clean",
+    "localName": "Double kettlebell gorilla clean",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Biceps",
+      "Core"
+    ],
+    "catalogId": "Double_Kettlebell_Alternating_Hang_Clean",
+    "catalogName": "Double Kettlebell Alternating Hang Clean",
+    "images": [
+      "Double_Kettlebell_Alternating_Hang_Clean/0.jpg",
+      "Double_Kettlebell_Alternating_Hang_Clean/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_arm_bar",
+    "localName": "Kettlebell arm bar (shoulder stabilizer)",
+    "primaryMuscle": "Rotator cuff",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Thoracic spine"
+    ],
+    "catalogId": "3_4_Sit-Up",
+    "catalogName": "3/4 Sit-Up",
+    "images": [
+      "3_4_Sit-Up/0.jpg",
+      "3_4_Sit-Up/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_tactical_lunge",
+    "localName": "Kettlebell tactical lunge (pass through)",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Core"
+    ],
+    "catalogId": "Lunge_Pass_Through",
+    "catalogName": "Lunge Pass Through",
+    "images": [
+      "Lunge_Pass_Through/0.jpg",
+      "Lunge_Pass_Through/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_bent_press",
+    "localName": "Kettlebell bent press",
+    "primaryMuscle": "Shoulders",
+    "secondaryMuscles": [
+      "Obliques",
+      "Triceps",
+      "Hamstrings",
+      "Upper back"
+    ],
+    "catalogId": "Bent_Press",
+    "catalogName": "Bent Press",
+    "images": [
+      "Bent_Press/0.jpg",
+      "Bent_Press/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_dead_clean",
+    "localName": "Dead-stop kettlebell clean (from floor)",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Traps",
+      "Biceps"
+    ],
+    "catalogId": "Kettlebell_Dead_Clean",
+    "catalogName": "Kettlebell Dead Clean",
+    "images": [
+      "Kettlebell_Dead_Clean/0.jpg",
+      "Kettlebell_Dead_Clean/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_double_kettlebell_deadlift",
+    "localName": "Double kettlebell suitcase deadlift",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Lower back",
+      "Forearms",
+      "Quadriceps"
+    ],
+    "catalogId": "Barbell_Deadlift",
+    "catalogName": "Barbell Deadlift",
+    "images": [
+      "Barbell_Deadlift/0.jpg",
+      "Barbell_Deadlift/1.jpg"
+    ]
+  },
+  {
+    "localId": "ex_kettlebell_somersault_squat",
+    "localName": "Kettlebell somersault squat (quad isolation)",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [],
+    "catalogId": "All_Fours_Quad_Stretch",
+    "catalogName": "All Fours Quad Stretch",
+    "images": [
+      "All_Fours_Quad_Stretch/0.jpg",
+      "All_Fours_Quad_Stretch/1.jpg"
+    ]
+  }
+]

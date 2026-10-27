@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { Search } from 'lucide-react'
+import { Search, X } from 'lucide-react'
 import { useApp } from '../store/AppStore'
 import { Dialog } from './ui/Dialog'
 import { Input } from './ui/Input'
@@ -18,37 +18,86 @@ export function ExercisePickerDialog({
   excludeIds?: string[]
   title?: string
 }) {
-  const { data } = useApp()
+  const { allExercises } = useApp()
   const [query, setQuery] = useState('')
+  const [category, setCategory] = useState('all')
   const excludeKey = excludeIds.join(',')
 
   const list = useMemo(() => {
     const excluded = new Set(excludeKey ? excludeKey.split(',') : [])
     const q = query.trim().toLowerCase()
-    return data.exercises
+    return allExercises
       .filter((e) => !excluded.has(e.id))
+      .filter((e) => category === 'all' || e.category === category)
       .filter(
         (e) =>
           !q ||
           e.name.toLowerCase().includes(q) ||
           e.primaryMuscle.toLowerCase().includes(q) ||
-          e.equipment.toLowerCase().includes(q),
+          e.equipment.toLowerCase().includes(q) ||
+          (e.aliases?.some((a) => a.toLowerCase().includes(q)) ?? false),
       )
-      .sort((a, b) => a.name.localeCompare(b.name))
-  }, [data.exercises, query, excludeKey])
+      .sort((a, b) => {
+        if (a.favorite && !b.favorite) return -1
+        if (!a.favorite && b.favorite) return 1
+        return a.name.localeCompare(b.name)
+      })
+  }, [allExercises, query, category, excludeKey])
+
+  const CATEGORY_CHIPS = [
+    { value: 'all', label: 'All' },
+    { value: 'push', label: 'Push' },
+    { value: 'pull', label: 'Pull' },
+    { value: 'legs', label: 'Legs' },
+    { value: 'core', label: 'Core' },
+    { value: 'cardio', label: 'Cardio' },
+    { value: 'mobility', label: 'Mobility' },
+  ]
 
   return (
     <Dialog open={open} onClose={onClose} title={title}>
-      <div className="relative mb-3">
+      {/* Search */}
+      <div className="relative mb-2">
         <Search size={16} className="absolute left-3 top-3.5 text-faint" />
         <Input
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search by name, muscle or equipment"
-          className="pl-9"
+          className="pl-9 pr-8"
           autoFocus
         />
+        {query && (
+          <button
+            type="button"
+            aria-label="Clear search"
+            onClick={() => setQuery('')}
+            className="absolute right-3 top-3.5 text-faint hover:text-ink"
+          >
+            <X size={14} />
+          </button>
+        )}
       </div>
+
+      {/* Category chips */}
+      <div className="mb-3 flex flex-wrap gap-1.5">
+        {CATEGORY_CHIPS.map((chip) => (
+          <button
+            key={chip.value}
+            type="button"
+            onClick={() => setCategory(chip.value)}
+            className={`rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors ${
+              category === chip.value
+                ? 'bg-accent text-white'
+                : 'bg-surface2 text-muted hover:bg-surface3 hover:text-ink'
+            }`}
+          >
+            {chip.label}
+          </button>
+        ))}
+      </div>
+
+      <p className="mb-1.5 text-xs text-faint">{list.length} exercises</p>
+
       <ul className="max-h-80 space-y-1.5 overflow-y-auto">
         {list.map((e) => (
           <li key={e.id}>
@@ -74,9 +123,20 @@ export function ExercisePickerDialog({
                   </span>
                 </span>
               </div>
-              <span className="shrink-0 text-[10px] font-bold uppercase tracking-wide text-faint">
-                {e.category}
-              </span>
+              <div className="flex shrink-0 items-center gap-1.5">
+                {e.difficulty && (
+                  <span className={`text-[10px] font-bold ${
+                    e.difficulty === 'beginner' ? 'text-emerald-500' :
+                    e.difficulty === 'intermediate' ? 'text-amber-500' :
+                    'text-red-500'
+                  }`}>
+                    {e.difficulty.slice(0, 3).toUpperCase()}
+                  </span>
+                )}
+                <span className="text-[10px] font-bold uppercase tracking-wide text-faint">
+                  {e.category}
+                </span>
+              </div>
             </button>
           </li>
         ))}

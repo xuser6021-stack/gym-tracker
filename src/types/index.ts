@@ -2,8 +2,18 @@ export type WeightUnit = 'kg' | 'lb'
 export type LengthUnit = 'cm' | 'in'
 export type ThemeMode = 'dark' | 'light'
 
-export type MovementCategory = 'push' | 'pull' | 'legs' | 'core'
+export type MovementCategory = 'push' | 'pull' | 'legs' | 'core' | 'cardio' | 'mobility'
 export type ExerciseClass = 'compound' | 'isolation'
+export type ExerciseDifficulty = 'beginner' | 'intermediate' | 'advanced'
+export type ExerciseTrackingType =
+  | 'weight_reps'
+  | 'bodyweight_reps'
+  | 'assisted_reps'
+  | 'duration'
+  | 'distance'
+  | 'duration_distance'
+  | 'hold'
+
 export type SetType = 'warmup' | 'working'
 export type SessionStatus = 'active' | 'completed'
 
@@ -42,6 +52,11 @@ export interface AppSettings {
   notifyPrs: boolean
   notifyRestTimer: boolean
   lockPhotoPrivacy: boolean
+  waterReminderEnabled?: boolean
+  nutritionReminderEnabled?: boolean
+  weeklyRecapEnabled?: boolean
+  autoProgressiveOverload?: boolean
+  availableEquipment?: string[]
 }
 
 /** Resolved paths to bundled exercise artwork. Never user data — paths only. */
@@ -77,6 +92,17 @@ export interface Exercise {
   favorite: boolean
   usesBodyweight: boolean
   unilateral: boolean
+
+  // Extended fields for V3.5
+  aliases?: string[]
+  difficulty?: ExerciseDifficulty
+  movementPattern?: string
+  exerciseType?: string
+  safetyTips?: string[]
+  commonMistakes?: string[]
+  variationGroupId?: string
+  alternativeExerciseIds?: string[]
+  trackingType?: ExerciseTrackingType
 }
 
 export interface TemplateExercise {
@@ -147,6 +173,73 @@ export interface BodyMeasurement {
   note: string
 }
 
+export type PhotoPose = 'front' | 'side' | 'back' | 'other'
+
+export interface ProgressPhoto {
+  id: string
+  date: string
+  pose: PhotoPose
+  assetId: string
+  weightKg?: number | null
+  note?: string
+}
+
+export type AchievementKey =
+  | 'first_workout'
+  | 'workouts_10'
+  | 'workouts_50'
+  | 'workouts_100'
+  | 'streak_4'
+  | 'streak_8'
+  | 'volume_10k'
+  | 'volume_100k'
+  | 'volume_1m'
+  | 'first_pr'
+  | 'prs_5'
+  | 'prs_20'
+  | 'hydration_hero'
+  | 'protein_master'
+
+export interface Achievement {
+  id: string
+  key: AchievementKey
+  unlockedAt: string
+  title: string
+  description: string
+  icon: string
+}
+
+export interface FavoriteFood {
+  id: string
+  name: string
+  quantity: string
+  calories: number
+  proteinG: number
+  carbsG: number
+  fatG: number
+}
+
+export interface Recipe {
+  id: string
+  name: string
+  servings: number
+  instructions?: string
+  items: FoodItem[]
+}
+
+export interface ScheduleDay {
+  dayOfWeek: number // 0=Sun, 1=Mon, ..., 6=Sat
+  dayName: string
+  templateId: string | null
+  isRestDay: boolean
+  label?: string
+}
+
+export interface WorkoutSchedule {
+  splitName: string
+  days: ScheduleDay[]
+}
+
 export interface FoodItem {
   id: string
   name: string
@@ -190,6 +283,18 @@ export interface PersonalRecord {
   sessionId: string
 }
 
+export interface CoachingInsight {
+  id: string
+  exerciseId?: string
+  exerciseName?: string
+  type: 'increase' | 'deload' | 'plateau' | 'consistency' | 'recovery'
+  title: string
+  message: string
+  recommendation?: string
+  metric?: string
+  date: string
+}
+
 export interface AppData {
   schemaVersion: number
   profile: UserProfile
@@ -201,6 +306,11 @@ export interface AppData {
   nutrition: NutritionDay[]
   mealTemplates: MealTemplate[]
   personalRecords: PersonalRecord[]
+  progressPhotos?: ProgressPhoto[]
+  achievements?: Achievement[]
+  favoriteFoods?: FavoriteFood[]
+  recipes?: Recipe[]
+  schedule?: WorkoutSchedule
 }
 
 export interface WorkoutSummary {

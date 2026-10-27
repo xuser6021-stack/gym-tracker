@@ -1,0 +1,445 @@
+[
+  {
+    "id": "ex_barbell_bench_press",
+    "name": "Barbell bench press",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "equipment": "Barbell",
+    "category": "push",
+    "exerciseClass": "compound",
+    "repRange": "6-10",
+    "instructions": "Lie flat, feet planted, shoulder blades pinched back and down. Grip slightly wider than shoulders. Lower the bar under control to mid-chest, then press up and slightly back until arms are extended. Keep wrists stacked over elbows.",
+    "mistakes": "Bouncing the bar off the chest, flaring elbows to 90°, lifting the hips off the bench, uneven bar path."
+  },
+  {
+    "id": "ex_incline_dumbbell_press",
+    "name": "Incline dumbbell press",
+    "primaryMuscle": "Upper chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "equipment": "Dumbbells",
+    "category": "push",
+    "exerciseClass": "compound",
+    "repRange": "8-12",
+    "instructions": "Set the bench to roughly 30°. Start with dumbbells at shoulder height, press up and slightly together without clanking them. Lower under control until you feel a stretch across the upper chest.",
+    "mistakes": "Bench too steep (turns it into a shoulder press), half reps, letting dumbbells drift too far back."
+  },
+  {
+    "id": "ex_seated_db_shoulder_press",
+    "name": "Seated dumbbell shoulder press",
+    "primaryMuscle": "Shoulders",
+    "secondaryMuscles": [
+      "Triceps",
+      "Upper chest"
+    ],
+    "equipment": "Dumbbells",
+    "category": "push",
+    "exerciseClass": "compound",
+    "repRange": "8-12",
+    "instructions": "Sit upright with back supported. Start with dumbbells at ear height, elbows under wrists. Press overhead without arching the lower back excessively.",
+    "mistakes": "Excessive low-back arch, pressing in front of the body, locking out with a shrug."
+  },
+  {
+    "id": "ex_db_lateral_raise",
+    "name": "Dumbbell lateral raise",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Traps"
+    ],
+    "equipment": "Dumbbells",
+    "category": "push",
+    "exerciseClass": "isolation",
+    "repRange": "12-15",
+    "instructions": "Slight forward lean, small elbow bend. Raise the dumbbells out and up to shoulder height, leading with the elbows. Lower slowly to your sides.",
+    "mistakes": "Swinging with momentum, shrugging the traps, raising far above shoulder height, going too heavy."
+  },
+  {
+    "id": "ex_cable_lateral_raise",
+    "name": "Cable lateral raise",
+    "primaryMuscle": "Side delts",
+    "secondaryMuscles": [
+      "Traps"
+    ],
+    "equipment": "Cable",
+    "category": "push",
+    "exerciseClass": "isolation",
+    "repRange": "12-15",
+    "instructions": "Stand side-on to a low pulley, handle in the outside hand. Raise the arm out to shoulder height with a soft elbow, then lower under control. Repeat for both sides.",
+    "mistakes": "Leaning away to cheat the weight, using the torso to swing, letting the cable pull the arm down fast."
+  },
+  {
+    "id": "ex_machine_chest_press",
+    "name": "Machine chest press",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "equipment": "Machine",
+    "category": "push",
+    "exerciseClass": "compound",
+    "repRange": "8-12",
+    "instructions": "Adjust the seat so the handles sit at mid-chest. Press forward until arms are extended, then return under control without letting the stack slam.",
+    "mistakes": "Seat set too high or low, partial range, letting the shoulders roll forward at the bottom."
+  },
+  {
+    "id": "ex_machine_shoulder_press",
+    "name": "Machine shoulder press",
+    "primaryMuscle": "Shoulders",
+    "secondaryMuscles": [
+      "Triceps"
+    ],
+    "equipment": "Machine",
+    "category": "push",
+    "exerciseClass": "compound",
+    "repRange": "10-12",
+    "instructions": "Set the seat so the handles start around ear height. Press overhead smoothly and lower to a comfortable stretch without forcing the shoulders.",
+    "mistakes": "Seat too low causing shoulder strain, bouncing out of the bottom, holding your breath."
+  },
+  {
+    "id": "ex_rope_triceps_pushdown",
+    "name": "Rope triceps pushdown",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "equipment": "Cable",
+    "category": "push",
+    "exerciseClass": "isolation",
+    "repRange": "10-15",
+    "instructions": "Elbows pinned to your sides, slight forward lean. Push the rope down and spread the ends at the bottom, squeezing the triceps. Return to a 90° elbow angle under control.",
+    "mistakes": "Elbows drifting forward or flaring out, leaning over the weight, using the shoulders to move the load."
+  },
+  {
+    "id": "ex_overhead_cable_triceps_extension",
+    "name": "Overhead cable triceps extension",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [],
+    "equipment": "Cable",
+    "category": "push",
+    "exerciseClass": "isolation",
+    "repRange": "10-15",
+    "instructions": "Face away from a low/mid pulley with the rope/bar overhead. Keep elbows narrow and extend the arms fully, feeling a stretch in the long head at the bottom.",
+    "mistakes": "Elbows flaring wide, arching the back, cutting the range short."
+  },
+  {
+    "id": "ex_lat_pulldown",
+    "name": "Lat pulldown",
+    "primaryMuscle": "Back (lats)",
+    "secondaryMuscles": [
+      "Biceps",
+      "Rear delts"
+    ],
+    "equipment": "Cable",
+    "category": "pull",
+    "exerciseClass": "compound",
+    "repRange": "8-12",
+    "instructions": "Grip slightly wider than shoulders. Lean back slightly, pull the bar to your upper chest by driving the elbows down and back. Control the bar back up until the lats stretch.",
+    "mistakes": "Pulling behind the neck, using body momentum, over-squeezing the grip and losing the lat focus."
+  },
+  {
+    "id": "ex_lat_pulldown_alt_grip",
+    "name": "Lat pulldown (alternate grip)",
+    "primaryMuscle": "Back (lats)",
+    "secondaryMuscles": [
+      "Biceps",
+      "Forearms"
+    ],
+    "equipment": "Cable",
+    "category": "pull",
+    "exerciseClass": "compound",
+    "repRange": "8-12",
+    "instructions": "Use a neutral/close grip handle. Keep the chest tall and pull the handle to the upper chest, driving the elbows straight down. Pause briefly, then extend under control.",
+    "mistakes": "Rounding the lower back, yanking with the arms instead of the lats, letting the shoulders shrug up at the top."
+  },
+  {
+    "id": "ex_seated_cable_row",
+    "name": "Seated cable row",
+    "primaryMuscle": "Back (mid)",
+    "secondaryMuscles": [
+      "Biceps",
+      "Rear delts"
+    ],
+    "equipment": "Cable",
+    "category": "pull",
+    "exerciseClass": "compound",
+    "repRange": "8-12",
+    "instructions": "Sit tall with a slight knee bend and neutral spine. Pull the handle to your lower ribs, driving the elbows back and pulling the shoulder blades together. Return with control.",
+    "mistakes": "Rocking the torso back and forth, shrugging the shoulders, rounding the back under load."
+  },
+  {
+    "id": "ex_chest_supported_row",
+    "name": "Chest-supported row",
+    "primaryMuscle": "Back (mid)",
+    "secondaryMuscles": [
+      "Rear delts",
+      "Biceps"
+    ],
+    "equipment": "Machine",
+    "category": "pull",
+    "exerciseClass": "compound",
+    "repRange": "8-12",
+    "instructions": "Chest against the pad, feet set. Row the handles back by squeezing the shoulder blades together, pause, then lower under control without losing chest contact.",
+    "mistakes": "Lifting the chest off the pad, using leg drive, only moving the arms without the shoulder blades."
+  },
+  {
+    "id": "ex_single_arm_cable_row",
+    "name": "Single-arm cable row",
+    "primaryMuscle": "Back (lats)",
+    "secondaryMuscles": [
+      "Biceps",
+      "Rear delts"
+    ],
+    "equipment": "Cable",
+    "category": "pull",
+    "exerciseClass": "compound",
+    "repRange": "10-12",
+    "instructions": "Stagger your stance, brace the free hand on the frame. Pull the handle to your hip, letting the shoulder blade travel forward at the stretch and back fully at the squeeze. Match reps per side.",
+    "mistakes": "Rotating the torso to cheat the weight, shrugging, rushing the stretch position.",
+    "unilateral": true
+  },
+  {
+    "id": "ex_reverse_pec_deck",
+    "name": "Reverse pec deck",
+    "primaryMuscle": "Rear delts",
+    "secondaryMuscles": [
+      "Upper back",
+      "Traps"
+    ],
+    "equipment": "Machine",
+    "category": "pull",
+    "exerciseClass": "isolation",
+    "repRange": "12-15",
+    "instructions": "Face the pad with handles in front. With soft elbows, sweep the arms out and back to shoulder level, leading with the pinkies. Squeeze briefly and return slowly.",
+    "mistakes": "Using a big elbow bend (turns into a row), shrugging, swinging the weight with momentum."
+  },
+  {
+    "id": "ex_dumbbell_biceps_curl",
+    "name": "Dumbbell biceps curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "equipment": "Dumbbells",
+    "category": "pull",
+    "exerciseClass": "isolation",
+    "repRange": "10-15",
+    "instructions": "Stand tall, elbows near your sides. Curl the dumbbells up without swinging, squeeze at the top, then lower for a slow count of two to full extension.",
+    "mistakes": "Swinging the hips, elbows drifting forward, half-range reps at the bottom."
+  },
+  {
+    "id": "ex_hammer_curl",
+    "name": "Hammer curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "equipment": "Dumbbells",
+    "category": "pull",
+    "exerciseClass": "isolation",
+    "repRange": "10-15",
+    "instructions": "Hold the dumbbells with a neutral (palms-facing) grip. Curl up keeping the wrists neutral and elbows pinned to your sides, then lower under control.",
+    "mistakes": "Turning it into a swing, allowing the elbows to flare, cutting the bottom range short."
+  },
+  {
+    "id": "ex_ez_bar_curl",
+    "name": "EZ-bar curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "equipment": "EZ bar",
+    "category": "pull",
+    "exerciseClass": "isolation",
+    "repRange": "10-12",
+    "instructions": "Grip the angled portion of the bar. Keep elbows close to your sides and curl up smoothly, then lower to full extension without bouncing.",
+    "mistakes": "Leaning back to lift heavier, bouncing out of the bottom, uneven bar path."
+  },
+  {
+    "id": "ex_incline_dumbbell_curl",
+    "name": "Incline dumbbell curl",
+    "primaryMuscle": "Biceps",
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "equipment": "Dumbbells",
+    "category": "pull",
+    "exerciseClass": "isolation",
+    "repRange": "10-15",
+    "instructions": "Sit back on a bench set to 45–60°. Let the arms hang behind the torso for a good stretch, then curl up keeping the upper arm still and lower fully.",
+    "mistakes": "Shoulders rolling forward, swinging the arms up, not achieving full extension at the bottom."
+  },
+  {
+    "id": "ex_leg_press",
+    "name": "Leg press",
+    "primaryMuscle": "Quads",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "equipment": "Machine",
+    "category": "legs",
+    "exerciseClass": "compound",
+    "repRange": "8-12",
+    "instructions": "Feet shoulder-width on the platform. Lower until the knees reach roughly 90°, keeping the lower back flat against the pad, then press through the whole foot.",
+    "mistakes": "Letting the lower back round off the pad, locking the knees hard, pushing through the toes only."
+  },
+  {
+    "id": "ex_db_romanian_deadlift",
+    "name": "Dumbbell Romanian deadlift",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Lower back"
+    ],
+    "equipment": "Dumbbells",
+    "category": "legs",
+    "exerciseClass": "compound",
+    "repRange": "8-12",
+    "instructions": "Stand tall holding the dumbbells in front of the thighs. With a slight knee bend, push the hips back and lower the weight along the legs until you feel a hamstring stretch, then drive the hips forward to stand.",
+    "mistakes": "Rounding the back, bending the knees too much, letting the weight drift away from the legs."
+  },
+  {
+    "id": "ex_barbell_squat",
+    "name": "Barbell squat",
+    "primaryMuscle": "Quads",
+    "secondaryMuscles": [
+      "Glutes",
+      "Core"
+    ],
+    "equipment": "Barbell",
+    "category": "legs",
+    "exerciseClass": "compound",
+    "repRange": "6-10",
+    "instructions": "Bar on the upper back, feet shoulder-width, toes slightly out. Brace the core and squat down between the hips until thighs are near parallel, then drive up through mid-foot. Use safety pins or a spotter.",
+    "mistakes": "Knees caving in, rounding the back, rising on the toes, going deeper than you can control."
+  },
+  {
+    "id": "ex_goblet_squat",
+    "name": "Goblet squat",
+    "primaryMuscle": "Quads",
+    "secondaryMuscles": [
+      "Glutes",
+      "Core"
+    ],
+    "equipment": "Dumbbell",
+    "category": "legs",
+    "exerciseClass": "compound",
+    "repRange": "8-12",
+    "instructions": "Hold a dumbbell vertically at your chest. Keeping the torso tall, squat down between the hips to a comfortable depth, then stand tall.",
+    "mistakes": "Letting the chest collapse, heels lifting, descending faster than you can control."
+  },
+  {
+    "id": "ex_leg_extension",
+    "name": "Leg extension",
+    "primaryMuscle": "Quads",
+    "secondaryMuscles": [],
+    "equipment": "Machine",
+    "category": "legs",
+    "exerciseClass": "isolation",
+    "repRange": "10-15",
+    "instructions": "Align knees with the machine pivot. Extend the legs until almost straight, squeeze the quads, then lower under control. Adjust the back pad so knees stay put.",
+    "mistakes": "Kicking the weight up with momentum, letting hips lift, slamming the stack on the return."
+  },
+  {
+    "id": "ex_seated_leg_curl",
+    "name": "Seated leg curl",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Calves"
+    ],
+    "equipment": "Machine",
+    "category": "legs",
+    "exerciseClass": "isolation",
+    "repRange": "10-15",
+    "instructions": "Set the lap pad snug and align the knee joint with the pivot. Curl the legs down and under, squeeze the hamstrings, then return slowly.",
+    "mistakes": "Hips lifting off the seat, using momentum, incomplete range."
+  },
+  {
+    "id": "ex_lying_leg_curl",
+    "name": "Lying leg curl",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Calves"
+    ],
+    "equipment": "Machine",
+    "category": "legs",
+    "exerciseClass": "isolation",
+    "repRange": "10-15",
+    "instructions": "Lie face down with the ankle pad on the lower calves. Curl the heels toward your glutes, pause, then lower under control without the hips rising.",
+    "mistakes": "Lifting the hips to help, going too heavy with momentum, not fully extending between reps."
+  },
+  {
+    "id": "ex_hip_thrust_machine",
+    "name": "Hip thrust machine",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "equipment": "Machine",
+    "category": "legs",
+    "exerciseClass": "compound",
+    "repRange": "8-12",
+    "instructions": "Set the pad across the hips, feet flat and shoulder-width. Drive the hips forward until the body is straight, squeeze the glutes hard, then lower with control.",
+    "mistakes": "Over-arching the lower back at the top, pushing through the toes, using a short range."
+  },
+  {
+    "id": "ex_standing_calf_raise",
+    "name": "Standing calf raise",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [],
+    "equipment": "Machine",
+    "category": "legs",
+    "exerciseClass": "isolation",
+    "repRange": "12-20",
+    "instructions": "Balls of the feet on the platform, knees soft. Rise as high as possible onto the toes, pause, then lower until the calves stretch fully.",
+    "mistakes": "Bouncing rapidly, bending the knees to cheat, partial range at the top or bottom."
+  },
+  {
+    "id": "ex_seated_calf_raise",
+    "name": "Seated calf raise",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [],
+    "equipment": "Machine",
+    "category": "legs",
+    "exerciseClass": "isolation",
+    "repRange": "12-20",
+    "instructions": "Sit with the pads on the thighs and the balls of the feet on the platform. Press up onto the toes, pause at the top, then lower to a deep stretch.",
+    "mistakes": "Rushing reps, limited range, letting the weight rest between reps."
+  },
+  {
+    "id": "ex_plank",
+    "name": "Plank",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Shoulders",
+      "Glutes"
+    ],
+    "equipment": "Bodyweight",
+    "category": "core",
+    "exerciseClass": "isolation",
+    "repRange": "30-45s",
+    "instructions": "Forearms under the shoulders, body in a straight line from head to heels. Brace the abs and glutes and hold for the target time without letting the hips sag or pike.",
+    "mistakes": "Hips sagging or piking, holding your breath, letting the head drop.",
+    "usesBodyweight": true
+  },
+  {
+    "id": "ex_dead_bug",
+    "name": "Dead bug",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Hip flexors"
+    ],
+    "equipment": "Bodyweight",
+    "category": "core",
+    "exerciseClass": "isolation",
+    "repRange": "8-12 per side",
+    "instructions": "Lie on your back with arms up and knees over hips. Slowly extend the opposite arm and leg while keeping the lower back pressed to the floor, then return and switch sides.",
+    "mistakes": "Lower back arching off the floor, rushing the reps, holding your breath.",
+    "usesBodyweight": true,
+    "unilateral": true
+  }
+]

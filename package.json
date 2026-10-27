@@ -10,6 +10,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "validate:exercise-assets": "node scripts/validate-exercise-assets.mjs",
+    "validate:exercises": "node scripts/validate-exercises.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

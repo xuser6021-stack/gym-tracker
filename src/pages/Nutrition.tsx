@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { ChevronLeft, ChevronRight, Copy, Droplet, Flame, Plus, Save, Trash, Utensils, X } from 'lucide-react'
+import { BookOpen, ChevronLeft, ChevronRight, Copy, Droplet, Flame, Plus, Save, Trash, Utensils, X } from 'lucide-react'
 import { useApp } from '../store/AppStore'
 import { PageHeader, Notice } from '../components/ui/PageHeader'
 import { Card, CardHeader } from '../components/ui/Card'
@@ -9,6 +9,7 @@ import { Input } from '../components/ui/Input'
 import { Progress } from '../components/ui/Progress'
 import { Stat } from '../components/ui/Stat'
 import { FoodDialog } from '../components/FoodDialog'
+import { RecipeDialog } from '../components/nutrition/RecipeDialog'
 import { BarsChart } from '../components/charts/Charts'
 import { isoDate, parseDate, addDays } from '../lib/stats'
 import { formatDate, formatDayShort, relativeDay } from '../lib/format'
@@ -28,6 +29,9 @@ export function Nutrition() {
     saveMealTemplate,
     applyMealTemplate,
     deleteMealTemplate,
+    addRecipe,
+    deleteRecipe,
+    applyRecipeToMeal,
   } = useApp()
   const today = useToday()
   const [date, setDate] = useState(isoDate(today))
@@ -36,6 +40,7 @@ export function Nutrition() {
   const [newMealName, setNewMealName] = useState('')
   const [saveTplOpen, setSaveTplOpen] = useState(false)
   const [saveTplName, setSaveTplName] = useState('')
+  const [recipeDialogOpen, setRecipeDialogOpen] = useState(false)
 
   const day = getNutritionDay(date)
   const yesterday = isoDate(addDays(parseDate(date), -1))
@@ -183,6 +188,9 @@ export function Nutrition() {
           onClick={() => copyDayMeals(yesterday, date)}
         >
           <Copy size={15} /> Copy yesterday
+        </Button>
+        <Button variant="secondary" size="sm" onClick={() => setRecipeDialogOpen(true)}>
+          <BookOpen size={15} /> Recipes & Prep
         </Button>
         {templatesEnabled ? (
           <Button variant="secondary" size="sm" disabled={!hasTodayItems} onClick={() => setSaveTplOpen(true)}>
@@ -371,6 +379,17 @@ export function Nutrition() {
       </Dialog>
 
       <FoodDialog open={foodTarget !== null} onClose={() => setFoodTarget(null)} date={date} mealName={foodTarget?.meal ?? ''} />
+
+      <RecipeDialog
+        open={recipeDialogOpen}
+        onClose={() => setRecipeDialogOpen(false)}
+        recipes={data.recipes ?? []}
+        date={date}
+        mealNames={mealNames}
+        onAddRecipe={addRecipe}
+        onDeleteRecipe={deleteRecipe}
+        onApplyRecipe={applyRecipeToMeal}
+      />
     </div>
   )
 }

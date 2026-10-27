@@ -197,8 +197,13 @@ export function ExerciseLogger({
           <Plus size={16} /> Warm-up
         </Button>
         {previousWorking.length ? (
-          <Button variant="ghost" size="sm" onClick={repeatLast}>
-            <Repeat size={15} /> Repeat last
+          <Button
+            variant="secondary"
+            size="sm"
+            onClick={repeatLast}
+            className="border border-accent/40 bg-accentsoft text-accent hover:bg-accent hover:text-white"
+          >
+            <Repeat size={15} /> Use Last Workout
           </Button>
         ) : null}
         {onSupersetChange ? (

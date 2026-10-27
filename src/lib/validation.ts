@@ -242,6 +242,12 @@ export const workoutScheduleSchema = z.object({
   days: z.array(scheduleDaySchema),
 })
 
+export const weeklyMuscleSettingsSchema = z.object({
+  targets: z.record(z.string(), z.number().min(0)).default({}),
+  primaryMultiplier: z.number().min(0).max(2).default(1.0),
+  secondaryMultiplier: z.number().min(0).max(2).default(0.5),
+})
+
 export const appDataSchema = z.object({
   schemaVersion: z.number().int().min(0),
   profile: profileSchema,
@@ -258,6 +264,7 @@ export const appDataSchema = z.object({
   favoriteFoods: z.array(favoriteFoodSchema).optional().default([]),
   recipes: z.array(recipeSchema).optional().default([]),
   schedule: workoutScheduleSchema.optional(),
+  weeklyMuscleSettings: weeklyMuscleSettingsSchema.optional(),
 })
 
 export type ValidationResult =

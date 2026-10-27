@@ -283,6 +283,32 @@ export interface PersonalRecord {
   sessionId: string
 }
 
+export type MajorMuscleGroup =
+  | 'Chest'
+  | 'Back'
+  | 'Shoulders'
+  | 'Biceps'
+  | 'Triceps'
+  | 'Quadriceps'
+  | 'Hamstrings'
+  | 'Glutes'
+  | 'Calves'
+  | 'Core'
+
+export interface WeeklyMuscleTarget {
+  muscleGroup: MajorMuscleGroup
+  targetSets: number
+}
+
+export interface WeeklyMuscleSettings {
+  /** Map from MajorMuscleGroup to target sets per week */
+  targets?: Partial<Record<MajorMuscleGroup, number>>
+  /** Contribution multiplier for primary muscle (default 1.0) */
+  primaryMultiplier?: number
+  /** Contribution multiplier for secondary muscle (default 0.5) */
+  secondaryMultiplier?: number
+}
+
 export interface CoachingInsight {
   id: string
   exerciseId?: string
@@ -311,6 +337,7 @@ export interface AppData {
   favoriteFoods?: FavoriteFood[]
   recipes?: Recipe[]
   schedule?: WorkoutSchedule
+  weeklyMuscleSettings?: WeeklyMuscleSettings
 }
 
 export interface WorkoutSummary {

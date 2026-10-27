@@ -8,6 +8,7 @@ import { AppShell } from './components/layout/AppShell'
 import { RecoveryScreen } from './components/RecoveryScreen'
 import { ToastProvider } from './components/ui/Toast'
 const Dashboard = lazy(() => import('./pages/Dashboard').then((m) => ({ default: m.Dashboard })))
+const WorkoutJournal = lazy(() => import('./pages/WorkoutJournal').then((m) => ({ default: m.WorkoutJournal })))
 const Workouts = lazy(() => import('./pages/Workouts').then((m) => ({ default: m.Workouts })))
 const WorkoutLogger = lazy(() => import('./pages/WorkoutLogger').then((m) => ({ default: m.WorkoutLogger })))
 const SessionDetail = lazy(() => import('./pages/SessionDetail').then((m) => ({ default: m.SessionDetail })))
@@ -80,6 +81,7 @@ function AppRoutes() {
         <Routes>
           <Route element={<AppShell />}>
             <Route index element={<Dashboard />} />
+            <Route path="journal" element={<WorkoutJournal />} />
             <Route path="workouts" element={<Workouts />} />
             <Route path="workout" element={<WorkoutLogger />} />
             <Route path="workouts/:id" element={<SessionDetail />} />

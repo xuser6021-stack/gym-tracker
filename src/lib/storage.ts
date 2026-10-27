@@ -92,6 +92,9 @@ export function coerceData(input: unknown): AppData {
     favoriteFoods: ensureArray(data.favoriteFoods),
     recipes: ensureArray(data.recipes),
     schedule: isRecord(data.schedule) ? (data.schedule as unknown as AppData['schedule']) : undefined,
+    weeklyMuscleSettings: isRecord(data.weeklyMuscleSettings)
+      ? (data.weeklyMuscleSettings as unknown as AppData['weeklyMuscleSettings'])
+      : undefined,
   }
 }
 

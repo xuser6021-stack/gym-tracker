@@ -59,6 +59,16 @@ export function SetRow({
           {isWarmup ? 'W' : index + 1}
         </button>
 
+        {previousLabel ? (
+          <div
+            title={`Previous performance: ${previousLabel}`}
+            className="hidden shrink-0 rounded-lg bg-surface3 px-2 py-1 text-center sm:block"
+          >
+            <p className="text-[9px] font-bold uppercase tracking-wider text-faint">Prev</p>
+            <p className="text-[11px] font-semibold tabular-nums text-muted">{previousLabel}</p>
+          </div>
+        ) : null}
+
         <Stepper
           className="min-w-0 flex-1"
           value={displayWeight}

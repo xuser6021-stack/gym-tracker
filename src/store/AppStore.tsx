@@ -29,6 +29,7 @@ import type {
   WorkoutSession,
   WorkoutSummary,
   WorkoutTemplate,
+  WeeklyMuscleSettings,
 } from '../types'
 import { evaluateAchievements } from '../lib/achievements'
 import { coerceData, createInitialData } from '../lib/storage'
@@ -108,6 +109,8 @@ interface StoreValue {
 
   activeSession: WorkoutSession | undefined
   startWorkout: (templateId: string | null, name: string, dayLabel: string) => WorkoutSession
+  getOrCreateDailyWorkout: (dateStr: string) => WorkoutSession
+  reopenWorkout: (sessionId: string) => void
   repeatWorkout: (sessionId: string) => WorkoutSession | null
   updateSession: (id: string, patch: Partial<WorkoutSession>) => void
   addSet: (sessionId: string, input: Omit<SetRecord, 'id' | 'sortOrder'>) => SetRecord
@@ -118,6 +121,8 @@ interface StoreValue {
   discardWorkout: (sessionId: string) => void
   restoreWorkout: (sessionId: string) => void
   deleteSession: (sessionId: string) => void
+
+  updateWeeklyMuscleSettings: (patch: Partial<WeeklyMuscleSettings>) => void
 
   addMeasurement: (input: Omit<BodyMeasurement, 'id'>) => void
   updateMeasurement: (id: string, patch: Partial<BodyMeasurement>) => void
@@ -674,6 +679,56 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
         }
         commit((prev) => ({ ...prev, sessions: [...prev.sessions, session] }))
         return session
+      },
+      getOrCreateDailyWorkout: (dateStr: string) => {
+        // If there is an existing session for this exact date (active or completed, not discarded)
+        const existing = dataRef.current.sessions.find((s) => s.date === dateStr && !s.discarded)
+        if (existing) {
+          return existing
+        }
+        // Calculate dayLabel e.g. "Monday"
+        const [y, m, d] = dateStr.split('-').map(Number)
+        const dateObj = new Date(y, m - 1, d)
+        const dayLabel = dateObj.toLocaleDateString('en-US', { weekday: 'long' })
+
+        const newSession: WorkoutSession = {
+          id: uid('sess'),
+          templateId: null,
+          templateName: `${dayLabel} Workout`,
+          dayLabel,
+          prescribed: null,
+          date: dateStr,
+          startedAt: new Date(y, m - 1, d, 9, 0, 0).toISOString(),
+          finishedAt: null,
+          status: 'active',
+          sets: [],
+          notes: '',
+          durationSeconds: 0,
+        }
+        commit((prev) => ({ ...prev, sessions: [...prev.sessions, newSession] }))
+        return newSession
+      },
+      reopenWorkout: (sessionId: string) => {
+        commit((prev) => ({
+          ...prev,
+          sessions: prev.sessions.map((s) =>
+            s.id === sessionId ? { ...s, status: 'active', finishedAt: null } : s,
+          ),
+        }))
+      },
+      updateWeeklyMuscleSettings: (patch: Partial<WeeklyMuscleSettings>) => {
+        commit((prev) => ({
+          ...prev,
+          weeklyMuscleSettings: {
+            targets: {
+              ...(prev.weeklyMuscleSettings?.targets ?? {}),
+              ...(patch.targets ?? {}),
+            },
+            primaryMultiplier: patch.primaryMultiplier ?? prev.weeklyMuscleSettings?.primaryMultiplier ?? 1.0,
+            secondaryMultiplier:
+              patch.secondaryMultiplier ?? prev.weeklyMuscleSettings?.secondaryMultiplier ?? 0.5,
+          },
+        }))
       },
       repeatWorkout: (sessionId: string) => {
         const existing = dataRef.current.sessions.find((s) => s.status === 'active')

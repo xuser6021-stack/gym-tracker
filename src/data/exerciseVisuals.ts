@@ -5776,34 +5776,17 @@ export function hasBundledAnimation(exercise: Exercise): boolean {
 
 /** Resolve an exercise's bundled artwork into concrete file paths (undefined when none). */
 export function resolveExerciseVisuals(exercise: Exercise): ExerciseVisuals | undefined {
+  if (exercise.visuals && Object.keys(exercise.visuals).length > 0) return exercise.visuals
+  const record = bundledRecordFor(exercise.id)
+  if (!record || record.available.length === 0) return undefined
   const slug = exerciseSlug(exercise.id)
-  const record = BUNDLED_VISUALS[slug]
-
-  const custom = exercise.visuals
-  const pick = (kind: VisualKind): string | undefined => {
-    if (custom && custom[kind]) return custom[kind]
-    if (record?.available.includes(kind)) return visualFilePath(slug, kind)
-    return undefined
-  }
-
-  const thumb = pick('thumbnail')
-  const anatomy = pick('anatomy')
-  const start = pick('start')
-  const finish = pick('finish')
-  const animation = pick('animation')
-
-  if (!thumb && !anatomy && !start && !finish && !animation) {
-    return undefined
-  }
-
+  const has = (kind: VisualKind) => record.available.includes(kind)
   return {
-    thumbnail: thumb,
-    anatomy,
-    start,
-    finish,
-    animation,
-    source: record?.source ?? custom?.source,
-    license: record?.license ?? custom?.license,
-    attribution: record?.attribution ?? custom?.attribution,
+    thumbnail: has('thumbnail') ? visualFilePath(slug, 'thumbnail') : undefined,
+    anatomyImage: has('anatomy') ? visualFilePath(slug, 'anatomy') : undefined,
+    startPositionImage: has('start') ? visualFilePath(slug, 'start') : undefined,
+    endPositionImage: has('finish') ? visualFilePath(slug, 'finish') : undefined,
+    animation: has('animation') ? visualFilePath(slug, 'animation') : undefined,
+    attributionId: record.source,
   }
 }

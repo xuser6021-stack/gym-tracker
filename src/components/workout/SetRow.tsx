@@ -1,39 +1,42 @@
 import { useState } from 'react'
 import { Check, Trash } from 'lucide-react'
-import type { Exercise, SetRecord } from '../../types'
+import type { AppData, Exercise, SetRecord } from '../../types'
 import { fromStoredWeightDisplay } from '../../lib/progression'
 import { toKg, weightIncrementKg } from '../../lib/units'
-import { useApp } from '../../store/AppStore'
 import { Stepper } from '../ui/Stepper'
 import { cn } from '../../lib/cn'
 
 const RIR_OPTIONS = ['', '0', '1', '2', '3', '4', '5']
 
 export function SetRow({
-  sessionId,
   set,
   index,
   exercise,
   timeBased,
   previous,
   onToggleComplete,
+  unit,
+  settings,
+  onUpdateSet,
+  onDeleteSet,
 }: {
-  sessionId: string
   set: SetRecord
   index: number
   exercise: Exercise
   timeBased: boolean
   previous?: { weightKg: number | null; reps: number | null } | null
   onToggleComplete: (set: SetRecord, next: boolean) => void
+  unit: 'kg' | 'lb'
+  settings: AppData['settings']
+  onUpdateSet: (setId: string, patch: Partial<SetRecord>) => void
+  onDeleteSet: (setId: string) => void
 }) {
-  const { data, updateSet, deleteSet } = useApp()
-  const unit = data.settings.units.weight
   const [expanded, setExpanded] = useState(false)
-  const displayWeight = fromStoredWeightDisplay(set.weightKg, unit, exercise, data.settings)
+  const displayWeight = fromStoredWeightDisplay(set.weightKg, unit, exercise, settings)
   const isWarmup = set.type === 'warmup'
   const canComplete = set.reps !== null
   const previousLabel = previous
-    ? `${previous.weightKg === null ? 'BW' : `${Number(fromStoredWeightDisplay(previous.weightKg, unit, exercise, data.settings)?.toFixed(1))}${unit}`}×${previous.reps ?? 0}`
+    ? `${previous.weightKg === null ? 'BW' : `${Number(fromStoredWeightDisplay(previous.weightKg, unit, exercise, settings)?.toFixed(1))}${unit}`}×${previous.reps ?? 0}`
     : null
 
   return (
@@ -72,7 +75,7 @@ export function SetRow({
         <Stepper
           className="min-w-0 flex-1"
           value={displayWeight}
-          onChange={(v) => updateSet(sessionId, set.id, { weightKg: toKg(v, unit) })}
+          onChange={(v) => onUpdateSet(set.id, { weightKg: toKg(v, unit) })}
           step={weightIncrementKg(unit)}
           min={0}
           max={2000}
@@ -84,7 +87,7 @@ export function SetRow({
         <Stepper
           className="min-w-0 flex-1"
           value={set.reps}
-          onChange={(v) => updateSet(sessionId, set.id, { reps: v === null ? null : Math.round(v) })}
+          onChange={(v) => onUpdateSet(set.id, { reps: v === null ? null : Math.round(v) })}
           step={1}
           min={0}
           max={999}
@@ -117,7 +120,7 @@ export function SetRow({
             <select
               value={set.rir === null ? '' : String(set.rir)}
               onChange={(e) =>
-                updateSet(sessionId, set.id, { rir: e.target.value === '' ? null : Number(e.target.value) })
+                onUpdateSet(set.id, { rir: e.target.value === '' ? null : Number(e.target.value) })
               }
               className="h-8 rounded-lg border border-line bg-surface3 px-1.5 text-xs font-bold text-ink"
             >
@@ -132,7 +135,7 @@ export function SetRow({
           {exercise.unilateral ? (
             <button
               type="button"
-              onClick={() => updateSet(sessionId, set.id, { perSide: !set.perSide })}
+              onClick={() => onUpdateSet(set.id, { perSide: !set.perSide })}
               className={cn(
                 'h-8 rounded-lg border px-2 text-xs font-semibold',
                 set.perSide ? 'border-accent bg-accentsoft text-accent' : 'border-line text-muted',
@@ -145,14 +148,14 @@ export function SetRow({
           <input
             type="text"
             value={set.note}
-            onChange={(e) => updateSet(sessionId, set.id, { note: e.target.value })}
+            onChange={(e) => onUpdateSet(set.id, { note: e.target.value })}
             placeholder="Set note"
             className="h-8 min-w-0 flex-1 rounded-lg border border-line bg-surface3 px-2 text-xs text-ink placeholder:text-faint"
           />
 
           <button
             type="button"
-            onClick={() => deleteSet(sessionId, set.id)}
+            onClick={() => onDeleteSet(set.id)}
             aria-label="Delete set"
             className="flex h-8 w-8 items-center justify-center rounded-lg text-muted hover:bg-dangersoft hover:text-danger"
           >

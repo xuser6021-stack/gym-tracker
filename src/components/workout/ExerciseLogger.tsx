@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { memo, useState } from 'react'
 import { Info, Play, Plus, Repeat, Trash, X } from 'lucide-react'
 import type { Exercise, SetRecord } from '../../types'
 import type { ExerciseHistoryEntry, ProgressionSuggestion } from '../../lib/progression'
@@ -17,7 +17,7 @@ function isTimeBased(exercise: Exercise | undefined): boolean {
   return /\d\s*(s|sec)\b/i.test(exercise.repRange)
 }
 
-export function ExerciseLogger({
+export const ExerciseLogger = memo(function ExerciseLogger({
   sessionId,
   exercise,
   prescribed,
@@ -40,7 +40,7 @@ export function ExerciseLogger({
   onToggleComplete: (set: SetRecord, next: boolean) => void
   onRemove?: () => void
 }) {
-  const { data, addSet, updateSet } = useApp()
+  const { data, addSet, updateSet, deleteSet } = useApp()
   const unit = data.settings.units.weight
   const [dismissed, setDismissed] = useState(false)
   const [demoOpen, setDemoOpen] = useState(false)
@@ -176,13 +176,16 @@ export function ExerciseLogger({
               return (
                 <SetRow
                   key={set.id}
-                  sessionId={sessionId}
                   set={set}
                   index={index}
                   exercise={exercise}
                   timeBased={timeBased}
                   previous={previous}
                   onToggleComplete={onToggleComplete}
+                  unit={unit}
+                  settings={data.settings}
+                  onUpdateSet={(setId, patch) => updateSet(sessionId, setId, patch)}
+                  onDeleteSet={(setId) => deleteSet(sessionId, setId)}
                 />
               )
             })
@@ -228,4 +231,4 @@ export function ExerciseLogger({
       <ExerciseDemoDialog exercise={exercise} open={demoOpen} onClose={() => setDemoOpen(false)} />
     </Card>
   )
-}
+})

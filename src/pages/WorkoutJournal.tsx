@@ -132,7 +132,22 @@ export function WorkoutJournal() {
     }
   }
 
-  // Weekly muscle analysis for the week of selectedDate
+  // Pre-compute exercise histories for today's session to avoid per-render recalculation
+  const pastSessions = useMemo(() => {
+    if (!currentSession) return data.sessions
+    return data.sessions.filter((s: WorkoutSession) => s.id !== currentSession.id)
+  }, [data.sessions, currentSession])
+
+  const sessionHistories = useMemo(() => {
+    const map = new Map<string, ReturnType<typeof exerciseHistory>>()
+    for (const group of sessionExerciseGroups) {
+      const exercise = exercisesById.get(group.exerciseId)
+      if (exercise) {
+        map.set(group.exerciseId, exerciseHistory(pastSessions, exercise.id, exercise))
+      }
+    }
+    return map
+  }, [sessionExerciseGroups, pastSessions, exercisesById])
   const weeklyAnalysis = useMemo(() => {
     return calculateWeeklyMuscleAnalysis(
       data.sessions,
@@ -192,12 +207,12 @@ export function WorkoutJournal() {
         </div>
 
         {/* Tab Switcher */}
-        <div className="flex rounded-xl border border-line bg-surface p-1">
+        <div className="grid grid-cols-4 rounded-xl border border-line bg-surface p-1">
           <button
             type="button"
             onClick={() => setActiveTab('today')}
             className={cn(
-              'rounded-lg px-3 py-1.5 text-xs font-bold transition-colors',
+              'rounded-lg py-1.5 text-[10px] font-bold transition-colors sm:text-xs',
               activeTab === 'today' ? 'bg-accent text-white shadow-sm' : 'text-muted hover:text-ink',
             )}
           >
@@ -207,7 +222,7 @@ export function WorkoutJournal() {
             type="button"
             onClick={() => setActiveTab('calendar')}
             className={cn(
-              'rounded-lg px-3 py-1.5 text-xs font-bold transition-colors',
+              'rounded-lg py-1.5 text-[10px] font-bold transition-colors sm:text-xs',
               activeTab === 'calendar' ? 'bg-accent text-white shadow-sm' : 'text-muted hover:text-ink',
             )}
           >
@@ -217,17 +232,17 @@ export function WorkoutJournal() {
             type="button"
             onClick={() => setActiveTab('weekly')}
             className={cn(
-              'rounded-lg px-3 py-1.5 text-xs font-bold transition-colors',
+              'rounded-lg py-1.5 text-[10px] font-bold transition-colors sm:text-xs',
               activeTab === 'weekly' ? 'bg-accent text-white shadow-sm' : 'text-muted hover:text-ink',
             )}
           >
-            Weekly Report
+            Weekly
           </button>
           <button
             type="button"
             onClick={() => setActiveTab('progress')}
             className={cn(
-              'rounded-lg px-3 py-1.5 text-xs font-bold transition-colors',
+              'rounded-lg py-1.5 text-[10px] font-bold transition-colors sm:text-xs',
               activeTab === 'progress' ? 'bg-accent text-white shadow-sm' : 'text-muted hover:text-ink',
             )}
           >
@@ -331,8 +346,7 @@ export function WorkoutJournal() {
                 const exercise = exercisesById.get(group.exerciseId)
                 if (!exercise) return null
                 const exerciseSets = currentSession.sets.filter((s) => s.exerciseId === group.exerciseId)
-                const pastSessions = data.sessions.filter((s: WorkoutSession) => s.id !== currentSession.id)
-                const historyList = exerciseHistory(pastSessions, exercise.id, exercise)
+                const historyList = sessionHistories.get(group.exerciseId) ?? []
                 const history = historyList[0] ?? null
                 const suggestion = buildSuggestion(exercise, historyList, 8, 12)
 

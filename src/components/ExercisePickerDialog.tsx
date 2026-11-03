@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { Plus, Search, X } from 'lucide-react'
 import { useApp } from '../store/AppStore'
 import { Dialog } from './ui/Dialog'
@@ -21,7 +21,9 @@ export function ExercisePickerDialog({
   title?: string
 }) {
   const { allExercises, addExercise } = useApp()
+  const [displayQuery, setDisplayQuery] = useState('')
   const [query, setQuery] = useState('')
+  const debounceTimer = useRef<number | null>(null)
   const [category, setCategory] = useState('all')
   const [muscleFilter, setMuscleFilter] = useState('all')
   const [equipmentFilter, setEquipmentFilter] = useState('all')

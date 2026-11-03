@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { memo, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ChevronDown, ChevronUp, Dumbbell, Filter, Plus, Search, Star, X } from 'lucide-react'
 import { useApp } from '../store/AppStore'
@@ -192,7 +192,7 @@ export function Exercises() {
       />
 
       {/* Quick Category Pills */}
-      <div className="mb-3 flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
+      <div className="mb-3 flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
         {QUICK_CATEGORIES.map((qc) => (
           <button
             key={qc.id}
@@ -438,7 +438,7 @@ export function Exercises() {
 
 // ─── exercise card ─────────────────────────────────────────────────────────────
 
-function ExerciseCard({
+const ExerciseCard = memo(function ExerciseCard({
   exercise,
   onToggleFavorite,
 }: {
@@ -503,5 +503,5 @@ function ExerciseCard({
       </div>
     </div>
   )
-}
+})
 

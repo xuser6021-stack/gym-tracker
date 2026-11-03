@@ -2432,7 +2432,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Sumo deadlift"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Glutes",
     "secondaryMuscles": [
       "Lower back",
@@ -8392,7 +8392,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
       "Dumbbell RDL",
       "DB straight leg deadlift"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -8427,7 +8427,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
       "Barbell RDL",
       "BB straight leg deadlift"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -8462,7 +8462,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
       "Seated hamstring curl",
       "Machine seated leg curl"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Calves"
@@ -8496,7 +8496,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
       "Prone leg curl",
       "Lying hamstring curl"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Calves"
@@ -8529,7 +8529,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
       "Nordic curls",
       "Russian leg curl"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -8564,7 +8564,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
       "Single leg curl",
       "One-leg hamstring curl"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [],
     "equipment": "Machine",
@@ -8595,7 +8595,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
       "Single leg RDL",
       "Unilateral RDL"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -8629,7 +8629,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Stability ball hamstring curl"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -8662,7 +8662,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Floor slide leg curl"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -8695,7 +8695,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "GHR"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -8729,7 +8729,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Rope cable pull through"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -8763,7 +8763,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
       "KB swing",
       "Hip hinge swing"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -8797,7 +8797,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Hex bar RDL"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -8830,7 +8830,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Straight leg cable kickback"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes"
@@ -8862,7 +8862,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Dumbbell hamstring curl"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Calves"
@@ -8895,7 +8895,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
       "SLDL",
       "Stiff leg deadlift"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -8928,7 +8928,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Assisted Nordic curl"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes"
@@ -8960,7 +8960,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Banded leg curl"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [],
     "equipment": "Resistance band",
@@ -8990,7 +8990,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Hamstring bridge"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes"
@@ -9022,7 +9022,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Kickstand RDL"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes"
@@ -9054,7 +9054,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Smith RDL"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -9087,7 +9087,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "KB single leg RDL"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -9120,7 +9120,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Cable leg curl"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [],
     "equipment": "Cable",
@@ -9150,7 +9150,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Landmine RDL"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes"
@@ -9182,7 +9182,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Unilateral slider curl"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes"
@@ -9214,7 +9214,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "DB SLDL"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -9247,7 +9247,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Snatch grip RDL"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Upper back",
@@ -9281,7 +9281,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Reverse hyper"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -9314,7 +9314,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Standing band curl"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [],
     "equipment": "Resistance band",
@@ -9344,7 +9344,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Deficit RDL"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -16473,7 +16473,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
       "KB snatch",
       "One-arm kettlebell snatch"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Shoulders",
@@ -16510,7 +16510,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
       "KB clean",
       "One-arm KB clean"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -16648,7 +16648,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "One-arm KB swing"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -16683,7 +16683,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Dual KB swing"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -17129,7 +17129,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Rotational clean"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Obliques",
@@ -17230,7 +17230,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Gorilla cleans"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -17366,7 +17366,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Dead clean"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -17400,7 +17400,7 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "aliases": [
       "Dual KB deadlift"
     ],
-    "category": "pull",
+    "category": "legs",
     "primaryMuscle": "Hamstrings",
     "secondaryMuscles": [
       "Glutes",
@@ -17458,9 +17458,3030 @@ export const COMPREHENSIVE_EXERCISES: Exercise[] = [
     "favorite": false,
     "usesBodyweight": false,
     "unilateral": false
+  },
+  {
+    "id": "ex_34_sit_up",
+    "name": "3/4 Sit-Up",
+    "aliases": [
+      "3/4 Sit-Up"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie down on the floor and secure your feet. Your legs should be bent at the knees. Place your hands behind or to the side of your head. You will begin with your back on the ground. This will be your starting position. Flex your hips and spine to raise your torso toward your knees. At the top of the contraction your torso should be perpendicular to the ground. Reverse the motion, going only ¾ of the way down. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_9090_hamstring",
+    "name": "90/90 Hamstring",
+    "aliases": [
+      "90/90 Hamstring"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip hinge / knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie on your back, with one leg extended straight out. With the other leg, bend the hip and knee to 90 degrees. You may brace your leg with your hands if necessary. This will be your starting position. Extend your leg straight into the air, pausing briefly at the top. Return the leg to the starting position. Repeat for 10-20 repetitions, and then switch to the other leg.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_ab_roller",
+    "name": "Ab Roller",
+    "aliases": [
+      "Ab Roller"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Hold the Ab Roller with both hands and kneel on the floor. Now place the ab roller on the floor in front of you so that you are on all your hands and knees (as in a kneeling push up position). This will be your starting position. Slowly roll the ab roller straight forward, stretching your body into a straight position. Tip: Go down as far as you can without touching the floor with your body. Breathe in during this portion of the movement. After a pause at the stretched position, start pulling yourself back to the starting position as you breathe out. Tip: Go slowly and keep your abs tight at all times.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_adductorgroin",
+    "name": "Adductor/Groin",
+    "aliases": [
+      "Adductor/Groin"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Adductors",
+    "secondaryMuscles": [
+      "Glutes",
+      "Quadriceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Hip adduction",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie on your back with your feet raised towards the ceiling. Have your partner hold your feet or ankles. Abduct your legs as far as you can. This will be your starting position. Attempt to squeeze your legs together for 10 or more seconds, while your partner prevents you from doing so. Now, relax the muscles in your legs as your partner pushes your feet apart, stretching as far as is comfortable for you. Be sure to let your partner know when the stretch is adequate to prevent overstretching or injury.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_air_bike",
+    "name": "Air Bike",
+    "aliases": [
+      "Air Bike"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie flat on the floor with your lower back pressed to the ground. For this exercise, you will need to put your hands beside your head. Be careful however to not strain with the neck as you perform it. Now lift your shoulders into the crunch position. Bring knees up to where they are perpendicular to the floor, with your lower legs parallel to the floor. This will be your starting position. Now simultaneously, slowly go through a cycle pedal motion kicking forward with the right leg and bringing in the knee of the left leg. Bring your right elbow close to your left knee by crunching to the side, as you breathe out. Go back to the initial position as you breathe in. Crunch to the opposite side as you cycle your legs and bring closer your left elbow to your right knee and exhale. Continue alternating in this manner until all of the recommended repetitions for each side have been completed.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_alternate_heel_touchers",
+    "name": "Alternate Heel Touchers",
+    "aliases": [
+      "Alternate Heel Touchers"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie on the floor with the knees bent and the feet on the floor around 18-24 inches apart. Your arms should be extended by your side. This will be your starting position. Crunch over your torso forward and up about 3-4 inches to the right side and touch your right heel as you hold the contraction for a second. Exhale while performing this movement. Now go back slowly to the starting position as you inhale. Now crunch over your torso forward and up around 3-4 inches to the left side and touch your left heel as you hold the contraction for a second. Exhale while performing this movement and then go back to the starting position as you inhale. Now that both heels have been touched, that is considered 1 repetition. Continue alternating sides in this manner until all prescribed repetitions are done.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_alternate_leg_diagonal_bound",
+    "name": "Alternate Leg Diagonal Bound",
+    "aliases": [
+      "Alternate Leg Diagonal Bound"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Assume a comfortable stance with one foot slightly in front of the other. Begin by pushing off with the front leg, driving the opposite knee forward and as high as possible before landing. Attempt to cover as much distance to each side with each bound. It may help to use a line on the ground to guage distance from side to side. Repeat the sequence with the other leg.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_ankle_on_the_knee",
+    "name": "Ankle On The Knee",
+    "aliases": [
+      "Ankle On The Knee"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip extension",
+    "trackingType": "bodyweight_reps",
+    "instructions": "From a lying position, bend your knees and keep your feet on the floor. Place your ankle of one foot on your opposite knee. Grasp the thigh or knee of the bottom leg and pull both of your legs into the chest. Relax your neck and shoulders. Hold for 10-20 seconds and then switch sides.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_band_assisted_pull_up",
+    "name": "Band Assisted Pull-Up",
+    "aliases": [
+      "Band Assisted Pull-Up"
+    ],
+    "category": "pull",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back",
+      "Forearms"
+    ],
+    "equipment": "Pull-up bar",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Vertical pull",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Choke the band around the center of the pullup bar. You can use different bands to provide varying levels of assistance. Pull the end of the band down, and place one bent knee into the loop, ensuring it won't slip out. Take a medium to wide grip on the bar. This will be your starting position. Pull yourself upward by contracting the lats as you flex the elbow. The elbow should be driven to your side. Pull to the front, attempting to get your chin over the bar. Avoid swinging or jerking movements. After a brief pause, return to the starting position.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_pull",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_bench_jump",
+    "name": "Bench Jump",
+    "aliases": [
+      "Bench Jump"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bench",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Begin with a box or bench 1-2 feet in front of you. Stand with your feet shoulder width apart. This will be your starting position. Perform a short squat in preparation for the jump; swing your arms behind you. Rebound out of this position, extending through the hips, knees, and ankles to jump as high as possible. Swing your arms forward and up. Jump over the bench, landing with the knees bent, absorbing the impact through the legs. Turn around and face the opposite direction, then jump back over the bench.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_bent_knee_hip_raise",
+    "name": "Bent-Knee Hip Raise",
+    "aliases": [
+      "Bent-Knee Hip Raise"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lay flat on the floor with your arms next to your sides. Now bend your knees at around a 75 degree angle and lift your feet off the floor by around 2 inches. Using your lower abs, bring your knees in towards you as you maintain the 75 degree angle bend in your legs. Continue this movement until you raise your hips off of the floor by rolling your pelvis backward. Breathe out as you perform this portion of the movement. Tip: At the end of the movement your knees will be over your chest. Squeeze your abs at the top of the movement for a second and then return to the starting position slowly as you breathe in. Tip: Maintain a controlled motion at all times. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_body_up",
+    "name": "Body-Up",
+    "aliases": [
+      "Body-Up"
+    ],
+    "category": "push",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Front delts",
+      "Chest"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Arm extension",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Assume a plank position on the ground. You should be supporting your bodyweight on your toes and forearms, keeping your torso straight. Your forearms should be shoulder-width apart. This will be your starting position. Pressing your palms firmly into the ground, extend through the elbows to raise your body from the ground. Keep your torso rigid as you perform the movement. Slowly lower your forearms back to the ground by allowing the elbows to flex. Repeat.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_body_tricep_press",
+    "name": "Body Tricep Press",
+    "aliases": [
+      "Body Tricep Press"
+    ],
+    "category": "push",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Front delts",
+      "Chest"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Arm extension",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Position a bar in a rack at chest height. Standing, take a shoulder width grip on the bar and step a yard or two back, feet together and arms extended so that you are leaning on the bar. This will be your starting position. Begin by flexing the elbow, lowering yourself towards the bar. Pause, and then reverse the motion by extending the elbows. Progress from bodyweight by adding chains over your shoulders.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_bodyweight_mid_row",
+    "name": "Bodyweight Mid Row",
+    "aliases": [
+      "Bodyweight Mid Row"
+    ],
+    "category": "pull",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Biceps",
+      "Lats",
+      "Rear delts"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Horizontal pull",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Begin by taking a medium to wide grip on a pull-up apparatus with your palms facing away from you. From a hanging position, tuck your knees to your chest, leaning back and getting your legs over your side of the pull-up apparatus. This will be your starting position. Beginning with your arms straight, flex the elbows and retract the shoulder blades to raise your body up until your legs contact the pull-up apparatus. After a brief pause, return to the starting position.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_pull",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_bodyweight_walking_lunge",
+    "name": "Bodyweight Walking Lunge",
+    "aliases": [
+      "Bodyweight Walking Lunge"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Unilateral knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Begin standing with your feet shoulder width apart and your hands on your hips. Step forward with one leg, flexing the knees to drop your hips. Descend until your rear knee nearly touches the ground. Your posture should remain upright, and your front knee should stay above the front foot. Drive through the heel of your lead foot and extend both knees to raise yourself back up. Step forward with your rear foot, repeating the lunge on the opposite leg.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": true
+  },
+  {
+    "id": "ex_bottoms_up",
+    "name": "Bottoms Up",
+    "aliases": [
+      "Bottoms Up"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Begin by lying on your back on the ground. Your legs should be straight and your arms at your side. This will be your starting position. To perform the movement, tuck the knees toward your chest by flexing the hips and knees. Following this, extend your legs directly above you so that they are perpendicular to the ground. Rotate and elevate your pelvis to raise your glutes from the floor. After a brief pause, return to the starting position.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_box_jump_multiple_response",
+    "name": "Box Jump (Multiple Response)",
+    "aliases": [
+      "Box Jump (Multiple Response)"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bench",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Assume a relaxed stance facing the box or platform approximately an arm's length away. Arms should be down at the sides and legs slightly bent. Using the arms to aid in the initial burst, jump upward and forward, landing with feet simultaneously on top of the box or platform. Immediately drop or jump back down to the original starting place; then repeat the sequence.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_box_skip",
+    "name": "Box Skip",
+    "aliases": [
+      "Box Skip"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": "Bench",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip hinge / knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "You will need several boxes lined up about 8 feet apart. Begin facing the first box with one leg slightly behind the other. Drive off the back leg, attempting to gain as much height with the hips as possible. Immediately upon landing on the box, drive the other leg forward and upward to gain height and distance, leaping from the box. Land between the first two boxes with the same leg that landed on the first box. Then, step to the next box and repeat.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_butt_ups",
+    "name": "Butt-Ups",
+    "aliases": [
+      "Butt-Ups"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Begin a pushup position but with your elbows on the ground and resting on your forearms. Your arms should be bent at a 90 degree angle. Arch your back slightly out rather than keeping your back completely straight. Raise your glutes toward the ceiling, squeezing your abs tightly to close the distance between your ribcage and hips. The end result will be that you'll end up in a high bridge position. Exhale as you perform this portion of the movement. Lower back down slowly to your starting position as you breathe in. Tip: Don't let your back sag downwards. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_butt_lift_bridge",
+    "name": "Butt Lift (Bridge)",
+    "aliases": [
+      "Butt Lift (Bridge)"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip extension",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie flat on the floor on your back with the hands by your side and your knees bent. Your feet should be placed around shoulder width. This will be your starting position. Pushing mainly with your heels, lift your hips off the floor while keeping your back straight. Breathe out as you perform this part of the motion and hold at the top for a second. Slowly go back to the starting position as you breathe in.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_carioca_quick_step",
+    "name": "Carioca Quick Step",
+    "aliases": [
+      "Carioca Quick Step"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Begin with your feet a few inches apart and your left arm up in a relaxed, athletic position. With your right foot, quick step behind and pull the knee up. Fire your arms back up when you pull the right knee, being sure that your knee goes straight up and down. Avoid turning your feet as you move and continue to look forward as you move to the side.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_clock_push_up",
+    "name": "Clock Push-Up",
+    "aliases": [
+      "Clock Push-Up"
+    ],
+    "category": "push",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Horizontal push",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Move into a prone position on the floor, supporting your weight on your hands and toes. Your arms should be fully extended with the hands around shoulder width. Keep your body straight throughout the movement. This will be your starting position. Descend by flexing at the elbow, lowering your chest toward the ground. At the bottom, reverse the motion by pushing yourself up through elbow extension as quickly as possible until you are air borne. Aim to \"jump\" 12-18 inches to one side. As you accelerate up, move your outside foot away from your direction of travel. Leaving the ground, shift your body about 30 degrees for the next repetition. Return to the starting position and repeat the exercise, working all the way around until you are back where you started.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_cocoons",
+    "name": "Cocoons",
+    "aliases": [
+      "Cocoons"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Begin by lying on your back on the ground. Your legs should be straight and your arms extended behind your head. This will be your starting position. To perform the movement, tuck the knees toward your chest, rotating your pelvis to lift your glutes from the floor. As you do so, flex the spine, bringing your arms back over your head to perform a simultaneous crunch motion. After a brief pause, return to the starting position.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_cross_body_crunch",
+    "name": "Cross-Body Crunch",
+    "aliases": [
+      "Cross-Body Crunch"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie flat on your back and bend your knees about 60 degrees. Keep your feet flat on the floor and place your hands loosely behind your head. This will be your starting position. Now curl up and bring your right elbow and shoulder across your body while bring your left knee in toward your left shoulder at the same time. Reach with your elbow and try to touch your knee. Exhale as you perform this movement. Tip: Try to bring your shoulder up towards your knee rather than just your elbow and remember that the key is to contract the abs as you perform the movement; not just to move the elbow. Now go back down to the starting position as you inhale and repeat with the left elbow and the right knee. Continue alternating in this manner until all prescribed repetitions are done.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_crossover_reverse_lunge",
+    "name": "Crossover Reverse Lunge",
+    "aliases": [
+      "Crossover Reverse Lunge"
+    ],
+    "category": "pull",
+    "primaryMuscle": "Lower back",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Hip hinge",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Stand with your feet shoulder width apart. This will be your starting position. Perform a rear lunge by stepping back with one foot and flexing the hips and front knee. As you do so, rotate your torso across the front leg. After a brief pause, return to the starting position and repeat on the other side, continuing in an alternating fashion.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_pull",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_crucifix",
+    "name": "Crucifix",
+    "aliases": [
+      "Crucifix"
+    ],
+    "category": "push",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Upper back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Overhead push",
+    "trackingType": "bodyweight_reps",
+    "instructions": "In the crucifix, you statically hold weights out to the side for time. While the event can be practiced using dumbbells, it is best to practice with one of the various implements used, such as axes and hammers, as it feels different. Begin standing, and raise your arms out to the side holding the implements. Your arms should be parallel to the ground. In competition, judges or sensors are used to let you know when you break parallel. Hold for as long as you can. Typically, the weights should be heavy enough that you fail in 30-60 seconds.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_crunch_hands_overhead",
+    "name": "Crunch - Hands Overhead",
+    "aliases": [
+      "Crunch - Hands Overhead"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie on the floor with your back flat and knees bent with around a 60-degree angle between the hamstrings and the calves. Keep your feet flat on the floor and stretch your arms overhead with your palms crossed. This will be your starting position. Curl your upper body forward and bring your shoulder blades just off the floor. At all times, keep your arms aligned with your head, neck and shoulder. Don't move them forward from that position. Exhale as you perform this portion of the movement and hold the contraction for a second. Slowly lower down to the starting position as you inhale. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_crunch_legs_on_exercise_ball",
+    "name": "Crunch - Legs On Exercise Ball",
+    "aliases": [
+      "Crunch - Legs On Exercise Ball"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Exercise ball",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie flat on your back with your feet resting on an exercise ball and your knees bent at a 90 degree angle. Place your feet three to four inches apart and point your toes inward so they touch. Place your hands lightly on either side of your head keeping your elbows in. Tip: Don't lock your fingers behind your head. Push the small of your back down in the floor in order to better isolate your abdominal muscles. This will be your starting position. Begin to roll your shoulders off the floor and continue to push down as hard as you can with your lower back. Your shoulders should come up off the floor only about four inches, and your lower back should remain on the floor. Breathe out as you execute this portion of the movement. Squeeze your abdominals hard at the top of the contraction and hold for a second. Tip: Focus on a slow, controlled movement. Refrain from using momentum at any time. Slowly go back down to the starting position as you inhale. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_crunches",
+    "name": "Crunches",
+    "aliases": [
+      "Crunches"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie flat on your back with your feet flat on the ground, or resting on a bench with your knees bent at a 90 degree angle. If you are resting your feet on a bench, place them three to four inches apart and point your toes inward so they touch. Now place your hands lightly on either side of your head keeping your elbows in. Tip: Don't lock your fingers behind your head. While pushing the small of your back down in the floor to better isolate your abdominal muscles, begin to roll your shoulders off the floor. Continue to push down as hard as you can with your lower back as you contract your abdominals and exhale. Your shoulders should come up off the floor only about four inches, and your lower back should remain on the floor. At the top of the movement, contract your abdominals hard and keep the contraction for a second. Tip: Focus on slow, controlled movement - don't cheat yourself by using momentum. After the one second contraction, begin to come down slowly again to the starting position as you inhale. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_decline_oblique_crunch",
+    "name": "Decline Oblique Crunch",
+    "aliases": [
+      "Decline Oblique Crunch"
+    ],
+    "category": "core",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Secure your legs at the end of the decline bench and slowly lay down on the bench. Raise your upper body off the bench until your torso is about 35-45 degrees if measured from the floor. Put one hand beside your head and the other on your thigh. This will be your starting position. Raise your upper body slowly from the starting position while turning your torso to the left. Continue crunching up as you exhale until your right elbow touches your left knee. Hold this contracted position for a second. Tip: Focus on keeping your abs tight and keeping the movement slow and controlled. Lower your body back down slowly to the starting position as you inhale. After completing one set on the right for the recommended amount of repetitions, switch to your left side. Tip: Focus on really twisting your torso and feeling the contraction when you are in the up position.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_decline_reverse_crunch",
+    "name": "Decline Reverse Crunch",
+    "aliases": [
+      "Decline Reverse Crunch"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie on your back on a decline bench and hold on to the top of the bench with both hands. Don't let your body slip down from this position. Hold your legs parallel to the floor using your abs to hold them there while keeping your knees and feet together. Tip: Your legs should be fully extended with a slight bend on the knee. This will be your starting position. While exhaling, move your legs towards the torso as you roll your pelvis backwards and you raise your hips off the bench. At the end of this movement your knees will be touching your chest. Hold the contraction for a second and move your legs back to the starting position while inhaling. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_depth_jump_leap",
+    "name": "Depth Jump Leap",
+    "aliases": [
+      "Depth Jump Leap"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "For this drill you will need two boxes or benches, one 12 to 16 inches high and the other 22 to 26 inches high. Stand on one of the two boxes with arms at the sides; feet should be together and slightly off the edge as in the depth jump. Place the other box approximately two or three feet in front of and facing the performer. Begin by dropping off the initial box, landing and simultaneously taking off with both feet. Rebound by driving upward and outward as intensely as possible, using the arms and full extension of the body to jump onto the higher box. Again, allow the legs to absorb the impact.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_dips_chest_version",
+    "name": "Dips - Chest Version",
+    "aliases": [
+      "Dips - Chest Version"
+    ],
+    "category": "push",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "equipment": "Parallel bars",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Horizontal push",
+    "trackingType": "bodyweight_reps",
+    "instructions": "For this exercise you will need access to parallel bars. To get yourself into the starting position, hold your body at arms length (arms locked) above the bars. While breathing in, lower yourself slowly with your torso leaning forward around 30 degrees or so and your elbows flared out slightly until you feel a slight stretch in the chest. Once you feel the stretch, use your chest to bring your body back to the starting position as you breathe out. Tip: Remember to squeeze the chest at the top of the movement for a second. Repeat the movement for the prescribed amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_dips_triceps_version",
+    "name": "Dips - Triceps Version",
+    "aliases": [
+      "Dips - Triceps Version"
+    ],
+    "category": "push",
+    "primaryMuscle": "Triceps",
+    "secondaryMuscles": [
+      "Front delts",
+      "Chest"
+    ],
+    "equipment": "Parallel bars",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Arm extension",
+    "trackingType": "bodyweight_reps",
+    "instructions": "To get into the starting position, hold your body at arm's length with your arms nearly locked above the bars. Now, inhale and slowly lower yourself downward. Your torso should remain upright and your elbows should stay close to your body. This helps to better focus on tricep involvement. Lower yourself until there is a 90 degree angle formed between the upper arm and forearm. Then, exhale and push your torso back up using your triceps to bring your body back to the starting position. Repeat the movement for the prescribed amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_donkey_calf_raises",
+    "name": "Donkey Calf Raises",
+    "aliases": [
+      "Donkey Calf Raises"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Calves",
+    "secondaryMuscles": [
+      "Soleus",
+      "Tibialis anterior"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Plantar flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "For this exercise you will need access to a donkey calf raise machine. Start by positioning your lower back and hips under the padded lever provided. The tailbone area should be the one making contact with the pad. Place both of your arms on the side handles and place the balls of your feet on the calf block with the heels extending off. Align the toes forward, inward or outward, depending on the area you wish to target, and straighten the knees without locking them. This will be your starting position. Raise your heels as you breathe out by extending your ankles as high as possible and flexing your calf. Ensure that the knee is kept stationary at all times. There should be no bending at any time. Hold the contracted position by a second before you start to go back down. Go back slowly to the starting position as you breathe in by lowering your heels as you bend the ankles until calves are stretched. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_double_leg_butt_kick",
+    "name": "Double Leg Butt Kick",
+    "aliases": [
+      "Double Leg Butt Kick"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Begin standing with your knees slightly bent. Quickly squat a short distance, flexing the hips and knees, and immediately extend to jump for maximum vertical height. As you go up, tuck your heels by flexing the knees, attempting to touch the buttocks. Finish the motion by landing with the knees only partially bent, using your legs to absorb the impact.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_drop_push",
+    "name": "Drop Push",
+    "aliases": [
+      "Drop Push"
+    ],
+    "category": "push",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Horizontal push",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Position low boxes or other platforms 2-3 feet apart. Move to a pushup position between them, supporting yourself by placing your hands on the boxes. With good posture, drop from the platforms by pressing up and moving your hands to shoulder width, cushioning your landing by absorbing the impact through the arm.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_elbow_to_knee",
+    "name": "Elbow to Knee",
+    "aliases": [
+      "Elbow to Knee"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie on the floor, crossing your right leg across your bent left knee. Clasp your hands behind your head, beginning with your shoulder blades on the ground. This will be your starting position. Perform the motion by flexing the spine and rotating your torso to bring the left elbow to the right knee. Return to the starting position and repeat the movement for the desired number of repetitions before switching sides.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_elbows_back",
+    "name": "Elbows Back",
+    "aliases": [
+      "Elbows Back"
+    ],
+    "category": "push",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Horizontal push",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Stand up straight. Place both hands on your lower back, fingers pointing downward and elbows out. Then gently pull your elbows back aiming to touch them together.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_flat_bench_leg_pull_in",
+    "name": "Flat Bench Leg Pull-In",
+    "aliases": [
+      "Flat Bench Leg Pull-In"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bench",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie on an exercise mat or a flat bench with your legs off the end. Place your hands either under your glutes with your palms down or by the sides holding on to the bench (or with palms down by the side on an exercise mat). Also extend your legs straight out. This will be your starting position. Bend your knees and pull your upper thighs into your midsection as you breathe out. Continue this movement until your knees are near your chest. Hold the contracted position for a second. As you breathe in, slowly return to the starting position. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_flat_bench_lying_leg_raise",
+    "name": "Flat Bench Lying Leg Raise",
+    "aliases": [
+      "Flat Bench Lying Leg Raise"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bench",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie with your back flat on a bench and your legs extended in front of you off the end. Place your hands either under your glutes with your palms down or by the sides holding on to the bench. This will be your starting position. As you keep your legs extended, straight as possible with your knees slightly bent but locked raise your legs until they make a 90-degree angle with the floor. Exhale as you perform this portion of the movement and hold the contraction at the top for a second. Now, as you inhale, slowly lower your legs back down to the starting position.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_floor_glute_ham_raise",
+    "name": "Floor Glute-Ham Raise",
+    "aliases": [
+      "Floor Glute-Ham Raise"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Hip hinge / knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "You can use a partner for this exercise or brace your feet under something stable. Begin on your knees with your upper legs and torso upright. If using a partner, they will firmly hold your feet to keep you in position. This will be your starting position. Lower yourself by extending at the knee, taking care to NOT flex the hips as you go forward. Place your hands in front of you as you reach the floor. This movement is very difficult and you may be unable to do it unaided. Use your arms to lightly push off the floor to aid your return to the starting position.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_freehand_jump_squat",
+    "name": "Freehand Jump Squat",
+    "aliases": [
+      "Freehand Jump Squat"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Cross your arms over your chest. With your head up and your back straight, position your feet at shoulder width. Keeping your back straight and chest up, squat down as you inhale until your upper thighs are parallel, or lower, to the floor. Now pressing mainly with the ball of your feet, jump straight up in the air as high as possible, using the thighs like springs. Exhale during this portion of the movement. When you touch the floor again, immediately squat down and jump again. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_frog_hops",
+    "name": "Frog Hops",
+    "aliases": [
+      "Frog Hops"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Stand with your hands behind your head, and squat down keeping your torso upright and your head up. This will be your starting position. Jump forward several feet, avoiding jumping unnecessarily high. As your feet contact the ground, absorb the impact through your legs, and jump again. Repeat this action 5-10 times.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_frog_sit_ups",
+    "name": "Frog Sit-Ups",
+    "aliases": [
+      "Frog Sit-Ups"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie with your back flat on the floor (or exercise mat) and your legs extended in front of you. Now bend at the knees and place your outer thighs by the floor (or mat) as you make the soles of your feet touch each other. Now try pushing both soles and bringing them up as near you as possible while you keep the outer thighs on the floor (or at least almost touching it). Tip: In this position your legs should create a diamond shape. Now, cross your arms in front of you by touching the opposite shoulders. This will be your starting position. As you exhale flatten your lower back to the floor while curling the torso upwards. Tip: This will be like performing the first 1/4 movement of a sit up. Hold at the top position for a second. As you inhale, slowly lower back to the starting position. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_front_box_jump",
+    "name": "Front Box Jump",
+    "aliases": [
+      "Front Box Jump"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bench",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Begin with a box of an appropriate height 1-2 feet in front of you. Stand with your feet should width apart. This will be your starting position. Perform a short squat in preparation for jumping, swinging your arms behind you. Rebound out of this position, extending through the hips, knees, and ankles to jump as high as possible. Swing your arms forward and up. Land on the box with the knees bent, absorbing the impact through the legs. You can jump from the box back to the ground, or preferably step down one leg at a time.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_front_cone_hops_or_hurdle_hops",
+    "name": "Front Cone Hops (or hurdle hops)",
+    "aliases": [
+      "Front Cone Hops (or hurdle hops)"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Set up a row of cones or other small barriers, placing them a few feet apart. Stand in front of the first cone with your feet shoulder width apart. This will be your starting position. Begin by jumping with both feet over the first cone, swinging both arms as you jump. Absorb the impact of landing by bending the knees, rebounding out of the first leap by jumping over the next cone. Continue until you have jumped over all of the cones.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_front_leg_raises",
+    "name": "Front Leg Raises",
+    "aliases": [
+      "Front Leg Raises"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip hinge / knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Stand next to a chair or other support, holding on with one hand. Swing your leg forward, keeping the leg straight. Continue with a downward swing, bringing the leg as far back as your flexibility allows. Repeat 5-10 times, and then switch legs.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_gironda_sternum_chins",
+    "name": "Gironda Sternum Chins",
+    "aliases": [
+      "Gironda Sternum Chins"
+    ],
+    "category": "pull",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back",
+      "Forearms"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Vertical pull",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Grasp the pull-up bar with a shoulder width underhand grip. Now hang with your arms fully extended and stick your chest out and lean back. Tip: You will be leaning back throughout the entire movement. This will be your starting position. Start pulling yourself towards the bar with your spine arched throughout the movement and your head leaning back as far away from the bar as possible. Exhale as you perform this portion of the movement. Tip: At the upper end of the movement, your hips and legs will be at about a 45-degree angle to the floor. Keep pulling until your collarbone passes the bar and your lower chest or sternum area touches it. Hold that contraction for a second. Tip: By the time you've completed this portion of the movement; your head will be parallel to the floor. Slowly start going back to the starting position as you inhale. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_pull",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_glute_kickback",
+    "name": "Glute Kickback",
+    "aliases": [
+      "Glute Kickback"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip extension",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Kneel on the floor or an exercise mat and bend at the waist with your arms extended in front of you (perpendicular to the torso) in order to get into a kneeling push-up position but with the arms spaced at shoulder width. Your head should be looking forward and the bend of the knees should create a 90-degree angle between the hamstrings and the calves. This will be your starting position. As you exhale, lift up your right leg until the hamstrings are in line with the back while maintaining the 90-degree angle bend. Contract the glutes throughout this movement and hold the contraction at the top for a second. Tip: At the end of the movement the upper leg should be parallel to the floor while the calf should be perpendicular to it. Go back to the initial position as you inhale and now repeat with the left leg. Continue to alternate legs until all of the recommended repetitions have been performed.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_gorilla_chincrunch",
+    "name": "Gorilla Chin/Crunch",
+    "aliases": [
+      "Gorilla Chin/Crunch"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Hang from a chin-up bar using an underhand grip (palms facing you) that is slightly wider than shoulder width. Now bend your knees at a 90 degree angle so that the calves are parallel to the floor while the thighs remain perpendicular to it. This will be your starting position. As you exhale, pull yourself up while crunching your knees up at the same time until your knees are at chest level. You will stop going up as soon as your nose is at the same level as the bar. Tip: When you get to this point you should also be finishing the crunch at the same time. Slowly start to inhale as you return to the starting position. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_groiners",
+    "name": "Groiners",
+    "aliases": [
+      "Groiners"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Adductors",
+    "secondaryMuscles": [
+      "Glutes",
+      "Quadriceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Hip adduction",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Begin in a pushup position on the floor. This will be your starting position. Using both legs, jump forward landing with your feet next to your hands. Keep your head up as you do so. Return to the starting position and immediately repeat the movement, continuing for 10-20 repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_handstand_push_ups",
+    "name": "Handstand Push-Ups",
+    "aliases": [
+      "Handstand Push-Ups"
+    ],
+    "category": "push",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Horizontal push",
+    "trackingType": "bodyweight_reps",
+    "instructions": "With your back to the wall bend at the waist and place both hands on the floor at shoulder width. Kick yourself up against the wall with your arms straight. Your body should be upside down with the arms and legs fully extended. Keep your whole body as straight as possible. Tip: If doing this for the first time, have a spotter help you. Also, make sure that you keep facing the wall with your head, rather than looking down. Slowly lower yourself to the ground as you inhale until your head almost touches the floor. Tip: It is of utmost importance that you come down slow in order to avoid head injury. Push yourself back up slowly as you exhale until your elbows are nearly locked. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_hanging_pike",
+    "name": "Hanging Pike",
+    "aliases": [
+      "Hanging Pike"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Pull-up bar",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Hang from a chin-up bar with your legs and feet together using an overhand grip (palms facing away from you) that is slightly wider than shoulder width. Tip: You may use wrist wraps in order to facilitate holding on to the bar. Now bend your knees at a 90 degree angle and bring the upper legs forward so that the calves are perpendicular to the floor while the thighs remain parallel to it. This will be your starting position. Pull your legs up as you exhale until you almost touch your shins with the bar above you. Tip: Try to straighten your legs as much as possible while at the top. Lower your legs as slowly as possible until you reach the starting position. Tip: Avoid swinging and using momentum at all times. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_hug_knees_to_chest",
+    "name": "Hug Knees To Chest",
+    "aliases": [
+      "Hug Knees To Chest"
+    ],
+    "category": "pull",
+    "primaryMuscle": "Lower back",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip hinge",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie down on your back and pull both knees up to your chest. Hold your arms under the knees, not over (that would put to much pressure on your knee joints). Slowly pull the knees toward your shoulders. This also stretches your buttocks muscles.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_pull",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_hurdle_hops",
+    "name": "Hurdle Hops",
+    "aliases": [
+      "Hurdle Hops"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip hinge / knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Set up a row of hurdles or other small barriers, placing them a few feet apart. Stand in front of the first hurdle with your feet shoulder width apart. This will be your starting position. Begin by jumping with both feet over the first hurdle, swinging both arms as you jump. Absorb the impact of landing by bending the knees, rebounding out of the first leap by jumping over the next hurdle. Continue until you have jumped over all of the hurdles.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_hyperextensions_back_extensions",
+    "name": "Hyperextensions (Back Extensions)",
+    "aliases": [
+      "Hyperextensions (Back Extensions)"
+    ],
+    "category": "pull",
+    "primaryMuscle": "Lower back",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip hinge",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie face down on a hyperextension bench, tucking your ankles securely under the footpads. Adjust the upper pad if possible so your upper thighs lie flat across the wide pad, leaving enough room for you to bend at the waist without any restriction. With your body straight, cross your arms in front of you (my preference) or behind your head. This will be your starting position. Tip: You can also hold a weight plate for extra resistance in front of you under your crossed arms. Start bending forward slowly at the waist as far as you can while keeping your back flat. Inhale as you perform this movement. Keep moving forward until you feel a nice stretch on the hamstrings and you can no longer keep going without a rounding of the back. Tip: Never round the back as you perform this exercise. Also, some people can go farther than others. The key thing is that you go as far as your body allows you to without rounding the back. Slowly raise your torso back to the initial position as you inhale. Tip: Avoid the temptation to arch your back past a straight line. Also, do not swing the torso at any time in order to protect the back from injury. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_pull",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_hyperextensions_with_no_hyperextension_bench",
+    "name": "Hyperextensions With No Hyperextension Bench",
+    "aliases": [
+      "Hyperextensions With No Hyperextension Bench"
+    ],
+    "category": "pull",
+    "primaryMuscle": "Lower back",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "equipment": "Bench",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Hip hinge",
+    "trackingType": "bodyweight_reps",
+    "instructions": "With someone holding down your legs, slide yourself down to the edge a flat bench until your hips hang off the end of the bench. Tip: Your entire upper body should be hanging down towards the floor. Also, you will be in the same position as if you were on a hyperextension bench but the range of motion will be shorter due to the height of the flat bench vs. that of the hyperextension bench. With your body straight, cross your arms in front of you (my preference) or behind your head. This will be your starting position. Tip: You can also hold a weight plate for extra resistance in front of you under your crossed arms. Start bending forward slowly at the waist as far as you can while keeping your back flat. Inhale as you perform this movement. Keep moving forward until you almost touch the floor or you feel a nice stretch on the hamstrings (whichever comes first). Tip: Never round the back as you perform this exercise. Slowly raise your torso back to the initial position as you exhale. Tip: Avoid the temptation to arch your back past a straight line. Also, do not swing the torso at any time in order to protect the back from injury. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_pull",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_inchworm",
+    "name": "Inchworm",
+    "aliases": [
+      "Inchworm"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip hinge / knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Stand with your feet close together. Keeping your legs straight, stretch down and put your hands on the floor directly in front of you. This will be your starting position. Begin by walking your hands forward slowly, alternating your left and your right. As you do so, bend only at the hip, keeping your legs straight. Keep going until your body is parallel to the ground in a pushup position. Now, keep your hands in place and slowly take short steps with your feet, moving only a few inches at a time. Continue walking until your feet are by hour hands, keeping your legs straight as you do so.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_incline_push_up_close_grip",
+    "name": "Incline Push-Up Close-Grip",
+    "aliases": [
+      "Incline Push-Up Close-Grip"
+    ],
+    "category": "push",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Horizontal push",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Stand facing a Smith machine bar or sturdy elevated platform at an appropriate height. Place your hands next to one another on the bar. Position your feet back from the bar with arms and body straight. This will be your starting position. Keeping your body straight, lower your chest to the bar by bending the arms. Return to the starting position by extending the elbows, pressing yourself back up.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_incline_push_up_depth_jump",
+    "name": "Incline Push-Up Depth Jump",
+    "aliases": [
+      "Incline Push-Up Depth Jump"
+    ],
+    "category": "push",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Horizontal push",
+    "trackingType": "bodyweight_reps",
+    "instructions": "For this drill you will need a box about 12 inches high, and two thick mats or aerobics steps. Place the steps just outside of your shoulders, and place your feet on top of the box so that you are in an incline pushup position, your hands just inside the steps. This will be your starting position. Begin by bending at the elbows to lower your body, quickly reversing position to push your body off of the ground. As you leave the ground, move your hands onto the steps, bending your elbows to absorb the impact. Repeat the motion to return to the starting position.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_incline_push_up_medium",
+    "name": "Incline Push-Up Medium",
+    "aliases": [
+      "Incline Push-Up Medium"
+    ],
+    "category": "push",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Horizontal push",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Stand facing a Smith machine bar or sturdy elevated platform at an appropriate height. Place your hands on the bar, with your hands about shoulder width apart. Position your feet back from the bar with arms and body straight. This will be your starting position. Keeping your body straight, lower your chest to the bar by bending the arms. Return to the starting position by extending the elbows, pressing yourself back up.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_incline_push_up_reverse_grip",
+    "name": "Incline Push-Up Reverse Grip",
+    "aliases": [
+      "Incline Push-Up Reverse Grip"
+    ],
+    "category": "push",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Horizontal push",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Stand facing a Smith machine bar or sturdy elevated platform at an appropriate height. Place your hands on the bar palms up, with your hands about shoulder width apart. Position your feet back from the bar with arms and body straight. This will be your starting position. Keeping your body straight, lower your chest to the bar by bending the arms. Return to the starting position by extending the elbows, pressing yourself back up.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_incline_push_up_wide",
+    "name": "Incline Push-Up Wide",
+    "aliases": [
+      "Incline Push-Up Wide"
+    ],
+    "category": "push",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Horizontal push",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Stand facing a Smith machine bar or sturdy elevated platform at an appropriate height. Place your hands on the bar, with your hands wider than shoulder width. Position your feet back from the bar with arms and body straight. Your arms should be perpendicular to the body. This will be your starting position. Keeping your body straight, lower your chest to the bar by bending the arms. Return to the starting position by extending the elbows, pressing yourself back up.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_inverted_row_with_straps",
+    "name": "Inverted Row with Straps",
+    "aliases": [
+      "Inverted Row with Straps"
+    ],
+    "category": "pull",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Biceps",
+      "Lats",
+      "Rear delts"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Horizontal pull",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Hang a rope or suspension straps from a rack or other stable object. Grasp the ends and position yourself in a supine position hanging from the ropes. Your body should be straight with your heels on the ground with your arms fully extended. This will be your starting position. Begin by flexing the elbow, pulling your chest to your hands. Retract your shoulder blades as you perform the movement. Pause at the top of the motion, and return yourself to the start position. Repeat for the desired number of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_pull",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_isometric_chest_squeezes",
+    "name": "Isometric Chest Squeezes",
+    "aliases": [
+      "Isometric Chest Squeezes"
+    ],
+    "category": "push",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Horizontal push",
+    "trackingType": "bodyweight_reps",
+    "instructions": "While either seating or standing, bend your arms at a 90-degree angle and place the palms of your hands together in front of your chest. Tip: Your hands should be open with the palms together and fingers facing forward (perpendicular to your torso). Push both hands against each other as you contract your chest. Start with slow tension and increase slowly. Keep breathing normally as you execute this contraction. Hold for the recommended number of seconds. Now release the tension slowly. Rest for the recommended amount of time and repeat.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_isometric_neck_exercise_front_and_back",
+    "name": "Isometric Neck Exercise - Front And Back",
+    "aliases": [
+      "Isometric Neck Exercise - Front And Back"
+    ],
+    "category": "core",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Core stabilization",
+    "trackingType": "bodyweight_reps",
+    "instructions": "With your head and neck in a neutral position (normal position with head erect facing forward), place both of your hands on the front side of your head. Now gently push forward as you contract the neck muscles but resisting any movement of your head. Start with slow tension and increase slowly. Keep breathing normally as you execute this contraction. Hold for the recommended number of seconds. Now release the tension slowly. Rest for the recommended amount of time and repeat with your hands placed on the back side of your head.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_isometric_neck_exercise_sides",
+    "name": "Isometric Neck Exercise - Sides",
+    "aliases": [
+      "Isometric Neck Exercise - Sides"
+    ],
+    "category": "core",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Core stabilization",
+    "trackingType": "bodyweight_reps",
+    "instructions": "With your head and neck in a neutral position (normal position with head erect facing forward), place your left hand on the left side of your head. Now gently push towards the left as you contract the left neck muscles but resisting any movement of your head. Start with slow tension and increase slowly. Keep breathing normally as you execute this contraction. Hold for the recommended number of seconds. Now release the tension slowly. Rest for the recommended amount of time and repeat with your right hand placed on the right side of your head.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_isometric_wipers",
+    "name": "Isometric Wipers",
+    "aliases": [
+      "Isometric Wipers"
+    ],
+    "category": "push",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Front delts",
+      "Triceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Horizontal push",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Assume a push-up position, supporting your weight on your hands and toes while keeping your body straight. Your hands should be just outside of shoulder width. This will be your starting position. Begin by shifting your body weight as far to one side as possible, allowing the elbow on that side to flex as you lower your body. Reverse the motion by extending the flexed arm, pushing yourself up and then dropping to the other side. Repeat for the desired number of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_jackknife_sit_up",
+    "name": "Jackknife Sit-Up",
+    "aliases": [
+      "Jackknife Sit-Up"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie flat on the floor (or exercise mat) on your back with your arms extended straight back behind your head and your legs extended also. This will be your starting position. As you exhale, bend at the waist while simultaneously raising your legs and arms to meet in a jackknife position. Tip: The legs should be extended and lifted at approximately a 35-45 degree angle from the floor and the arms should be extended and parallel to your legs. The upper torso should be off the floor. While inhaling, lower your arms and legs back to the starting position. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_janda_sit_up",
+    "name": "Janda Sit-Up",
+    "aliases": [
+      "Janda Sit-Up"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Position your body on the floor in the basic sit-up position; knees to a ninety degree angle with feet flat on the floor and arms either crossed over your chest or to the sides. This will be your starting position. As you strongly tighten your glutes and hamstrings, fill your lungs with air and in a slow (three to six second count) ascent, slowly exhale. Tip: It is important to tighten the glutes and hamstrings as this will cause the hip flexors to be inactivated in a process called reciprocal inhibition, which basically means that opposite muscles to the contracted ones will relax. As you inhale, slowly go back in a controlled manner to the starting position. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_kipping_muscle_up",
+    "name": "Kipping Muscle Up",
+    "aliases": [
+      "Kipping Muscle Up"
+    ],
+    "category": "pull",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back",
+      "Forearms"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Vertical pull",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Grip the rings using a false grip, with the base of your palms on top of the rings. Begin with a movement swinging your legs backward slightly. Counter that movement by swinging your legs forward and up, jerking your chin and chest back, pulling yourself up with both arms as you do so. As you reach the top position of the pull-up, pull the rings to your armpits as you roll your shoulders forward, allowing your elbows to move straight back behind you. This puts you into the proper position to continue into the dip portion of the movement. Maintaining control and stability, extend through the elbow to complete the motion. Use care when lowering yourself to the ground.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_pull",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_knee_across_the_body",
+    "name": "Knee Across The Body",
+    "aliases": [
+      "Knee Across The Body"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip extension",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie down on the floor with your right leg straight. Bend your left leg and lower it across your body, holding the knee down toward the floor with your right hand. (The knee doesn't need to touch the floor if you're tight.) Place your left arm comfortably beside you and turn your head to the left. Imagine you have a weight tied to your tailbone. let your tailbone fall back toward the floor as your chest reaches in the opposite direction to stretch your lower back. Switch sides.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_kneehip_raise_on_parallel_bars",
+    "name": "Knee/Hip Raise On Parallel Bars",
+    "aliases": [
+      "Knee/Hip Raise On Parallel Bars"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Position your body on the vertical leg raise bench so that your forearms are resting on the pads next to the torso and holding on to the handles. Your arms will be bent at a 90 degree angle. The torso should be straight with the lower back pressed against the pad of the machine and the legs extended pointing towards the floor. This will be your starting position. Now as you breathe out, lift your legs up as you keep them extended. Continue this movement until your legs are roughly parallel to the floor and then hold the contraction for a second. Tip: Do not use any momentum or swinging as you perform this exercise. Slowly go back to the starting position as you breathe in. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_knee_tuck_jump",
+    "name": "Knee Tuck Jump",
+    "aliases": [
+      "Knee Tuck Jump"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Begin in a comfortable standing position with your knees slightly bent. Hold your hands in front of you, palms down with your fingertips together at chest height. This will be your starting position. Rapidly dip down into a quarter squat and immediately explode upward. Drive the knees towards the chest, attempting to touch them to the palms of the hands. Jump as high as you can, raising your knees up, and then ensure a good land be re-extending your legs, absorbing impact through be allowing the knees to rebend.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_kneeling_arm_drill",
+    "name": "Kneeling Arm Drill",
+    "aliases": [
+      "Kneeling Arm Drill"
+    ],
+    "category": "push",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Upper back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Overhead push",
+    "trackingType": "bodyweight_reps",
+    "instructions": "This drill helps increase arm efficiency during the run. Begin kneeling, left foot in front, right knee down. Apply pressure through the front heel to keep your glutes and hamstrings activated. Begin by blocking the arms in long, pendulum like swings. Close the arm angle, blocking with the arms as you would when jogging, progressing to a run and finally a sprint. As soon as your hands pass the hip, accelerate them forward during the sprinting motion to move them as quickly as possible. Switch knees and repeat.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_kneeling_hip_flexor",
+    "name": "Kneeling Hip Flexor",
+    "aliases": [
+      "Kneeling Hip Flexor"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Kneel on a mat and bring your right knee up so the bottom of your foot is on the floor and extend your left leg out behind you so the top of your foot is on the floor. Shift your weight forward until you feel a stretch in your hip. Hold for 15 seconds, then repeat for your other side.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_lateral_bound",
+    "name": "Lateral Bound",
+    "aliases": [
+      "Lateral Bound"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Adductors",
+    "secondaryMuscles": [
+      "Glutes",
+      "Quadriceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip adduction",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Assume a half squat position facing 90 degrees from your direction of travel. This will be your starting position. Allow your lead leg to do a countermovement inward as you shift your weight to the outside leg. Immediately push off and extend, attempting to bound to the side as far as possible. Upon landing, immediately push off in the opposite direction, returning to your original start position. Continue back and forth for several repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_lateral_box_jump",
+    "name": "Lateral Box Jump",
+    "aliases": [
+      "Lateral Box Jump"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bench",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Assume a comfortable standing position, with a short box positioned next to you. This will be your starting position. Quickly dip into a quarter squat to initiate the stretch reflex, and immediately reverse direction to jump up and to the side. Bring your knees high enough to ensure your feet have good clearance over the box. Land on the center of the box, using your legs to absorb the impact. Carefully jump down to the other side of the box, and continue going back and forth for several repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_lateral_cone_hops",
+    "name": "Lateral Cone Hops",
+    "aliases": [
+      "Lateral Cone Hops"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Adductors",
+    "secondaryMuscles": [
+      "Glutes",
+      "Quadriceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip adduction",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Position a number of cones in a row several feet apart. Stand next to the end of the cones, facing 90 degrees to the direction of travel. This will be your starting position. Begin the jump by dipping with the knees to initiate a stretch reflex, and immediately reverse direction to push off the ground, jumping up and sideways over the cone. Use your legs to absorb impact upon landing, and rebound into the next jump, continuing down the row of cones.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_leg_lift",
+    "name": "Leg Lift",
+    "aliases": [
+      "Leg Lift"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip extension",
+    "trackingType": "bodyweight_reps",
+    "instructions": "While standing up straight with both feet next to each other at around shoulder width, grab a sturdy surface such as the sides of a squat rack or the top of a chair to brace yourself and keep balance. With or without an ankle weight, lift one leg behind you as if performing a leg curl but standing up while keeping the other leg straight. Breathe out as you perform this movement. Slowly bring the raised leg back to the floor as you breathe in. Repeat for the recommended amount of repetitions. Repeat the movement with the opposite leg.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_leg_pull_in",
+    "name": "Leg Pull-In",
+    "aliases": [
+      "Leg Pull-In"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie on an exercise mat with your legs extended and your hands either palms facing down next to you or under your glutes. Tip: My preference is with the hands next to me. This will be your starting position. Bend your knees and pull your upper thighs into your midsection as you breathe out. Continue the motion until your knees are around chest level. Contract your abs as you execute this movement and hold for a second at the top. Tip: As you perform the motion, the lower legs (calves) should always remain parallel to the floor. Return to the starting position as you inhale. Repeat for the recommended amount of repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_linear_3_part_start_technique",
+    "name": "Linear 3-Part Start Technique",
+    "aliases": [
+      "Linear 3-Part Start Technique"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip hinge / knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "This drill helps you accelerate as quickly as possible into a sprint from a dead stop. It helps to use a line to start from. Begin with two feet on the line. Place your left foot with the toe next to your right ankle. Place your right foot 4-6 inches behind the left. Place your right hand onto the line, and thing bring your nose close to your left knee. Squat down as you lean foward, your head being lower than your hips and your weight loaded onto the left leg. This will be your starting position. Take your left hand up so that it is parallel to the ground, pointing behind you, and explode out when ready.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_linear_acceleration_wall_drill",
+    "name": "Linear Acceleration Wall Drill",
+    "aliases": [
+      "Linear Acceleration Wall Drill"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip hinge / knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lean at around 45 degrees against a wall. Your feet should be together, glutes contracted. Begin by lifting your right knee quickly, pausing, and then driving it straight down into the ground. Switch legs, raising the opposite knee, and then attacking the ground straight down. Repeat once more with your right leg, and as soon as the right foot strikes the ground hammer them out rapidly, alternating left and right as fast as you can.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_linear_depth_jump",
+    "name": "Linear Depth Jump",
+    "aliases": [
+      "Linear Depth Jump"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "You will need two boxes or benches spaced a few feet away from each other. Begin by standing on one box facing towards the other platform. To initiate the movement, gently drop down to the ground between your platforms, allowing the knees and hips to flex. Reverse the motion by exploding, extending through the hips, knees, and ankles to jump onto the other platform. Land softly, asborbing the impact through the legs.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_log_lift",
+    "name": "Log Lift",
+    "aliases": [
+      "Log Lift"
+    ],
+    "category": "push",
+    "primaryMuscle": "Front delts",
+    "secondaryMuscles": [
+      "Triceps",
+      "Upper back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Overhead push",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Begin standing with the log in front of you. Grasp the handles, and begin to clean the log. As you are bent over to start the clean, attempt to get the log as high as possible, pulling it into your chest. Extend through the hips and knees to bring it up to complete the clean. Push your head back and look up, creating a shelf on your chest to rest the log. Begin the press by dipping, flexing slightly through the knees and reversing the motion. This push press will generate momentum to start the log moving vertically. Continue by extending through the elbows to press the log above your head. There are no strict rules on form, so use whatever techniques you are most efficient with. As the log is pressed, ensure that you push your head through on each repetition, looking forward. Repeat as many times as possible. Attempt to control the descent of the log as it is returned to the ground.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_push",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_london_bridges",
+    "name": "London Bridges",
+    "aliases": [
+      "London Bridges"
+    ],
+    "category": "pull",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back",
+      "Forearms"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Vertical pull",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Attach a climbing rope to a high beam or cross member. Below it, ensure that the smith machine bar is locked in place with the safeties and cannot move. Alternatively, a secure box could also be utilized. Stand on the bar, using the rope to balance yourself. This will be your starting position. Keeping your body straight, lean back and lower your body by slowly going hand over hand with the rope. Continue until you are perpendicular to the ground. Keeping your body straight, reverse the motion, going hand over hand back to the starting position.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_pull",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_looking_at_ceiling",
+    "name": "Looking At Ceiling",
+    "aliases": [
+      "Looking At Ceiling"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Kneel on the floor, holding your heels with both hands. Lift your buttocks up and forward while bringing your head back to look up at the ceiling, to give an arch in your back.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_lower_back_curl",
+    "name": "Lower Back Curl",
+    "aliases": [
+      "Lower Back Curl"
+    ],
+    "category": "core",
+    "primaryMuscle": "Abs",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie on your stomach with your arms out to your sides. This will be your starting position. Using your lower back muscles, extend your spine lifting your chest off of the ground. Do not use your arms to push yourself up. Keep your head up during the movement. Repeat for 10-20 repetitions.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_lying_bent_leg_groin",
+    "name": "Lying Bent Leg Groin",
+    "aliases": [
+      "Lying Bent Leg Groin"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Adductors",
+    "secondaryMuscles": [
+      "Glutes",
+      "Quadriceps"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Hip adduction",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie on your back with your knees bent and the soles of the feet pressed together. Have your partner hold your knees. This will be your starting position. Attempt to squeeze your knees together, while your partner prevents any movement from occurring. After 10-20 seconds, relax your muscles as your partner gently pushes your knees towards the floor. Be sure to inform your helper when the stretch is adequate to prevent injury or overstretching.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_lying_crossover",
+    "name": "Lying Crossover",
+    "aliases": [
+      "Lying Crossover"
+    ],
+    "category": "core",
+    "primaryMuscle": "Core",
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Core stabilization",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie on your back with your legs extended. Cross one leg over your body with the knee bent, attempting to touch the knee to the ground. Your partner should kneel beside you, holding your shoulder down with one hand and controlling the crossed leg with the other. this will be your starting position. Attempt to raise the bent knee off of the ground as your partner prevents any actual movement. After 10-20 seconds, relax the leg as your partner gently presses the knee towards the floor. Repeat with the other side.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_lying_glute",
+    "name": "Lying Glute",
+    "aliases": [
+      "Lying Glute"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Glutes",
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Hip extension",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie on your back with your partner kneeling beside you. Flex the hip of one leg, raising it off of the floor. Rotate the leg so the foot is over the opposite hip, the lower leg perpendicular to your body. Your partner should hold the knee and ankle in place. This will be your starting position. Attempt to push your leg towards your partner, who should be preventing any actual movement of the leg. After 10-20 seconds, completely relax as your partner gently pushes the ankle and knee towards your chest. Be sure to inform your helper when the stretch is adequate to prevent injury or overstretching.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_lying_hamstring",
+    "name": "Lying Hamstring",
+    "aliases": [
+      "Lying Hamstring"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Hip hinge / knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie on your back with your legs extended. Your partner should be kneeling beside you. Raise one leg up towards the ceiling and have your partner hold the ankle. Your partner can use their shoulder to brace your leg if necessary. This will be your starting position. With your partner holding your leg in place, attempt to flex the knee, contracting the hamstrings for 10-20 seconds. Then relax your leg, allowing your partner to gently push the leg towards your head. Be sure to inform your helper when the stretch is adequate to prevent injury or overstretching. Switch sides once complete.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_lying_prone_quadriceps",
+    "name": "Lying Prone Quadriceps",
+    "aliases": [
+      "Lying Prone Quadriceps"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Quadriceps",
+    "secondaryMuscles": [
+      "Glutes",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lay face down on the floor with your partner kneeling beside you. Flex one knee and raise that leg off the ground, attempting to touch your glutes with your foot. Your partner should hold the knee and ankle. This will be your starting position. Attempt to extend your knee while your partner prevents any actual movement. After 10-20 seconds, relax your muscles as your partner gently pushes the foot towards your glutes, further stretching the quadriceps and hip flexors. After 10-20 seconds, switch sides.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_mixed_grip_chin",
+    "name": "Mixed Grip Chin",
+    "aliases": [
+      "Mixed Grip Chin"
+    ],
+    "category": "pull",
+    "primaryMuscle": "Upper back",
+    "secondaryMuscles": [
+      "Biceps",
+      "Lats",
+      "Rear delts"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Horizontal pull",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Using a spacing that is just about 1 inch wider than shoulder width, grab a pull-up bar with the palms of one hand facing forward and the palms of the other hand facing towards you. This will be your starting position. Now start to pull yourself up as you exhale. Tip: With the arm that has the palms facing up concentrate on using the back muscles in order to perform the movement. The elbow of that arm should remain close to the torso. With the other arm that has the palms facing forward, the elbows will be away but in line with the torso. You will concentrate on using the lats to pull your body up. After a second contraction at the top, start to slowly come down as you inhale. Repeat for the recommended amount of repetitions. On the following set, switch grips; so if you had the right hand with the palms facing you and the left one with the palms facing forward, on the next set you will have the palms facing forward for the right hand and facing you for the left.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_pull",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_moving_claw_series",
+    "name": "Moving Claw Series",
+    "aliases": [
+      "Moving Claw Series"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Hip hinge / knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "This move helps prepare your running form to help you excel at sprinting. As you run, be sure to flex the knee, aiming to kick your glutes as the hip extends. Reload the quad as the leg moves back forward, attacking the ground on the next step. Ensure that as you run, you block with the arms, punching through in a rapid 1-2 motion.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_muscle_up",
+    "name": "Muscle Up",
+    "aliases": [
+      "Muscle Up"
+    ],
+    "category": "pull",
+    "primaryMuscle": "Lats",
+    "secondaryMuscles": [
+      "Biceps",
+      "Upper back",
+      "Forearms"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Vertical pull",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Grip the rings using a false grip, with the base of your palms on top of the rings. Initiate a pull up by pulling the elbows down to your side, flexing the elbows. As you reach the top position of the pull-up, pull the rings to your armpits as you roll your shoulders forward, allowing your elbows to move straight back behind you. This puts you into the proper position to continue into the dip portion of the movement. Maintaining control and stability, extend through the elbow to complete the motion. Use care when lowering yourself to the ground.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_pull",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_natural_glute_ham_raise",
+    "name": "Natural Glute Ham Raise",
+    "aliases": [
+      "Natural Glute Ham Raise"
+    ],
+    "category": "legs",
+    "primaryMuscle": "Hamstrings",
+    "secondaryMuscles": [
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "compound",
+    "repRange": "10–15",
+    "difficulty": "intermediate",
+    "movementPattern": "Hip hinge / knee flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Using the leg pad of a lat pulldown machine or a preacher bench, position yourself so that your ankles are under the pads, knees on the seat, and you are facing away from the machine. You should be upright and maintaining good posture. This will be your starting position. Lower yourself under control until your knees are almost completely straight. Remaining in control, raise yourself back up to the starting position. If you are unable to complete a rep, use a band, a partner, or push off of a box to aid in completing a repetition.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_lower",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_oblique_crunches",
+    "name": "Oblique Crunches",
+    "aliases": [
+      "Oblique Crunches"
+    ],
+    "category": "core",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Lie flat on the floor with your lower back pressed to the ground. For this exercise, you will need to put one hand beside your head and the other to the side against the floor. Make sure your feet are elevated and resting on a flat surface. Now lift the shoulder in which your hand is touching your head. Simply elevate your shoulder and body upward until you touch your knee. For example, if you have your right hand besides your head, then you want to elevate your body upwards until your right elbow touches your left knee. The same variation can be applied doing the inverse and using your left elbow to touch your right knee. After your knee touches your elbow, lower your body until you have reached the starting position. Remember to breathe in during the eccentric (lowering) part of the exercise and to breathe out during the concentric (upward) part of the exercise. Continue alternating in this manner until all of the recommended repetitions for each side have been completed.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
+  },
+  {
+    "id": "ex_oblique_crunches_on_the_floor",
+    "name": "Oblique Crunches - On The Floor",
+    "aliases": [
+      "Oblique Crunches - On The Floor"
+    ],
+    "category": "core",
+    "primaryMuscle": "Obliques",
+    "secondaryMuscles": [
+      "Obliques",
+      "Lower back"
+    ],
+    "equipment": "Bodyweight",
+    "exerciseClass": "isolation",
+    "repRange": "10–15",
+    "difficulty": "beginner",
+    "movementPattern": "Trunk flexion",
+    "trackingType": "bodyweight_reps",
+    "instructions": "Start out by lying on your right side with your legs lying on top of each other. Make sure your knees are bent a little bit. Place your left hand behind your head. Once you are in this set position, begin by moving your left elbow up as you would perform a normal crunch except this time the main emphasis is on your obliques. Crunch as high as you can, hold the contraction for a second and then slowly drop back down into the starting position. Remember to breathe in during the eccentric (lowering) part of the exercise and to breathe out during the concentric (elevation) part of the exercise.",
+    "mistakes": "Rushing repetitions, breaking core alignment, and cutting range of motion short.",
+    "safetyTips": [
+      "Keep your core braced and maintain neutral spinal alignment throughout."
+    ],
+    "variationGroupId": "var_bodyweight_core",
+    "alternativeExerciseIds": [],
+    "isCustom": false,
+    "favorite": false,
+    "usesBodyweight": true,
+    "unilateral": false
   }
 ];
-
 export const EXERCISE_DATABASE_MAP = new Map<string, Exercise>(
   COMPREHENSIVE_EXERCISES.map((e) => [e.id, e])
 );

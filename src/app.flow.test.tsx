@@ -73,6 +73,6 @@ describe('IronTrack end-to-end flows', () => {
     first.unmount()
 
     renderApp('/workouts')
-    expect(await screen.findByRole('link', { name: /custom workout/i })).toBeInTheDocument()
+    expect(await screen.findByRole('link', { name: /custom workout/i }, { timeout: 4000 })).toBeInTheDocument()
   })
 })

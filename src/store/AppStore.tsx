@@ -254,6 +254,7 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
   // Flush pending writes when the tab is hidden or closed.
   useEffect(() => {
     const flush = () => {
+      if (status !== 'ready') return
       if (persistTimer.current !== null) {
         window.clearTimeout(persistTimer.current)
         persistTimer.current = null
@@ -269,19 +270,22 @@ export function AppStoreProvider({ children }: { children: ReactNode }) {
       window.removeEventListener('visibilitychange', onVisibility)
       window.removeEventListener('pagehide', flush)
     }
-  }, [persistNow])
+  }, [persistNow, status])
 
-  // Drop any pending debounced write on unmount so a stale timer cannot fire
-  // (and write) after the provider is gone. Real teardown is covered by the
-  // pagehide/visibility flush above.
+  // Flush any pending debounced write before teardown so the latest app state is
+  // not lost when the provider unmounts or the page is closing.
   useEffect(
     () => () => {
+      if (status !== 'ready') return
       if (persistTimer.current !== null) {
         window.clearTimeout(persistTimer.current)
         persistTimer.current = null
+        if (!readOnlyRef.current) {
+          void persistNow()
+        }
       }
     },
-    [],
+    [persistNow, status],
   )
 
   // Adopt changes written by another tab (unless we have unsaved local edits).

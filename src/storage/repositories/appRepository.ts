@@ -70,6 +70,8 @@ export interface WriteResult {
 export interface WriteOptions {
   /** Revision the caller believes is current; a mismatch flags a cross-tab conflict. */
   expectedRevision?: number
+  /** Writer ID of the caller (defaults to current module WRITER_ID). */
+  writerId?: string
 }
 
 /* ---------- keys & ids ---------- */
@@ -83,9 +85,24 @@ const SNAPSHOT_KEYS: Record<SnapshotReason, string> = {
   legacy: 'localStorageBackup',
 }
 
-const WRITER_ID = createWriterId()
+export const WRITER_ID = getOrCreateWriterId()
 
-function createWriterId(): string {
+function getOrCreateWriterId(): string {
+  try {
+    if (typeof sessionStorage !== 'undefined') {
+      const stored = sessionStorage.getItem('irontrack.writer_id')
+      if (stored) return stored
+      const next = createUniqueId()
+      sessionStorage.setItem('irontrack.writer_id', next)
+      return next
+    }
+  } catch {
+    /* fall through to ephemeral id */
+  }
+  return createUniqueId()
+}
+
+function createUniqueId(): string {
   try {
     if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {
       return crypto.randomUUID()
@@ -156,6 +173,8 @@ export async function writeAppData(data: AppData, options: WriteOptions = {}): P
       getRequest.onsuccess = () => {
         const current = getRequest.result as StoredDocument | undefined
         const currentRevision = current?.revision ?? 0
+        const writer = options.writerId ?? WRITER_ID
+
         conflict =
           options.expectedRevision !== undefined && currentRevision !== options.expectedRevision
 
@@ -179,7 +198,7 @@ export async function writeAppData(data: AppData, options: WriteOptions = {}): P
           schemaVersion: data.schemaVersion ?? CURRENT_SCHEMA_VERSION,
           updatedAt: Date.now(),
           revision,
-          writerId: WRITER_ID,
+          writerId: writer,
           data,
         }
 

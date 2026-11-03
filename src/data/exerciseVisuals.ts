@@ -5757,6 +5757,1106 @@ export const BUNDLED_VISUALS: Record<string, VisualAssetRecord> = {
     "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
     "license": "Public Domain (Unlicense) / CC0",
     "attribution": "Real photographic exercise demonstration from free-exercise-db (All Fours Quad Stretch); anatomical design system by IronTrack."
+  },
+  "34-sit-up": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (3/4 Sit-Up); anatomical design system by IronTrack."
+  },
+  "9090-hamstring": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (90/90 Hamstring); anatomical design system by IronTrack."
+  },
+  "ab-roller": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Ab Roller); anatomical design system by IronTrack."
+  },
+  "adductorgroin": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Adductor/Groin); anatomical design system by IronTrack."
+  },
+  "air-bike": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Air Bike); anatomical design system by IronTrack."
+  },
+  "alternate-heel-touchers": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Alternate Heel Touchers); anatomical design system by IronTrack."
+  },
+  "alternate-leg-diagonal-bound": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Alternate Leg Diagonal Bound); anatomical design system by IronTrack."
+  },
+  "ankle-on-the-knee": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Ankle On The Knee); anatomical design system by IronTrack."
+  },
+  "band-assisted-pull-up": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Band Assisted Pull-Up); anatomical design system by IronTrack."
+  },
+  "bench-jump": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Bench Jump); anatomical design system by IronTrack."
+  },
+  "bent-knee-hip-raise": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Bent-Knee Hip Raise); anatomical design system by IronTrack."
+  },
+  "body-up": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Body-Up); anatomical design system by IronTrack."
+  },
+  "body-tricep-press": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Body Tricep Press); anatomical design system by IronTrack."
+  },
+  "bodyweight-mid-row": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Bodyweight Mid Row); anatomical design system by IronTrack."
+  },
+  "bodyweight-walking-lunge": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Bodyweight Walking Lunge); anatomical design system by IronTrack."
+  },
+  "bottoms-up": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Bottoms Up); anatomical design system by IronTrack."
+  },
+  "box-jump-multiple-response": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Box Jump (Multiple Response)); anatomical design system by IronTrack."
+  },
+  "box-skip": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Box Skip); anatomical design system by IronTrack."
+  },
+  "butt-ups": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Butt-Ups); anatomical design system by IronTrack."
+  },
+  "butt-lift-bridge": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Butt Lift (Bridge)); anatomical design system by IronTrack."
+  },
+  "carioca-quick-step": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Carioca Quick Step); anatomical design system by IronTrack."
+  },
+  "clock-push-up": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Clock Push-Up); anatomical design system by IronTrack."
+  },
+  "cocoons": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Cocoons); anatomical design system by IronTrack."
+  },
+  "cross-body-crunch": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Cross-Body Crunch); anatomical design system by IronTrack."
+  },
+  "crossover-reverse-lunge": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Crossover Reverse Lunge); anatomical design system by IronTrack."
+  },
+  "crucifix": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Crucifix); anatomical design system by IronTrack."
+  },
+  "crunch-hands-overhead": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Crunch - Hands Overhead); anatomical design system by IronTrack."
+  },
+  "crunch-legs-on-exercise-ball": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Crunch - Legs On Exercise Ball); anatomical design system by IronTrack."
+  },
+  "crunches": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Crunches); anatomical design system by IronTrack."
+  },
+  "decline-oblique-crunch": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Decline Oblique Crunch); anatomical design system by IronTrack."
+  },
+  "decline-reverse-crunch": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Decline Reverse Crunch); anatomical design system by IronTrack."
+  },
+  "depth-jump-leap": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Depth Jump Leap); anatomical design system by IronTrack."
+  },
+  "dips-chest-version": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Dips - Chest Version); anatomical design system by IronTrack."
+  },
+  "dips-triceps-version": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Dips - Triceps Version); anatomical design system by IronTrack."
+  },
+  "donkey-calf-raises": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Donkey Calf Raises); anatomical design system by IronTrack."
+  },
+  "double-leg-butt-kick": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Double Leg Butt Kick); anatomical design system by IronTrack."
+  },
+  "drop-push": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Drop Push); anatomical design system by IronTrack."
+  },
+  "elbow-to-knee": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Elbow to Knee); anatomical design system by IronTrack."
+  },
+  "elbows-back": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Elbows Back); anatomical design system by IronTrack."
+  },
+  "flat-bench-leg-pull-in": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Flat Bench Leg Pull-In); anatomical design system by IronTrack."
+  },
+  "flat-bench-lying-leg-raise": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Flat Bench Lying Leg Raise); anatomical design system by IronTrack."
+  },
+  "floor-glute-ham-raise": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Floor Glute-Ham Raise); anatomical design system by IronTrack."
+  },
+  "freehand-jump-squat": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Freehand Jump Squat); anatomical design system by IronTrack."
+  },
+  "frog-hops": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Frog Hops); anatomical design system by IronTrack."
+  },
+  "frog-sit-ups": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Frog Sit-Ups); anatomical design system by IronTrack."
+  },
+  "front-box-jump": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Front Box Jump); anatomical design system by IronTrack."
+  },
+  "front-cone-hops-or-hurdle-hops": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Front Cone Hops (or hurdle hops)); anatomical design system by IronTrack."
+  },
+  "front-leg-raises": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Front Leg Raises); anatomical design system by IronTrack."
+  },
+  "gironda-sternum-chins": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Gironda Sternum Chins); anatomical design system by IronTrack."
+  },
+  "glute-kickback": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Glute Kickback); anatomical design system by IronTrack."
+  },
+  "gorilla-chincrunch": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Gorilla Chin/Crunch); anatomical design system by IronTrack."
+  },
+  "groiners": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Groiners); anatomical design system by IronTrack."
+  },
+  "handstand-push-ups": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Handstand Push-Ups); anatomical design system by IronTrack."
+  },
+  "hanging-pike": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Hanging Pike); anatomical design system by IronTrack."
+  },
+  "hug-knees-to-chest": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Hug Knees To Chest); anatomical design system by IronTrack."
+  },
+  "hurdle-hops": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Hurdle Hops); anatomical design system by IronTrack."
+  },
+  "hyperextensions-back-extensions": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Hyperextensions (Back Extensions)); anatomical design system by IronTrack."
+  },
+  "hyperextensions-with-no-hyperextension-bench": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Hyperextensions With No Hyperextension Bench); anatomical design system by IronTrack."
+  },
+  "inchworm": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Inchworm); anatomical design system by IronTrack."
+  },
+  "incline-push-up-close-grip": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Incline Push-Up Close-Grip); anatomical design system by IronTrack."
+  },
+  "incline-push-up-depth-jump": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Incline Push-Up Depth Jump); anatomical design system by IronTrack."
+  },
+  "incline-push-up-medium": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Incline Push-Up Medium); anatomical design system by IronTrack."
+  },
+  "incline-push-up-reverse-grip": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Incline Push-Up Reverse Grip); anatomical design system by IronTrack."
+  },
+  "incline-push-up-wide": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Incline Push-Up Wide); anatomical design system by IronTrack."
+  },
+  "inverted-row-with-straps": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Inverted Row with Straps); anatomical design system by IronTrack."
+  },
+  "isometric-chest-squeezes": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Isometric Chest Squeezes); anatomical design system by IronTrack."
+  },
+  "isometric-neck-exercise-front-and-back": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Isometric Neck Exercise - Front And Back); anatomical design system by IronTrack."
+  },
+  "isometric-neck-exercise-sides": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Isometric Neck Exercise - Sides); anatomical design system by IronTrack."
+  },
+  "isometric-wipers": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Isometric Wipers); anatomical design system by IronTrack."
+  },
+  "jackknife-sit-up": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Jackknife Sit-Up); anatomical design system by IronTrack."
+  },
+  "janda-sit-up": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Janda Sit-Up); anatomical design system by IronTrack."
+  },
+  "kipping-muscle-up": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Kipping Muscle Up); anatomical design system by IronTrack."
+  },
+  "knee-across-the-body": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Knee Across The Body); anatomical design system by IronTrack."
+  },
+  "kneehip-raise-on-parallel-bars": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Knee/Hip Raise On Parallel Bars); anatomical design system by IronTrack."
+  },
+  "knee-tuck-jump": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Knee Tuck Jump); anatomical design system by IronTrack."
+  },
+  "kneeling-arm-drill": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Kneeling Arm Drill); anatomical design system by IronTrack."
+  },
+  "kneeling-hip-flexor": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Kneeling Hip Flexor); anatomical design system by IronTrack."
+  },
+  "lateral-bound": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Lateral Bound); anatomical design system by IronTrack."
+  },
+  "lateral-box-jump": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Lateral Box Jump); anatomical design system by IronTrack."
+  },
+  "lateral-cone-hops": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Lateral Cone Hops); anatomical design system by IronTrack."
+  },
+  "leg-lift": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Leg Lift); anatomical design system by IronTrack."
+  },
+  "leg-pull-in": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Leg Pull-In); anatomical design system by IronTrack."
+  },
+  "linear-3-part-start-technique": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Linear 3-Part Start Technique); anatomical design system by IronTrack."
+  },
+  "linear-acceleration-wall-drill": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Linear Acceleration Wall Drill); anatomical design system by IronTrack."
+  },
+  "linear-depth-jump": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Linear Depth Jump); anatomical design system by IronTrack."
+  },
+  "log-lift": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Log Lift); anatomical design system by IronTrack."
+  },
+  "london-bridges": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (London Bridges); anatomical design system by IronTrack."
+  },
+  "looking-at-ceiling": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Looking At Ceiling); anatomical design system by IronTrack."
+  },
+  "lower-back-curl": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Lower Back Curl); anatomical design system by IronTrack."
+  },
+  "lying-bent-leg-groin": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Lying Bent Leg Groin); anatomical design system by IronTrack."
+  },
+  "lying-crossover": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Lying Crossover); anatomical design system by IronTrack."
+  },
+  "lying-glute": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Lying Glute); anatomical design system by IronTrack."
+  },
+  "lying-hamstring": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Lying Hamstring); anatomical design system by IronTrack."
+  },
+  "lying-prone-quadriceps": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Lying Prone Quadriceps); anatomical design system by IronTrack."
+  },
+  "mixed-grip-chin": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Mixed Grip Chin); anatomical design system by IronTrack."
+  },
+  "moving-claw-series": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Moving Claw Series); anatomical design system by IronTrack."
+  },
+  "muscle-up": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Muscle Up); anatomical design system by IronTrack."
+  },
+  "natural-glute-ham-raise": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Natural Glute Ham Raise); anatomical design system by IronTrack."
+  },
+  "oblique-crunches": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Oblique Crunches); anatomical design system by IronTrack."
+  },
+  "oblique-crunches-on-the-floor": {
+    "available": [
+      "thumbnail",
+      "start",
+      "finish",
+      "anatomy"
+    ],
+    "source": "free-exercise-db (yuhonas) & IronTrack Anatomical Design System",
+    "license": "Public Domain (Unlicense) / CC0",
+    "attribution": "Real photographic exercise demonstration via free-exercise-db (Oblique Crunches - On The Floor); anatomical design system by IronTrack."
   }
 }
 

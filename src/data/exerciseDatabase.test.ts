@@ -48,8 +48,8 @@ describe('COMPREHENSIVE_EXERCISES', () => {
     expect(COMPREHENSIVE_EXERCISES.length).toBeGreaterThanOrEqual(500)
   })
 
-  it('exports exactly 520 exercises', () => {
-    expect(COMPREHENSIVE_EXERCISES.length).toBe(520)
+  it('exports exactly 620 exercises', () => {
+    expect(COMPREHENSIVE_EXERCISES.length).toBe(620)
   })
 
   it('has no duplicate IDs', () => {

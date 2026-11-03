@@ -9,8 +9,8 @@ import {
 import { makeExercise } from '../test/fixtures'
 
 describe('exercise visual registry', () => {
-  it('bundles real, verified artwork across all 520 built-in exercises', () => {
-    expect(Object.keys(BUNDLED_VISUALS)).toHaveLength(520)
+  it('bundles real, verified artwork across all built-in exercises', () => {
+    expect(Object.keys(BUNDLED_VISUALS)).toHaveLength(620)
     expect(BUNDLED_VISUALS['barbell-bench-press']).toBeDefined()
     expect(BUNDLED_VISUALS['barbell-bench-press'].available).toContain('thumbnail')
     expect(BUNDLED_VISUALS['barbell-bench-press'].available).toContain('anatomy')
